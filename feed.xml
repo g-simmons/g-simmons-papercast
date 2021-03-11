@@ -1,0 +1,65 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<channel>
+<title>g-simmons-papercast</title>
+<link>https://g-simmons.github.io/g-simmons-papercast/</link>
+<language>en-us</language>
+<atom:link href="https://g-simmons.github.io/g-simmons-papercast/feed.xml" rel="self" type="application/rss+xml"/>
+<copyright>Rights to paper content are reserved by the authors for each paper. I make no claim to ownership or copyright of the content of this podcast.</copyright>
+<itunes:subtitle></itunes:subtitle>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:summary>
+Podcast of text-to-speech for arbitrarily chosen NLP papers.
+</itunes:summary>
+<itunes:keywords>
+Machine Learning, Natural Language Processing, Artificial Intelligence
+</itunes:keywords>
+<description>
+Podcast of text-to-speech for arbitrarily chosen NLP papers.
+</description>
+<itunes:owner>
+<itunes:name>Gabriel Simmons</itunes:name>
+<itunes:email>gsimmons@ucdavis.edu</itunes:email>
+</itunes:owner>
+<itunes:image href="https://g-simmons.github.io/g-simmons-papercast/cover.jpg"/>
+<itunes:category text="Mathematics"></itunes:category>
+<itunes:category text="Tech News"></itunes:category>
+<itunes:category text="Courses"></itunes:category>
+
+
+<item>
+<title>LayoutLM: Pre-training of Text and Layout for Document Image Understanding</title>
+<itunes:title>LayoutLM: Pre-training of Text and Layout for Document Image Understanding</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle>
+
+</itunes:subtitle>
+<itunes:summary>
+<![CDATA[
+
+        Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). 
+        
+]]>
+</itunes:summary>
+<description>
+<![CDATA[
+
+        Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). 
+        
+]]>
+</description>
+% <itunes:image href="https://OPTIONAL EPISODE IMAGE.jpg"/>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2326.413</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">
+https://g-simmons.github.io/g-simmons-papercast/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3
+}}</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+
+</channel>
+</rss>
