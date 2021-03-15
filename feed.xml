@@ -48,13 +48,13 @@ Podcast of text-to-speech for arbitrarily chosen NLP papers.
 ]]>
 </description>
 % <itunes:image href="https://OPTIONAL EPISODE IMAGE.jpg"/>
-<enclosure url="https://g-simmons.github.io/g-simmons-papercast/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3" length="" type="audio/mpeg"/>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3" length="" type="audio/mpeg"/>
 <itunes:duration>2326.413</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">
-https://g-simmons.github.io/g-simmons-papercast/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3
+https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3
 }}</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>

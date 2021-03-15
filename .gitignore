@@ -2,3 +2,4 @@ data/aiffs
 data/pdfs
 data/txts
 .ipynb_checkpoints
+.DS_Store
