@@ -3,3 +3,5 @@ data/pdfs
 data/txts
 .ipynb_checkpoints
 .DS_Store
+config.json
+workspace.code-workspace
