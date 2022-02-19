@@ -7,19 +7,10 @@
 <copyright>Rights to paper content are reserved by the authors for each paper. I make no claim to ownership or copyright of the content of this podcast.</copyright>
 <itunes:subtitle></itunes:subtitle>
 <itunes:author>Gabriel Simmons</itunes:author>
-<itunes:summary>
-Podcast of text-to-speech for arbitrarily chosen NLP papers.
-</itunes:summary>
-<itunes:keywords>
-Machine Learning, Natural Language Processing, Artificial Intelligence
-</itunes:keywords>
-<description>
-Podcast of text-to-speech for arbitrarily chosen NLP papers.
-</description>
-<itunes:owner>
-<itunes:name>Gabriel Simmons</itunes:name>
-<itunes:email>gsimmons@ucdavis.edu</itunes:email>
-</itunes:owner>
+<itunes:summary>Podcast of text-to-speech for arbitrarily chosen NLP papers.</itunes:summary>
+<itunes:keywords>Machine Learning, Natural Language Processing, Artificial Intelligence</itunes:keywords>
+<description>Podcast of text-to-speech for arbitrarily chosen NLP papers.</description>
+<itunes:owner><itunes:name>Gabriel Simmons</itunes:name><itunes:email>gsimmons@ucdavis.edu</itunes:email></itunes:owner>
 <itunes:image href="https://g-simmons.github.io/g-simmons-papercast/cover.jpg"/>
 <itunes:category text="Mathematics"></itunes:category>
 <itunes:category text="Tech News"></itunes:category>
@@ -27,63 +18,18 @@ Podcast of text-to-speech for arbitrarily chosen NLP papers.
 
 
 <item>
-<title>LayoutLM: Pre-training of Text and Layout for Document Image
-  Understanding</title>
-<itunes:title>LayoutLM: Pre-training of Text and Layout for Document Image
-  Understanding</itunes:title>
+<title>Doc2Dict: Information Extraction as Text Generation</title>
+<itunes:title>Doc2Dict: Information Extraction as Text Generation</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
-<itunes:subtitle>
-
-</itunes:subtitle>
-<itunes:summary>
-<![CDATA[
-Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for documentlevel pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained LayoutLM models are publicly available at https://aka.ms/layoutlm.
-]]>
-</itunes:summary>
-<description>
-<![CDATA[
-Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for documentlevel pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained LayoutLM models are publicly available at https://aka.ms/layoutlm.
-]]>
-</description>
-% <itunes:image href="https://OPTIONAL EPISODE IMAGE.jpg"/>
-<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3" length="" type="audio/mpeg"/>
-<itunes:duration>2326.413</itunes:duration>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[]]></itunes:summary>
+<description><![CDATA[]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.07510v2.Doc2Dict_Information_Extraction_as_Text_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2235.06275</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
-<guid isPermaLink="false">
-https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.13318v5.LayoutLM_Pre_training_of_Text_and_Layout_for_Document_Image_Understanding.mp3
-</guid>
-<pubDate></pubDate>
-<itunes:explicit>NO</itunes:explicit>
-</item>
-
-<item>
-<title>SciFive: a text-to-text transformer model for biomedical literature</title>
-<itunes:title>SciFive: a text-to-text transformer model for biomedical literature</itunes:title>
-<itunes:author>Gabriel Simmons</itunes:author>
-<itunes:subtitle>
-
-</itunes:subtitle>
-<itunes:summary>
-<![CDATA[
-
-]]>
-</itunes:summary>
-<description>
-<![CDATA[
-
-]]>
-</description>
-% <itunes:image href="https://OPTIONAL EPISODE IMAGE.jpg"/>
-<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2106.03598v1.SciFive_a_text_to_text_transformer_model_for_biomedical_literature.mp3" length="" type="audio/mpeg"/>
-<itunes:duration>1435.06275</itunes:duration>
-<itunes:season>1</itunes:season>
-<itunes:episode></itunes:episode>
-<itunes:episodeType>full</itunes:episodeType>
-<guid isPermaLink="false">
-https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2106.03598v1.SciFive_a_text_to_text_transformer_model_for_biomedical_literature.mp3
-</guid>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.07510v2.Doc2Dict_Information_Extraction_as_Text_Generation.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
