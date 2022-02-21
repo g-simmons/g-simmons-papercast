@@ -52,6 +52,25 @@
 </item>
 
 <item>
+<title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
+  Base Population</title>
+<itunes:title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
+  Base Population</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We present a new open-source and extensible knowledge extraction toolkit, called DeepKE (Deep learning based Knowledge Extraction), supporting standard fully supervised, low-resource few-shot and document-level scenarios. DeepKE implements various information extraction tasks, including named entity recognition, relation extraction and attribute extraction. With a unified framework, DeepKE allows developers and researchers to customize datasets and models to extract information from unstructured texts according to their requirements. Specifically, DeepKE not only provides various functional modules and model implementation for different tasks and scenarios but also organizes all components by consistent frameworks to maintain sufficient modularity and extensibility. Besides, we present an online platform in http://deepke.zjukg.cn/ for real-time extraction of various tasks. DeepKE has been equipped with Google Colab tutorials and comprehensive documents for beginners. We release the source code at https://github.com/zjunlp/DeepKE, with a demo video.]]></itunes:summary>
+<description><![CDATA[We present a new open-source and extensible knowledge extraction toolkit, called DeepKE (Deep learning based Knowledge Extraction), supporting standard fully supervised, low-resource few-shot and document-level scenarios. DeepKE implements various information extraction tasks, including named entity recognition, relation extraction and attribute extraction. With a unified framework, DeepKE allows developers and researchers to customize datasets and models to extract information from unstructured texts according to their requirements. Specifically, DeepKE not only provides various functional modules and model implementation for different tasks and scenarios but also organizes all components by consistent frameworks to maintain sufficient modularity and extensibility. Besides, we present an online platform in http://deepke.zjukg.cn/ for real-time extraction of various tasks. DeepKE has been equipped with Google Colab tutorials and comprehensive documents for beginners. We release the source code at https://github.com/zjunlp/DeepKE, with a demo video.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v2.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1716.8195</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v2.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Zero-Shot Information Extraction as a Unified Text-to-Triple Translation</title>
 <itunes:title>Zero-Shot Information Extraction as a Unified Text-to-Triple Translation</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -64,6 +83,25 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.11171v1.Zero_Shot_Information_Extraction_as_a_Unified_Text_to_Triple_Translation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization
+  for Relation Extraction</title>
+<itunes:title>KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization
+  for Relation Extraction</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recently, prompt-tuning has achieved promising results for specific few-shot classification tasks. The core idea of prompt-tuning is to insert text pieces (i.e., templates) into the input and transform a classification task into a masked language modeling problem. However, for relation extraction, determining an appropriate prompt template requires domain expertise, and it is cumbersome and time-consuming to obtain a suitable label word. Furthermore, there exists abundant semantic and prior knowledge among the relation labels that cannot be ignored. To this end, we focus on incorporating knowledge among relation labels into prompt-tuning for relation extraction and propose a Knowledge-aware Prompt-tuning approach with synergistic optimization (KnowPrompt). Specifically, we inject latent knowledge contained in relation labels into prompt construction with learnable virtual type words and answer words. Then, we synergistically optimize their representation with structured constraints. Extensive experimental results on five datasets with standard and low-resource settings demonstrate the effectiveness of our approach. Our code and datasets are available in https://github.com/zjunlp/KnowPrompt for reproducibility.]]></itunes:summary>
+<description><![CDATA[Recently, prompt-tuning has achieved promising results for specific few-shot classification tasks. The core idea of prompt-tuning is to insert text pieces (i.e., templates) into the input and transform a classification task into a masked language modeling problem. However, for relation extraction, determining an appropriate prompt template requires domain expertise, and it is cumbersome and time-consuming to obtain a suitable label word. Furthermore, there exists abundant semantic and prior knowledge among the relation labels that cannot be ignored. To this end, we focus on incorporating knowledge among relation labels into prompt-tuning for relation extraction and propose a Knowledge-aware Prompt-tuning approach with synergistic optimization (KnowPrompt). Specifically, we inject latent knowledge contained in relation labels into prompt construction with learnable virtual type words and answer words. Then, we synergistically optimize their representation with structured constraints. Extensive experimental results on five datasets with standard and low-resource settings demonstrate the effectiveness of our approach. Our code and datasets are available in https://github.com/zjunlp/KnowPrompt for reproducibility.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2104.07650v6.KnowPrompt_Knowledge_aware_Prompt_tuning_with_Synergistic_Optimization_for_Relation_Extraction.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2580.454</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2104.07650v6.KnowPrompt_Knowledge_aware_Prompt_tuning_with_Synergistic_Optimization_for_Relation_Extraction.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
