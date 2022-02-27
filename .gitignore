@@ -6,3 +6,4 @@ data/txts
 config.json
 workspace.code-workspace
 grobid-0.5.5
+data/json
