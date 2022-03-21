@@ -35,6 +35,23 @@
 </item>
 
 <item>
+<title>Symbolic Behaviour in Artificial Intelligence</title>
+<itunes:title>Symbolic Behaviour in Artificial Intelligence</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The ability to use symbols is the pinnacle of human intelligence, but has yet to be fully replicated in machines. Here we argue that the path towards symbolically fluent artificial intelligence (AI) begins with a reinterpretation of what symbols are, how they come to exist, and how a system behaves when it uses them. We begin by offering an interpretation of symbols as entities whose meaning is established by convention. But crucially, something is a symbol only for those who demonstrably and actively participate in this convention. We then outline how this interpretation thematically unifies the behavioural traits humans exhibit when they use symbols. This motivates our proposal that the field place a greater emphasis on symbolic behaviour rather than particular computational mechanisms inspired by more restrictive interpretations of symbols. Finally, we suggest that AI research explore social and cultural engagement as a tool to develop the cognitive machinery necessary for symbolic behaviour to emerge. This approach will allow for AI to interpret something as symbolic on its own rather than simply manipulate things that are only symbols to human onlookers, and thus will ultimately lead to AI with more human-like symbolic fluency.]]></itunes:summary>
+<description><![CDATA[The ability to use symbols is the pinnacle of human intelligence, but has yet to be fully replicated in machines. Here we argue that the path towards symbolically fluent artificial intelligence (AI) begins with a reinterpretation of what symbols are, how they come to exist, and how a system behaves when it uses them. We begin by offering an interpretation of symbols as entities whose meaning is established by convention. But crucially, something is a symbol only for those who demonstrably and actively participate in this convention. We then outline how this interpretation thematically unifies the behavioural traits humans exhibit when they use symbols. This motivates our proposal that the field place a greater emphasis on symbolic behaviour rather than particular computational mechanisms inspired by more restrictive interpretations of symbols. Finally, we suggest that AI research explore social and cultural engagement as a tool to develop the cognitive machinery necessary for symbolic behaviour to emerge. This approach will allow for AI to interpret something as symbolic on its own rather than simply manipulate things that are only symbols to human onlookers, and thus will ultimately lead to AI with more human-like symbolic fluency.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2102.03406v2.Symbolic_Behaviour_in_Artificial_Intelligence.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2588.996</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2102.03406v2.Symbolic_Behaviour_in_Artificial_Intelligence.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Structured Prediction as Translation between Augmented Natural Languages</title>
 <itunes:title>Structured Prediction as Translation between Augmented Natural Languages</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -52,6 +69,23 @@
 </item>
 
 <item>
+<title>RelationPrompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction</title>
+<itunes:title>RelationPrompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Despite the importance of relation extraction in building and representing knowledge, less research is focused on generalizing to unseen relations types. We introduce the task setting of Zero-Shot Relation Triplet Extraction (ZeroRTE) to encourage further research in low-resource relation extraction methods. Given an input sentence, each extracted triplet consists of the head entity, relation label, and tail entity where the relation label is not seen at the training stage. To solve ZeroRTE, we propose to synthesize relation examples by prompting language models to generate structured texts. Concretely, we unify language model prompts and structured text approaches to design a structured prompt template for generating synthetic relation samples when conditioning on relation label prompts (RelationPrompt). To overcome the limitation for extracting multiple relation triplets in a sentence, we design a novel Triplet Search Decoding method. Experiments on FewRel and Wiki-ZSL datasets show the efficacy of RelationPrompt for the ZeroRTE task and zero-shot relation classification. Our code and data are available at github.com/declare-lab/RelationPrompt.]]></itunes:summary>
+<description><![CDATA[Despite the importance of relation extraction in building and representing knowledge, less research is focused on generalizing to unseen relations types. We introduce the task setting of Zero-Shot Relation Triplet Extraction (ZeroRTE) to encourage further research in low-resource relation extraction methods. Given an input sentence, each extracted triplet consists of the head entity, relation label, and tail entity where the relation label is not seen at the training stage. To solve ZeroRTE, we propose to synthesize relation examples by prompting language models to generate structured texts. Concretely, we unify language model prompts and structured text approaches to design a structured prompt template for generating synthetic relation samples when conditioning on relation label prompts (RelationPrompt). To overcome the limitation for extracting multiple relation triplets in a sentence, we design a novel Triplet Search Decoding method. Experiments on FewRel and Wiki-ZSL datasets show the efficacy of RelationPrompt for the ZeroRTE task and zero-shot relation classification. Our code and data are available at github.com/declare-lab/RelationPrompt.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.09101v1.RelationPrompt_Leveraging_Prompts_to_Generate_Synthetic_Data_for_Zero_Shot_Relation_Triplet_Extraction.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2930.0245</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.09101v1.RelationPrompt_Leveraging_Prompts_to_Generate_Synthetic_Data_for_Zero_Shot_Relation_Triplet_Extraction.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Wav2Letter: an End-to-End ConvNet-based Speech Recognition System</title>
 <itunes:title>Wav2Letter: an End-to-End ConvNet-based Speech Recognition System</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -64,6 +98,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1609.03193v2.Wav2Letter_an_End_to_End_ConvNet_based_Speech_Recognition_System.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Semi-supervised Formality Style Transfer using Language Model Discriminator and Mutual Information Maximization</title>
+<itunes:title>Semi-supervised Formality Style Transfer using Language Model Discriminator and Mutual Information Maximization</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Formality style transfer is the task of converting informal sentences to grammatically-correct formal sentences, which can be used to improve performance of many downstream NLP tasks. In this work, we propose a semi-supervised formality style transfer model that utilizes a language model-based discriminator to maximize the likelihood of the output sentence being formal, which allows us to use maximization of token-level conditional probabilities for training. We further propose to maximize mutual information between source and target styles as our training objective instead of maximizing the regular likelihood that often leads to repetitive and trivial generated responses. Experiments showed that our model outperformed previous state-of-the-art baselines significantly in terms of both automated metrics and human judgement. We further generalized our model to unsupervised text style transfer task, and achieved significant improvements on two benchmark sentiment style transfer datasets.]]></itunes:summary>
+<description><![CDATA[Formality style transfer is the task of converting informal sentences to grammatically-correct formal sentences, which can be used to improve performance of many downstream NLP tasks. In this work, we propose a semi-supervised formality style transfer model that utilizes a language model-based discriminator to maximize the likelihood of the output sentence being formal, which allows us to use maximization of token-level conditional probabilities for training. We further propose to maximize mutual information between source and target styles as our training objective instead of maximizing the regular likelihood that often leads to repetitive and trivial generated responses. Experiments showed that our model outperformed previous state-of-the-art baselines significantly in terms of both automated metrics and human judgement. We further generalized our model to unsupervised text style transfer task, and achieved significant improvements on two benchmark sentiment style transfer datasets.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.05090v1.Semi_supervised_Formality_Style_Transfer_using_Language_Model_Discriminator_and_Mutual_Information_Maximization.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2672.9535</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.05090v1.Semi_supervised_Formality_Style_Transfer_using_Language_Model_Discriminator_and_Mutual_Information_Maximization.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -103,6 +154,23 @@
 </item>
 
 <item>
+<title>Highly Parallel Autoregressive Entity Linking with Discriminative Correction</title>
+<itunes:title>Highly Parallel Autoregressive Entity Linking with Discriminative Correction</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Generative approaches have been recently shown to be effective for both Entity Disambiguation and Entity Linking (i.e., joint mention detection and disambiguation). However, the previously proposed autoregressive formulation for EL suffers from i) high computational cost due to a complex (deep) decoder, ii) non-parallelizable decoding that scales with the source sequence length, and iii) the need for training on a large amount of data. In this work, we propose a very efficient approach that parallelizes autoregressive linking across all potential mentions and relies on a shallow and efficient decoder. Moreover, we augment the generative objective with an extra discriminative component, i.e., a correction term which lets us directly optimize the generator's ranking. When taken together, these techniques tackle all the above issues: our model is >70 times faster and more accurate than the previous generative method, outperforming state-of-the-art approaches on the standard English dataset AIDA-CoNLL. Source code available at https://github.com/nicola-decao/efficient-autoregressive-EL]]></itunes:summary>
+<description><![CDATA[Generative approaches have been recently shown to be effective for both Entity Disambiguation and Entity Linking (i.e., joint mention detection and disambiguation). However, the previously proposed autoregressive formulation for EL suffers from i) high computational cost due to a complex (deep) decoder, ii) non-parallelizable decoding that scales with the source sequence length, and iii) the need for training on a large amount of data. In this work, we propose a very efficient approach that parallelizes autoregressive linking across all potential mentions and relies on a shallow and efficient decoder. Moreover, we augment the generative objective with an extra discriminative component, i.e., a correction term which lets us directly optimize the generator's ranking. When taken together, these techniques tackle all the above issues: our model is >70 times faster and more accurate than the previous generative method, outperforming state-of-the-art approaches on the standard English dataset AIDA-CoNLL. Source code available at https://github.com/nicola-decao/efficient-autoregressive-EL]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.03792v1.Highly_Parallel_Autoregressive_Entity_Linking_with_Discriminative_Correction.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1345.88075</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.03792v1.Highly_Parallel_Autoregressive_Entity_Linking_with_Discriminative_Correction.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
   Base Population</title>
 <itunes:title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
@@ -117,6 +185,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v2.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>UnNatural Language Inference</title>
+<itunes:title>UnNatural Language Inference</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent investigations into the inner-workings of state-of-the-art large-scale pre-trained Transformer-based Natural Language Understanding (NLU) models indicate that they appear to know humanlike syntax, at least to some extent. We provide novel evidence that complicates this claim: we find that state-of-the-art Natural Language Inference (NLI) models assign the same labels to permuted examples as they do to the original, i.e. they are largely invariant to random word-order permutations. This behavior notably differs from that of humans; we struggle with ungrammatical sentences. To measure the severity of this issue, we propose a suite of metrics and investigate which properties of particular permutations lead models to be word-order invariant. In the MNLI dataset, for example, we find almost all (98.7%) examples contain at least one permutation which elicits the gold label. Models are sometimes even able to assign gold labels to permutations that they originally failed to predict correctly. We provide a comprehensive empirical evaluation of this phenomenon, and further show that this issue exists for both Transformers and pre-Transformer RNN / ConvNet based encoders, as well as across multiple languages (English and Mandarin Chinese). Our code and data are available at https://github.com/facebookresearch/unlu.]]></itunes:summary>
+<description><![CDATA[Recent investigations into the inner-workings of state-of-the-art large-scale pre-trained Transformer-based Natural Language Understanding (NLU) models indicate that they appear to know humanlike syntax, at least to some extent. We provide novel evidence that complicates this claim: we find that state-of-the-art Natural Language Inference (NLI) models assign the same labels to permuted examples as they do to the original, i.e. they are largely invariant to random word-order permutations. This behavior notably differs from that of humans; we struggle with ungrammatical sentences. To measure the severity of this issue, we propose a suite of metrics and investigate which properties of particular permutations lead models to be word-order invariant. In the MNLI dataset, for example, we find almost all (98.7%) examples contain at least one permutation which elicits the gold label. Models are sometimes even able to assign gold labels to permutations that they originally failed to predict correctly. We provide a comprehensive empirical evaluation of this phenomenon, and further show that this issue exists for both Transformers and pre-Transformer RNN / ConvNet based encoders, as well as across multiple languages (English and Mandarin Chinese). Our code and data are available at https://github.com/facebookresearch/unlu.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00010v2.UnNatural_Language_Inference.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3160.13725</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00010v2.UnNatural_Language_Inference.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners</title>
+<itunes:title>Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large-scale pre-trained language models have contributed significantly to natural language processing by demonstrating remarkable abilities as few-shot learners. However, their effectiveness depends mainly on scaling the model parameters and prompt design, hindering their implementation in most real-world applications. This study proposes a novel pluggable, extensible, and efficient approach named DifferentiAble pRompT (DART), which can convert small language models into better few-shot learners without any prompt engineering. The main principle behind this approach involves reformulating potential natural language processing tasks into the task of a pre-trained language model and differentially optimizing the prompt template as well as the target label with backpropagation. Furthermore, the proposed approach can be: (i) Plugged to any pre-trained language models; (ii) Extended to widespread classification tasks. A comprehensive evaluation of standard NLP tasks demonstrates that the proposed approach achieves a better few-shot performance. Code is available in https://github.com/zjunlp/DART.]]></itunes:summary>
+<description><![CDATA[Large-scale pre-trained language models have contributed significantly to natural language processing by demonstrating remarkable abilities as few-shot learners. However, their effectiveness depends mainly on scaling the model parameters and prompt design, hindering their implementation in most real-world applications. This study proposes a novel pluggable, extensible, and efficient approach named DifferentiAble pRompT (DART), which can convert small language models into better few-shot learners without any prompt engineering. The main principle behind this approach involves reformulating potential natural language processing tasks into the task of a pre-trained language model and differentially optimizing the prompt template as well as the target label with backpropagation. Furthermore, the proposed approach can be: (i) Plugged to any pre-trained language models; (ii) Extended to widespread classification tasks. A comprehensive evaluation of standard NLP tasks demonstrates that the proposed approach achieves a better few-shot performance. Code is available in https://github.com/zjunlp/DART.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.13161v6.Differentiable_Prompt_Makes_Pre_trained_Language_Models_Better_Few_shot_Learners.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2517.107</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.13161v6.Differentiable_Prompt_Makes_Pre_trained_Language_Models_Better_Few_shot_Learners.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -156,6 +258,57 @@
 </item>
 
 <item>
+<title>Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement</title>
+<itunes:title>Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The well-known Gumbel-Max trick for sampling from a categorical distribution can be extended to sample $k$ elements without replacement. We show how to implicitly apply this 'Gumbel-Top-$k$' trick on a factorized distribution over sequences, allowing to draw exact samples without replacement using a Stochastic Beam Search. Even for exponentially large domains, the number of model evaluations grows only linear in $k$ and the maximum sampled sequence length. The algorithm creates a theoretical connection between sampling and (deterministic) beam search and can be used as a principled intermediate alternative. In a translation task, the proposed method compares favourably against alternatives to obtain diverse yet good quality translations. We show that sequences sampled without replacement can be used to construct low-variance estimators for expected sentence-level BLEU score and model entropy.]]></itunes:summary>
+<description><![CDATA[The well-known Gumbel-Max trick for sampling from a categorical distribution can be extended to sample $k$ elements without replacement. We show how to implicitly apply this 'Gumbel-Top-$k$' trick on a factorized distribution over sequences, allowing to draw exact samples without replacement using a Stochastic Beam Search. Even for exponentially large domains, the number of model evaluations grows only linear in $k$ and the maximum sampled sequence length. The algorithm creates a theoretical connection between sampling and (deterministic) beam search and can be used as a principled intermediate alternative. In a translation task, the proposed method compares favourably against alternatives to obtain diverse yet good quality translations. We show that sequences sampled without replacement can be used to construct low-variance estimators for expected sentence-level BLEU score and model entropy.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1903.06059v2.Stochastic_Beams_and_Where_to_Find_Them_The_Gumbel_Top_k_Trick_for_Sampling_Sequences_Without_Replacement.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3202.06375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1903.06059v2.Stochastic_Beams_and_Where_to_Find_Them_The_Gumbel_Top_k_Trick_for_Sampling_Sequences_Without_Replacement.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Do Transformers use variable binding?</title>
+<itunes:title>Do Transformers use variable binding?</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Increasing the explainability of deep neural networks (DNNs) requires evaluating whether they implement symbolic computation. One central symbolic capacity is variable binding: linking an input value to an abstract variable held in system-internal memory. Prior work on the computational abilities of DNNs has not resolved the question of whether their internal processes involve variable binding. We argue that the reason for this is fundamental, inherent in the way experiments in prior work were designed. We provide the first systematic evaluation of the variable binding capacities of the state-of-the-art Transformer networks BERT and RoBERTa. Our experiments are designed such that the model must generalize a rule across disjoint subsets of the input vocabulary, and cannot rely on associative pattern matching alone. The results show a clear discrepancy between classification and sequence-to-sequence tasks: BERT and RoBERTa can easily learn to copy or reverse strings even when trained on task-specific vocabularies that are switched in the test set; but both models completely fail to generalize across vocabularies in similar sequence classification tasks. These findings indicate that the effectiveness of Transformers in sequence modelling may lie in their extensive use of the input itself as an external "memory" rather than network-internal symbolic operations involving variable binding. Therefore, we propose a novel direction for future work: augmenting the inputs available to circumvent the lack of network-internal variable binding.]]></itunes:summary>
+<description><![CDATA[Increasing the explainability of deep neural networks (DNNs) requires evaluating whether they implement symbolic computation. One central symbolic capacity is variable binding: linking an input value to an abstract variable held in system-internal memory. Prior work on the computational abilities of DNNs has not resolved the question of whether their internal processes involve variable binding. We argue that the reason for this is fundamental, inherent in the way experiments in prior work were designed. We provide the first systematic evaluation of the variable binding capacities of the state-of-the-art Transformer networks BERT and RoBERTa. Our experiments are designed such that the model must generalize a rule across disjoint subsets of the input vocabulary, and cannot rely on associative pattern matching alone. The results show a clear discrepancy between classification and sequence-to-sequence tasks: BERT and RoBERTa can easily learn to copy or reverse strings even when trained on task-specific vocabularies that are switched in the test set; but both models completely fail to generalize across vocabularies in similar sequence classification tasks. These findings indicate that the effectiveness of Transformers in sequence modelling may lie in their extensive use of the input itself as an external "memory" rather than network-internal symbolic operations involving variable binding. Therefore, we propose a novel direction for future work: augmenting the inputs available to circumvent the lack of network-internal variable binding.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.00162v1.Do_Transformers_use_variable_binding.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3186.0505</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.00162v1.Do_Transformers_use_variable_binding.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Risks from Learned Optimization in Advanced Machine Learning Systems</title>
+<itunes:title>Risks from Learned Optimization in Advanced Machine Learning Systems</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We analyze the type of learned optimization that occurs when a learned model (such as a neural network) is itself an optimizer - a situation we refer to as mesa-optimization, a neologism we introduce in this paper. We believe that the possibility of mesa-optimization raises two important questions for the safety and transparency of advanced machine learning systems. First, under what circumstances will learned models be optimizers, including when they should not be? Second, when a learned model is an optimizer, what will its objective be - how will it differ from the loss function it was trained under - and how can it be aligned? In this paper, we provide an in-depth analysis of these two primary questions and provide an overview of topics for future research.]]></itunes:summary>
+<description><![CDATA[We analyze the type of learned optimization that occurs when a learned model (such as a neural network) is itself an optimizer - a situation we refer to as mesa-optimization, a neologism we introduce in this paper. We believe that the possibility of mesa-optimization raises two important questions for the safety and transparency of advanced machine learning systems. First, under what circumstances will learned models be optimizers, including when they should not be? Second, when a learned model is an optimizer, what will its objective be - how will it differ from the loss function it was trained under - and how can it be aligned? In this paper, we provide an in-depth analysis of these two primary questions and provide an overview of topics for future research.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1906.01820v3.Risks_from_Learned_Optimization_in_Advanced_Machine_Learning_Systems.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>7254.33475</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1906.01820v3.Risks_from_Learned_Optimization_in_Advanced_Machine_Learning_Systems.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>A Fully Differentiable Beam Search Decoder</title>
 <itunes:title>A Fully Differentiable Beam Search Decoder</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -173,6 +326,57 @@
 </item>
 
 <item>
+<title>Transfer Learning from BERT to Support Insertion of New Concepts into SNOMED CT</title>
+<itunes:title>Transfer Learning from BERT to Support Insertion of New Concepts into SNOMED CT</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[With advances in Machine Learning (ML), neural network-based methods, such as Convolutional/Recurrent Neural Networks, have been proposed to assist terminology curators in the development and maintenance of terminologies. Bidirectional Encoder Representations from Transformers (BERT), a new language representation model, obtains state-of-the-art results on a wide array of general English NLP tasks. We explore BERT’s applicability to medical terminology-related tasks. Utilizing the “next sentence prediction” capability of BERT, we show that the Fine-tuning strategy of Transfer Learning (TL) from the BERTBASE model can address a challenging problem in automatic terminology enrichment – insertion of new concepts. Adding a pre-training strategy enhances the results. We apply our strategies to the two largest hierarchies of SNOMED CT, with one release as training data and the following release as test data. The performance of the combined two proposed TL models achieves an average F1 score of 0.85 and 0.86 for the two hierarchies, respectively.]]></itunes:summary>
+<description><![CDATA[With advances in Machine Learning (ML), neural network-based methods, such as Convolutional/Recurrent Neural Networks, have been proposed to assist terminology curators in the development and maintenance of terminologies. Bidirectional Encoder Representations from Transformers (BERT), a new language representation model, obtains state-of-the-art results on a wide array of general English NLP tasks. We explore BERT’s applicability to medical terminology-related tasks. Utilizing the “next sentence prediction” capability of BERT, we show that the Fine-tuning strategy of Transfer Learning (TL) from the BERTBASE model can address a challenging problem in automatic terminology enrichment – insertion of new concepts. Adding a pre-training strategy enhances the results. We apply our strategies to the two largest hierarchies of SNOMED CT, with one release as training data and the following release as test data. The performance of the combined two proposed TL models achieves an average F1 score of 0.85 and 0.86 for the two hierarchies, respectively.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Transfer Learning from BERT to Support Insertion of New Concepts into SNOMED CT.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1700.049</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Transfer Learning from BERT to Support Insertion of New Concepts into SNOMED CT.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language</title>
+<itunes:title>ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Transformers have been shown to emulate logical deduction over natural language theories (logical rules expressed in natural language), reliably assigning true/false labels to candidate implications. However, their ability to generate implications of a theory has not yet been demonstrated, and methods for reconstructing proofs of answers are imperfect. In this work we show that a generative model, called ProofWriter, can reliably generate both implications of a theory and the natural language proof(s) that support them. In particular, iterating a 1-step implication generator results in proofs that are highly reliable, and represent actual model decisions (rather than post-hoc rationalizations). On the RuleTaker dataset, the accuracy of ProofWriter's proofs exceed previous methods by +9% absolute, and in a way that generalizes to proof depths unseen in training and on out-of-domain problems. We also show that generative techniques can perform a type of abduction with high precision: Given a theory and an unprovable conclusion, identify a missing fact that allows the conclusion to be proved, along with a proof. These results significantly improve the viability of neural methods for systematically reasoning over natural language.]]></itunes:summary>
+<description><![CDATA[Transformers have been shown to emulate logical deduction over natural language theories (logical rules expressed in natural language), reliably assigning true/false labels to candidate implications. However, their ability to generate implications of a theory has not yet been demonstrated, and methods for reconstructing proofs of answers are imperfect. In this work we show that a generative model, called ProofWriter, can reliably generate both implications of a theory and the natural language proof(s) that support them. In particular, iterating a 1-step implication generator results in proofs that are highly reliable, and represent actual model decisions (rather than post-hoc rationalizations). On the RuleTaker dataset, the accuracy of ProofWriter's proofs exceed previous methods by +9% absolute, and in a way that generalizes to proof depths unseen in training and on out-of-domain problems. We also show that generative techniques can perform a type of abduction with high precision: Given a theory and an unprovable conclusion, identify a missing fact that allows the conclusion to be proved, along with a proof. These results significantly improve the viability of neural methods for systematically reasoning over natural language.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2012.13048v2.ProofWriter_Generating_Implications_Proofs_and_Abductive_Statements_over_Natural_Language.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3255.71925</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2012.13048v2.ProofWriter_Generating_Implications_Proofs_and_Abductive_Statements_over_Natural_Language.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer</title>
+<itunes:title>Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Scarcity of parallel data causes formality style transfer models to have scarce success in preserving content. We show that fine-tuning pre-trained language (GPT-2) and sequence-to-sequence (BART) models boosts content preservation, and that this is possible even with limited amounts of parallel data. Augmenting these models with rewards that target style and content -- the two core aspects of the task -- we achieve a new state-of-the-art.]]></itunes:summary>
+<description><![CDATA[Scarcity of parallel data causes formality style transfer models to have scarce success in preserving content. We show that fine-tuning pre-trained language (GPT-2) and sequence-to-sequence (BART) models boosts content preservation, and that this is possible even with limited amounts of parallel data. Augmenting these models with rewards that target style and content -- the two core aspects of the task -- we achieve a new state-of-the-art.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.06947v2.Thank_you_BART_Rewarding_Pre_Trained_Models_Improves_Formality_Style_Transfer.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1281.43675</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.06947v2.Thank_you_BART_Rewarding_Pre_Trained_Models_Improves_Formality_Style_Transfer.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Zero-Shot Information Extraction as a Unified Text-to-Triple Translation</title>
 <itunes:title>Zero-Shot Information Extraction as a Unified Text-to-Triple Translation</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -185,6 +389,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.11171v1.Zero_Shot_Information_Extraction_as_a_Unified_Text_to_Triple_Translation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</title>
+<itunes:title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[One of the core components of goal-oriented dialog systems is the task of Intent Detection. Few-shot Learning upon Intent Detection is challenging due to the scarcity of available annotated utterances. Although recent works making use of metric-based and optimization-based methods have been proposed, the task is still challenging in large label spaces and much smaller number of shots. Generalized Few-shot learning is more difficult due to the presence of both novel and seen classes during the testing phase. In this work, we propose a simple and effective method based on Natural Language Inference that not only tackles the problem of few shot intent detection, but also proves useful in zero-shot and generalized few shot learning problems. Our extensive experiments on a number of Natural Language Understanding (NLU) and Spoken Language Understanding (SLU) datasets show the effectiveness of our approach. In addition, we highlight the settings in which our NLI based method outperforms the baselines by huge margins.]]></itunes:summary>
+<description><![CDATA[One of the core components of goal-oriented dialog systems is the task of Intent Detection. Few-shot Learning upon Intent Detection is challenging due to the scarcity of available annotated utterances. Although recent works making use of metric-based and optimization-based methods have been proposed, the task is still challenging in large label spaces and much smaller number of shots. Generalized Few-shot learning is more difficult due to the presence of both novel and seen classes during the testing phase. In this work, we propose a simple and effective method based on Natural Language Inference that not only tackles the problem of few shot intent detection, but also proves useful in zero-shot and generalized few shot learning problems. Our extensive experiments on a number of Natural Language Understanding (NLU) and Spoken Language Understanding (SLU) datasets show the effectiveness of our approach. In addition, we highlight the settings in which our NLI based method outperforms the baselines by huge margins.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.07434v1.Exploring_the_Limits_of_Natural_Language_Inference_Based_Setup_for_Few_Shot_Intent_Detection.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1713.42375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.07434v1.Exploring_the_Limits_of_Natural_Language_Inference_Based_Setup_for_Few_Shot_Intent_Detection.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Neural Machine Translation with Gumbel-Greedy Decoding</title>
+<itunes:title>Neural Machine Translation with Gumbel-Greedy Decoding</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Previous neural machine translation models used some heuristic search algorithms (e.g., beam search) in order to avoid solving the maximum a posteriori problem over translation sentences at test time. In this paper, we propose the Gumbel-Greedy Decoding which trains a generative network to predict translation under a trained model. We solve such a problem using the Gumbel-Softmax reparameterization, which makes our generative network differentiable and trainable through standard stochastic gradient methods. We empirically demonstrate that our proposed model is effective for generating sequences of discrete words.]]></itunes:summary>
+<description><![CDATA[Previous neural machine translation models used some heuristic search algorithms (e.g., beam search) in order to avoid solving the maximum a posteriori problem over translation sentences at test time. In this paper, we propose the Gumbel-Greedy Decoding which trains a generative network to predict translation under a trained model. We solve such a problem using the Gumbel-Softmax reparameterization, which makes our generative network differentiable and trainable through standard stochastic gradient methods. We empirically demonstrate that our proposed model is effective for generating sequences of discrete words.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.07518v1.Neural_Machine_Translation_with_Gumbel_Greedy_Decoding.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2177.1755</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.07518v1.Neural_Machine_Translation_with_Gumbel_Greedy_Decoding.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -226,6 +464,23 @@
 </item>
 
 <item>
+<title>Teaching Temporal Logics to Neural Networks</title>
+<itunes:title>Teaching Temporal Logics to Neural Networks</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We study two fundamental questions in neuro-symbolic computing: can deep learning tackle challenging problems in logics end-to-end, and can neural networks learn the semantics of logics. In this work we focus on linear-time temporal logic (LTL), as it is widely used in verification. We train a Transformer on the problem to directly predict a solution, i.e. a trace, to a given LTL formula. The training data is generated with classical solvers, which, however, only provide one of many possible solutions to each formula. We demonstrate that it is sufficient to train on those particular solutions to formulas, and that Transformers can predict solutions even to formulas from benchmarks from the literature on which the classical solver timed out. Transformers also generalize to the semantics of the logics: while they often deviate from the solutions found by the classical solvers, they still predict correct solutions to most formulas.]]></itunes:summary>
+<description><![CDATA[We study two fundamental questions in neuro-symbolic computing: can deep learning tackle challenging problems in logics end-to-end, and can neural networks learn the semantics of logics. In this work we focus on linear-time temporal logic (LTL), as it is widely used in verification. We train a Transformer on the problem to directly predict a solution, i.e. a trace, to a given LTL formula. The training data is generated with classical solvers, which, however, only provide one of many possible solutions to each formula. We demonstrate that it is sufficient to train on those particular solutions to formulas, and that Transformers can predict solutions even to formulas from benchmarks from the literature on which the classical solver timed out. Transformers also generalize to the semantics of the logics: while they often deviate from the solutions found by the classical solvers, they still predict correct solutions to most formulas.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2003.04218v3.Teaching_Temporal_Logics_to_Neural_Networks.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2988.4605</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2003.04218v3.Teaching_Temporal_Logics_to_Neural_Networks.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</title>
 <itunes:title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -243,6 +498,57 @@
 </item>
 
 <item>
+<title>BERTMap: A BERT-based Ontology Alignment System</title>
+<itunes:title>BERTMap: A BERT-based Ontology Alignment System</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Ontology alignment (a.k.a ontology matching (OM)) plays a critical role in knowledge integration. Owing to the success of machine learning in many domains, it has been applied in OM. However, the existing methods, which often adopt ad-hoc feature engineering or non-contextual word embeddings, have not yet outperformed rule-based systems especially in an unsupervised setting. In this paper, we propose a novel OM system named BERTMap which can support both unsupervised and semi-supervised settings. It first predicts mappings using a classifier based on fine-tuning the contextual embedding model BERT on text semantics corpora extracted from ontologies, and then refines the mappings through extension and repair by utilizing the ontology structure and logic. Our evaluation with three alignment tasks on biomedical ontologies demonstrates that BERTMap can often perform better than the leading OM systems LogMap and AML.]]></itunes:summary>
+<description><![CDATA[Ontology alignment (a.k.a ontology matching (OM)) plays a critical role in knowledge integration. Owing to the success of machine learning in many domains, it has been applied in OM. However, the existing methods, which often adopt ad-hoc feature engineering or non-contextual word embeddings, have not yet outperformed rule-based systems especially in an unsupervised setting. In this paper, we propose a novel OM system named BERTMap which can support both unsupervised and semi-supervised settings. It first predicts mappings using a classifier based on fine-tuning the contextual embedding model BERT on text semantics corpora extracted from ontologies, and then refines the mappings through extension and repair by utilizing the ontology structure and logic. Our evaluation with three alignment tasks on biomedical ontologies demonstrates that BERTMap can often perform better than the leading OM systems LogMap and AML.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.02682v3.BERTMap_A_BERT_based_Ontology_Alignment_System.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2397.3355</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.02682v3.BERTMap_A_BERT_based_Ontology_Alignment_System.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer</title>
+<itunes:title>From Discrimination to Generation: Knowledge Graph Completion with Generative Transformer</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Knowledge graph completion aims to address the problem of extending a KG with missing triples. In this paper, we provide an approach GenKGC, which converts knowledge graph completion to sequence-to-sequence generation task with the pre-trained language model. We further introduce relation-guided demonstration and entity-aware hierarchical decoding for better representation learning and fast inference. Experimental results on three datasets show that our approach can obtain better or comparable performance than baselines and achieve faster inference speed compared with previous methods with pre-trained language models. We also release a new large-scale Chinese knowledge graph dataset AliopenKG500 for research purpose. Code and datasets are available in https://github.com/zjunlp/PromptKGC/tree/main/GenKGC.]]></itunes:summary>
+<description><![CDATA[Knowledge graph completion aims to address the problem of extending a KG with missing triples. In this paper, we provide an approach GenKGC, which converts knowledge graph completion to sequence-to-sequence generation task with the pre-trained language model. We further introduce relation-guided demonstration and entity-aware hierarchical decoding for better representation learning and fast inference. Experimental results on three datasets show that our approach can obtain better or comparable performance than baselines and achieve faster inference speed compared with previous methods with pre-trained language models. We also release a new large-scale Chinese knowledge graph dataset AliopenKG500 for research purpose. Code and datasets are available in https://github.com/zjunlp/PromptKGC/tree/main/GenKGC.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.02113v4.From_Discrimination_to_Generation_Knowledge_Graph_Completion_with_Generative_Transformer.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>912.69225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.02113v4.From_Discrimination_to_Generation_Knowledge_Graph_Completion_with_Generative_Transformer.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation</title>
+<itunes:title>Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The end-to-end nature of neural machine translation (NMT) removes many ways of manually guiding the translation process that were available in older paradigms. Recent work, however, has introduced a new capability: lexically constrained or guided decoding, a modification to beam search that forces the inclusion of pre-specified words and phrases in the output. However, while theoretically sound, existing approaches have computational complexities that are either linear (Hokamp and Liu, 2017) or exponential (Anderson et al., 2017) in the number of constraints. We present a algorithm for lexically constrained decoding with a complexity of O(1) in the number of constraints. We demonstrate the algorithms remarkable ability to properly place these constraints, and use it to explore the shaky relationship between model and BLEU scores. Our implementation is available as part of Sockeye.]]></itunes:summary>
+<description><![CDATA[The end-to-end nature of neural machine translation (NMT) removes many ways of manually guiding the translation process that were available in older paradigms. Recent work, however, has introduced a new capability: lexically constrained or guided decoding, a modification to beam search that forces the inclusion of pre-specified words and phrases in the output. However, while theoretically sound, existing approaches have computational complexities that are either linear (Hokamp and Liu, 2017) or exponential (Anderson et al., 2017) in the number of constraints. We present a algorithm for lexically constrained decoding with a complexity of O(1) in the number of constraints. We demonstrate the algorithms remarkable ability to properly place these constraints, and use it to explore the shaky relationship between model and BLEU scores. Our implementation is available as part of Sockeye.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1804.06609v2.Fast_Lexically_Constrained_Decoding_with_Dynamic_Beam_Allocation_for_Neural_Machine_Translation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2279.18375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1804.06609v2.Fast_Lexically_Constrained_Decoding_with_Dynamic_Beam_Allocation_for_Neural_Machine_Translation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</title>
 <itunes:title>Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -255,6 +561,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.02177v1.Grokking_Generalization_Beyond_Overfitting_on_Small_Algorithmic_Datasets.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Triple-to-Text: Converting RDF Triples into High-Quality Natural Languages via Optimizing an Inverse KL Divergence</title>
+<itunes:title>Triple-to-Text: Converting RDF Triples into High-Quality Natural Languages via Optimizing an Inverse KL Divergence</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Knowledge base is one of the main forms to represent information in a structured way. A knowledge base typically consists of Resource Description Frameworks (RDF) triples which describe the entities and their relations. Generating natural language description of the knowledge base is an important task in NLP, which has been formulated as a conditional language generation task and tackled using the sequence-to-sequence framework. Current works mostly train the language models by maximum likelihood estimation, which tends to generate lousy sentences. In this paper, we argue that such a problem of maximum likelihood estimation is intrinsic, which is generally irrevocable via changing network structures. Accordingly, we propose a novel Triple-to-Text (T2T) framework, which approximately optimizes the inverse Kullback-Leibler (KL) divergence between the distributions of the real and generated sentences. Due to the nature that inverse KL imposes large penalty on fake-looking samples, the proposed method can significantly reduce the probability of generating low-quality sentences. Our experiments on three real-world datasets demonstrate that T2T can generate higher-quality sentences and outperform baseline models in several evaluation metrics.]]></itunes:summary>
+<description><![CDATA[Knowledge base is one of the main forms to represent information in a structured way. A knowledge base typically consists of Resource Description Frameworks (RDF) triples which describe the entities and their relations. Generating natural language description of the knowledge base is an important task in NLP, which has been formulated as a conditional language generation task and tackled using the sequence-to-sequence framework. Current works mostly train the language models by maximum likelihood estimation, which tends to generate lousy sentences. In this paper, we argue that such a problem of maximum likelihood estimation is intrinsic, which is generally irrevocable via changing network structures. Accordingly, we propose a novel Triple-to-Text (T2T) framework, which approximately optimizes the inverse Kullback-Leibler (KL) divergence between the distributions of the real and generated sentences. Due to the nature that inverse KL imposes large penalty on fake-looking samples, the proposed method can significantly reduce the probability of generating low-quality sentences. Our experiments on three real-world datasets demonstrate that T2T can generate higher-quality sentences and outperform baseline models in several evaluation metrics.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1906.01965v1.Triple_to_Text_Converting_RDF_Triples_into_High_Quality_Natural_Languages_via_Optimizing_an_Inverse_KL_Divergence.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2619.58525</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1906.01965v1.Triple_to_Text_Converting_RDF_Triples_into_High_Quality_Natural_Languages_via_Optimizing_an_Inverse_KL_Divergence.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Towards mental time travel: a hierarchical memory for reinforcement learning agents</title>
+<itunes:title>Towards mental time travel: a hierarchical memory for reinforcement learning agents</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Reinforcement learning agents often forget details of the past, especially after delays or distractor tasks. Agents with common memory architectures struggle to recall and integrate across multiple timesteps of a past event, or even to recall the details of a single timestep that is followed by distractor tasks. To address these limitations, we propose a Hierarchical Chunk Attention Memory (HCAM), which helps agents to remember the past in detail. HCAM stores memories by dividing the past into chunks, and recalls by first performing high-level attention over coarse summaries of the chunks, and then performing detailed attention within only the most relevant chunks. An agent with HCAM can therefore "mentally time-travel" -- remember past events in detail without attending to all intervening events. We show that agents with HCAM substantially outperform agents with other memory architectures at tasks requiring long-term recall, retention, or reasoning over memory. These include recalling where an object is hidden in a 3D environment, rapidly learning to navigate efficiently in a new neighborhood, and rapidly learning and retaining new object names. Agents with HCAM can extrapolate to task sequences much longer than they were trained on, and can even generalize zero-shot from a meta-learning setting to maintaining knowledge across episodes. HCAM improves agent sample efficiency, generalization, and generality (by solving tasks that previously required specialized architectures). Our work is a step towards agents that can learn, interact, and adapt in complex and temporally-extended environments.]]></itunes:summary>
+<description><![CDATA[Reinforcement learning agents often forget details of the past, especially after delays or distractor tasks. Agents with common memory architectures struggle to recall and integrate across multiple timesteps of a past event, or even to recall the details of a single timestep that is followed by distractor tasks. To address these limitations, we propose a Hierarchical Chunk Attention Memory (HCAM), which helps agents to remember the past in detail. HCAM stores memories by dividing the past into chunks, and recalls by first performing high-level attention over coarse summaries of the chunks, and then performing detailed attention within only the most relevant chunks. An agent with HCAM can therefore "mentally time-travel" -- remember past events in detail without attending to all intervening events. We show that agents with HCAM substantially outperform agents with other memory architectures at tasks requiring long-term recall, retention, or reasoning over memory. These include recalling where an object is hidden in a 3D environment, rapidly learning to navigate efficiently in a new neighborhood, and rapidly learning and retaining new object names. Agents with HCAM can extrapolate to task sequences much longer than they were trained on, and can even generalize zero-shot from a meta-learning setting to maintaining knowledge across episodes. HCAM improves agent sample efficiency, generalization, and generality (by solving tasks that previously required specialized architectures). Our work is a step towards agents that can learn, interact, and adapt in complex and temporally-extended environments.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.14039v3.Towards_mental_time_travel_a_hierarchical_memory_for_reinforcement_learning_agents.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4672.88825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.14039v3.Towards_mental_time_travel_a_hierarchical_memory_for_reinforcement_learning_agents.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
