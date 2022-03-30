@@ -566,6 +566,23 @@
 </item>
 
 <item>
+<title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</title>
+<itunes:title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The number of biomedical literature on new biomedical concepts is rapidly increasing, which necessitates a reliable biomedical named entity recognition (BioNER) model for identifying new and unseen entity mentions. However, it is questionable whether existing models can effectively handle them. In this work, we systematically analyze the three types of recognition abilities of BioNER models: memorization, synonym generalization, and concept generalization. We find that although current best models achieve state-of-the-art performance on benchmarks based on overall performance, they have limitations in identifying synonyms and new biomedical concepts, indicating they are overestimated in terms of their generalization abilities. We also investigate failure cases of models and identify several difficulties in recognizing unseen mentions in biomedical literature as follows: (1) models tend to exploit dataset biases, which hinders the models' abilities to generalize, and (2) several biomedical names have novel morphological patterns with weak name regularity, and models fail to recognize them. We apply a statistics-based debiasing method to our problem as a simple remedy and show the improvement in generalization to unseen mentions. We hope that our analyses and findings would be able to facilitate further research into the generalization capabilities of NER models in a domain where their reliability is of utmost importance.]]></itunes:summary>
+<description><![CDATA[The number of biomedical literature on new biomedical concepts is rapidly increasing, which necessitates a reliable biomedical named entity recognition (BioNER) model for identifying new and unseen entity mentions. However, it is questionable whether existing models can effectively handle them. In this work, we systematically analyze the three types of recognition abilities of BioNER models: memorization, synonym generalization, and concept generalization. We find that although current best models achieve state-of-the-art performance on benchmarks based on overall performance, they have limitations in identifying synonyms and new biomedical concepts, indicating they are overestimated in terms of their generalization abilities. We also investigate failure cases of models and identify several difficulties in recognizing unseen mentions in biomedical literature as follows: (1) models tend to exploit dataset biases, which hinders the models' abilities to generalize, and (2) several biomedical names have novel morphological patterns with weak name regularity, and models fail to recognize them. We apply a statistics-based debiasing method to our problem as a simple remedy and show the improvement in generalization to unseen mentions. We hope that our analyses and findings would be able to facilitate further research into the generalization capabilities of NER models in a domain where their reliability is of utmost importance.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00160v3.How_Do_Your_Biomedical_Named_Entity_Recognition_Models_Generalize_to_Novel_Entities.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2831.30775</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00160v3.How_Do_Your_Biomedical_Named_Entity_Recognition_Models_Generalize_to_Novel_Entities.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation</title>
 <itunes:title>Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -612,6 +629,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1906.01965v1.Triple_to_Text_Converting_RDF_Triples_into_High_Quality_Natural_Languages_via_Optimizing_an_Inverse_KL_Divergence.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics</title>
+<itunes:title>COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Many applications of text generation require incorporating different constraints to control the semantics or style of generated text. These constraints can be hard (e.g., ensuring certain keywords are included in the output) and soft (e.g., contextualizing the output with the left- or right-hand context). In this paper, we present Energy-based Constrained Decoding with Langevin Dynamics (COLD), a decoding framework which unifies constrained generation as specifying constraints through an energy function, then performing efficient differentiable reasoning over the constraints through gradient-based sampling. COLD decoding is a flexible framework that can be applied directly to off-the-shelf left-to-right language models without the need for any task-specific fine-tuning, as demonstrated through three challenging text generation applications: lexically-constrained generation, abductive reasoning, and counterfactual reasoning. Our experiments on these constrained generation tasks point to the effectiveness of our approach, both in terms of automatic and human evaluation.]]></itunes:summary>
+<description><![CDATA[Many applications of text generation require incorporating different constraints to control the semantics or style of generated text. These constraints can be hard (e.g., ensuring certain keywords are included in the output) and soft (e.g., contextualizing the output with the left- or right-hand context). In this paper, we present Energy-based Constrained Decoding with Langevin Dynamics (COLD), a decoding framework which unifies constrained generation as specifying constraints through an energy function, then performing efficient differentiable reasoning over the constraints through gradient-based sampling. COLD decoding is a flexible framework that can be applied directly to off-the-shelf left-to-right language models without the need for any task-specific fine-tuning, as demonstrated through three challenging text generation applications: lexically-constrained generation, abductive reasoning, and counterfactual reasoning. Our experiments on these constrained generation tasks point to the effectiveness of our approach, both in terms of automatic and human evaluation.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.11705v2.COLD_Decoding_Energy_based_Constrained_Text_Generation_with_Langevin_Dynamics.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3259.8465</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.11705v2.COLD_Decoding_Energy_based_Constrained_Text_Generation_with_Langevin_Dynamics.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>The normative challenge for illusionist views of consciousness</title>
+<itunes:title>The normative challenge for illusionist views of consciousness</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Illusionists about phenomenal consciousness claim that phenomenal consciousness does not exist but merely seems to exist. At the same time, it is quite intuitive for there to be some kind of link between phenomenality and value. For example, some situations seem good or bad in virtue of the conscious experiences they feature. Illusionist views of phenomenal consciousness then face what I call the normative challenge. They have to say where they stand regarding the idea that there is a link between phenomenality and value. If they accept that there is such a link, they might be committed to revisionary normative consequences (and some of them may prove to be uncomfortable). If they deny that there is such link, they might avoid revisionary normative consequences (without being guaranteed against them) but then they have to give reasons to deny that such link obtains, which is not a trivial task. The existence of the normative challenge does not show that illusionism is false, but it shows that illusionism might have important consequences in the normative domain, which have to be clarified.]]></itunes:summary>
+<description><![CDATA[Illusionists about phenomenal consciousness claim that phenomenal consciousness does not exist but merely seems to exist. At the same time, it is quite intuitive for there to be some kind of link between phenomenality and value. For example, some situations seem good or bad in virtue of the conscious experiences they feature. Illusionist views of phenomenal consciousness then face what I call the normative challenge. They have to say where they stand regarding the idea that there is a link between phenomenality and value. If they accept that there is such a link, they might be committed to revisionary normative consequences (and some of them may prove to be uncomfortable). If they deny that there is such link, they might avoid revisionary normative consequences (without being guaranteed against them) but then they have to give reasons to deny that such link obtains, which is not a trivial task. The existence of the normative challenge does not show that illusionism is false, but it shows that illusionism might have important consequences in the normative domain, which have to be clarified.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/KAMTNC-2v1.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3091.3045</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/KAMTNC-2v1.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
