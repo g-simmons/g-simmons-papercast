@@ -35,6 +35,23 @@
 </item>
 
 <item>
+<title>StruBERT: Structure-aware BERT for Table Search and Matching</title>
+<itunes:title>StruBERT: Structure-aware BERT for Table Search and Matching</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[A large amount of information is stored in data tables. Users can search for data tables using a keyword-based query. A table is composed primarily of data values that are organized in rows and columns providing implicit structural information. A table is usually accompanied by secondary information such as the caption, page title, etc., that form the textual information. Understanding the connection between the textual and structural information is an important yet neglected aspect in table retrieval as previous methods treat each source of information independently. In addition, users can search for data tables that are similar to an existing table, and this setting can be seen as a content-based table retrieval. In this paper, we propose StruBERT, a structure-aware BERT model that fuses the textual and structural information of a data table to produce context-aware representations for both textual and tabular content of a data table. StruBERT features are integrated in a new end-to-end neural ranking model to solve three table-related downstream tasks: keyword- and content-based table retrieval, and table similarity. We evaluate our approach using three datasets, and we demonstrate substantial improvements in terms of retrieval and classification metrics over state-of-the-art methods.]]></itunes:summary>
+<description><![CDATA[A large amount of information is stored in data tables. Users can search for data tables using a keyword-based query. A table is composed primarily of data values that are organized in rows and columns providing implicit structural information. A table is usually accompanied by secondary information such as the caption, page title, etc., that form the textual information. Understanding the connection between the textual and structural information is an important yet neglected aspect in table retrieval as previous methods treat each source of information independently. In addition, users can search for data tables that are similar to an existing table, and this setting can be seen as a content-based table retrieval. In this paper, we propose StruBERT, a structure-aware BERT model that fuses the textual and structural information of a data table to produce context-aware representations for both textual and tabular content of a data table. StruBERT features are integrated in a new end-to-end neural ranking model to solve three table-related downstream tasks: keyword- and content-based table retrieval, and table similarity. We evaluate our approach using three datasets, and we demonstrate substantial improvements in terms of retrieval and classification metrics over state-of-the-art methods.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14278v1.StruBERT_Structure_aware_BERT_for_Table_Search_and_Matching.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2297.67825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14278v1.StruBERT_Structure_aware_BERT_for_Table_Search_and_Matching.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Symbolic Behaviour in Artificial Intelligence</title>
 <itunes:title>Symbolic Behaviour in Artificial Intelligence</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -86,6 +103,23 @@
 </item>
 
 <item>
+<title>Greedy Search with Probabilistic N-gram Matching for Neural Machine Translation</title>
+<itunes:title>Greedy Search with Probabilistic N-gram Matching for Neural Machine Translation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Neural machine translation (NMT) models are usually trained with the word-level loss using the teacher forcing algorithm, which not only evaluates the translation improperly but also suffers from exposure bias. Sequence-level training under the reinforcement framework can mitigate the problems of the word-level loss, but its performance is unstable due to the high variance of the gradient estimation. On these grounds, we present a method with a differentiable sequence-level training objective based on probabilistic n-gram matching which can avoid the reinforcement framework. In addition, this method performs greedy search in the training which uses the predicted words as context just as at inference to alleviate the problem of exposure bias. Experiment results on the NIST Chinese-to-English translation tasks show that our method significantly outperforms the reinforcement-based algorithms and achieves an improvement of 1.5 BLEU points on average over a strong baseline system.]]></itunes:summary>
+<description><![CDATA[Neural machine translation (NMT) models are usually trained with the word-level loss using the teacher forcing algorithm, which not only evaluates the translation improperly but also suffers from exposure bias. Sequence-level training under the reinforcement framework can mitigate the problems of the word-level loss, but its performance is unstable due to the high variance of the gradient estimation. On these grounds, we present a method with a differentiable sequence-level training objective based on probabilistic n-gram matching which can avoid the reinforcement framework. In addition, this method performs greedy search in the training which uses the predicted words as context just as at inference to alleviate the problem of exposure bias. Experiment results on the NIST Chinese-to-English translation tasks show that our method significantly outperforms the reinforcement-based algorithms and achieves an improvement of 1.5 BLEU points on average over a strong baseline system.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1809.03132v1.Greedy_Search_with_Probabilistic_N_gram_Matching_for_Neural_Machine_Translation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1153.1755</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1809.03132v1.Greedy_Search_with_Probabilistic_N_gram_Matching_for_Neural_Machine_Translation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Wav2Letter: an End-to-End ConvNet-based Speech Recognition System</title>
 <itunes:title>Wav2Letter: an End-to-End ConvNet-based Speech Recognition System</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -98,6 +132,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1609.03193v2.Wav2Letter_an_End_to_End_ConvNet_based_Speech_Recognition_System.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>STaR: Bootstrapping Reasoning With Reasoning</title>
+<itunes:title>STaR: Bootstrapping Reasoning With Reasoning</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Generating step-by-step "chain-of-thought" rationales improves language model performance on complex reasoning tasks like mathematics or commonsense question-answering. However, inducing language model rationale generation currently requires either constructing massive rationale datasets or sacrificing accuracy by using only few-shot inference. We propose a technique to iteratively leverage a small number of rationale examples and a large dataset without rationales, to bootstrap the ability to perform successively more complex reasoning. This technique, the "Self-Taught Reasoner" (STaR), relies on a simple loop: generate rationales to answer many questions, prompted with a few rationale examples; if the generated answers are wrong, try again to generate a rationale given the correct answer; fine-tune on all the rationales that ultimately yielded correct answers; repeat. We show that STaR significantly improves performance on multiple datasets compared to a model fine-tuned to directly predict final answers, and performs comparably to fine-tuning a 30$\times$ larger state-of-the-art language model on CommensenseQA. Thus, STaR lets a model improve itself by learning from its own generated reasoning.]]></itunes:summary>
+<description><![CDATA[Generating step-by-step "chain-of-thought" rationales improves language model performance on complex reasoning tasks like mathematics or commonsense question-answering. However, inducing language model rationale generation currently requires either constructing massive rationale datasets or sacrificing accuracy by using only few-shot inference. We propose a technique to iteratively leverage a small number of rationale examples and a large dataset without rationales, to bootstrap the ability to perform successively more complex reasoning. This technique, the "Self-Taught Reasoner" (STaR), relies on a simple loop: generate rationales to answer many questions, prompted with a few rationale examples; if the generated answers are wrong, try again to generate a rationale given the correct answer; fine-tune on all the rationales that ultimately yielded correct answers; repeat. We show that STaR significantly improves performance on multiple datasets compared to a model fine-tuned to directly predict final answers, and performs comparably to fine-tuning a 30$\times$ larger state-of-the-art language model on CommensenseQA. Thus, STaR lets a model improve itself by learning from its own generated reasoning.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14465v1.STaR_Bootstrapping_Reasoning_With_Reasoning.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3674.40975</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14465v1.STaR_Bootstrapping_Reasoning_With_Reasoning.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -224,6 +275,23 @@
 </item>
 
 <item>
+<title>Training Compute-Optimal Large Language Models</title>
+<itunes:title>Training Compute-Optimal Large Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over \nummodels language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, \chinchilla, that uses the same compute budget as \gopher but with 70B parameters and 4$\times$ more more data. \chinchilla uniformly and significantly outperforms \Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that \chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, \chinchilla reaches a state-of-the-art average accuracy of 67.5\% on the MMLU benchmark, greater than a 7\% improvement over \gopher.]]></itunes:summary>
+<description><![CDATA[We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over \nummodels language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, \chinchilla, that uses the same compute budget as \gopher but with 70B parameters and 4$\times$ more more data. \chinchilla uniformly and significantly outperforms \Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that \chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, \chinchilla reaches a state-of-the-art average accuracy of 67.5\% on the MMLU benchmark, greater than a 7\% improvement over \gopher.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.15556v1.Training_Compute_Optimal_Large_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3861.94275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.15556v1.Training_Compute_Optimal_Large_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners</title>
 <itunes:title>Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -275,6 +343,23 @@
 </item>
 
 <item>
+<title>Chain of Thought Prompting Elicits Reasoning in Large Language Models</title>
+<itunes:title>Chain of Thought Prompting Elicits Reasoning in Large Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Although scaling up language model size has reliably improved performance on a range of NLP tasks, even the largest models currently struggle with certain reasoning tasks such as math word problems, symbolic manipulation, and commonsense reasoning. This paper explores the ability of language models to generate a coherent chain of thought -- a series of short sentences that mimic the reasoning process a person might have when responding to a question. Experiments show that inducing a chain of thought via prompting can enable sufficiently large language models to better perform reasoning tasks that otherwise have flat scaling curves.]]></itunes:summary>
+<description><![CDATA[Although scaling up language model size has reliably improved performance on a range of NLP tasks, even the largest models currently struggle with certain reasoning tasks such as math word problems, symbolic manipulation, and commonsense reasoning. This paper explores the ability of language models to generate a coherent chain of thought -- a series of short sentences that mimic the reasoning process a person might have when responding to a question. Experiments show that inducing a chain of thought via prompting can enable sufficiently large language models to better perform reasoning tasks that otherwise have flat scaling curves.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.11903v1.Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4299.23275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.11903v1.Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement</title>
 <itunes:title>Stochastic Beams and Where to Find Them: The Gumbel-Top-k Trick for Sampling Sequences Without Replacement</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -304,6 +389,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.00162v1.Do_Transformers_use_variable_binding.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A Roadmap for Big Model</title>
+<itunes:title>A Roadmap for Big Model</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[With the rapid development of deep learning, training Big Models (BMs) for multiple downstream tasks becomes a popular paradigm. Researchers have achieved various outcomes in the construction of BMs and the BM application in many fields. At present, there is a lack of research work that sorts out the overall progress of BMs and guides the follow-up research. In this paper, we cover not only the BM technologies themselves but also the prerequisites for BM training and applications with BMs, dividing the BM review into four parts: Resource, Models, Key Technologies and Application. We introduce 16 specific BM-related topics in those four parts, they are Data, Knowledge, Computing System, Parallel Training System, Language Model, Vision Model, Multi-modal Model, Theory&Interpretability, Commonsense Reasoning, Reliability&Security, Governance, Evaluation, Machine Translation, Text Generation, Dialogue and Protein Research. In each topic, we summarize clearly the current studies and propose some future research directions. At the end of this paper, we conclude the further development of BMs in a more general view.]]></itunes:summary>
+<description><![CDATA[With the rapid development of deep learning, training Big Models (BMs) for multiple downstream tasks becomes a popular paradigm. Researchers have achieved various outcomes in the construction of BMs and the BM application in many fields. At present, there is a lack of research work that sorts out the overall progress of BMs and guides the follow-up research. In this paper, we cover not only the BM technologies themselves but also the prerequisites for BM training and applications with BMs, dividing the BM review into four parts: Resource, Models, Key Technologies and Application. We introduce 16 specific BM-related topics in those four parts, they are Data, Knowledge, Computing System, Parallel Training System, Language Model, Vision Model, Multi-modal Model, Theory&Interpretability, Commonsense Reasoning, Reliability&Security, Governance, Evaluation, Machine Translation, Text Generation, Dialogue and Protein Research. In each topic, we summarize clearly the current studies and propose some future research directions. At the end of this paper, we conclude the further development of BMs in a more general view.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14101v2.A_Roadmap_for_Big_Model.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>43876.96325</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14101v2.A_Roadmap_for_Big_Model.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -685,6 +787,23 @@
 </item>
 
 <item>
+<title>A Conversational Paradigm for Program Synthesis</title>
+<itunes:title>A Conversational Paradigm for Program Synthesis</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Program synthesis strives to generate a computer program as a solution to a given problem specification. We propose a conversational program synthesis approach via large language models, which addresses the challenges of searching over a vast program space and user intent specification faced in prior approaches. Our new approach casts the process of writing a specification and program as a multi-turn conversation between a user and a system. It treats program synthesis as a sequence prediction problem, in which the specification is expressed in natural language and the desired program is conditionally sampled. We train a family of large language models, called CodeGen, on natural language and programming language data. With weak supervision in the data and the scaling up of data size and model size, conversational capacities emerge from the simple autoregressive language modeling. To study the model behavior on conversational program synthesis, we develop a multi-turn programming benchmark (MTPB), where solving each problem requires multi-step synthesis via multi-turn conversation between the user and the model. Our findings show the emergence of conversational capabilities and the effectiveness of the proposed conversational program synthesis paradigm. In addition, our model CodeGen (with up to 16B parameters trained on TPU-v4) outperforms OpenAI's Codex on the HumanEval benchmark. We make the training library JaxFormer including checkpoints available as open source contribution: https://github.com/salesforce/CodeGen.]]></itunes:summary>
+<description><![CDATA[Program synthesis strives to generate a computer program as a solution to a given problem specification. We propose a conversational program synthesis approach via large language models, which addresses the challenges of searching over a vast program space and user intent specification faced in prior approaches. Our new approach casts the process of writing a specification and program as a multi-turn conversation between a user and a system. It treats program synthesis as a sequence prediction problem, in which the specification is expressed in natural language and the desired program is conditionally sampled. We train a family of large language models, called CodeGen, on natural language and programming language data. With weak supervision in the data and the scaling up of data size and model size, conversational capacities emerge from the simple autoregressive language modeling. To study the model behavior on conversational program synthesis, we develop a multi-turn programming benchmark (MTPB), where solving each problem requires multi-step synthesis via multi-turn conversation between the user and the model. Our findings show the emergence of conversational capabilities and the effectiveness of the proposed conversational program synthesis paradigm. In addition, our model CodeGen (with up to 16B parameters trained on TPU-v4) outperforms OpenAI's Codex on the HumanEval benchmark. We make the training library JaxFormer including checkpoints available as open source contribution: https://github.com/salesforce/CodeGen.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13474v3.A_Conversational_Paradigm_for_Program_Synthesis.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3244.4865</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13474v3.A_Conversational_Paradigm_for_Program_Synthesis.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Deep Double Descent: Where Bigger Models and More Data Hurt</title>
 <itunes:title>Deep Double Descent: Where Bigger Models and More Data Hurt</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -697,6 +816,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02292v1.Deep_Double_Descent_Where_Bigger_Models_and_More_Data_Hurt.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction</title>
+<itunes:title>Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent progress in neural information retrieval has demonstrated large gains in effectiveness, while often sacrificing the efficiency and interpretability of the neural model compared to classical approaches. This paper proposes ColBERTer, a neural retrieval model using contextualized late interaction (ColBERT) with enhanced reduction. Along the effectiveness Pareto frontier, ColBERTer's reductions dramatically lower ColBERT's storage requirements while simultaneously improving the interpretability of its token-matching scores. To this end, ColBERTer fuses single-vector retrieval, multi-vector refinement, and optional lexical matching components into one model. For its multi-vector component, ColBERTer reduces the number of stored vectors per document by learning unique whole-word representations for the terms in each document and learning to identify and remove word representations that are not essential to effective scoring. We employ an explicit multi-task, multi-stage training to facilitate using very small vector dimensions. Results on the MS MARCO and TREC-DL collection show that ColBERTer can reduce the storage footprint by up to 2.5x, while maintaining effectiveness. With just one dimension per token in its smallest setting, ColBERTer achieves index storage parity with the plaintext size, with very strong effectiveness results. Finally, we demonstrate ColBERTer's robustness on seven high-quality out-of-domain collections, yielding statistically significant gains over traditional retrieval baselines.]]></itunes:summary>
+<description><![CDATA[Recent progress in neural information retrieval has demonstrated large gains in effectiveness, while often sacrificing the efficiency and interpretability of the neural model compared to classical approaches. This paper proposes ColBERTer, a neural retrieval model using contextualized late interaction (ColBERT) with enhanced reduction. Along the effectiveness Pareto frontier, ColBERTer's reductions dramatically lower ColBERT's storage requirements while simultaneously improving the interpretability of its token-matching scores. To this end, ColBERTer fuses single-vector retrieval, multi-vector refinement, and optional lexical matching components into one model. For its multi-vector component, ColBERTer reduces the number of stored vectors per document by learning unique whole-word representations for the terms in each document and learning to identify and remove word representations that are not essential to effective scoring. We employ an explicit multi-task, multi-stage training to facilitate using very small vector dimensions. Results on the MS MARCO and TREC-DL collection show that ColBERTer can reduce the storage footprint by up to 2.5x, while maintaining effectiveness. With just one dimension per token in its smallest setting, ColBERTer achieves index storage parity with the plaintext size, with very strong effectiveness results. Finally, we demonstrate ColBERTer's robustness on seven high-quality out-of-domain collections, yielding statistically significant gains over traditional retrieval baselines.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13088v1.Introducing_Neural_Bag_of_Whole_Words_with_ColBERTer_Contextualized_Late_Interactions_using_Enhanced_Reduction.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3681.5935</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13088v1.Introducing_Neural_Bag_of_Whole_Words_with_ColBERTer_Contextualized_Late_Interactions_using_Enhanced_Reduction.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
