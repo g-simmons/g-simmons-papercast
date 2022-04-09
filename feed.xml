@@ -273,6 +273,23 @@
 </item>
 
 <item>
+<title>How to represent part-whole hierarchies in a neural network</title>
+<itunes:title>How to represent part-whole hierarchies in a neural network</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[This paper does not describe a working system. Instead, it presents a single idea about representation which allows advances made by several different groups to be combined into an imaginary system called GLOM. The advances include transformers, neural fields, contrastive representation learning, distillation and capsules. GLOM answers the question: How can a neural network with a fixed architecture parse an image into a part-whole hierarchy which has a different structure for each image? The idea is simply to use islands of identical vectors to represent the nodes in the parse tree. If GLOM can be made to work, it should significantly improve the interpretability of the representations produced by transformer-like systems when applied to vision or language]]></itunes:summary>
+<description><![CDATA[This paper does not describe a working system. Instead, it presents a single idea about representation which allows advances made by several different groups to be combined into an imaginary system called GLOM. The advances include transformers, neural fields, contrastive representation learning, distillation and capsules. GLOM answers the question: How can a neural network with a fixed architecture parse an image into a part-whole hierarchy which has a different structure for each image? The idea is simply to use islands of identical vectors to represent the nodes in the parse tree. If GLOM can be made to work, it should significantly improve the interpretability of the representations produced by transformer-like systems when applied to vision or language]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2102.12627v1.How_to_represent_part_whole_hierarchies_in_a_neural_network.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5856.444</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2102.12627v1.How_to_represent_part_whole_hierarchies_in_a_neural_network.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
   Base Population</title>
 <itunes:title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
