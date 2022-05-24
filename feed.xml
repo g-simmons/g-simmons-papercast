@@ -52,6 +52,23 @@
 </item>
 
 <item>
+<title>A Generalist Agent</title>
+<itunes:title>A Generalist Agent</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Inspired by progress in large-scale language modeling, we apply a similar approach towards building a single generalist agent beyond the realm of text outputs. The agent, which we refer to as Gato, works as a multi-modal, multi-task, multi-embodiment generalist policy. The same network with the same weights can play Atari, caption images, chat, stack blocks with a real robot arm and much more, deciding based on its context whether to output text, joint torques, button presses, or other tokens. In this report we describe the model and the data, and document the current capabilities of Gato.]]></itunes:summary>
+<description><![CDATA[Inspired by progress in large-scale language modeling, we apply a similar approach towards building a single generalist agent beyond the realm of text outputs. The agent, which we refer to as Gato, works as a multi-modal, multi-task, multi-embodiment generalist policy. The same network with the same weights can play Atari, caption images, chat, stack blocks with a real robot arm and much more, deciding based on its context whether to output text, joint torques, button presses, or other tokens. In this report we describe the model and the data, and document the current capabilities of Gato.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.06175v2.A_Generalist_Agent.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5319.94125</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.06175v2.A_Generalist_Agent.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>StruBERT: Structure-aware BERT for Table Search and Matching</title>
 <itunes:title>StruBERT: Structure-aware BERT for Table Search and Matching</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -64,6 +81,57 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14278v1.StruBERT_Structure_aware_BERT_for_Table_Search_and_Matching.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</title>
+<itunes:title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, humans have the ability to learn new concepts from language. Here, we explore training zero-shot classifiers for structured data purely from language. For this, we introduce CLUES, a benchmark for Classifier Learning Using natural language ExplanationS, consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. CLUES consists of 36 real-world and 144 synthetic classification tasks. It contains crowdsourced explanations describing real-world tasks from multiple teachers and programmatically generated explanations for the synthetic tasks. To model the influence of explanations in classifying an example, we develop ExEnt, an entailment-based model that learns classifiers using explanations. ExEnt generalizes up to 18% better (relative) on novel tasks than a baseline that does not use explanations. We delineate key challenges for automated learning from explanations, addressing which can lead to progress on CLUES in the future. Code and datasets are available at: https://clues-benchmark.github.io.]]></itunes:summary>
+<description><![CDATA[Supervised learning has traditionally focused on inductive learning by observing labeled examples of a task. In contrast, humans have the ability to learn new concepts from language. Here, we explore training zero-shot classifiers for structured data purely from language. For this, we introduce CLUES, a benchmark for Classifier Learning Using natural language ExplanationS, consisting of a range of classification tasks over structured data along with natural language supervision in the form of explanations. CLUES consists of 36 real-world and 144 synthetic classification tasks. It contains crowdsourced explanations describing real-world tasks from multiple teachers and programmatically generated explanations for the synthetic tasks. To model the influence of explanations in classifying an example, we develop ExEnt, an entailment-based model that learns classifiers using explanations. ExEnt generalizes up to 18% better (relative) on novel tasks than a baseline that does not use explanations. We delineate key challenges for automated learning from explanations, addressing which can lead to progress on CLUES in the future. Code and datasets are available at: https://clues-benchmark.github.io.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.07142v1.CLUES_A_Benchmark_for_Learning_Classifiers_using_Natural_Language_Explanations.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3474.39025</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.07142v1.CLUES_A_Benchmark_for_Learning_Classifiers_using_Natural_Language_Explanations.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning</title>
+<itunes:title>Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large language models (LLMs) have been shown to be capable of impressive few-shot generalisation to new tasks. However, they still tend to perform poorly on multi-step logical reasoning problems. Here we carry out a comprehensive evaluation of LLMs on 50 tasks that probe different aspects of logical reasoning. We show that language models tend to perform fairly well at single step inference or entailment tasks, but struggle to chain together multiple reasoning steps to solve more complex problems. In light of this, we propose a Selection-Inference (SI) framework that exploits pre-trained LLMs as general processing modules, and alternates between selection and inference to generate a series of interpretable, casual reasoning steps leading to the final answer. We show that a 7B parameter LLM used within the SI framework in a 5-shot generalisation setting, with no fine-tuning, yields a performance improvement of over 100% compared to an equivalent vanilla baseline on a suite of 10 logical reasoning tasks. The same model in the same setting even outperforms a significantly larger 280B parameter baseline on the same suite of tasks. Moreover, answers produced by the SI framework are accompanied by a causal natural-language-based reasoning trace, which has important implications for the safety and trustworthiness of the system.]]></itunes:summary>
+<description><![CDATA[Large language models (LLMs) have been shown to be capable of impressive few-shot generalisation to new tasks. However, they still tend to perform poorly on multi-step logical reasoning problems. Here we carry out a comprehensive evaluation of LLMs on 50 tasks that probe different aspects of logical reasoning. We show that language models tend to perform fairly well at single step inference or entailment tasks, but struggle to chain together multiple reasoning steps to solve more complex problems. In light of this, we propose a Selection-Inference (SI) framework that exploits pre-trained LLMs as general processing modules, and alternates between selection and inference to generate a series of interpretable, casual reasoning steps leading to the final answer. We show that a 7B parameter LLM used within the SI framework in a 5-shot generalisation setting, with no fine-tuning, yields a performance improvement of over 100% compared to an equivalent vanilla baseline on a suite of 10 logical reasoning tasks. The same model in the same setting even outperforms a significantly larger 280B parameter baseline on the same suite of tasks. Moreover, answers produced by the SI framework are accompanied by a causal natural-language-based reasoning trace, which has important implications for the safety and trustworthiness of the system.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09712v1.Selection_Inference_Exploiting_Large_Language_Models_for_Interpretable_Logical_Reasoning.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4674.4555</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09712v1.Selection_Inference_Exploiting_Large_Language_Models_for_Interpretable_Logical_Reasoning.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Understanding Gradient Descent on Edge of Stability in Deep Learning</title>
+<itunes:title>Understanding Gradient Descent on Edge of Stability in Deep Learning</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Deep learning experiments in Cohen et al. (2021) using deterministic Gradient Descent (GD) revealed an {\em Edge of Stability (EoS)} phase when learning rate (LR) and sharpness (\emph{i.e.}, the largest eigenvalue of Hessian) no longer behave as in traditional optimization. Sharpness stabilizes around $2/$LR and loss goes up and down across iterations, yet still with an overall downward trend. The current paper mathematically analyzes a new mechanism of implicit regularization in the EoS phase, whereby GD updates due to non-smooth loss landscape turn out to evolve along some deterministic flow on the manifold of minimum loss. This is in contrast to many previous results about implicit bias either relying on infinitesimal updates or noise in gradient. Formally, for any smooth function $L$ with certain regularity condition, this effect is demonstrated for (1) {\em Normalized GD}, i.e., GD with a varying LR $ \eta_t =\frac{ \eta }{ || \nabla L(x(t)) || } $ and loss $L$; (2) GD with constant LR and loss $\sqrt{L}$. Both provably enter the Edge of Stability, with the associated flow on the manifold minimizing $\lambda_{\max}(\nabla^2 L)$. The above theoretical results have been corroborated by an experimental study.]]></itunes:summary>
+<description><![CDATA[Deep learning experiments in Cohen et al. (2021) using deterministic Gradient Descent (GD) revealed an {\em Edge of Stability (EoS)} phase when learning rate (LR) and sharpness (\emph{i.e.}, the largest eigenvalue of Hessian) no longer behave as in traditional optimization. Sharpness stabilizes around $2/$LR and loss goes up and down across iterations, yet still with an overall downward trend. The current paper mathematically analyzes a new mechanism of implicit regularization in the EoS phase, whereby GD updates due to non-smooth loss landscape turn out to evolve along some deterministic flow on the manifold of minimum loss. This is in contrast to many previous results about implicit bias either relying on infinitesimal updates or noise in gradient. Formally, for any smooth function $L$ with certain regularity condition, this effect is demonstrated for (1) {\em Normalized GD}, i.e., GD with a varying LR $ \eta_t =\frac{ \eta }{ || \nabla L(x(t)) || } $ and loss $L$; (2) GD with constant LR and loss $\sqrt{L}$. Both provably enter the Edge of Stability, with the associated flow on the manifold minimizing $\lambda_{\max}(\nabla^2 L)$. The above theoretical results have been corroborated by an experimental study.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09745v1.Understanding_Gradient_Descent_on_Edge_of_Stability_in_Deep_Learning.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>15057.8155</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09745v1.Understanding_Gradient_Descent_on_Edge_of_Stability_in_Deep_Learning.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -154,6 +222,23 @@
 </item>
 
 <item>
+<title>Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers</title>
+<itunes:title>Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large transformer-based language models are able to perform few-shot learning (also known as in-context learning), without having been explicitly trained for it. We hypothesized that specific distributional properties of natural language might drive this emergent phenomenon, as these characteristics might lead to a kind of interpolation between few-shot meta-training (designed to elicit rapid few-shot learning) and standard supervised training (designed to elicit gradual in-weights learning). We also hypothesized that these distributional properties could lead to emergent few-shot learning in domains outside of language. Inspired by this idea, we ran a series of experiments on a standard image-based few-shot dataset. We discovered that a number of data properties did indeed promote the emergence of few-shot learning in transformer models. All of these properties are present in natural language -- burstiness, long-tailedness, and many-to-one or one-to-many label mappings. The data influenced whether models were biased towards either few-shot learning vs. memorizing information in their weights; models could generally perform well at only one or the other. However, we discovered that an additional distributional property could allow the two capabilities to co-exist in the same model -- a skewed, Zipfian distribution over classes -- which occurs in language as well. Notably, training data that could elicit few-shot learning in transformers were unable to elicit few-shot learning in recurrent models. In sum, we find that few-shot learning emerges only from applying the right architecture to the right data distribution; neither component is sufficient on its own.]]></itunes:summary>
+<description><![CDATA[Large transformer-based language models are able to perform few-shot learning (also known as in-context learning), without having been explicitly trained for it. We hypothesized that specific distributional properties of natural language might drive this emergent phenomenon, as these characteristics might lead to a kind of interpolation between few-shot meta-training (designed to elicit rapid few-shot learning) and standard supervised training (designed to elicit gradual in-weights learning). We also hypothesized that these distributional properties could lead to emergent few-shot learning in domains outside of language. Inspired by this idea, we ran a series of experiments on a standard image-based few-shot dataset. We discovered that a number of data properties did indeed promote the emergence of few-shot learning in transformer models. All of these properties are present in natural language -- burstiness, long-tailedness, and many-to-one or one-to-many label mappings. The data influenced whether models were biased towards either few-shot learning vs. memorizing information in their weights; models could generally perform well at only one or the other. However, we discovered that an additional distributional property could allow the two capabilities to co-exist in the same model -- a skewed, Zipfian distribution over classes -- which occurs in language as well. Notably, training data that could elicit few-shot learning in transformers were unable to elicit few-shot learning in recurrent models. In sum, we find that few-shot learning emerges only from applying the right architecture to the right data distribution; neither component is sufficient on its own.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.05055v2.Data_Distributional_Properties_Drive_Emergent_Few_Shot_Learning_in_Transformers.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2259.827</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.05055v2.Data_Distributional_Properties_Drive_Emergent_Few_Shot_Learning_in_Transformers.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>STaR: Bootstrapping Reasoning With Reasoning</title>
 <itunes:title>STaR: Bootstrapping Reasoning With Reasoning</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -183,6 +268,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.12942v1.Generating_Data_to_Mitigate_Spurious_Correlations_in_Natural_Language_Inference_Datasets.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Pre-Train Your Loss: Easy Bayesian Transfer Learning with Informative Priors</title>
+<itunes:title>Pre-Train Your Loss: Easy Bayesian Transfer Learning with Informative Priors</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Deep learning is increasingly moving towards a transfer learning paradigm whereby large foundation models are fine-tuned on downstream tasks, starting from an initialization learned on the source task. But an initialization contains relatively little information about the source task. Instead, we show that we can learn highly informative posteriors from the source task, through supervised or self-supervised approaches, which then serve as the basis for priors that modify the whole loss surface on the downstream task. This simple modular approach enables significant performance gains and more data-efficient learning on a variety of downstream classification and segmentation tasks, serving as a drop-in replacement for standard pre-training strategies. These highly informative priors also can be saved for future use, similar to pre-trained weights, and stand in contrast to the zero-mean isotropic uninformative priors that are typically used in Bayesian deep learning.]]></itunes:summary>
+<description><![CDATA[Deep learning is increasingly moving towards a transfer learning paradigm whereby large foundation models are fine-tuned on downstream tasks, starting from an initialization learned on the source task. But an initialization contains relatively little information about the source task. Instead, we show that we can learn highly informative posteriors from the source task, through supervised or self-supervised approaches, which then serve as the basis for priors that modify the whole loss surface on the downstream task. This simple modular approach enables significant performance gains and more data-efficient learning on a variety of downstream classification and segmentation tasks, serving as a drop-in replacement for standard pre-training strategies. These highly informative priors also can be saved for future use, similar to pre-trained weights, and stand in contrast to the zero-mean isotropic uninformative priors that are typically used in Bayesian deep learning.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.10279v1.Pre_Train_Your_Loss_Easy_Bayesian_Transfer_Learning_with_Informative_Priors.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2752.36575</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.10279v1.Pre_Train_Your_Loss_Easy_Bayesian_Transfer_Learning_with_Informative_Priors.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -222,6 +324,40 @@
 </item>
 
 <item>
+<title>MetaFormer is Actually What You Need for Vision</title>
+<itunes:title>MetaFormer is Actually What You Need for Vision</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Transformers have shown great potential in computer vision tasks. A common belief is their attention-based token mixer module contributes most to their competence. However, recent works show the attention-based module in transformers can be replaced by spatial MLPs and the resulted models still perform quite well. Based on this observation, we hypothesize that the general architecture of the transformers, instead of the specific token mixer module, is more essential to the model's performance. To verify this, we deliberately replace the attention module in transformers with an embarrassingly simple spatial pooling operator to conduct only the most basic token mixing. Surprisingly, we observe that the derived model, termed as PoolFormer, achieves competitive performance on multiple computer vision tasks. For example, on ImageNet-1K, PoolFormer achieves 82.1% top-1 accuracy, surpassing well-tuned vision transformer/MLP-like baselines DeiT-B/ResMLP-B24 by 0.3%/1.1% accuracy with 35%/52% fewer parameters and 48%/60% fewer MACs. The effectiveness of PoolFormer verifies our hypothesis and urges us to initiate the concept of "MetaFormer", a general architecture abstracted from transformers without specifying the token mixer. Based on the extensive experiments, we argue that MetaFormer is the key player in achieving superior results for recent transformer and MLP-like models on vision tasks. This work calls for more future research dedicated to improving MetaFormer instead of focusing on the token mixer modules. Additionally, our proposed PoolFormer could serve as a starting baseline for future MetaFormer architecture design. Code is available at https://github.com/sail-sg/poolformer]]></itunes:summary>
+<description><![CDATA[Transformers have shown great potential in computer vision tasks. A common belief is their attention-based token mixer module contributes most to their competence. However, recent works show the attention-based module in transformers can be replaced by spatial MLPs and the resulted models still perform quite well. Based on this observation, we hypothesize that the general architecture of the transformers, instead of the specific token mixer module, is more essential to the model's performance. To verify this, we deliberately replace the attention module in transformers with an embarrassingly simple spatial pooling operator to conduct only the most basic token mixing. Surprisingly, we observe that the derived model, termed as PoolFormer, achieves competitive performance on multiple computer vision tasks. For example, on ImageNet-1K, PoolFormer achieves 82.1% top-1 accuracy, surpassing well-tuned vision transformer/MLP-like baselines DeiT-B/ResMLP-B24 by 0.3%/1.1% accuracy with 35%/52% fewer parameters and 48%/60% fewer MACs. The effectiveness of PoolFormer verifies our hypothesis and urges us to initiate the concept of "MetaFormer", a general architecture abstracted from transformers without specifying the token mixer. Based on the extensive experiments, we argue that MetaFormer is the key player in achieving superior results for recent transformer and MLP-like models on vision tasks. This work calls for more future research dedicated to improving MetaFormer instead of focusing on the token mixer modules. Additionally, our proposed PoolFormer could serve as a starting baseline for future MetaFormer architecture design. Code is available at https://github.com/sail-sg/poolformer]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2111.11418v2.MetaFormer_is_Actually_What_You_Need_for_Vision.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2160.013</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2111.11418v2.MetaFormer_is_Actually_What_You_Need_for_Vision.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>OPT: Open Pre-trained Transformer Language Models</title>
+<itunes:title>OPT: Open Pre-trained Transformer Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large language models, which are often trained for hundreds of thousands of compute days, have shown remarkable capabilities for zero- and few-shot learning. Given their computational cost, these models are difficult to replicate without significant capital. For the few that are available through APIs, no access is granted to the full model weights, making them difficult to study. We present Open Pre-trained Transformers (OPT), a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which we aim to fully and responsibly share with interested researchers. We show that OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop. We are also releasing our logbook detailing the infrastructure challenges we faced, along with code for experimenting with all of the released models.]]></itunes:summary>
+<description><![CDATA[Large language models, which are often trained for hundreds of thousands of compute days, have shown remarkable capabilities for zero- and few-shot learning. Given their computational cost, these models are difficult to replicate without significant capital. For the few that are available through APIs, no access is granted to the full model weights, making them difficult to study. We present Open Pre-trained Transformers (OPT), a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which we aim to fully and responsibly share with interested researchers. We show that OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop. We are also releasing our logbook detailing the infrastructure challenges we faced, along with code for experimenting with all of the released models.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.01068v3.OPT_Open_Pre_trained_Transformer_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3418.9845</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.01068v3.OPT_Open_Pre_trained_Transformer_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Detection, Disambiguation, Re-ranking: Autoregressive Entity Linking as a Multi-Task Problem</title>
 <itunes:title>Detection, Disambiguation, Re-ranking: Autoregressive Entity Linking as a Multi-Task Problem</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -234,6 +370,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.05990v1.Detection_Disambiguation_Re_ranking_Autoregressive_Entity_Linking_as_a_Multi_Task_Problem.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A Comprehensive Survey of Few-shot Learning: Evolution, Applications, Challenges, and Opportunities</title>
+<itunes:title>A Comprehensive Survey of Few-shot Learning: Evolution, Applications, Challenges, and Opportunities</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Few-shot learning (FSL) has emerged as an effective learning method and shows great potential. Despite the recent creative works in tackling FSL tasks, learning valid information rapidly from just a few or even zero samples still remains a serious challenge. In this context, we extensively investigated 200+ latest papers on FSL published in the past three years, aiming to present a timely and comprehensive overview of the most recent advances in FSL along with impartial comparisons of the strengths and weaknesses of the existing works. For the sake of avoiding conceptual confusion, we first elaborate and compare a set of similar concepts including few-shot learning, transfer learning, and meta-learning. Furthermore, we propose a novel taxonomy to classify the existing work according to the level of abstraction of knowledge in accordance with the challenges of FSL. To enrich this survey, in each subsection we provide in-depth analysis and insightful discussion about recent advances on these topics. Moreover, taking computer vision as an example, we highlight the important application of FSL, covering various research hotspots. Finally, we conclude the survey with unique insights into the technology evolution trends together with potential future research opportunities in the hope of providing guidance to follow-up research.]]></itunes:summary>
+<description><![CDATA[Few-shot learning (FSL) has emerged as an effective learning method and shows great potential. Despite the recent creative works in tackling FSL tasks, learning valid information rapidly from just a few or even zero samples still remains a serious challenge. In this context, we extensively investigated 200+ latest papers on FSL published in the past three years, aiming to present a timely and comprehensive overview of the most recent advances in FSL along with impartial comparisons of the strengths and weaknesses of the existing works. For the sake of avoiding conceptual confusion, we first elaborate and compare a set of similar concepts including few-shot learning, transfer learning, and meta-learning. Furthermore, we propose a novel taxonomy to classify the existing work according to the level of abstraction of knowledge in accordance with the challenges of FSL. To enrich this survey, in each subsection we provide in-depth analysis and insightful discussion about recent advances on these topics. Moreover, taking computer vision as an example, we highlight the important application of FSL, covering various research hotspots. Finally, we conclude the survey with unique insights into the technology evolution trends together with potential future research opportunities in the hope of providing guidance to follow-up research.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.06743v1.A_Comprehensive_Survey_of_Few_shot_Learning_Evolution_Applications_Challenges_and_Opportunities.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>160.768</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.06743v1.A_Comprehensive_Survey_of_Few_shot_Learning_Evolution_Applications_Challenges_and_Opportunities.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -290,6 +443,23 @@
 </item>
 
 <item>
+<title>Towards Understanding Grokking: An Effective Theory of Representation Learning</title>
+<itunes:title>Towards Understanding Grokking: An Effective Theory of Representation Learning</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion. We find representation learning to occur only in a "Goldilocks zone" (including comprehension and grokking) between memorization and confusion. Compared to the comprehension phase, the grokking phase stays closer to the memorization phase, leading to delayed generalization. The Goldilocks phase is reminiscent of "intelligence from starvation" in Darwinian evolution, where resource limitations drive discovery of more efficient solutions. This study not only provides intuitive explanations of the origin of grokking, but also highlights the usefulness of physics-inspired tools, e.g., effective theories and phase diagrams, for understanding deep learning.]]></itunes:summary>
+<description><![CDATA[We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion. We find representation learning to occur only in a "Goldilocks zone" (including comprehension and grokking) between memorization and confusion. Compared to the comprehension phase, the grokking phase stays closer to the memorization phase, leading to delayed generalization. The Goldilocks phase is reminiscent of "intelligence from starvation" in Darwinian evolution, where resource limitations drive discovery of more efficient solutions. This study not only provides intuitive explanations of the origin of grokking, but also highlights the usefulness of physics-inspired tools, e.g., effective theories and phase diagrams, for understanding deep learning.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.10343v1.Towards_Understanding_Grokking_An_Effective_Theory_of_Representation_Learning.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3217.6065</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.10343v1.Towards_Understanding_Grokking_An_Effective_Theory_of_Representation_Learning.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Learning Transferable Visual Models From Natural Language Supervision</title>
 <itunes:title>Learning Transferable Visual Models From Natural Language Supervision</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -338,6 +508,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v2.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>LaMDA: Language Models for Dialog Applications</title>
+<itunes:title>LaMDA: Language Models for Dialog Applications</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We present LaMDA: Language Models for Dialog Applications. LaMDA is a family of Transformer-based neural language models specialized for dialog, which have up to 137B parameters and are pre-trained on 1.56T words of public dialog data and web text. While model scaling alone can improve quality, it shows less improvements on safety and factual grounding. We demonstrate that fine-tuning with annotated data and enabling the model to consult external knowledge sources can lead to significant improvements towards the two key challenges of safety and factual grounding. The first challenge, safety, involves ensuring that the model's responses are consistent with a set of human values, such as preventing harmful suggestions and unfair bias. We quantify safety using a metric based on an illustrative set of human values, and we find that filtering candidate responses using a LaMDA classifier fine-tuned with a small amount of crowdworker-annotated data offers a promising approach to improving model safety. The second challenge, factual grounding, involves enabling the model to consult external knowledge sources, such as an information retrieval system, a language translator, and a calculator. We quantify factuality using a groundedness metric, and we find that our approach enables the model to generate responses grounded in known sources, rather than responses that merely sound plausible. Finally, we explore the use of LaMDA in the domains of education and content recommendations, and analyze their helpfulness and role consistency.]]></itunes:summary>
+<description><![CDATA[We present LaMDA: Language Models for Dialog Applications. LaMDA is a family of Transformer-based neural language models specialized for dialog, which have up to 137B parameters and are pre-trained on 1.56T words of public dialog data and web text. While model scaling alone can improve quality, it shows less improvements on safety and factual grounding. We demonstrate that fine-tuning with annotated data and enabling the model to consult external knowledge sources can lead to significant improvements towards the two key challenges of safety and factual grounding. The first challenge, safety, involves ensuring that the model's responses are consistent with a set of human values, such as preventing harmful suggestions and unfair bias. We quantify safety using a metric based on an illustrative set of human values, and we find that filtering candidate responses using a LaMDA classifier fine-tuned with a small amount of crowdworker-annotated data offers a promising approach to improving model safety. The second challenge, factual grounding, involves enabling the model to consult external knowledge sources, such as an information retrieval system, a language translator, and a calculator. We quantify factuality using a groundedness metric, and we find that our approach enables the model to generate responses grounded in known sources, rather than responses that merely sound plausible. Finally, we explore the use of LaMDA in the domains of education and content recommendations, and analyze their helpfulness and role consistency.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.08239v3.LaMDA_Language_Models_for_Dialog_Applications.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>7103.765</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.08239v3.LaMDA_Language_Models_for_Dialog_Applications.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -479,6 +666,23 @@
 </item>
 
 <item>
+<title>PolyLoss: A Polynomial Expansion Perspective of Classification Loss Functions</title>
+<itunes:title>PolyLoss: A Polynomial Expansion Perspective of Classification Loss Functions</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Cross-entropy loss and focal loss are the most common choices when training deep neural networks for classification problems. Generally speaking, however, a good loss function can take on much more flexible forms, and should be tailored for different tasks and datasets. Motivated by how functions can be approximated via Taylor expansion, we propose a simple framework, named PolyLoss, to view and design loss functions as a linear combination of polynomial functions. Our PolyLoss allows the importance of different polynomial bases to be easily adjusted depending on the targeting tasks and datasets, while naturally subsuming the aforementioned cross-entropy loss and focal loss as special cases. Extensive experimental results show that the optimal choice within the PolyLoss is indeed dependent on the task and dataset. Simply by introducing one extra hyperparameter and adding one line of code, our Poly-1 formulation outperforms the cross-entropy loss and focal loss on 2D image classification, instance segmentation, object detection, and 3D object detection tasks, sometimes by a large margin.]]></itunes:summary>
+<description><![CDATA[Cross-entropy loss and focal loss are the most common choices when training deep neural networks for classification problems. Generally speaking, however, a good loss function can take on much more flexible forms, and should be tailored for different tasks and datasets. Motivated by how functions can be approximated via Taylor expansion, we propose a simple framework, named PolyLoss, to view and design loss functions as a linear combination of polynomial functions. Our PolyLoss allows the importance of different polynomial bases to be easily adjusted depending on the targeting tasks and datasets, while naturally subsuming the aforementioned cross-entropy loss and focal loss as special cases. Extensive experimental results show that the optimal choice within the PolyLoss is indeed dependent on the task and dataset. Simply by introducing one extra hyperparameter and adding one line of code, our Poly-1 formulation outperforms the cross-entropy loss and focal loss on 2D image classification, instance segmentation, object detection, and 3D object detection tasks, sometimes by a large margin.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.12511v1.PolyLoss_A_Polynomial_Expansion_Perspective_of_Classification_Loss_Functions.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2992.666</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.12511v1.PolyLoss_A_Polynomial_Expansion_Perspective_of_Classification_Loss_Functions.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Distilling a Neural Network Into a Soft Decision Tree</title>
 <itunes:title>Distilling a Neural Network Into a Soft Decision Tree</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -542,6 +746,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.08200v1.Unsupervised_Natural_Language_Inference_via_Decoupled_Multimodal_Contrastive_Learning.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Masked Autoencoders As Spatiotemporal Learners</title>
+<itunes:title>Masked Autoencoders As Spatiotemporal Learners</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[This paper studies a conceptually simple extension of Masked Autoencoders (MAE) to spatiotemporal representation learning from videos. We randomly mask out spacetime patches in videos and learn an autoencoder to reconstruct them in pixels. Interestingly, we show that our MAE method can learn strong representations with almost no inductive bias on spacetime (only except for patch and positional embeddings), and spacetime-agnostic random masking performs the best. We observe that the optimal masking ratio is as high as 90% (vs. 75% on images), supporting the hypothesis that this ratio is related to information redundancy of the data. A high masking ratio leads to a large speedup, e.g., > 4x in wall-clock time or even more. We report competitive results on several challenging video datasets using vanilla Vision Transformers. We observe that MAE can outperform supervised pre-training by large margins. We further report encouraging results of training on real-world, uncurated Instagram data. Our study suggests that the general framework of masked autoencoding (BERT, MAE, etc.) can be a unified methodology for representation learning with minimal domain knowledge.]]></itunes:summary>
+<description><![CDATA[This paper studies a conceptually simple extension of Masked Autoencoders (MAE) to spatiotemporal representation learning from videos. We randomly mask out spacetime patches in videos and learn an autoencoder to reconstruct them in pixels. Interestingly, we show that our MAE method can learn strong representations with almost no inductive bias on spacetime (only except for patch and positional embeddings), and spacetime-agnostic random masking performs the best. We observe that the optimal masking ratio is as high as 90% (vs. 75% on images), supporting the hypothesis that this ratio is related to information redundancy of the data. A high masking ratio leads to a large speedup, e.g., > 4x in wall-clock time or even more. We report competitive results on several challenging video datasets using vanilla Vision Transformers. We observe that MAE can outperform supervised pre-training by large margins. We further report encouraging results of training on real-world, uncurated Instagram data. Our study suggests that the general framework of masked autoencoding (BERT, MAE, etc.) can be a unified methodology for representation learning with minimal domain knowledge.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09113v1.Masked_Autoencoders_As_Spatiotemporal_Learners.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2763.67675</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09113v1.Masked_Autoencoders_As_Spatiotemporal_Learners.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -632,6 +853,40 @@
 </item>
 
 <item>
+<title>RankGen: Improving Text Generation with Large Ranking Models</title>
+<itunes:title>RankGen: Improving Text Generation with Large Ranking Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Given an input sequence (or prefix), modern language models often assign high probabilities to output sequences that are repetitive, incoherent, or irrelevant to the prefix; as such, model-generated text also contains such artifacts. To address these issues, we present RankGen, an encoder model (1.2B parameters) that scores model generations given a prefix. RankGen can be flexibly incorporated as a scoring function in beam search and used to decode from any pretrained language model. We train RankGen using large-scale contrastive learning to map a prefix close to the ground-truth sequence that follows it and far away from two types of negatives: (1) random sequences from the same document as the prefix, and, which discourage topically-similar but irrelevant generations; (2) sequences generated from a large language model conditioned on the prefix, which discourage repetition and hallucination. Experiments across four different language models (345M-11B parameters) and two domains show that RankGen significantly outperforms decoding algorithms like nucleus, top-k, and typical sampling on both automatic metrics (85.0 vs 77.3 MAUVE) as well as human evaluations with English writers (74.5% human preference over nucleus sampling). Analysis reveals that RankGen outputs are more relevant to the prefix and improve continuity and coherence compared to baselines. We open source our model checkpoints, code, and human preferences with detailed explanations for future research.]]></itunes:summary>
+<description><![CDATA[Given an input sequence (or prefix), modern language models often assign high probabilities to output sequences that are repetitive, incoherent, or irrelevant to the prefix; as such, model-generated text also contains such artifacts. To address these issues, we present RankGen, an encoder model (1.2B parameters) that scores model generations given a prefix. RankGen can be flexibly incorporated as a scoring function in beam search and used to decode from any pretrained language model. We train RankGen using large-scale contrastive learning to map a prefix close to the ground-truth sequence that follows it and far away from two types of negatives: (1) random sequences from the same document as the prefix, and, which discourage topically-similar but irrelevant generations; (2) sequences generated from a large language model conditioned on the prefix, which discourage repetition and hallucination. Experiments across four different language models (345M-11B parameters) and two domains show that RankGen significantly outperforms decoding algorithms like nucleus, top-k, and typical sampling on both automatic metrics (85.0 vs 77.3 MAUVE) as well as human evaluations with English writers (74.5% human preference over nucleus sampling). Analysis reveals that RankGen outputs are more relevant to the prefix and improve continuity and coherence compared to baselines. We open source our model checkpoints, code, and human preferences with detailed explanations for future research.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09726v1.RankGen_Improving_Text_Generation_with_Large_Ranking_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4381.91025</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09726v1.RankGen_Improving_Text_Generation_with_Large_Ranking_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Propose-and-Refine: A Two-Stage Set Prediction Network for Nested Named Entity Recognition</title>
+<itunes:title>Propose-and-Refine: A Two-Stage Set Prediction Network for Nested Named Entity Recognition</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Nested named entity recognition (nested NER) is a fundamental task in natural language processing. Various span-based methods have been proposed to detect nested entities with span representations. However, span-based methods do not consider the relationship between a span and other entities or phrases, which is helpful in the NER task. Besides, span-based methods have trouble predicting long entities due to limited span enumeration length. To mitigate these issues, we present the Propose-and-Refine Network (PnRNet), a two-stage set prediction network for nested NER. In the propose stage, we use a span-based predictor to generate some coarse entity predictions as entity proposals. In the refine stage, proposals interact with each other, and richer contextual information is incorporated into the proposal representations. The refined proposal representations are used to re-predict entity boundaries and classes. In this way, errors in coarse proposals can be eliminated, and the boundary prediction is no longer constrained by the span enumeration length limitation. Additionally, we build multi-scale sentence representations, which better model the hierarchical structure of sentences and provide richer contextual information than token-level representations. Experiments show that PnRNet achieves state-of-the-art performance on four nested NER datasets and one flat NER dataset.]]></itunes:summary>
+<description><![CDATA[Nested named entity recognition (nested NER) is a fundamental task in natural language processing. Various span-based methods have been proposed to detect nested entities with span representations. However, span-based methods do not consider the relationship between a span and other entities or phrases, which is helpful in the NER task. Besides, span-based methods have trouble predicting long entities due to limited span enumeration length. To mitigate these issues, we present the Propose-and-Refine Network (PnRNet), a two-stage set prediction network for nested NER. In the propose stage, we use a span-based predictor to generate some coarse entity predictions as entity proposals. In the refine stage, proposals interact with each other, and richer contextual information is incorporated into the proposal representations. The refined proposal representations are used to re-predict entity boundaries and classes. In this way, errors in coarse proposals can be eliminated, and the boundary prediction is no longer constrained by the span enumeration length limitation. Additionally, we build multi-scale sentence representations, which better model the hierarchical structure of sentences and provide richer contextual information than token-level representations. Experiments show that PnRNet achieves state-of-the-art performance on four nested NER datasets and one flat NER dataset.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.12732v1.Propose_and_Refine_A_Two_Stage_Set_Prediction_Network_for_Nested_Named_Entity_Recognition.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1766.11275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.12732v1.Propose_and_Refine_A_Two_Stage_Set_Prediction_Network_for_Nested_Named_Entity_Recognition.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language</title>
 <itunes:title>ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -683,6 +938,23 @@
 </item>
 
 <item>
+<title>Why GANs are overkill for NLP</title>
+<itunes:title>Why GANs are overkill for NLP</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[This work offers a novel theoretical perspective on why, despite numerous attempts, adversarial approaches to generative modeling (e.g., GANs) have not been as popular for certain generation tasks, particularly sequential tasks such as Natural Language Generation, as they have in others, such as Computer Vision. In particular, on sequential data such as text, maximum-likelihood approaches are significantly more utilized than GANs. We show that, while it may seem that maximizing likelihood is inherently different than minimizing distinguishability, this distinction is largely artificial and only holds for limited models. We argue that minimizing KL-divergence (i.e., maximizing likelihood) is a more efficient approach to effectively minimizing the same distinguishability criteria that adversarial models seek to optimize. Reductions show that minimizing distinguishability can be seen as simply boosting likelihood for certain families of models including n-gram models and neural networks with a softmax output layer. To achieve a full polynomial-time reduction, a novel next-token distinguishability model is considered.]]></itunes:summary>
+<description><![CDATA[This work offers a novel theoretical perspective on why, despite numerous attempts, adversarial approaches to generative modeling (e.g., GANs) have not been as popular for certain generation tasks, particularly sequential tasks such as Natural Language Generation, as they have in others, such as Computer Vision. In particular, on sequential data such as text, maximum-likelihood approaches are significantly more utilized than GANs. We show that, while it may seem that maximizing likelihood is inherently different than minimizing distinguishability, this distinction is largely artificial and only holds for limited models. We argue that minimizing KL-divergence (i.e., maximizing likelihood) is a more efficient approach to effectively minimizing the same distinguishability criteria that adversarial models seek to optimize. Reductions show that minimizing distinguishability can be seen as simply boosting likelihood for certain families of models including n-gram models and neural networks with a softmax output layer. To achieve a full polynomial-time reduction, a novel next-token distinguishability model is considered.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09838v1.Why_GANs_are_overkill_for_NLP.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2474.91925</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09838v1.Why_GANs_are_overkill_for_NLP.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</title>
 <itunes:title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -695,6 +967,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.07434v1.Exploring_the_Limits_of_Natural_Language_Inference_Based_Setup_for_Few_Shot_Intent_Detection.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Autoregressive Search Engines: Generating Substrings as Document Identifiers</title>
+<itunes:title>Autoregressive Search Engines: Generating Substrings as Document Identifiers</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Knowledge-intensive language tasks require NLP systems to both provide the correct answer and retrieve supporting evidence for it in a given corpus. Autoregressive language models are emerging as the de-facto standard for generating answers, with newer and more powerful systems emerging at an astonishing pace. In this paper we argue that all this (and future) progress can be directly applied to the retrieval problem with minimal intervention to the models' architecture. Previous work has explored ways to partition the search space into hierarchical structures and retrieve documents by autoregressively generating their unique identifier. In this work we propose an alternative that doesn't force any structure in the search space: using all ngrams in a passage as its possible identifiers. This setup allows us to use an autoregressive model to generate and score distinctive ngrams, that are then mapped to full passages through an efficient data structure. Empirically, we show this not only outperforms prior autoregressive approaches but also leads to an average improvement of at least 10 points over more established retrieval solutions for passage-level retrieval on the KILT benchmark, establishing new state-of-the-art downstream performance on some datasets, while using a considerably lighter memory footprint than competing systems. Code and pre-trained models at https://github.com/facebookresearch/SEAL.]]></itunes:summary>
+<description><![CDATA[Knowledge-intensive language tasks require NLP systems to both provide the correct answer and retrieve supporting evidence for it in a given corpus. Autoregressive language models are emerging as the de-facto standard for generating answers, with newer and more powerful systems emerging at an astonishing pace. In this paper we argue that all this (and future) progress can be directly applied to the retrieval problem with minimal intervention to the models' architecture. Previous work has explored ways to partition the search space into hierarchical structures and retrieve documents by autoregressively generating their unique identifier. In this work we propose an alternative that doesn't force any structure in the search space: using all ngrams in a passage as its possible identifiers. This setup allows us to use an autoregressive model to generate and score distinctive ngrams, that are then mapped to full passages through an efficient data structure. Empirically, we show this not only outperforms prior autoregressive approaches but also leads to an average improvement of at least 10 points over more established retrieval solutions for passage-level retrieval on the KILT benchmark, establishing new state-of-the-art downstream performance on some datasets, while using a considerably lighter memory footprint than competing systems. Code and pre-trained models at https://github.com/facebookresearch/SEAL.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.10628v1.Autoregressive_Search_Engines_Generating_Substrings_as_Document_Identifiers.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4549.956</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.10628v1.Autoregressive_Search_Engines_Generating_Substrings_as_Document_Identifiers.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -746,6 +1035,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.12926v1.Multitasking_Framework_for_Unsupervised_Simple_Definition_Generation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>What do You Mean by Relation Extraction? A Survey on Datasets and Study on Scientific Relation Classification</title>
+<itunes:title>What do You Mean by Relation Extraction? A Survey on Datasets and Study on Scientific Relation Classification</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Over the last five years, research on Relation Extraction (RE) witnessed extensive progress with many new dataset releases. At the same time, setup clarity has decreased, contributing to increased difficulty of reliable empirical evaluation (Taill\'e et al., 2020). In this paper, we provide a comprehensive survey of RE datasets, and revisit the task definition and its adoption by the community. We find that cross-dataset and cross-domain setups are particularly lacking. We present an empirical study on scientific Relation Classification across two datasets. Despite large data overlap, our analysis reveals substantial discrepancies in annotation. Annotation discrepancies strongly impact Relation Classification performance, explaining large drops in cross-dataset evaluations. Variation within further sub-domains exists but impacts Relation Classification only to limited degrees. Overall, our study calls for more rigour in reporting setups in RE and evaluation across multiple test sets.]]></itunes:summary>
+<description><![CDATA[Over the last five years, research on Relation Extraction (RE) witnessed extensive progress with many new dataset releases. At the same time, setup clarity has decreased, contributing to increased difficulty of reliable empirical evaluation (Taill\'e et al., 2020). In this paper, we provide a comprehensive survey of RE datasets, and revisit the task definition and its adoption by the community. We find that cross-dataset and cross-domain setups are particularly lacking. We present an empirical study on scientific Relation Classification across two datasets. Despite large data overlap, our analysis reveals substantial discrepancies in annotation. Annotation discrepancies strongly impact Relation Classification performance, explaining large drops in cross-dataset evaluations. Variation within further sub-domains exists but impacts Relation Classification only to limited degrees. Overall, our study calls for more rigour in reporting setups in RE and evaluation across multiple test sets.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.13516v1.What_do_You_Mean_by_Relation_Extraction_A_Survey_on_Datasets_and_Study_on_Scientific_Relation_Classification.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2557.51825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.13516v1.What_do_You_Mean_by_Relation_Extraction_A_Survey_on_Datasets_and_Study_on_Scientific_Relation_Classification.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -838,6 +1144,40 @@
 </item>
 
 <item>
+<title>Is My Model Using The Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning</title>
+<itunes:title>Is My Model Using The Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Neural models command state-of-the-art performance across NLP tasks, including ones involving "reasoning". Models claiming to reason about the evidence presented to them should attend to the correct parts of the input avoiding spurious patterns therein, be self-consistent in their predictions across inputs, and be immune to biases derived from their pre-training in a nuanced, context-sensitive fashion. {\em Do the prevalent *BERT-family of models do so?} In this paper, we study this question using the problem of reasoning on tabular data. Tabular inputs are especially well-suited for the study -- they admit systematic probes targeting the properties listed above. Our experiments demonstrate that a RoBERTa-based model, representative of the current state-of-the-art, fails at reasoning on the following counts: it (a) ignores relevant parts of the evidence, (b) is over-sensitive to annotation artifacts, and (c) relies on the knowledge encoded in the pre-trained language model rather than the evidence presented in its tabular inputs. Finally, through inoculation experiments, we show that fine-tuning the model on perturbed data does not help it overcome the above challenges.]]></itunes:summary>
+<description><![CDATA[Neural models command state-of-the-art performance across NLP tasks, including ones involving "reasoning". Models claiming to reason about the evidence presented to them should attend to the correct parts of the input avoiding spurious patterns therein, be self-consistent in their predictions across inputs, and be immune to biases derived from their pre-training in a nuanced, context-sensitive fashion. {\em Do the prevalent *BERT-family of models do so?} In this paper, we study this question using the problem of reasoning on tabular data. Tabular inputs are especially well-suited for the study -- they admit systematic probes targeting the properties listed above. Our experiments demonstrate that a RoBERTa-based model, representative of the current state-of-the-art, fails at reasoning on the following counts: it (a) ignores relevant parts of the evidence, (b) is over-sensitive to annotation artifacts, and (c) relies on the knowledge encoded in the pre-trained language model rather than the evidence presented in its tabular inputs. Finally, through inoculation experiments, we show that fine-tuning the model on perturbed data does not help it overcome the above challenges.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.00578v3.Is_My_Model_Using_The_Right_Evidence_Systematic_Probes_for_Examining_Evidence_Based_Tabular_Reasoning.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3382.7005</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.00578v3.Is_My_Model_Using_The_Right_Evidence_Systematic_Probes_for_Examining_Evidence_Based_Tabular_Reasoning.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations</title>
+<itunes:title>Last Layer Re-Training is Sufficient for Robustness to Spurious Correlations</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Neural network classifiers can largely rely on simple spurious features, such as backgrounds, to make predictions. However, even in these cases, we show that they still often learn core features associated with the desired attributes of the data, contrary to recent findings. Inspired by this insight, we demonstrate that simple last layer retraining can match or outperform state-of-the-art approaches on spurious correlation benchmarks, but with profoundly lower complexity and computational expenses. Moreover, we show that last layer retraining on large ImageNet-trained models can also significantly reduce reliance on background and texture information, improving robustness to covariate shift, after only minutes of training on a single GPU.]]></itunes:summary>
+<description><![CDATA[Neural network classifiers can largely rely on simple spurious features, such as backgrounds, to make predictions. However, even in these cases, we show that they still often learn core features associated with the desired attributes of the data, contrary to recent findings. Inspired by this insight, we demonstrate that simple last layer retraining can match or outperform state-of-the-art approaches on spurious correlation benchmarks, but with profoundly lower complexity and computational expenses. Moreover, we show that last layer retraining on large ImageNet-trained models can also significantly reduce reliance on background and texture information, improving robustness to covariate shift, after only minutes of training on a single GPU.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.02937v1.Last_Layer_Re_Training_is_Sufficient_for_Robustness_to_Spurious_Correlations.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4514.8735</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.02937v1.Last_Layer_Re_Training_is_Sufficient_for_Robustness_to_Spurious_Correlations.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</title>
 <itunes:title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -918,6 +1258,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.02177v1.Grokking_Generalization_Beyond_Overfitting_on_Small_Algorithmic_Datasets.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>The Dangers of Underclaiming: Reasons for Caution When Reporting How NLP Systems Fail</title>
+<itunes:title>The Dangers of Underclaiming: Reasons for Caution When Reporting How NLP Systems Fail</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Researchers in NLP often frame and discuss research results in ways that serve to deemphasize the field's successes, often in response to the field's widespread hype. Though well-meaning, this has yielded many misleading or false claims about the limits of our best technology. This is a problem, and it may be more serious than it looks: It harms our credibility in ways that can make it harder to mitigate present-day harms, like those involving biased systems for content moderation or resume screening. It also limits our ability to prepare for the potentially enormous impacts of more distant future advances. This paper urges researchers to be careful about these claims and suggests some research directions and communication strategies that will make it easier to avoid or rebut them.]]></itunes:summary>
+<description><![CDATA[Researchers in NLP often frame and discuss research results in ways that serve to deemphasize the field's successes, often in response to the field's widespread hype. Though well-meaning, this has yielded many misleading or false claims about the limits of our best technology. This is a problem, and it may be more serious than it looks: It harms our credibility in ways that can make it harder to mitigate present-day harms, like those involving biased systems for content moderation or resume screening. It also limits our ability to prepare for the potentially enormous impacts of more distant future advances. This paper urges researchers to be careful about these claims and suggests some research directions and communication strategies that will make it easier to avoid or rebut them.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.08300v3.The_Dangers_of_Underclaiming_Reasons_for_Caution_When_Reporting_How_NLP_Systems_Fail.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2659.91825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.08300v3.The_Dangers_of_Underclaiming_Reasons_for_Caution_When_Reporting_How_NLP_Systems_Fail.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
