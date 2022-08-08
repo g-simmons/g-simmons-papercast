@@ -955,6 +955,23 @@
 </item>
 
 <item>
+<title>Do Multilingual Language Models Capture Differing Moral Norms?</title>
+<itunes:title>Do Multilingual Language Models Capture Differing Moral Norms?</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Massively multilingual sentence representations are trained on large corpora of uncurated data, with a very imbalanced proportion of languages included in the training. This may cause the models to grasp cultural values including moral judgments from the high-resource languages and impose them on the low-resource languages. The lack of data in certain languages can also lead to developing random and thus potentially harmful beliefs. Both these issues can negatively influence zero-shot cross-lingual model transfer and potentially lead to harmful outcomes. Therefore, we aim to (1) detect and quantify these issues by comparing different models in different languages, (2) develop methods for improving undesirable properties of the models. Our initial experiments using the multilingual model XLM-R show that indeed multilingual LMs capture moral norms, even with potentially higher human-agreement than monolingual ones. However, it is not yet clear to what extent these moral norms differ between languages.]]></itunes:summary>
+<description><![CDATA[Massively multilingual sentence representations are trained on large corpora of uncurated data, with a very imbalanced proportion of languages included in the training. This may cause the models to grasp cultural values including moral judgments from the high-resource languages and impose them on the low-resource languages. The lack of data in certain languages can also lead to developing random and thus potentially harmful beliefs. Both these issues can negatively influence zero-shot cross-lingual model transfer and potentially lead to harmful outcomes. Therefore, we aim to (1) detect and quantify these issues by comparing different models in different languages, (2) develop methods for improving undesirable properties of the models. Our initial experiments using the multilingual model XLM-R show that indeed multilingual LMs capture moral norms, even with potentially higher human-agreement than monolingual ones. However, it is not yet clear to what extent these moral norms differ between languages.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.09904v1.Do_Multilingual_Language_Models_Capture_Differing_Moral_Norms.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>377.23425</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.09904v1.Do_Multilingual_Language_Models_Capture_Differing_Moral_Norms.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer</title>
 <itunes:title>Thank you BART! Rewarding Pre-Trained Models Improves Formality Style Transfer</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
