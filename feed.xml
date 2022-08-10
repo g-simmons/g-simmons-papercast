@@ -528,6 +528,23 @@
 </item>
 
 <item>
+<title>Moral Dilemmas for Moral Machines</title>
+<itunes:title>Moral Dilemmas for Moral Machines</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Autonomous systems are being developed and deployed in situations that may require some degree of ethical decision-making ability. As a result, research in machine ethics has proliferated in recent years. This work has included using moral dilemmas as validation mechanisms for implementing decision-making algorithms in ethically-loaded situations. Using trolley-style problems in the context of autonomous vehicles as a case study, I argue (1) that this is a misapplication of philosophical thought experiments because (2) it fails to appreciate the purpose of moral dilemmas, and (3) this has potentially catastrophic consequences; however, (4) there are uses of moral dilemmas in machine ethics that are appropriate and the novel situations that arise in a machine-learning context can shed some light on philosophical work in ethics.]]></itunes:summary>
+<description><![CDATA[Autonomous systems are being developed and deployed in situations that may require some degree of ethical decision-making ability. As a result, research in machine ethics has proliferated in recent years. This work has included using moral dilemmas as validation mechanisms for implementing decision-making algorithms in ethically-loaded situations. Using trolley-style problems in the context of autonomous vehicles as a case study, I argue (1) that this is a misapplication of philosophical thought experiments because (2) it fails to appreciate the purpose of moral dilemmas, and (3) this has potentially catastrophic consequences; however, (4) there are uses of moral dilemmas in machine ethics that are appropriate and the novel situations that arise in a machine-learning context can shed some light on philosophical work in ethics.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.06152v1.Moral_Dilemmas_for_Moral_Machines.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2189.244</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.06152v1.Moral_Dilemmas_for_Moral_Machines.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
   Base Population</title>
 <itunes:title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge
@@ -559,6 +576,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.08239v3.LaMDA_Language_Models_for_Dialog_Applications.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>BERT has a Moral Compass: Improvements of ethical and moral values of machines</title>
+<itunes:title>BERT has a Moral Compass: Improvements of ethical and moral values of machines</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? Jentzsch et al.(2019) showed that applying machine learning to human texts can extract deontological ethical reasoning about "right" and "wrong" conduct by calculating a moral bias score on a sentence level using sentence embeddings. The machine learned that it is objectionable to kill living beings, but it is fine to kill time; It is essential to eat, yet one might not eat dirt; it is important to spread information, yet one should not spread misinformation. However, the evaluated moral bias was restricted to simple actions -- one verb -- and a ranking of actions with surrounding context. Recently BERT ---and variants such as RoBERTa and SBERT--- has set a new state-of-the-art performance for a wide range of NLP tasks. But has BERT also a better moral compass? In this paper, we discuss and show that this is indeed the case. Thus, recent improvements of language representations also improve the representation of the underlying ethical and moral values of the machine. We argue that through an advanced semantic representation of text, BERT allows one to get better insights of moral and ethical values implicitly represented in text. This enables the Moral Choice Machine (MCM) to extract more accurate imprints of moral choices and ethical values.]]></itunes:summary>
+<description><![CDATA[Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? Jentzsch et al.(2019) showed that applying machine learning to human texts can extract deontological ethical reasoning about "right" and "wrong" conduct by calculating a moral bias score on a sentence level using sentence embeddings. The machine learned that it is objectionable to kill living beings, but it is fine to kill time; It is essential to eat, yet one might not eat dirt; it is important to spread information, yet one should not spread misinformation. However, the evaluated moral bias was restricted to simple actions -- one verb -- and a ranking of actions with surrounding context. Recently BERT ---and variants such as RoBERTa and SBERT--- has set a new state-of-the-art performance for a wide range of NLP tasks. But has BERT also a better moral compass? In this paper, we discuss and show that this is indeed the case. Thus, recent improvements of language representations also improve the representation of the underlying ethical and moral values of the machine. We argue that through an advanced semantic representation of text, BERT allows one to get better insights of moral and ethical values implicitly represented in text. This enables the Moral Choice Machine (MCM) to extract more accurate imprints of moral choices and ethical values.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.05238v1.BERT_has_a_Moral_Compass_Improvements_of_ethical_and_moral_values_of_machines.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2212.075</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.05238v1.BERT_has_a_Moral_Compass_Improvements_of_ethical_and_moral_values_of_machines.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1023,6 +1057,23 @@
 </item>
 
 <item>
+<title>Aligning AI With Shared Human Values</title>
+<itunes:title>Aligning AI With Shared Human Values</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete ability to predict basic human ethical judgements. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.]]></itunes:summary>
+<description><![CDATA[We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete ability to predict basic human ethical judgements. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2008.02275v5.Aligning_AI_With_Shared_Human_Values.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4847.6995</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2008.02275v5.Aligning_AI_With_Shared_Human_Values.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</title>
 <itunes:title>Exploring the Limits of Natural Language Inference Based Setup for Few-Shot Intent Detection</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1292,6 +1343,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.08608v1.QuALITY_Question_Answering_with_Long_Input_Texts_Yes.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences</title>
+<itunes:title>Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[In social settings, much of human behavior is governed by unspoken rules of conduct. For artificial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. We investigate whether contemporary NLG models can function as behavioral priors for systems deployed in social settings by generating action hypotheses that achieve predefined goals under moral constraints. Moreover, we examine if models can anticipate likely consequences of (im)moral actions, or explain why certain actions are preferable by generating relevant norms. For this purpose, we introduce 'Moral Stories', a crowd-sourced dataset of structured, branching narratives for the study of grounded, goal-oriented social reasoning. Finally, we propose decoding strategies that effectively combine multiple expert models to significantly improve the quality of generated actions, consequences, and norms compared to strong baselines, e.g. though abductive reasoning.]]></itunes:summary>
+<description><![CDATA[In social settings, much of human behavior is governed by unspoken rules of conduct. For artificial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. We investigate whether contemporary NLG models can function as behavioral priors for systems deployed in social settings by generating action hypotheses that achieve predefined goals under moral constraints. Moreover, we examine if models can anticipate likely consequences of (im)moral actions, or explain why certain actions are preferable by generating relevant norms. For this purpose, we introduce 'Moral Stories', a crowd-sourced dataset of structured, branching narratives for the study of grounded, goal-oriented social reasoning. Finally, we propose decoding strategies that effectively combine multiple expert models to significantly improve the quality of generated actions, consequences, and norms compared to strong baselines, e.g. though abductive reasoning.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2012.15738v1.Moral_Stories_Situated_Reasoning_about_Norms_Intents_Actions_and_their_Consequences.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2987.076</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2012.15738v1.Moral_Stories_Situated_Reasoning_about_Norms_Intents_Actions_and_their_Consequences.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
