@@ -239,6 +239,23 @@
 </item>
 
 <item>
+<title>Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy</title>
+<itunes:title>Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets -- and if so, what? Here, we probe the Allen AI Delphi model with a set of standardized morality questionnaires, and find that, despite some inconsistencies, Delphi tends to mirror the moral principles associated with the demographic groups involved in the annotation process. We question whether this is desirable and discuss how we might move forward with this knowledge.]]></itunes:summary>
+<description><![CDATA[In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets -- and if so, what? Here, we probe the Allen AI Delphi model with a set of standardized morality questionnaires, and find that, despite some inconsistencies, Delphi tends to mirror the moral principles associated with the demographic groups involved in the annotation process. We question whether this is desirable and discuss how we might move forward with this knowledge.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.12771v1.Does_Moral_Code_Have_a_Moral_Code_Probing_Delphi_s_Moral_Philosophy.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3818.29225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.12771v1.Does_Moral_Code_Have_a_Moral_Code_Probing_Delphi_s_Moral_Philosophy.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>STaR: Bootstrapping Reasoning With Reasoning</title>
 <itunes:title>STaR: Bootstrapping Reasoning With Reasoning</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -683,6 +700,23 @@
 </item>
 
 <item>
+<title>Can Machines Learn Morality? The Delphi Experiment</title>
+<itunes:title>Can Machines Learn Morality? The Delphi Experiment</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.   To explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., "helping a friend" is generally good, while "helping a friend spread fake news" is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.   Yet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.]]></itunes:summary>
+<description><![CDATA[As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity continues to grapple with it.   To explore this challenge, we introduce Delphi, an experimental framework based on deep neural networks trained directly to reason about descriptive ethical judgments, e.g., "helping a friend" is generally good, while "helping a friend spread fake news" is not. Empirical results shed novel insights on the promises and limits of machine ethics; Delphi demonstrates strong generalization capabilities in the face of novel ethical situations, while off-the-shelf neural network models exhibit markedly poor judgment including unjust biases, confirming the need for explicitly teaching machines moral sense.   Yet, Delphi is not perfect, exhibiting susceptibility to pervasive biases and inconsistencies. Despite that, we demonstrate positive use cases of imperfect Delphi, including using it as a component model within other imperfect AI systems. Importantly, we interpret the operationalization of Delphi in light of prominent ethical theories, which leads us to important future research questions.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.07574v2.Can_Machines_Learn_Morality_The_Delphi_Experiment.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>8257.54125</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.07574v2.Can_Machines_Learn_Morality_The_Delphi_Experiment.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</title>
 <itunes:title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -763,6 +797,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1711.09784v1.Distilling_a_Neural_Network_Into_a_Soft_Decision_Tree.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Social Chemistry 101: Learning to Reason about Social and Moral Norms</title>
+<itunes:title>Social Chemistry 101: Learning to Reason about Social and Moral Norms</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Social norms -- the unspoken commonsense rules about acceptable social behavior -- are crucial in understanding the underlying causes and intents of people's actions in narratives. For example, underlying an action such as "wanting to call cops on my neighbors" are social norms that inform our conduct, such as "It is expected that you report crimes."   We present Social Chemistry, a new conceptual formalism to study people's everyday social norms and moral judgments over a rich spectrum of real life situations described in natural language. We introduce Social-Chem-101, a large-scale corpus that catalogs 292k rules-of-thumb such as "it is rude to run a blender at 5am" as the basic conceptual units. Each rule-of-thumb is further broken down with 12 different dimensions of people's judgments, including social judgments of good and bad, moral foundations, expected cultural pressure, and assumed legality, which together amount to over 4.5 million annotations of categorical labels and free-text descriptions.   Comprehensive empirical results based on state-of-the-art neural models demonstrate that computational modeling of social norms is a promising research direction. Our model framework, Neural Norm Transformer, learns and generalizes Social-Chem-101 to successfully reason about previously unseen situations, generating relevant (and potentially novel) attribute-aware social rules-of-thumb.]]></itunes:summary>
+<description><![CDATA[Social norms -- the unspoken commonsense rules about acceptable social behavior -- are crucial in understanding the underlying causes and intents of people's actions in narratives. For example, underlying an action such as "wanting to call cops on my neighbors" are social norms that inform our conduct, such as "It is expected that you report crimes."   We present Social Chemistry, a new conceptual formalism to study people's everyday social norms and moral judgments over a rich spectrum of real life situations described in natural language. We introduce Social-Chem-101, a large-scale corpus that catalogs 292k rules-of-thumb such as "it is rude to run a blender at 5am" as the basic conceptual units. Each rule-of-thumb is further broken down with 12 different dimensions of people's judgments, including social judgments of good and bad, moral foundations, expected cultural pressure, and assumed legality, which together amount to over 4.5 million annotations of categorical labels and free-text descriptions.   Comprehensive empirical results based on state-of-the-art neural models demonstrate that computational modeling of social norms is a promising research direction. Our model framework, Neural Norm Transformer, learns and generalizes Social-Chem-101 to successfully reason about previously unseen situations, generating relevant (and potentially novel) attribute-aware social rules-of-thumb.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2011.00620v3.Social_Chemistry_101_Learning_to_Reason_about_Social_and_Moral_Norms.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3446.04725</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2011.00620v3.Social_Chemistry_101_Learning_to_Reason_about_Social_and_Moral_Norms.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
