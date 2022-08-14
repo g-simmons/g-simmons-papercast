@@ -751,6 +751,23 @@
 </item>
 
 <item>
+<title>RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models</title>
+<itunes:title>RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Pretrained neural language models (LMs) are prone to generating racist, sexist, or otherwise toxic language which hinders their safe deployment. We investigate the extent to which pretrained LMs can be prompted to generate toxic language, and the effectiveness of controllable text generation algorithms at preventing such toxic degeneration. We create and release RealToxicityPrompts, a dataset of 100K naturally occurring, sentence-level prompts derived from a large corpus of English web text, paired with toxicity scores from a widely-used toxicity classifier. Using RealToxicityPrompts, we find that pretrained LMs can degenerate into toxic text even from seemingly innocuous prompts. We empirically assess several controllable generation methods, and find that while data- or compute-intensive methods (e.g., adaptive pretraining on non-toxic data) are more effective at steering away from toxicity than simpler solutions (e.g., banning "bad" words), no current method is failsafe against neural toxic degeneration. To pinpoint the potential cause of such persistent toxic degeneration, we analyze two web text corpora used to pretrain several LMs (including GPT-2; Radford et. al, 2019), and find a significant amount of offensive, factually unreliable, and otherwise toxic content. Our work provides a test bed for evaluating toxic generations by LMs and stresses the need for better data selection processes for pretraining.]]></itunes:summary>
+<description><![CDATA[Pretrained neural language models (LMs) are prone to generating racist, sexist, or otherwise toxic language which hinders their safe deployment. We investigate the extent to which pretrained LMs can be prompted to generate toxic language, and the effectiveness of controllable text generation algorithms at preventing such toxic degeneration. We create and release RealToxicityPrompts, a dataset of 100K naturally occurring, sentence-level prompts derived from a large corpus of English web text, paired with toxicity scores from a widely-used toxicity classifier. Using RealToxicityPrompts, we find that pretrained LMs can degenerate into toxic text even from seemingly innocuous prompts. We empirically assess several controllable generation methods, and find that while data- or compute-intensive methods (e.g., adaptive pretraining on non-toxic data) are more effective at steering away from toxicity than simpler solutions (e.g., banning "bad" words), no current method is failsafe against neural toxic degeneration. To pinpoint the potential cause of such persistent toxic degeneration, we analyze two web text corpora used to pretrain several LMs (including GPT-2; Radford et. al, 2019), and find a significant amount of offensive, factually unreliable, and otherwise toxic content. Our work provides a test bed for evaluating toxic generations by LMs and stresses the need for better data selection processes for pretraining.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2009.11462v2.RealToxicityPrompts_Evaluating_Neural_Toxic_Degeneration_in_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3925.969</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2009.11462v2.RealToxicityPrompts_Evaluating_Neural_Toxic_Degeneration_in_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Chain of Thought Prompting Elicits Reasoning in Large Language Models</title>
 <itunes:title>Chain of Thought Prompting Elicits Reasoning in Large Language Models</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -950,6 +967,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.05832v1.What_Language_Model_Architecture_and_Pretraining_Objective_Work_Best_for_Zero_Shot_Generalization.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Case Study: Deontological Ethics in NLP</title>
+<itunes:title>Case Study: Deontological Ethics in NLP</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable content like hate speech, stereotypes and offensive language; and building frameworks for better system design and data handling practices. However, there has been little discussion about the ethical foundations that underlie these efforts. In this work, we study one ethical theory, namely deontological ethics, from the perspective of NLP. In particular, we focus on the generalization principle and the respect for autonomy through informed consent. We provide four case studies to demonstrate how these principles can be used with NLP systems. We also recommend directions to avoid the ethical issues in these systems.]]></itunes:summary>
+<description><![CDATA[Recent work in natural language processing (NLP) has focused on ethical challenges such as understanding and mitigating bias in data and algorithms; identifying objectionable content like hate speech, stereotypes and offensive language; and building frameworks for better system design and data handling practices. However, there has been little discussion about the ethical foundations that underlie these efforts. In this work, we study one ethical theory, namely deontological ethics, from the perspective of NLP. In particular, we focus on the generalization principle and the respect for autonomy through informed consent. We provide four case studies to demonstrate how these principles can be used with NLP systems. We also recommend directions to avoid the ethical issues in these systems.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.04658v2.Case_Study_Deontological_Ethics_in_NLP.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2717.1005</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.04658v2.Case_Study_Deontological_Ethics_in_NLP.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1309,6 +1343,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.02113v4.From_Discrimination_to_Generation_Knowledge_Graph_Completion_with_Generative_Transformer.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes</title>
+<itunes:title>Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[As AI systems become an increasing part of people's everyday lives, it becomes ever more important that they understand people's ethical norms. Motivated by descriptive ethics, a field of study that focuses on people's descriptive judgments rather than theoretical prescriptions on morality, we investigate a novel, data-driven approach to machine ethics.   We introduce Scruples, the first large-scale dataset with 625,000 ethical judgments over 32,000 real-life anecdotes. Each anecdote recounts a complex ethical situation, often posing moral dilemmas, paired with a distribution of judgments contributed by the community members. Our dataset presents a major challenge to state-of-the-art neural language models, leaving significant room for improvement. However, when presented with simplified moral situations, the results are considerably more promising, suggesting that neural models can effectively learn simpler ethical building blocks.   A key take-away of our empirical analysis is that norms are not always clean-cut; many situations are naturally divisive. We present a new method to estimate the best possible performance on such tasks with inherently diverse label distributions, and explore likelihood functions that separate intrinsic from model uncertainty.]]></itunes:summary>
+<description><![CDATA[As AI systems become an increasing part of people's everyday lives, it becomes ever more important that they understand people's ethical norms. Motivated by descriptive ethics, a field of study that focuses on people's descriptive judgments rather than theoretical prescriptions on morality, we investigate a novel, data-driven approach to machine ethics.   We introduce Scruples, the first large-scale dataset with 625,000 ethical judgments over 32,000 real-life anecdotes. Each anecdote recounts a complex ethical situation, often posing moral dilemmas, paired with a distribution of judgments contributed by the community members. Our dataset presents a major challenge to state-of-the-art neural language models, leaving significant room for improvement. However, when presented with simplified moral situations, the results are considerably more promising, suggesting that neural models can effectively learn simpler ethical building blocks.   A key take-away of our empirical analysis is that norms are not always clean-cut; many situations are naturally divisive. We present a new method to estimate the best possible performance on such tasks with inherently diverse label distributions, and explore likelihood functions that separate intrinsic from model uncertainty.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2008.09094v2.Scruples_A_Corpus_of_Community_Ethical_Judgments_on_32_000_Real_Life_Anecdotes.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4356.12725</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2008.09094v2.Scruples_A_Corpus_of_Community_Ethical_Judgments_on_32_000_Real_Life_Anecdotes.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
