@@ -904,6 +904,23 @@
 </item>
 
 <item>
+<title>Aligning Generative Language Models with Human Values</title>
+<itunes:title>Aligning Generative Language Models with Human Values</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Although current large-scale generative language models (LMs) can show impressive insights about factual knowledge, they do not exhibit similar success with respect to human values judgements (e.g., whether or not the generations of an LM are moral ). Existing methods learn human values either by directly mimick-ing the behavior of human data, or rigidly con-straining the generation space to human-chosen tokens. These methods are inherently limited in that they do not consider the contextual and abstract nature of human values and as a result often fail when dealing with out-of-domain context or sophisticated and abstract human values. This paper proposes S ENSEI , a new reinforcement learning based method that can embed human values judgements into each step of language generation. S ENSEI deploys an Actor-Critic framework, where the Critic is a reward distributor that simulates the reward assignment procedure of humans, while the Actor guides the generation towards the maximum reward direction. Compared with five existing methods in three human values alignment datasets, S ENSEI not only achieves higher alignment performance in terms of both automatic and human evaluations, but also shows improvements on robustness and transfer learning on unseen human values.]]></itunes:summary>
+<description><![CDATA[Although current large-scale generative language models (LMs) can show impressive insights about factual knowledge, they do not exhibit similar success with respect to human values judgements (e.g., whether or not the generations of an LM are moral ). Existing methods learn human values either by directly mimick-ing the behavior of human data, or rigidly con-straining the generation space to human-chosen tokens. These methods are inherently limited in that they do not consider the contextual and abstract nature of human values and as a result often fail when dealing with out-of-domain context or sophisticated and abstract human values. This paper proposes S ENSEI , a new reinforcement learning based method that can embed human values judgements into each step of language generation. S ENSEI deploys an Actor-Critic framework, where the Critic is a reward distributor that simulates the reward assignment procedure of humans, while the Actor guides the generation towards the maximum reward direction. Compared with five existing methods in three human values alignment datasets, S ENSEI not only achieves higher alignment performance in terms of both automatic and human evaluations, but also shows improvements on robustness and transfer learning on unseen human values.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/250562745.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2124.01625</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/250562745.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Risks from Learned Optimization in Advanced Machine Learning Systems</title>
 <itunes:title>Risks from Learned Optimization in Advanced Machine Learning Systems</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
