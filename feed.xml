@@ -86,6 +86,23 @@
 </item>
 
 <item>
+<title>On Calibration of Modern Neural Networks</title>
+<itunes:title>On Calibration of Modern Neural Networks</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions.]]></itunes:summary>
+<description><![CDATA[Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.04599v2.On_Calibration_of_Modern_Neural_Networks.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2863.6995</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.04599v2.On_Calibration_of_Modern_Neural_Networks.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</title>
 <itunes:title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -273,6 +290,23 @@
 </item>
 
 <item>
+<title>Probing Pre-Trained Language Models for Cross-Cultural Differences in Values</title>
+<itunes:title>Probing Pre-Trained Language Models for Cross-Cultural Differences in Values</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Language embeds information about social, cultural, and political values people hold. Prior work has explored social and potentially harmful biases encoded in Pre-Trained Language models (PTLMs). However, there has been no systematic study investigating how values embedded in these models vary across cultures. In this paper, we introduce probes to study which values across cultures are embedded in these models, and whether they align with existing theories and cross-cultural value surveys. We find that PTLMs capture differences in values across cultures, but those only weakly align with established value surveys. We discuss implications of using mis-aligned models in cross-cultural settings, as well as ways of aligning PTLMs with value surveys.]]></itunes:summary>
+<description><![CDATA[Language embeds information about social, cultural, and political values people hold. Prior work has explored social and potentially harmful biases encoded in Pre-Trained Language models (PTLMs). However, there has been no systematic study investigating how values embedded in these models vary across cultures. In this paper, we introduce probes to study which values across cultures are embedded in these models, and whether they align with existing theories and cross-cultural value surveys. We find that PTLMs capture differences in values across cultures, but those only weakly align with established value surveys. We discuss implications of using mis-aligned models in cross-cultural settings, as well as ways of aligning PTLMs with value surveys.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13722v1.Probing_Pre_Trained_Language_Models_for_Cross_Cultural_Differences_in_Values.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1589.76</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.13722v1.Probing_Pre_Trained_Language_Models_for_Cross_Cultural_Differences_in_Values.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets</title>
 <itunes:title>Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -336,6 +370,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.05090v1.Semi_supervised_Formality_Style_Transfer_using_Language_Model_Discriminator_and_Mutual_Information_Maximization.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Belief-based Generation of Argumentative Claims</title>
+<itunes:title>Belief-based Generation of Argumentative Claims</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[When engaging in argumentative discourse, skilled human debaters tailor claims to the beliefs of the audience, to construct effective arguments. Recently, the field of computational argumentation witnessed extensive effort to address the automatic generation of arguments. However, existing approaches do not perform any audience-specific adaptation. In this work, we aim to bridge this gap by studying the task of belief-based claim generation: Given a controversial topic and a set of beliefs, generate an argumentative claim tailored to the beliefs. To tackle this task, we model the people's prior beliefs through their stances on controversial topics and extend state-of-the-art text generation models to generate claims conditioned on the beliefs. Our automatic evaluation confirms the ability of our approach to adapt claims to a set of given beliefs. In a manual study, we additionally evaluate the generated claims in terms of informativeness and their likelihood to be uttered by someone with a respective belief. Our results reveal the limitations of modeling users' beliefs based on their stances, but demonstrate the potential of encoding beliefs into argumentative texts, laying the ground for future exploration of audience reach.]]></itunes:summary>
+<description><![CDATA[When engaging in argumentative discourse, skilled human debaters tailor claims to the beliefs of the audience, to construct effective arguments. Recently, the field of computational argumentation witnessed extensive effort to address the automatic generation of arguments. However, existing approaches do not perform any audience-specific adaptation. In this work, we aim to bridge this gap by studying the task of belief-based claim generation: Given a controversial topic and a set of beliefs, generate an argumentative claim tailored to the beliefs. To tackle this task, we model the people's prior beliefs through their stances on controversial topics and extend state-of-the-art text generation models to generate claims conditioned on the beliefs. Our automatic evaluation confirms the ability of our approach to adapt claims to a set of given beliefs. In a manual study, we additionally evaluate the generated claims in terms of informativeness and their likelihood to be uttered by someone with a respective belief. Our results reveal the limitations of modeling users' beliefs based on their stances, but demonstrate the potential of encoding beliefs into argumentative texts, laying the ground for future exploration of audience reach.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.09765v2.Belief_based_Generation_of_Argumentative_Claims.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2260.63675</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.09765v2.Belief_based_Generation_of_Argumentative_Claims.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation</title>
+<itunes:title>BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent advances in deep learning techniques have enabled machines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstream applications from conversation bots to automatic storytelling, they have been shown to generate texts that exhibit social biases. To systematically study and benchmark social biases in open-ended language generation, we introduce the Bias in Open-Ended Language Generation Dataset (BOLD), a large-scale dataset that consists of 23,679 English text generation prompts for bias benchmarking across five domains: profession, gender, race, religion, and political ideology. We also propose new automated metrics for toxicity, psycholinguistic norms, and text gender polarity to measure social biases in open-ended text generation from multiple angles. An examination of text generated from three popular language models reveals that the majority of these models exhibit a larger social bias than human-written Wikipedia text across all domains. With these results we highlight the need to benchmark biases in open-ended language generation and caution users of language generation models on downstream tasks to be cognizant of these embedded prejudices.]]></itunes:summary>
+<description><![CDATA[Recent advances in deep learning techniques have enabled machines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstream applications from conversation bots to automatic storytelling, they have been shown to generate texts that exhibit social biases. To systematically study and benchmark social biases in open-ended language generation, we introduce the Bias in Open-Ended Language Generation Dataset (BOLD), a large-scale dataset that consists of 23,679 English text generation prompts for bias benchmarking across five domains: profession, gender, race, religion, and political ideology. We also propose new automated metrics for toxicity, psycholinguistic norms, and text gender polarity to measure social biases in open-ended text generation from multiple angles. An examination of text generated from three popular language models reveals that the majority of these models exhibit a larger social bias than human-written Wikipedia text across all domains. With these results we highlight the need to benchmark biases in open-ended language generation and caution users of language generation models on downstream tasks to be cognizant of these embedded prejudices.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.11718v1.BOLD_Dataset_and_Metrics_for_Measuring_Biases_in_Open_Ended_Language_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3449.86125</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.11718v1.BOLD_Dataset_and_Metrics_for_Measuring_Biases_in_Open_Ended_Language_Generation.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -921,6 +989,23 @@
 </item>
 
 <item>
+<title>Single Headed Attention RNN: Stop Thinking With Your Head</title>
+<itunes:title>Single Headed Attention RNN: Stop Thinking With Your Head</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The leading approaches in language modeling are all obsessed with TV shows of my youth - namely Transformers and Sesame Street. Transformers this, Transformers that, and over here a bonfire worth of GPU-TPU-neuromorphic wafer scale silicon. We opt for the lazy path of old and proven techniques with a fancy crypto inspired acronym: the Single Headed Attention RNN (SHA-RNN). The author's lone goal is to show that the entire field might have evolved a different direction if we had instead been obsessed with a slightly different acronym and slightly different result. We take a previously strong language model based only on boring LSTMs and get it to within a stone's throw of a stone's throw of state-of-the-art byte level language model results on enwik8. This work has undergone no intensive hyperparameter optimization and lived entirely on a commodity desktop machine that made the author's small studio apartment far too warm in the midst of a San Franciscan summer. The final results are achievable in plus or minus 24 hours on a single GPU as the author is impatient. The attention mechanism is also readily extended to large contexts with minimal computation. Take that Sesame Street.]]></itunes:summary>
+<description><![CDATA[The leading approaches in language modeling are all obsessed with TV shows of my youth - namely Transformers and Sesame Street. Transformers this, Transformers that, and over here a bonfire worth of GPU-TPU-neuromorphic wafer scale silicon. We opt for the lazy path of old and proven techniques with a fancy crypto inspired acronym: the Single Headed Attention RNN (SHA-RNN). The author's lone goal is to show that the entire field might have evolved a different direction if we had instead been obsessed with a slightly different acronym and slightly different result. We take a previously strong language model based only on boring LSTMs and get it to within a stone's throw of a stone's throw of state-of-the-art byte level language model results on enwik8. This work has undergone no intensive hyperparameter optimization and lived entirely on a commodity desktop machine that made the author's small studio apartment far too warm in the midst of a San Franciscan summer. The final results are achievable in plus or minus 24 hours on a single GPU as the author is impatient. The attention mechanism is also readily extended to large contexts with minimal computation. Take that Sesame Street.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.11423v2.Single_Headed_Attention_RNN_Stop_Thinking_With_Your_Head.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2614.43925</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.11423v2.Single_Headed_Attention_RNN_Stop_Thinking_With_Your_Head.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Risks from Learned Optimization in Advanced Machine Learning Systems</title>
 <itunes:title>Risks from Learned Optimization in Advanced Machine Learning Systems</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1018,6 +1103,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.05955v1.WANLI_Worker_and_AI_Collaboration_for_Natural_Language_Inference_Dataset_Creation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A Corpus for Understanding and Generating Moral Stories</title>
+<itunes:title>A Corpus for Understanding and Generating Moral Stories</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Teaching morals is one of the most important purposes of storytelling. An essential ability for understanding and writing moral stories is bridging story plots and implied morals. Its challenges mainly lie in: (1) grasping knowledge about abstract concepts in morals, (2) capturing inter-event discourse relations in stories, and (3) aligning value preferences of stories and morals concerning good or bad behavior. In this paper, we propose two understanding tasks and two generation tasks to assess these abilities of machines. We present STORAL, a new dataset of Chinese and English human-written moral stories. We show the difficulty of the proposed tasks by testing various models with automatic and manual evaluation on STORAL. Furthermore, we present a retrieval-augmented algorithm that effectively exploits related concepts or events in training sets as additional guidance to improve performance on these tasks.]]></itunes:summary>
+<description><![CDATA[Teaching morals is one of the most important purposes of storytelling. An essential ability for understanding and writing moral stories is bridging story plots and implied morals. Its challenges mainly lie in: (1) grasping knowledge about abstract concepts in morals, (2) capturing inter-event discourse relations in stories, and (3) aligning value preferences of stories and morals concerning good or bad behavior. In this paper, we propose two understanding tasks and two generation tasks to assess these abilities of machines. We present STORAL, a new dataset of Chinese and English human-written moral stories. We show the difficulty of the proposed tasks by testing various models with automatic and manual evaluation on STORAL. Furthermore, we present a retrieval-augmented algorithm that effectively exploits related concepts or events in training sets as additional guidance to improve performance on these tasks.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.09438v1.A_Corpus_for_Understanding_and_Generating_Moral_Stories.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3328.18275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.09438v1.A_Corpus_for_Understanding_and_Generating_Moral_Stories.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1227,6 +1329,23 @@
 </item>
 
 <item>
+<title>The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems</title>
+<itunes:title>The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reflect insensitive, hurtful, or entirely incoherent viewpoints that erode a user's trust in the moral integrity of the system. Moral deviations are difficult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation simultaneously. In this work, we introduce a new resource, not to authoritatively resolve moral ambiguities, but instead to facilitate systematic understanding of the intuitions, values and moral judgments reflected in the utterances of dialogue systems. The Moral Integrity Corpus, MIC, is such a resource, which captures the moral assumptions of 38k prompt-reply pairs, using 99k distinct Rules of Thumb (RoTs). Each RoT reflects a particular moral conviction that can explain why a chatbot's reply may appear acceptable or problematic. We further organize RoTs with a set of 9 moral and social attributes and benchmark performance for attribute classification. Most importantly, we show that current neural language models can automatically generate new RoTs that reasonably describe previously unseen interactions, but they still struggle with certain scenarios. Our findings suggest that MIC will be a useful resource for understanding and language models' implicit moral assumptions and flexibly benchmarking the integrity of conversational agents. To download the data, see https://github.com/GT-SALT/mic]]></itunes:summary>
+<description><![CDATA[Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reflect insensitive, hurtful, or entirely incoherent viewpoints that erode a user's trust in the moral integrity of the system. Moral deviations are difficult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation simultaneously. In this work, we introduce a new resource, not to authoritatively resolve moral ambiguities, but instead to facilitate systematic understanding of the intuitions, values and moral judgments reflected in the utterances of dialogue systems. The Moral Integrity Corpus, MIC, is such a resource, which captures the moral assumptions of 38k prompt-reply pairs, using 99k distinct Rules of Thumb (RoTs). Each RoT reflects a particular moral conviction that can explain why a chatbot's reply may appear acceptable or problematic. We further organize RoTs with a set of 9 moral and social attributes and benchmark performance for attribute classification. Most importantly, we show that current neural language models can automatically generate new RoTs that reasonably describe previously unseen interactions, but they still struggle with certain scenarios. Our findings suggest that MIC will be a useful resource for understanding and language models' implicit moral assumptions and flexibly benchmarking the integrity of conversational agents. To download the data, see https://github.com/GT-SALT/mic]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.03021v1.The_Moral_Integrity_Corpus_A_Benchmark_for_Ethical_Dialogue_Systems.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3364.284</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.03021v1.The_Moral_Integrity_Corpus_A_Benchmark_for_Ethical_Dialogue_Systems.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models</title>
 <itunes:title>ReGen: Reinforcement Learning for Text and Knowledge Base Generation using Pretrained Language Models</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1239,6 +1358,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.12472v1.ReGen_Reinforcement_Learning_for_Text_and_Knowledge_Base_Generation_using_Pretrained_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Aspect-Controlled Neural Argument Generation</title>
+<itunes:title>Aspect-Controlled Neural Argument Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing in turn. However, finding and formulating arguments can be challenging. In this work, we train a language model for argument generation that can be controlled on a fine-grained level to generate sentence-level arguments for a given topic, stance, and aspect. We define argument aspect detection as a necessary method to allow this fine-granular control and crowdsource a dataset with 5,032 arguments annotated with aspects. Our evaluation shows that our generation model is able to generate high-quality, aspect-specific arguments. Moreover, these arguments can be used to improve the performance of stance detection models via data augmentation and to generate counter-arguments. We publish all datasets and code to fine-tune the language model.]]></itunes:summary>
+<description><![CDATA[We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing in turn. However, finding and formulating arguments can be challenging. In this work, we train a language model for argument generation that can be controlled on a fine-grained level to generate sentence-level arguments for a given topic, stance, and aspect. We define argument aspect detection as a necessary method to allow this fine-granular control and crowdsource a dataset with 5,032 arguments annotated with aspects. Our evaluation shows that our generation model is able to generate high-quality, aspect-specific arguments. Moreover, these arguments can be used to improve the performance of stance detection models via data augmentation and to generate counter-arguments. We publish all datasets and code to fine-tune the language model.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2005.00084v1.Aspect_Controlled_Neural_Argument_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2983.915</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2005.00084v1.Aspect_Controlled_Neural_Argument_Generation.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
