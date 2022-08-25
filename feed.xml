@@ -392,6 +392,23 @@
 </item>
 
 <item>
+<title>AI for Global Climate Cooperation: Modeling Global Climate Negotiations, Agreements, and Long-Term Cooperation in RICE-N</title>
+<itunes:title>AI for Global Climate Cooperation: Modeling Global Climate Negotiations, Agreements, and Long-Term Cooperation in RICE-N</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Comprehensive global cooperation is essential to limit global temperature increases while continuing economic development, e.g., reducing severe inequality or achieving long-term economic growth. Achieving long-term cooperation on climate change mitigation with n strategic agents poses a complex game-theoretic problem. For example, agents may negotiate and reach climate agreements, but there is no central authority to enforce adherence to those agreements. Hence, it is critical to design negotiation and agreement frameworks that foster cooperation, allow all agents to meet their individual policy objectives, and incentivize long-term adherence. This is an interdisciplinary challenge that calls for collaboration between researchers in machine learning, economics, climate science, law, policy, ethics, and other fields. In particular, we argue that machine learning is a critical tool to address the complexity of this domain. To facilitate this research, here we introduce RICE-N, a multi-region integrated assessment model that simulates the global climate and economy, and which can be used to design and evaluate the strategic outcomes for different negotiation and agreement frameworks. We also describe how to use multi-agent reinforcement learning to train rational agents using RICE-N. This framework underpinsAI for Global Climate Cooperation, a working group collaboration and competition on climate negotiation and agreement design. Here, we invite the scientific community to design and evaluate their solutions using RICE-N, machine learning, economic intuition, and other domain knowledge. More information can be found on www.ai4climatecoop.org.]]></itunes:summary>
+<description><![CDATA[Comprehensive global cooperation is essential to limit global temperature increases while continuing economic development, e.g., reducing severe inequality or achieving long-term economic growth. Achieving long-term cooperation on climate change mitigation with n strategic agents poses a complex game-theoretic problem. For example, agents may negotiate and reach climate agreements, but there is no central authority to enforce adherence to those agreements. Hence, it is critical to design negotiation and agreement frameworks that foster cooperation, allow all agents to meet their individual policy objectives, and incentivize long-term adherence. This is an interdisciplinary challenge that calls for collaboration between researchers in machine learning, economics, climate science, law, policy, ethics, and other fields. In particular, we argue that machine learning is a critical tool to address the complexity of this domain. To facilitate this research, here we introduce RICE-N, a multi-region integrated assessment model that simulates the global climate and economy, and which can be used to design and evaluate the strategic outcomes for different negotiation and agreement frameworks. We also describe how to use multi-agent reinforcement learning to train rational agents using RICE-N. This framework underpinsAI for Global Climate Cooperation, a working group collaboration and competition on climate negotiation and agreement design. Here, we invite the scientific community to design and evaluate their solutions using RICE-N, machine learning, economic intuition, and other domain knowledge. More information can be found on www.ai4climatecoop.org.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.07004v1.AI_for_Global_Climate_Cooperation_Modeling_Global_Climate_Negotiations_Agreements_and_Long_Term_Cooperation_in_RICE_N.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5695.84325</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.07004v1.AI_for_Global_Climate_Cooperation_Modeling_Global_Climate_Negotiations_Agreements_and_Long_Term_Cooperation_in_RICE_N.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation</title>
 <itunes:title>BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -712,6 +729,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00010v2.UnNatural_Language_Inference.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>GPT-NeoX-20B: An Open-Source Autoregressive Language Model</title>
+<itunes:title>GPT-NeoX-20B: An Open-Source Autoregressive Language Model</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We introduce GPT-NeoX-20B, a 20 billion parameter autoregressive language model trained on the Pile, whose weights will be made freely and openly available to the public through a permissive license. It is, to the best of our knowledge, the largest dense autoregressive model that has publicly available weights at the time of submission. In this work, we describe \model{}'s architecture and training and evaluate its performance on a range of language-understanding, mathematics, and knowledge-based tasks. We find that GPT-NeoX-20B is a particularly powerful few-shot reasoner and gains far more in performance when evaluated five-shot than similarly sized GPT-3 and FairSeq models. We open-source the training and evaluation code, as well as the model weights, at https://github.com/EleutherAI/gpt-neox.]]></itunes:summary>
+<description><![CDATA[We introduce GPT-NeoX-20B, a 20 billion parameter autoregressive language model trained on the Pile, whose weights will be made freely and openly available to the public through a permissive license. It is, to the best of our knowledge, the largest dense autoregressive model that has publicly available weights at the time of submission. In this work, we describe \model{}'s architecture and training and evaluate its performance on a range of language-understanding, mathematics, and knowledge-based tasks. We find that GPT-NeoX-20B is a particularly powerful few-shot reasoner and gains far more in performance when evaluated five-shot than similarly sized GPT-3 and FairSeq models. We open-source the training and evaluation code, as well as the model weights, at https://github.com/EleutherAI/gpt-neox.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.06745v1.GPT_NeoX_20B_An_Open_Source_Autoregressive_Language_Model.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4890.09625</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.06745v1.GPT_NeoX_20B_An_Open_Source_Autoregressive_Language_Model.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1244,6 +1278,23 @@
 </item>
 
 <item>
+<title>Designing for Engaging with News using Moral Framing towards Bridging Ideological Divides</title>
+<itunes:title>Designing for Engaging with News using Moral Framing towards Bridging Ideological Divides</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Society is showing signs of strong ideological polarization. When pushed to seek perspectives different from their own, people often reject diverse ideas or find them unfathomable. Work has shown that framing controversial issues using the values of the audience can improve understanding of opposing views. In this paper, we present our work designing systems for addressing ideological division through educating U.S. news consumers to engage using a framework of fundamental human values known as Moral Foundations. We design and implement a series of new features that encourage users to challenge their understanding of opposing views, including annotation of moral frames in news articles, discussion of those frames via inline comments, and recommendations based on relevant moral frames. We describe two versions of features---the first covering a suite of ways to interact with moral framing in news, and the second tailored towards collaborative annotation and discussion. We conduct a field evaluation of each design iteration with 71 participants in total over a period of 6-8 days, finding evidence suggesting users learned to re-frame their discourse in moral values of the opposing side. Our work provides several design considerations for building systems to engage with moral framing.]]></itunes:summary>
+<description><![CDATA[Society is showing signs of strong ideological polarization. When pushed to seek perspectives different from their own, people often reject diverse ideas or find them unfathomable. Work has shown that framing controversial issues using the values of the audience can improve understanding of opposing views. In this paper, we present our work designing systems for addressing ideological division through educating U.S. news consumers to engage using a framework of fundamental human values known as Moral Foundations. We design and implement a series of new features that encourage users to challenge their understanding of opposing views, including annotation of moral frames in news articles, discussion of those frames via inline comments, and recommendations based on relevant moral frames. We describe two versions of features---the first covering a suite of ways to interact with moral framing in news, and the second tailored towards collaborative annotation and discussion. We conduct a field evaluation of each design iteration with 71 participants in total over a period of 6-8 days, finding evidence suggesting users learned to re-frame their discourse in moral values of the opposing side. Our work provides several design considerations for building systems to engage with moral framing.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/3492861.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4086.622</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/3492861.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Why GANs are overkill for NLP</title>
 <itunes:title>Why GANs are overkill for NLP</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1273,6 +1324,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2008.02275v5.Aligning_AI_With_Shared_Human_Values.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Harm inflation: Making sense of concept creep</title>
+<itunes:title>Harm inflation: Making sense of concept creep</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[]]></itunes:summary>
+<description><![CDATA[]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/10.1080@10463283.2020.1796080.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5220.83275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/10.1080@10463283.2020.1796080.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
