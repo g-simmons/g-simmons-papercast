@@ -103,6 +103,40 @@
 </item>
 
 <item>
+<title>Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change</title>
+<itunes:title>Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Understanding how words change their meanings over time is key to models of language and cultural evolution, but historical data on meaning is scarce, making theories hard to develop and test. Word embeddings show promise as a diachronic tool, but have not been carefully evaluated. We develop a robust methodology for quantifying semantic change by evaluating word embeddings (PPMI, SVD, word2vec) against known historical changes. We then use this methodology to reveal statistical laws of semantic evolution. Using six historical corpora spanning four languages and two centuries, we propose two quantitative laws of semantic change: (i) the law of conformity---the rate of semantic change scales with an inverse power-law of word frequency; (ii) the law of innovation---independent of frequency, words that are more polysemous have higher rates of semantic change.]]></itunes:summary>
+<description><![CDATA[Understanding how words change their meanings over time is key to models of language and cultural evolution, but historical data on meaning is scarce, making theories hard to develop and test. Word embeddings show promise as a diachronic tool, but have not been carefully evaluated. We develop a robust methodology for quantifying semantic change by evaluating word embeddings (PPMI, SVD, word2vec) against known historical changes. We then use this methodology to reveal statistical laws of semantic evolution. Using six historical corpora spanning four languages and two centuries, we propose two quantitative laws of semantic change: (i) the law of conformity---the rate of semantic change scales with an inverse power-law of word frequency; (ii) the law of innovation---independent of frequency, words that are more polysemous have higher rates of semantic change.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1605.09096v6.Diachronic_Word_Embeddings_Reveal_Statistical_Laws_of_Semantic_Change.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2799.96075</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1605.09096v6.Diachronic_Word_Embeddings_Reveal_Statistical_Laws_of_Semantic_Change.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Incivility is Rising among American Politicians on Twitter</title>
+<itunes:title>Incivility is Rising among American Politicians on Twitter</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[]]></itunes:summary>
+<description><![CDATA[]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Frimer et al., 2022_Incivility is Rising among American Politicians on Twitter.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>6438.2955</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Frimer et al., 2022_Incivility is Rising among American Politicians on Twitter.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</title>
 <itunes:title>CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -443,6 +477,23 @@
 </item>
 
 <item>
+<title>College and the “Culture War”: Assessing Higher Education’s Influence on Moral Attitudes</title>
+<itunes:title>College and the “Culture War”: Assessing Higher Education’s Influence on Moral Attitudes</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Moral differences contribute to social and political conflicts. Against this backdrop, colleges and universities have been criticized for promoting liberal moral attitudes. However, direct evidence for these claims is sparse, and suggestive evidence from studies of political attitudes is inconclusive. Using four waves of data from the National Study of Youth and Religion, we examine the effects of higher education on attitudes related to three dimensions of morality that have been identified as central to conflict: moral relativism, concern for others, and concern for social order. Our results indicate that higher education liberalizes moral concerns for most students, but it also departs from the standard liberal profile by promoting moral absolutism rather than relativism. These effects are strongest for individuals majoring in the humanities, arts, or social sciences, and for students pursuing graduate studies. We conclude with a discussion of the implications of our results for work on political conflict and moral socialization.]]></itunes:summary>
+<description><![CDATA[Moral differences contribute to social and political conflicts. Against this backdrop, colleges and universities have been criticized for promoting liberal moral attitudes. However, direct evidence for these claims is sparse, and suggestive evidence from studies of political attitudes is inconclusive. Using four waves of data from the National Study of Youth and Religion, we examine the effects of higher education on attitudes related to three dimensions of morality that have been identified as central to conflict: moral relativism, concern for others, and concern for social order. Our results indicate that higher education liberalizes moral concerns for most students, but it also departs from the standard liberal profile by promoting moral absolutism rather than relativism. These effects are strongest for individuals majoring in the humanities, arts, or social sciences, and for students pursuing graduate studies. We conclude with a discussion of the implications of our results for work on political conflict and moral socialization.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/00031224211041094.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>6928.7705</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/00031224211041094.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>MetaFormer is Actually What You Need for Vision</title>
 <itunes:title>MetaFormer is Actually What You Need for Vision</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -523,6 +574,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.07510v2.Doc2Dict_Information_Extraction_as_Text_Generation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</title>
+<itunes:title>Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[With the recent wave of progress in artificial intelligence (AI) has come a growing awareness of the large-scale impacts of AI systems, and recognition that existing regulations and norms in industry and academia are insufficient to ensure responsible AI development. In order for AI developers to earn trust from system users, customers, civil society, governments, and other stakeholders that they are building AI responsibly, they will need to make verifiable claims to which they can be held accountable. Those outside of a given organization also need effective means of scrutinizing such claims. This report suggests various steps that different stakeholders can take to improve the verifiability of claims made about AI systems and their associated development processes, with a focus on providing evidence about the safety, security, fairness, and privacy protection of AI systems. We analyze ten mechanisms for this purpose--spanning institutions, software, and hardware--and make recommendations aimed at implementing, exploring, or improving those mechanisms.]]></itunes:summary>
+<description><![CDATA[With the recent wave of progress in artificial intelligence (AI) has come a growing awareness of the large-scale impacts of AI systems, and recognition that existing regulations and norms in industry and academia are insufficient to ensure responsible AI development. In order for AI developers to earn trust from system users, customers, civil society, governments, and other stakeholders that they are building AI responsibly, they will need to make verifiable claims to which they can be held accountable. Those outside of a given organization also need effective means of scrutinizing such claims. This report suggests various steps that different stakeholders can take to improve the verifiability of claims made about AI systems and their associated development processes, with a focus on providing evidence about the safety, security, fairness, and privacy protection of AI systems. We analyze ten mechanisms for this purpose--spanning institutions, software, and hardware--and make recommendations aimed at implementing, exploring, or improving those mechanisms.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2004.07213v2.Toward_Trustworthy_AI_Development_Mechanisms_for_Supporting_Verifiable_Claims.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>10216.986</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2004.07213v2.Toward_Trustworthy_AI_Development_Mechanisms_for_Supporting_Verifiable_Claims.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -819,6 +887,23 @@
 </item>
 
 <item>
+<title>Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models</title>
+<itunes:title>Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[This article evaluates three proposed laws of semantic change. Our claim is that in order to validate a putative law of semantic change, the effect should be observed in the genuine condition but absent or reduced in a suitably matched control condition, in which no change can possibly have taken place. Our analysis shows that the effects reported in recent literature must be substantially revised: (i) the proposed negative correlation between meaning change and word frequency is shown to be largely an artefact of the models of word representation used; (ii) the proposed negative correlation between meaning change and prototypicality is shown to be much weaker than what has been claimed in prior art; and (iii) the proposed positive correlation between meaning change and polysemy is largely an artefact of word frequency. These empirical observations are corroborated by analytical proofs that show that count representations introduce an inherent dependence on word frequency, and thus word frequency cannot be evaluated as an independent factor with these representations.]]></itunes:summary>
+<description><![CDATA[This article evaluates three proposed laws of semantic change. Our claim is that in order to validate a putative law of semantic change, the effect should be observed in the genuine condition but absent or reduced in a suitably matched control condition, in which no change can possibly have taken place. Our analysis shows that the effects reported in recent literature must be substantially revised: (i) the proposed negative correlation between meaning change and word frequency is shown to be largely an artefact of the models of word representation used; (ii) the proposed negative correlation between meaning change and prototypicality is shown to be much weaker than what has been claimed in prior art; and (iii) the proposed positive correlation between meaning change and polysemy is largely an artefact of word frequency. These empirical observations are corroborated by analytical proofs that show that count representations introduce an inherent dependence on word frequency, and thus word frequency cannot be evaluated as an independent factor with these representations.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/D17-1118.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2414.315</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/D17-1118.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</title>
 <itunes:title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -848,6 +933,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.13252v1.The_Quest_for_a_Common_Model_of_the_Intelligent_Decision_Maker.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A General Language Assistant as a Laboratory for Alignment</title>
+<itunes:title>A General Language Assistant as a Laboratory for Alignment</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We find that the benefits from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of large models. Next we investigate scaling trends for several training objectives relevant to alignment, comparing imitation learning, binary discrimination, and ranked preference modeling. We find that ranked preference modeling performs much better than imitation learning, and often scales more favorably with model size. In contrast, binary discrimination typically performs and scales very similarly to imitation learning. Finally we study a `preference model pre-training' stage of training, with the goal of improving sample efficiency when finetuning on human preferences.]]></itunes:summary>
+<description><![CDATA[Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We find that the benefits from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of large models. Next we investigate scaling trends for several training objectives relevant to alignment, comparing imitation learning, binary discrimination, and ranked preference modeling. We find that ranked preference modeling performs much better than imitation learning, and often scales more favorably with model size. In contrast, binary discrimination typically performs and scales very similarly to imitation learning. Finally we study a `preference model pre-training' stage of training, with the goal of improving sample efficiency when finetuning on human preferences.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.00861v3.A_General_Language_Assistant_as_a_Laboratory_for_Alignment.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>8011.102</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.00861v3.A_General_Language_Assistant_as_a_Laboratory_for_Alignment.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1380,6 +1482,23 @@
 </item>
 
 <item>
+<title>Exposure to opposing views on social media can increase political polarization</title>
+<itunes:title>Exposure to opposing views on social media can increase political polarization</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[There is mounting concern that social media sites contribute to political polarization by creating "echo chambers" that insulate people from opposing views about current events. We surveyed a large sample of Democrats and Republicans who visit Twitter at least three times each week about a range of social policy issues. One week later, we randomly assigned respondents to a treatment condition in which they were offered financial incentives to follow a Twitter bot for 1 month that exposed them to messages from those with opposing political ideologies (e.g., elected officials, opinion leaders, media organizations, and nonprofit groups). Respondents were resurveyed at the end of the month to measure the effect of this treatment, and at regular intervals throughout the study period to monitor treatment compliance. We find that Republicans who followed a liberal Twitter bot became substantially more conservative posttreatment. Democrats exhibited slight increases in liberal attitudes after following a conservative Twitter bot, although these effects are not statistically significant. Notwithstanding important limitations of our study, these findings have significant implications for the interdisciplinary literature on political polarization and the emerging field of computational social science. political polarization | computational social science | social networks | social media | sociology P olitical polarization in the United States has become a central focus of social scientists in recent decades (1-7). Americans are deeply divided on controversial issues such as inequality, gun control, and immigration-and divisions about such issues have become increasingly aligned with partisan identities in recent years (8, 9). Partisan identification now predicts preferences about a range of social policy issues nearly three times as well as any other demographic factor-such as education or age (10). These partisan divisions not only impede compromise in the design and implementation of social policies but also have farreaching consequences for the effective function of democracy more broadly (11-15). America's cavernous partisan divides are often attributed to "echo chambers," or patterns of information sharing that reinforce preexisting political beliefs by limiting exposure to opposing political views (16)(17)(18)(19)(20). Concern about selective exposure to information and political polarization has increased in the age of social media (16,(21)(22)(23). The vast majority of Americans now visit a social media site at least once each day, and a rapidly growing number of them list social media as their primary source of news (24). Despite initial optimism that social media might enable people to consume more heterogeneous sources of information about current events, there is growing concern that such forums exacerbate political polarization because of social network homophily, or the well-documented tendency of people to form social network ties to those who are similar to themselves (25, 26). The endogenous relationship between social network formation and political attitudes also creates formidable challenges for the study of social media echo chambers and political polarization, since it is notoriously difficult to establish whether social media networks shape political opinions, or vice versa (27)(28)(29). Here, we report the results of a large field experiment designed to examine whether disrupting selective exposure to partisan information among Twitter users shapes their political attitudes. Our research is governed by three preregistered hypotheses. The first hypothesis is that disrupting selective exposure to partisan information will decrease political polarization because of intergroup contact effects. A vast literature indicates contact between opposing groups can challenge stereotypes that develop in the absence of positive interactions between them (30). Studies also indicate intergroup contact increases the likelihood of deliberation and political compromise (31-33). However, all of these previous studies examine interpersonal contact between members of rival groups. In contrast, our experiment creates virtual contact between members of the public and opinion leaders from the opposing political party on a social media site. It is not yet known whether such virtual contact creates the Significance Social media sites are often blamed for exacerbating political polarization by creating "echo chambers" that prevent people from being exposed to information that contradicts their preexisting beliefs. We conducted a field experiment that offered a large group of Democrats and Republicans financial compensation to follow bots that retweeted messages by elected officials and opinion leaders with opposing political views. Republican participants expressed substantially more conservative views after following a liberal Twitter bot, whereas Democrats' attitudes became slightly more liberal after following a conservative Twitter bot-although this effect was not statistically significant. Despite several limitations, this study has important implications for the emerging field of computational social science and ongoing efforts to reduce political polarization online.]]></itunes:summary>
+<description><![CDATA[There is mounting concern that social media sites contribute to political polarization by creating "echo chambers" that insulate people from opposing views about current events. We surveyed a large sample of Democrats and Republicans who visit Twitter at least three times each week about a range of social policy issues. One week later, we randomly assigned respondents to a treatment condition in which they were offered financial incentives to follow a Twitter bot for 1 month that exposed them to messages from those with opposing political ideologies (e.g., elected officials, opinion leaders, media organizations, and nonprofit groups). Respondents were resurveyed at the end of the month to measure the effect of this treatment, and at regular intervals throughout the study period to monitor treatment compliance. We find that Republicans who followed a liberal Twitter bot became substantially more conservative posttreatment. Democrats exhibited slight increases in liberal attitudes after following a conservative Twitter bot, although these effects are not statistically significant. Notwithstanding important limitations of our study, these findings have significant implications for the interdisciplinary literature on political polarization and the emerging field of computational social science. political polarization | computational social science | social networks | social media | sociology P olitical polarization in the United States has become a central focus of social scientists in recent decades (1-7). Americans are deeply divided on controversial issues such as inequality, gun control, and immigration-and divisions about such issues have become increasingly aligned with partisan identities in recent years (8, 9). Partisan identification now predicts preferences about a range of social policy issues nearly three times as well as any other demographic factor-such as education or age (10). These partisan divisions not only impede compromise in the design and implementation of social policies but also have farreaching consequences for the effective function of democracy more broadly (11-15). America's cavernous partisan divides are often attributed to "echo chambers," or patterns of information sharing that reinforce preexisting political beliefs by limiting exposure to opposing political views (16)(17)(18)(19)(20). Concern about selective exposure to information and political polarization has increased in the age of social media (16,(21)(22)(23). The vast majority of Americans now visit a social media site at least once each day, and a rapidly growing number of them list social media as their primary source of news (24). Despite initial optimism that social media might enable people to consume more heterogeneous sources of information about current events, there is growing concern that such forums exacerbate political polarization because of social network homophily, or the well-documented tendency of people to form social network ties to those who are similar to themselves (25, 26). The endogenous relationship between social network formation and political attitudes also creates formidable challenges for the study of social media echo chambers and political polarization, since it is notoriously difficult to establish whether social media networks shape political opinions, or vice versa (27)(28)(29). Here, we report the results of a large field experiment designed to examine whether disrupting selective exposure to partisan information among Twitter users shapes their political attitudes. Our research is governed by three preregistered hypotheses. The first hypothesis is that disrupting selective exposure to partisan information will decrease political polarization because of intergroup contact effects. A vast literature indicates contact between opposing groups can challenge stereotypes that develop in the absence of positive interactions between them (30). Studies also indicate intergroup contact increases the likelihood of deliberation and political compromise (31-33). However, all of these previous studies examine interpersonal contact between members of rival groups. In contrast, our experiment creates virtual contact between members of the public and opinion leaders from the opposing political party on a social media site. It is not yet known whether such virtual contact creates the Significance Social media sites are often blamed for exacerbating political polarization by creating "echo chambers" that prevent people from being exposed to information that contradicts their preexisting beliefs. We conducted a field experiment that offered a large group of Democrats and Republicans financial compensation to follow bots that retweeted messages by elected officials and opinion leaders with opposing political views. Republican participants expressed substantially more conservative views after following a liberal Twitter bot, whereas Democrats' attitudes became slightly more liberal after following a conservative Twitter bot-although this effect was not statistically significant. Despite several limitations, this study has important implications for the emerging field of computational social science and ongoing efforts to reduce political polarization online.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/pnas.1804840115.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1896.90775</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/pnas.1804840115.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Autoregressive Search Engines: Generating Substrings as Document Identifiers</title>
 <itunes:title>Autoregressive Search Engines: Generating Substrings as Document Identifiers</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1535,6 +1654,23 @@
 </item>
 
 <item>
+<title>Pareto Principles in Infinite Ethics</title>
+<itunes:title>Pareto Principles in Infinite Ethics</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[It is possible that the world contains infinitely many agents that have positive and negative levels of well-being. Theories have been developed to ethically rank such worlds based on the well-being levels of the agents in those worlds or other qualitative properties of the worlds in question, such as the distribution of agents across spacetime. In this thesis I argue that such ethical rankings ought to be consistent with the Pareto principle, which says that if two worlds contain the same agents and some agents are better off in the first world than they are in the second and no agents are worse off than they are in the second, then the first world is better than the second. I show that if we accept four axioms -the Pareto principle, transitivity, an axiom stating that populations of worlds can be permuted, and the claim that if the 'at least as good as' relation holds between two worlds then it holds between qualitative duplicates of this world pair -then we must conclude that there is ubiquitous incomparability between infinite worlds. I show that this is true even if the populations of infinite worlds are disjoint or overlapping, and that we cannot use any qualitative properties of world pairs to rank these worlds. Finally, I argue that this incomparability result generates puzzles for both consequentialist and non-consequentialist theories of objective and subjective permissibility. iii]]></itunes:summary>
+<description><![CDATA[It is possible that the world contains infinitely many agents that have positive and negative levels of well-being. Theories have been developed to ethically rank such worlds based on the well-being levels of the agents in those worlds or other qualitative properties of the worlds in question, such as the distribution of agents across spacetime. In this thesis I argue that such ethical rankings ought to be consistent with the Pareto principle, which says that if two worlds contain the same agents and some agents are better off in the first world than they are in the second and no agents are worse off than they are in the second, then the first world is better than the second. I show that if we accept four axioms -the Pareto principle, transitivity, an axiom stating that populations of worlds can be permuted, and the claim that if the 'at least as good as' relation holds between two worlds then it holds between qualitative duplicates of this world pair -then we must conclude that there is ubiquitous incomparability between infinite worlds. I show that this is true even if the populations of infinite worlds are disjoint or overlapping, and that we cannot use any qualitative properties of world pairs to rank these worlds. Finally, I argue that this incomparability result generates puzzles for both consequentialist and non-consequentialist theories of objective and subjective permissibility. iii]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/ASKPPIv1.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>31130.1225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/ASKPPIv1.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</title>
 <itunes:title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1683,6 +1819,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.08608v1.QuALITY_Question_Answering_with_Long_Input_Texts_Yes.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Do liberals and conservatives use different moral languages? Two replications and six extensions of Graham, Haidt, and Nosek's (2009) moral text analysis</title>
+<itunes:title>Do liberals and conservatives use different moral languages? Two replications and six extensions of Graham, Haidt, and Nosek's (2009) moral text analysis</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[a b s t r a c t Do liberals and conservatives tend to use different moral languages? The Moral Foundations Hypothesis states that liberals rely more on foundations of care/harm and fairness/cheating whereas conservatives rely more on loyalty/betrayal, authority/subversion, and purity/degradation in their moral functioning. In support, Graham, Haidt, and Nosek (2009; Study 4) showed that sermons delivered by liberal and conservative pastors differed as predicted in their moral word usage, except for the loyalty foundation. I present two high-powered replication studies in religious contexts and six extension studies in politics, the media, and organizations to test ideological differences in moral language usage. On average, replication success rate was 30% and effect sizes were 38 times smaller than those in the original study. ]]></itunes:summary>
+<description><![CDATA[a b s t r a c t Do liberals and conservatives tend to use different moral languages? The Moral Foundations Hypothesis states that liberals rely more on foundations of care/harm and fairness/cheating whereas conservatives rely more on loyalty/betrayal, authority/subversion, and purity/degradation in their moral functioning. In support, Graham, Haidt, and Nosek (2009; Study 4) showed that sermons delivered by liberal and conservative pastors differed as predicted in their moral word usage, except for the loyalty foundation. I present two high-powered replication studies in religious contexts and six extension studies in politics, the media, and organizations to test ideological differences in moral language usage. On average, replication success rate was 30% and effect sizes were 38 times smaller than those in the original study. ]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1-s2.0-S0092656619301278-main.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4085.81225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1-s2.0-S0092656619301278-main.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>The Implications of Diverse Human Moral Foundations for Assessing the Ethicality of Artificial Intelligence</title>
+<itunes:title>The Implications of Diverse Human Moral Foundations for Assessing the Ethicality of Artificial Intelligence</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Organizations are making massive investments in artificial intelligence (AI), and recent demonstrations and achievements highlight the immense potential for AI to improve organizational and human welfare. Yet realizing the potential of AI necessitates a better understanding of the various ethical issues involved with deciding to use AI, training and maintaining it, and allowing it to make decisions that have moral consequences. People want organizations using AI and the AI systems themselves to behave ethically, but ethical behavior means different things to different people, and many ethical dilemmas require trade-offs such that no course of action is universally considered ethical. How should organizations using AI-and the AI itself-process ethical dilemmas where humans disagree on the morally right course of action? Though a variety of ethical AI frameworks have been suggested, these approaches do not adequately address how people make ethical evaluations of AI systems or how to incorporate the fundamental disagreements people have regarding what is and is not ethical behavior. Drawing on moral foundations theory, we theorize that a person will perceive an organization's use of AI, its data procedures, and the resulting AI decisions as ethical to the extent that those decisions resonate with the person's moral foundations. Since people hold diverse moral foundations, this highlights the crucial need to consider individual moral differences at multiple levels of AI. We discuss several unresolved issues and suggest potential approaches (such as moral reframing) for thinking about conflicts in moral judgments concerning AI.]]></itunes:summary>
+<description><![CDATA[Organizations are making massive investments in artificial intelligence (AI), and recent demonstrations and achievements highlight the immense potential for AI to improve organizational and human welfare. Yet realizing the potential of AI necessitates a better understanding of the various ethical issues involved with deciding to use AI, training and maintaining it, and allowing it to make decisions that have moral consequences. People want organizations using AI and the AI systems themselves to behave ethically, but ethical behavior means different things to different people, and many ethical dilemmas require trade-offs such that no course of action is universally considered ethical. How should organizations using AI-and the AI itself-process ethical dilemmas where humans disagree on the morally right course of action? Though a variety of ethical AI frameworks have been suggested, these approaches do not adequately address how people make ethical evaluations of AI systems or how to incorporate the fundamental disagreements people have regarding what is and is not ethical behavior. Drawing on moral foundations theory, we theorize that a person will perceive an organization's use of AI, its data procedures, and the resulting AI decisions as ethical to the extent that those decisions resonate with the person's moral foundations. Since people hold diverse moral foundations, this highlights the crucial need to consider individual moral differences at multiple levels of AI. We discuss several unresolved issues and suggest potential approaches (such as moral reframing) for thinking about conflicts in moral judgments concerning AI.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s10551-022-05057-6.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4303.30775</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s10551-022-05057-6.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
