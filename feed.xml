@@ -698,6 +698,23 @@
 </item>
 
 <item>
+<title>The Language of Liberty: A preliminary study</title>
+<itunes:title>The Language of Liberty: A preliminary study</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Quantifying the moral narratives expressed in the user-generated text, news, or public discourses is fundamental for understanding individuals' concerns and viewpoints and preventing violent protests and social polarisation. The Moral Foundation Theory (MFT) was developed precisely to operationalise morality in a five-dimensional scale system. Recent developments of the theory urged for the introduction of a new foundation, liberty. Being only recently added to the theory, there are no available linguistic resources to assess liberty from text corpora. Given its importance to current social issues such as the vaccination debate, we propose a data-driven approach to derive a liberty lexicon based on aligned documents from online encyclopedias with different worldviews. Despite the preliminary nature of our study, we show proof of the concept that large encyclopedia corpora can point out differences in the way people with contrasting viewpoints express themselves. Such differences can be used to derive a novel lexicon, identifying linguistic markers of the liberty foundation.]]></itunes:summary>
+<description><![CDATA[Quantifying the moral narratives expressed in the user-generated text, news, or public discourses is fundamental for understanding individuals' concerns and viewpoints and preventing violent protests and social polarisation. The Moral Foundation Theory (MFT) was developed precisely to operationalise morality in a five-dimensional scale system. Recent developments of the theory urged for the introduction of a new foundation, liberty. Being only recently added to the theory, there are no available linguistic resources to assess liberty from text corpora. Given its importance to current social issues such as the vaccination debate, we propose a data-driven approach to derive a liberty lexicon based on aligned documents from online encyclopedias with different worldviews. Despite the preliminary nature of our study, we show proof of the concept that large encyclopedia corpora can point out differences in the way people with contrasting viewpoints express themselves. Such differences can be used to derive a novel lexicon, identifying linguistic markers of the liberty foundation.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/The_Language_of_Liberty (1).mp3" length="" type="audio/mpeg"/>
+<itunes:duration>895.765</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/The_Language_of_Liberty (1).mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Highly Parallel Autoregressive Entity Linking with Discriminative Correction</title>
 <itunes:title>Highly Parallel Autoregressive Entity Linking with Discriminative Correction</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -778,6 +795,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.06152v1.Moral_Dilemmas_for_Moral_Machines.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Faithful Reasoning Using Large Language Models</title>
+<itunes:title>Faithful Reasoning Using Large Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Although contemporary large language models (LMs) demonstrate impressive question-answering capabilities, their answers are typically the product of a single call to the model. This entails an unwelcome degree of opacity and compromises performance, especially on problems that are inherently multi-step. To address these limitations, we show how LMs can be made to perform faithful multi-step reasoning via a process whose causal structure mirrors the underlying logical structure of the problem. Our approach works by chaining together reasoning steps, where each step results from calls to two fine-tuned LMs, one for selection and one for inference, to produce a valid reasoning trace. Our method carries out a beam search through the space of reasoning traces to improve reasoning quality. We demonstrate the effectiveness of our model on multi-step logical deduction and scientific question-answering, showing that it outperforms baselines on final answer accuracy, and generates humanly interpretable reasoning traces whose validity can be checked by the user.]]></itunes:summary>
+<description><![CDATA[Although contemporary large language models (LMs) demonstrate impressive question-answering capabilities, their answers are typically the product of a single call to the model. This entails an unwelcome degree of opacity and compromises performance, especially on problems that are inherently multi-step. To address these limitations, we show how LMs can be made to perform faithful multi-step reasoning via a process whose causal structure mirrors the underlying logical structure of the problem. Our approach works by chaining together reasoning steps, where each step results from calls to two fine-tuned LMs, one for selection and one for inference, to produce a valid reasoning trace. Our method carries out a beam search through the space of reasoning traces to improve reasoning quality. We demonstrate the effectiveness of our model on multi-step logical deduction and scientific question-answering, showing that it outperforms baselines on final answer accuracy, and generates humanly interpretable reasoning traces whose validity can be checked by the user.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.14271v1.Faithful_Reasoning_Using_Large_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>6772.66275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.14271v1.Faithful_Reasoning_Using_Large_Language_Models.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -967,6 +1001,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.07574v2.Can_Machines_Learn_Morality_The_Delphi_Experiment.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Understanding Diffusion Models: A Unified Perspective</title>
+<itunes:title>Understanding Diffusion Models: A Unified Perspective</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Diffusion models have shown incredible capabilities as generative models; indeed, they power the current state-of-the-art models on text-conditioned image generation such as Imagen and DALL-E 2. In this work we review, demystify, and unify the understanding of diffusion models across both variational and score-based perspectives. We first derive Variational Diffusion Models (VDM) as a special case of a Markovian Hierarchical Variational Autoencoder, where three key assumptions enable tractable computation and scalable optimization of the ELBO. We then prove that optimizing a VDM boils down to learning a neural network to predict one of three potential objectives: the original source input from any arbitrary noisification of it, the original source noise from any arbitrarily noisified input, or the score function of a noisified input at any arbitrary noise level. We then dive deeper into what it means to learn the score function, and connect the variational perspective of a diffusion model explicitly with the Score-based Generative Modeling perspective through Tweedie's Formula. Lastly, we cover how to learn a conditional distribution using diffusion models via guidance.]]></itunes:summary>
+<description><![CDATA[Diffusion models have shown incredible capabilities as generative models; indeed, they power the current state-of-the-art models on text-conditioned image generation such as Imagen and DALL-E 2. In this work we review, demystify, and unify the understanding of diffusion models across both variational and score-based perspectives. We first derive Variational Diffusion Models (VDM) as a special case of a Markovian Hierarchical Variational Autoencoder, where three key assumptions enable tractable computation and scalable optimization of the ELBO. We then prove that optimizing a VDM boils down to learning a neural network to predict one of three potential objectives: the original source input from any arbitrary noisification of it, the original source noise from any arbitrarily noisified input, or the score function of a noisified input at any arbitrary noise level. We then dive deeper into what it means to learn the score function, and connect the variational perspective of a diffusion model explicitly with the Score-based Generative Modeling perspective through Tweedie's Formula. Lastly, we cover how to learn a conditional distribution using diffusion models via guidance.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.11970v1.Understanding_Diffusion_Models_A_Unified_Perspective.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5277.93625</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.11970v1.Understanding_Diffusion_Models_A_Unified_Perspective.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1892,6 +1943,23 @@
 </item>
 
 <item>
+<title>Decoding speech from non-invasive brain recordings</title>
+<itunes:title>Decoding speech from non-invasive brain recordings</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Decoding language from brain activity is a long-awaited goal in both healthcare and neuroscience. Major milestones have recently been reached thanks to intracranial devices: subject-specific pipelines trained on invasive brain responses to basic language tasks now start to efficiently decode interpretable features (e.g. letters, words, spectrograms). However, scaling this approach to natural speech and non-invasive brain recordings remains a major challenge. Here, we propose a single end-to-end architecture trained with contrastive learning across a large cohort of individuals to predict self-supervised representations of natural speech. We evaluate our model on four public datasets, encompassing 169 volunteers recorded with magneto- or electro-encephalography (M/EEG), while they listened to natural speech. The results show that our model can identify, from 3s of MEG signals, the corresponding speech segment with up to 72.5% top-10 accuracy out of 1,594 distinct segments (and 44% top-1 accuracy), and up to 19.1% out of 2,604 segments for EEG recordings -- hence allowing the decoding of phrases absent from the training set. Model comparison and ablation analyses show that these performances directly benefit from our original design choices, namely the use of (i) a contrastive objective, (ii) pretrained representations of speech and (iii) a common convolutional architecture simultaneously trained across several participants. Together, these results delineate a promising path to decode natural language processing in real time from non-invasive recordings of brain activity.]]></itunes:summary>
+<description><![CDATA[Decoding language from brain activity is a long-awaited goal in both healthcare and neuroscience. Major milestones have recently been reached thanks to intracranial devices: subject-specific pipelines trained on invasive brain responses to basic language tasks now start to efficiently decode interpretable features (e.g. letters, words, spectrograms). However, scaling this approach to natural speech and non-invasive brain recordings remains a major challenge. Here, we propose a single end-to-end architecture trained with contrastive learning across a large cohort of individuals to predict self-supervised representations of natural speech. We evaluate our model on four public datasets, encompassing 169 volunteers recorded with magneto- or electro-encephalography (M/EEG), while they listened to natural speech. The results show that our model can identify, from 3s of MEG signals, the corresponding speech segment with up to 72.5% top-10 accuracy out of 1,594 distinct segments (and 44% top-1 accuracy), and up to 19.1% out of 2,604 segments for EEG recordings -- hence allowing the decoding of phrases absent from the training set. Model comparison and ablation analyses show that these performances directly benefit from our original design choices, namely the use of (i) a contrastive objective, (ii) pretrained representations of speech and (iii) a common convolutional architecture simultaneously trained across several participants. Together, these results delineate a promising path to decode natural language processing in real time from non-invasive recordings of brain activity.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.12266v1.Decoding_speech_from_non_invasive_brain_recordings.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2668.30375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.12266v1.Decoding_speech_from_non_invasive_brain_recordings.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</title>
 <itunes:title>How Do Your Biomedical Named Entity Recognition Models Generalize to Novel Entities?</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1904,6 +1972,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00160v3.How_Do_Your_Biomedical_Named_Entity_Recognition_Models_Generalize_to_Novel_Entities.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Kent Academic Repository Full text document (pdf) Versions of research Citation for published version Link to record in KAR Document Version UNSPECIFIED Moral Perfectionism and Moral Values, Virtues, and Judgments: A Preliminary Investigation</title>
+<itunes:title>Kent Academic Repository Full text document (pdf) Versions of research Citation for published version Link to record in KAR Document Version UNSPECIFIED Moral Perfectionism and Moral Values, Virtues, and Judgments: A Preliminary Investigation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[]]></itunes:summary>
+<description><![CDATA[]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Yang Stoeber Wang (2015) PAID.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1623.458</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Yang Stoeber Wang (2015) PAID.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1938,6 +2023,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.08608v1.QuALITY_Question_Answering_with_Long_Input_Texts_Yes.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Deep reinforcement learning from human preferences</title>
+<itunes:title>Deep reinforcement learning from human preferences</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.]]></itunes:summary>
+<description><![CDATA[For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.03741v3.Deep_reinforcement_learning_from_human_preferences.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3256.6595</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1706.03741v3.Deep_reinforcement_learning_from_human_preferences.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -2125,6 +2227,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.14039v3.Towards_mental_time_travel_a_hierarchical_memory_for_reinforcement_learning_agents.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Transformers are Sample Efficient World Models</title>
+<itunes:title>Transformers are Sample Efficient World Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Deep reinforcement learning agents are notoriously sample inefficient, which considerably limits their application to real-world problems. Recently, many model-based methods have been designed to address this issue, with learning in the imagination of a world model being one of the most prominent approaches. However, while virtually unlimited interaction with a simulated environment sounds appealing, the world model has to be accurate over extended periods of time. Motivated by the success of Transformers in sequence modeling tasks, we introduce IRIS, a data-efficient agent that learns in a world model composed of a discrete autoencoder and an autoregressive Transformer. With the equivalent of only two hours of gameplay in the Atari 100k benchmark, IRIS achieves a mean human normalized score of 1.046, and outperforms humans on 10 out of 26 games. Our approach sets a new state of the art for methods without lookahead search, and even surpasses MuZero. To foster future research on Transformers and world models for sample-efficient reinforcement learning, we release our codebase at https://github.com/eloialonso/iris.]]></itunes:summary>
+<description><![CDATA[Deep reinforcement learning agents are notoriously sample inefficient, which considerably limits their application to real-world problems. Recently, many model-based methods have been designed to address this issue, with learning in the imagination of a world model being one of the most prominent approaches. However, while virtually unlimited interaction with a simulated environment sounds appealing, the world model has to be accurate over extended periods of time. Motivated by the success of Transformers in sequence modeling tasks, we introduce IRIS, a data-efficient agent that learns in a world model composed of a discrete autoencoder and an autoregressive Transformer. With the equivalent of only two hours of gameplay in the Atari 100k benchmark, IRIS achieves a mean human normalized score of 1.046, and outperforms humans on 10 out of 26 games. Our approach sets a new state of the art for methods without lookahead search, and even surpasses MuZero. To foster future research on Transformers and world models for sample-efficient reinforcement learning, we release our codebase at https://github.com/eloialonso/iris.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2209.00588v1.Transformers_are_Sample_Efficient_World_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2326.9095</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2209.00588v1.Transformers_are_Sample_Efficient_World_Models.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
