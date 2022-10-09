@@ -579,6 +579,23 @@
 </item>
 
 <item>
+<title>Five sources of bias in natural language processing</title>
+<itunes:title>Five sources of bias in natural language processing</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recently, there has been an increased interest in demographically grounded bias in natural language processing (NLP) applications. Much of the recent work has focused on describing bias and providing an overview of bias in a larger context. Here, we provide a simple, actionable summary of this recent work. We outline five sources where bias can occur in NLP systems: (1) the data, (2) the annotation process, (3) the input representations, (4) the models, and finally (5) the research design (or how we conceptualize our research). We explore each of the bias sources in detail in this article, including examples and links to related work, as well as potential counter-measures.]]></itunes:summary>
+<description><![CDATA[Recently, there has been an increased interest in demographically grounded bias in natural language processing (NLP) applications. Much of the recent work has focused on describing bias and providing an overview of bias in a larger context. Here, we provide a simple, actionable summary of this recent work. We outline five sources where bias can occur in NLP systems: (1) the data, (2) the annotation process, (3) the input representations, (4) the models, and finally (5) the research design (or how we conceptualize our research). We explore each of the bias sources in detail in this article, including examples and links to related work, as well as potential counter-measures.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Language and Linguist Compass - 2021 - Hovy - Five sources of bias in natural language processing.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2844.21225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Language and Linguist Compass - 2021 - Hovy - Five sources of bias in natural language processing.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>OPT: Open Pre-trained Transformer Language Models</title>
 <itunes:title>OPT: Open Pre-trained Transformer Language Models</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -608,6 +625,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.05990v1.Detection_Disambiguation_Re_ranking_Autoregressive_Entity_Linking_as_a_Multi_Task_Problem.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>What Makes Data-to-Text Generation Hard for Pretrained Language Models?</title>
+<itunes:title>What Makes Data-to-Text Generation Hard for Pretrained Language Models?</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Expressing natural language descriptions of structured facts or relations -- data-to-text generation (D2T) -- increases the accessibility of structured knowledge repositories. Previous work shows that pre-trained language models(PLMs) perform remarkably well on this task after fine-tuning on a significant amount of task-specific training data. On the other hand, while auto-regressive PLMs can generalize from a few task examples, their efficacy at D2T is largely unexplored. Furthermore, we have an incomplete understanding of the limits of PLMs on D2T.   In this work, we conduct an empirical study of both fine-tuned and auto-regressive PLMs on the DART multi-domain D2T dataset. We consider their performance as a function of the amount of task-specific data and how these data are incorporated into the models: zero and few-shot learning, and fine-tuning of model weights. In addition, we probe the limits of PLMs by measuring performance on subsets of the evaluation data: novel predicates and abstractive test examples. To improve the performance on these subsets, we investigate two techniques: providing predicate descriptions in the context and re-ranking generated candidates by information reflected in the source. Finally, we conduct a human evaluation of model errors and show that D2T generation tasks would benefit from datasets with more careful manual curation.]]></itunes:summary>
+<description><![CDATA[Expressing natural language descriptions of structured facts or relations -- data-to-text generation (D2T) -- increases the accessibility of structured knowledge repositories. Previous work shows that pre-trained language models(PLMs) perform remarkably well on this task after fine-tuning on a significant amount of task-specific training data. On the other hand, while auto-regressive PLMs can generalize from a few task examples, their efficacy at D2T is largely unexplored. Furthermore, we have an incomplete understanding of the limits of PLMs on D2T.   In this work, we conduct an empirical study of both fine-tuned and auto-regressive PLMs on the DART multi-domain D2T dataset. We consider their performance as a function of the amount of task-specific data and how these data are incorporated into the models: zero and few-shot learning, and fine-tuning of model weights. In addition, we probe the limits of PLMs by measuring performance on subsets of the evaluation data: novel predicates and abstractive test examples. To improve the performance on these subsets, we investigate two techniques: providing predicate descriptions in the context and re-ranking generated candidates by information reflected in the source. Finally, we conduct a human evaluation of model errors and show that D2T generation tasks would benefit from datasets with more careful manual curation.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.11505v1.What_Makes_Data_to_Text_Generation_Hard_for_Pretrained_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2669.871</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.11505v1.What_Makes_Data_to_Text_Generation_Hard_for_Pretrained_Language_Models.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -676,6 +710,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.11790v3.Large_Pre_trained_Language_Models_Contain_Human_like_Biases_of_What_is_Right_and_Wrong_to_Do.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Article 34 Citation: Card D and Smith NA (2020) On Consequentialism and Fairness. Front</title>
+<itunes:title>Article 34 Citation: Card D and Smith NA (2020) On Consequentialism and Fairness. Front</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent work on fairness in machine learning has primarily emphasized how to define, quantify, and encourage "fair" outcomes. Less attention has been paid, however, to the ethical foundations which underlie such efforts. Among the ethical perspectives that should be taken into consideration is consequentialism, the position that, roughly speaking, outcomes are all that matter. Although consequentialism is not free from difficulties, and although it does not necessarily provide a tractable way of choosing actions (because of the combined problems of uncertainty, subjectivity, and aggregation), it nevertheless provides a powerful foundation from which to critique the existing literature on machine learning fairness. Moreover, it brings to the fore some of the tradeoffs involved, including the problem of who counts, the pros and cons of using a policy, and the relative value of the distant future. In this paper we provide a consequentialist critique of common definitions of fairness within machine learning, as well as a machine learning perspective on consequentialism. We conclude with a broader discussion of the issues of learning and randomization, which have important implications for the ethics of automated decision making systems.]]></itunes:summary>
+<description><![CDATA[Recent work on fairness in machine learning has primarily emphasized how to define, quantify, and encourage "fair" outcomes. Less attention has been paid, however, to the ethical foundations which underlie such efforts. Among the ethical perspectives that should be taken into consideration is consequentialism, the position that, roughly speaking, outcomes are all that matter. Although consequentialism is not free from difficulties, and although it does not necessarily provide a tractable way of choosing actions (because of the combined problems of uncertainty, subjectivity, and aggregation), it nevertheless provides a powerful foundation from which to critique the existing literature on machine learning fairness. Moreover, it brings to the fore some of the tradeoffs involved, including the problem of who counts, the pros and cons of using a policy, and the relative value of the distant future. In this paper we provide a consequentialist critique of common definitions of fairness within machine learning, as well as a machine learning perspective on consequentialism. We conclude with a broader discussion of the issues of learning and randomization, which have important implications for the ethics of automated decision making systems.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/frai-03-00034.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3851.25875</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/frai-03-00034.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -795,6 +846,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.06152v1.Moral_Dilemmas_for_Moral_Machines.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos</title>
+<itunes:title>Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Pretraining on noisy, internet-scale datasets has been heavily studied as a technique for training models with broad, general capabilities for text, images, and other modalities. However, for many sequential decision domains such as robotics, video games, and computer use, publicly available data does not contain the labels required to train behavioral priors in the same way. We extend the internet-scale pretraining paradigm to sequential decision domains through semi-supervised imitation learning wherein agents learn to act by watching online unlabeled videos. Specifically, we show that with a small amount of labeled data we can train an inverse dynamics model accurate enough to label a huge unlabeled source of online data -- here, online videos of people playing Minecraft -- from which we can then train a general behavioral prior. Despite using the native human interface (mouse and keyboard at 20Hz), we show that this behavioral prior has nontrivial zero-shot capabilities and that it can be fine-tuned, with both imitation learning and reinforcement learning, to hard-exploration tasks that are impossible to learn from scratch via reinforcement learning. For many tasks our models exhibit human-level performance, and we are the first to report computer agents that can craft diamond tools, which can take proficient humans upwards of 20 minutes (24,000 environment actions) of gameplay to accomplish.]]></itunes:summary>
+<description><![CDATA[Pretraining on noisy, internet-scale datasets has been heavily studied as a technique for training models with broad, general capabilities for text, images, and other modalities. However, for many sequential decision domains such as robotics, video games, and computer use, publicly available data does not contain the labels required to train behavioral priors in the same way. We extend the internet-scale pretraining paradigm to sequential decision domains through semi-supervised imitation learning wherein agents learn to act by watching online unlabeled videos. Specifically, we show that with a small amount of labeled data we can train an inverse dynamics model accurate enough to label a huge unlabeled source of online data -- here, online videos of people playing Minecraft -- from which we can then train a general behavioral prior. Despite using the native human interface (mouse and keyboard at 20Hz), we show that this behavioral prior has nontrivial zero-shot capabilities and that it can be fine-tuned, with both imitation learning and reinforcement learning, to hard-exploration tasks that are impossible to learn from scratch via reinforcement learning. For many tasks our models exhibit human-level performance, and we are the first to report computer agents that can craft diamond tools, which can take proficient humans upwards of 20 minutes (24,000 environment actions) of gameplay to accomplish.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2206.11795v1.Video_PreTraining_VPT_Learning_to_Act_by_Watching_Unlabeled_Online_Videos.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>6392.79025</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2206.11795v1.Video_PreTraining_VPT_Learning_to_Act_by_Watching_Unlabeled_Online_Videos.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1035,6 +1103,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/D17-1118.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Automatic Detection of Generated Text is Easiest when Humans are Fooled</title>
+<itunes:title>Automatic Detection of Generated Text is Easiest when Humans are Fooled</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recent advancements in neural language modelling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies---top-$k$, nucleus sampling, and untruncated random sampling---and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.]]></itunes:summary>
+<description><![CDATA[Recent advancements in neural language modelling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies---top-$k$, nucleus sampling, and untruncated random sampling---and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.00650v2.Automatic_Detection_of_Generated_Text_is_Easiest_when_Humans_are_Fooled.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2894.96825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.00650v2.Automatic_Detection_of_Generated_Text_is_Easiest_when_Humans_are_Fooled.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1392,6 +1477,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nihms246870.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>The principals of meaning: Extracting semantic dimensions from co-occurrence models of semantics</title>
+<itunes:title>The principals of meaning: Extracting semantic dimensions from co-occurrence models of semantics</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Abstract Notable progress has been made recently on computational models of semantics using vector representations for word meaning Mikolov, Sutskever, Chen, Corrado, & Dean, 2013). As representations of meaning, recent models presumably hone in on plausible organizational principles for meaning. We performed an analysis on the organization of the skip-gram model's semantic space. Consistent with human performance (Osgood, Suci, & Tannenbaum, 1957), the skip-gram model primarily relies on affective distinctions to organize meaning. We showed that the skip-gram model accounts for unique variance in behavioral measures of lexical access above and beyond that accounted for by affective and lexical measures. We also raised the possibility that word frequency predicts behavioral measures of lexical access due to the fact that word use is organized by semantics. Deconstruction of the semantic representations in semantic models has the potential to reveal organizing principles of human semantics.]]></itunes:summary>
+<description><![CDATA[Abstract Notable progress has been made recently on computational models of semantics using vector representations for word meaning Mikolov, Sutskever, Chen, Corrado, & Dean, 2013). As representations of meaning, recent models presumably hone in on plausible organizational principles for meaning. We performed an analysis on the organization of the skip-gram model's semantic space. Consistent with human performance (Osgood, Suci, & Tannenbaum, 1957), the skip-gram model primarily relies on affective distinctions to organize meaning. We showed that the skip-gram model accounts for unique variance in behavioral measures of lexical access above and beyond that accounted for by affective and lexical measures. We also raised the possibility that word frequency predicts behavioral measures of lexical access due to the fact that word use is organized by semantics. Deconstruction of the semantic representations in semantic models has the potential to reveal organizing principles of human semantics.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s13423-016-1053-2.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3976.307</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s13423-016-1053-2.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1841,6 +1943,23 @@
 </item>
 
 <item>
+<title>An Information-theoretic Approach to Prompt Engineering Without Ground Truth Labels</title>
+<itunes:title>An Information-theoretic Approach to Prompt Engineering Without Ground Truth Labels</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Pre-trained language models derive substantial linguistic and factual knowledge from the massive corpora on which they are trained, and prompt engineering seeks to align these models to specific tasks. Unfortunately, existing prompt engineering methods require significant amounts of labeled data, access to model parameters, or both. We introduce a new method for selecting prompt templates \textit{without labeled examples} and \textit{without direct access to the model}. Specifically, over a set of candidate templates, we choose the template that maximizes the mutual information between the input and the corresponding model output. Across 8 datasets representing 7 distinct NLP tasks, we show that when a template has high mutual information, it also has high accuracy on the task. On the largest model, selecting prompts with our method gets 90\% of the way from the average prompt accuracy to the best prompt accuracy and requires no ground truth labels.]]></itunes:summary>
+<description><![CDATA[Pre-trained language models derive substantial linguistic and factual knowledge from the massive corpora on which they are trained, and prompt engineering seeks to align these models to specific tasks. Unfortunately, existing prompt engineering methods require significant amounts of labeled data, access to model parameters, or both. We introduce a new method for selecting prompt templates \textit{without labeled examples} and \textit{without direct access to the model}. Specifically, over a set of candidate templates, we choose the template that maximizes the mutual information between the input and the corresponding model output. Across 8 datasets representing 7 distinct NLP tasks, we show that when a template has high mutual information, it also has high accuracy on the task. On the largest model, selecting prompts with our method gets 90\% of the way from the average prompt accuracy to the best prompt accuracy and requires no ground truth labels.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.11364v1.An_Information_theoretic_Approach_to_Prompt_Engineering_Without_Ground_Truth_Labels.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5348.5715</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.11364v1.An_Information_theoretic_Approach_to_Prompt_Engineering_Without_Ground_Truth_Labels.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</title>
 <itunes:title>Star Temporal Classification: Sequence Classification with Partially Labeled Data</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1972,6 +2091,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00160v3.How_Do_Your_Biomedical_Named_Entity_Recognition_Models_Generalize_to_Novel_Entities.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>BERT Busters: Outlier Dimensions that Disrupt Transformers</title>
+<itunes:title>BERT Busters: Outlier Dimensions that Disrupt Transformers</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Multiple studies have shown that Transformers are remarkably robust to pruning. Contrary to this received wisdom, we demonstrate that pre-trained Transformer encoders are surprisingly fragile to the removal of a very small number of features in the layer outputs (<0.0001% of model weights). In case of BERT and other pre-trained encoder Transformers, the affected component is the scaling factors and biases in the LayerNorm. The outliers are high-magnitude normalization parameters that emerge early in pre-training and show up consistently in the same dimensional position throughout the model. We show that disabling them significantly degrades both the MLM loss and the downstream task performance. This effect is observed across several BERT-family models and other popular pre-trained Transformer architectures, including BART, XLNet and ELECTRA; we also show a similar effect in GPT-2.]]></itunes:summary>
+<description><![CDATA[Multiple studies have shown that Transformers are remarkably robust to pruning. Contrary to this received wisdom, we demonstrate that pre-trained Transformer encoders are surprisingly fragile to the removal of a very small number of features in the layer outputs (<0.0001% of model weights). In case of BERT and other pre-trained encoder Transformers, the affected component is the scaling factors and biases in the LayerNorm. The outliers are high-magnitude normalization parameters that emerge early in pre-training and show up consistently in the same dimensional position throughout the model. We show that disabling them significantly degrades both the MLM loss and the downstream task performance. This effect is observed across several BERT-family models and other popular pre-trained Transformer architectures, including BART, XLNet and ELECTRA; we also show a similar effect in GPT-2.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.06990v2.BERT_Busters_Outlier_Dimensions_that_Disrupt_Transformers.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2280.0195</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.06990v2.BERT_Busters_Outlier_Dimensions_that_Disrupt_Transformers.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
