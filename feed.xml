@@ -18,6 +18,23 @@
 
 
 <item>
+<title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts Maarten Sap</title>
+<itunes:title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts Maarten Sap</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.]]></itunes:summary>
+<description><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.397.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2864.7445</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.397.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference</title>
 <itunes:title>Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -103,6 +120,23 @@
 </item>
 
 <item>
+<title>Debiasing Masks: A New Framework for Shortcut Mitigation in NLU</title>
+<itunes:title>Debiasing Masks: A New Framework for Shortcut Mitigation in NLU</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Debiasing language models from unwanted behaviors in Natural Language Understanding tasks is a topic with rapidly increasing interest in the NLP community. Spurious statistical correlations in the data allow models to perform shortcuts and avoid uncovering more advanced and desirable linguistic features. A multitude of effective debiasing approaches has been proposed, but flexibility remains a major issue. For the most part, models must be retrained to find a new set of weights with debiased behavior. We propose a new debiasing method in which we identify debiased pruning masks that can be applied to a finetuned model. This enables the selective and conditional application of debiasing behaviors. We assume that bias is caused by a certain subset of weights in the network; our method is, in essence, a mask search to identify and remove biased weights. Our masks show equivalent or superior performance to the standard counterparts, while offering important benefits. Pruning masks can be stored with high efficiency in memory, and it becomes possible to switch among several debiasing behaviors (or revert back to the original biased model) at inference time. Finally, it opens the doors to further research on how biases are acquired by studying the generated masks. For example, we observed that the early layers and attention heads were pruned more aggressively, possibly hinting towards the location in which biases may be encoded.]]></itunes:summary>
+<description><![CDATA[Debiasing language models from unwanted behaviors in Natural Language Understanding tasks is a topic with rapidly increasing interest in the NLP community. Spurious statistical correlations in the data allow models to perform shortcuts and avoid uncovering more advanced and desirable linguistic features. A multitude of effective debiasing approaches has been proposed, but flexibility remains a major issue. For the most part, models must be retrained to find a new set of weights with debiased behavior. We propose a new debiasing method in which we identify debiased pruning masks that can be applied to a finetuned model. This enables the selective and conditional application of debiasing behaviors. We assume that bias is caused by a certain subset of weights in the network; our method is, in essence, a mask search to identify and remove biased weights. Our masks show equivalent or superior performance to the standard counterparts, while offering important benefits. Pruning masks can be stored with high efficiency in memory, and it becomes possible to switch among several debiasing behaviors (or revert back to the original biased model) at inference time. Finally, it opens the doors to further research on how biases are acquired by studying the generated masks. For example, we observed that the early layers and attention heads were pruned more aggressively, possibly hinting towards the location in which biases may be encoded.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.16079v1.Debiasing_Masks_A_New_Framework_for_Shortcut_Mitigation_in_NLU.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1356.87825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.16079v1.Debiasing_Masks_A_New_Framework_for_Shortcut_Mitigation_in_NLU.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change</title>
 <itunes:title>Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -132,6 +166,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Frimer et al., 2022_Incivility is Rising among American Politicians on Twitter.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A Data Set for the Analysis of Text Quality Dimensions in Summarization Evaluation</title>
+<itunes:title>A Data Set for the Analysis of Text Quality Dimensions in Summarization Evaluation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Automatic evaluation of summarization focuses on developing a metric to represent the quality of the resulting text. However, text quality is represented in a variety of dimensions ranging from grammaticality to readability and coherence. In our work, we analyze the dependencies between a variety of quality dimensions on automatically created multi-document summaries and which dimensions automatic evaluation metrics such as ROUGE, PEAK or JSD are able to capture. Our results indicate that variants of ROUGE are correlated to various quality dimensions and that some automatic summarization methods achieve higher quality summaries than others with respect to individual summary quality dimensions. Our results also indicate that differentiating between quality dimensions facilitates inspection and fine-grained comparison of summarization methods and its characteristics.]]></itunes:summary>
+<description><![CDATA[Automatic evaluation of summarization focuses on developing a metric to represent the quality of the resulting text. However, text quality is represented in a variety of dimensions ranging from grammaticality to readability and coherence. In our work, we analyze the dependencies between a variety of quality dimensions on automatically created multi-document summaries and which dimensions automatic evaluation metrics such as ROUGE, PEAK or JSD are able to capture. Our results indicate that variants of ROUGE are correlated to various quality dimensions and that some automatic summarization methods achieve higher quality summaries than others with respect to individual summary quality dimensions. Our results also indicate that differentiating between quality dimensions facilitates inspection and fine-grained comparison of summarization methods and its characteristics.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2020.lrec-1.826.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2476.6695</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2020.lrec-1.826.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -171,6 +222,23 @@
 </item>
 
 <item>
+<title>Play the Shannon Game With Language Models: A Human-Free Approach to Summary Evaluation</title>
+<itunes:title>Play the Shannon Game With Language Models: A Human-Free Approach to Summary Evaluation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The goal of a summary is to concisely state the most important information in a document. With this principle in mind, we introduce new reference-free summary evaluation metrics that use a pretrained language model to estimate the information content shared between a document and its summary. These metrics are a modern take on the Shannon Game, a method for summary quality scoring proposed decades ago, where we replace human annotators with language models. We also view these metrics as an extension of BLANC, a recently proposed approach to summary quality measurement based on the performance of a language model with and without the help of a summary. Using transformer based language models, we empirically verify that our metrics achieve state-of-the-art correlation with human judgement of the summary quality dimensions of both coherence and relevance, as well as competitive correlation with human judgement of consistency and fluency.]]></itunes:summary>
+<description><![CDATA[The goal of a summary is to concisely state the most important information in a document. With this principle in mind, we introduce new reference-free summary evaluation metrics that use a pretrained language model to estimate the information content shared between a document and its summary. These metrics are a modern take on the Shannon Game, a method for summary quality scoring proposed decades ago, where we replace human annotators with language models. We also view these metrics as an extension of BLANC, a recently proposed approach to summary quality measurement based on the performance of a language model with and without the help of a summary. Using transformer based language models, we empirically verify that our metrics achieve state-of-the-art correlation with human judgement of the summary quality dimensions of both coherence and relevance, as well as competitive correlation with human judgement of consistency and fluency.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.10918v2.Play_the_Shannon_Game_With_Language_Models_A_Human_Free_Approach_to_Summary_Evaluation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>4344.99925</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.10918v2.Play_the_Shannon_Game_With_Language_Models_A_Human_Free_Approach_to_Summary_Evaluation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Understanding Gradient Descent on Edge of Stability in Deep Learning</title>
 <itunes:title>Understanding Gradient Descent on Edge of Stability in Deep Learning</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -183,6 +251,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.09745v1.Understanding_Gradient_Descent_on_Edge_of_Stability_in_Deep_Learning.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Automated and Explainable Ontology Extension Based on Deep Learning: A Case Study in the Chemical Domain</title>
+<itunes:title>Automated and Explainable Ontology Extension Based on Deep Learning: A Case Study in the Chemical Domain</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Reference ontologies provide a shared vocabulary and knowledge resource for their domain. Manual construction enables them to maintain a high quality, allowing them to be widely accepted across their community. However, the manual development process does not scale for large domains. We present a new methodology for automatic ontology extension and apply it to the ChEBI ontology, a prominent reference ontology for life sciences chemistry. We trained a Transformer-based deep learning model on the leaf node structures from the ChEBI ontology and the classes to which they belong. The model is then capable of automatically classifying previously unseen chemical structures. The proposed model achieved an overall F1 score of 0.80, an improvement of 6 percentage points over our previous results on the same dataset. Additionally, we demonstrate how visualizing the model's attention weights can help to explain the results by providing insight into how the model made its decisions.]]></itunes:summary>
+<description><![CDATA[Reference ontologies provide a shared vocabulary and knowledge resource for their domain. Manual construction enables them to maintain a high quality, allowing them to be widely accepted across their community. However, the manual development process does not scale for large domains. We present a new methodology for automatic ontology extension and apply it to the ChEBI ontology, a prominent reference ontology for life sciences chemistry. We trained a Transformer-based deep learning model on the leaf node structures from the ChEBI ontology and the classes to which they belong. The model is then capable of automatically classifying previously unseen chemical structures. The proposed model achieved an overall F1 score of 0.80, an improvement of 6 percentage points over our previous results on the same dataset. Additionally, we demonstrate how visualizing the model's attention weights can help to explain the results by providing insight into how the model made its decisions.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.09202v1.Automated_and_Explainable_Ontology_Extension_Based_on_Deep_Learning_A_Case_Study_in_the_Chemical_Domain.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2167.275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.09202v1.Automated_and_Explainable_Ontology_Extension_Based_on_Deep_Learning_A_Case_Study_in_the_Chemical_Domain.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -698,6 +783,23 @@
 </item>
 
 <item>
+<title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population</title>
+<itunes:title>DeepKE: A Deep Learning Based Knowledge Extraction Toolkit for Knowledge Base Population</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We present an open-source and extensible knowledge extraction toolkit DeepKE, supporting complicated low-resource, document-level and multimodal scenarios in the knowledge base population. DeepKE implements various information extraction tasks, including named entity recognition, relation extraction and attribute extraction. With a unified framework, DeepKE allows developers and researchers to customize datasets and models to extract information from unstructured data according to their requirements. Specifically, DeepKE not only provides various functional modules and model implementation for different tasks and scenarios but also organizes all components by consistent frameworks to maintain sufficient modularity and extensibility. We release the source code at GitHub in https://github.com/zjunlp/DeepKE with Google Colab tutorials and comprehensive documents for beginners. Besides, we present an online system in http://deepke.openkg.cn/EN/re_doc_show.html for real-time extraction of various tasks, and a demo video.]]></itunes:summary>
+<description><![CDATA[We present an open-source and extensible knowledge extraction toolkit DeepKE, supporting complicated low-resource, document-level and multimodal scenarios in the knowledge base population. DeepKE implements various information extraction tasks, including named entity recognition, relation extraction and attribute extraction. With a unified framework, DeepKE allows developers and researchers to customize datasets and models to extract information from unstructured data according to their requirements. Specifically, DeepKE not only provides various functional modules and model implementation for different tasks and scenarios but also organizes all components by consistent frameworks to maintain sufficient modularity and extensibility. We release the source code at GitHub in https://github.com/zjunlp/DeepKE with Google Colab tutorials and comprehensive documents for beginners. Besides, we present an online system in http://deepke.openkg.cn/EN/re_doc_show.html for real-time extraction of various tasks, and a demo video.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v5.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1777.92</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2201.03335v5.DeepKE_A_Deep_Learning_Based_Knowledge_Extraction_Toolkit_for_Knowledge_Base_Population.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</title>
 <itunes:title>Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -749,6 +851,40 @@
 </item>
 
 <item>
+<title>Attribute Alignment: Controlling Text Generation from Pre-trained Language Models</title>
+<itunes:title>Attribute Alignment: Controlling Text Generation from Pre-trained Language Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large language models benefit from training with a large amount of unlabeled text, which gives them increasingly fluent and diverse generation capabilities. However, using these models for text generation that takes into account target attributes, such as sentiment polarity or specific topics, remains a challenge. We propose a simple and flexible method for controlling text generation by aligning disentangled attribute representations. In contrast to recent efforts on training a discriminator to perturb the token level distribution for an attribute, we use the same data to learn an alignment function to guide the pre-trained, non-controlled language model to generate texts with the target attribute without changing the original language model parameters. We evaluate our method on sentiment- and topic-controlled generation, and show large performance gains over previous methods while retaining fluency and diversity.]]></itunes:summary>
+<description><![CDATA[Large language models benefit from training with a large amount of unlabeled text, which gives them increasingly fluent and diverse generation capabilities. However, using these models for text generation that takes into account target attributes, such as sentiment polarity or specific topics, remains a challenge. We propose a simple and flexible method for controlling text generation by aligning disentangled attribute representations. In contrast to recent efforts on training a discriminator to perturb the token level distribution for an attribute, we use the same data to learn an alignment function to guide the pre-trained, non-controlled language model to generate texts with the target attribute without changing the original language model parameters. We evaluate our method on sentiment- and topic-controlled generation, and show large performance gains over previous methods while retaining fluency and diversity.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.11070v2.Attribute_Alignment_Controlling_Text_Generation_from_Pre_trained_Language_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3672.6595</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.11070v2.Attribute_Alignment_Controlling_Text_Generation_from_Pre_trained_Language_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Unifying Data Perspectivism and Personalization: An Application to Social Norms</title>
+<itunes:title>Unifying Data Perspectivism and Personalization: An Application to Social Norms</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Instead of using a single ground truth for language processing tasks, several recent studies have examined how to represent and predict the labels of the set of annotators. However, often little or no information about annotators is known, or the set of annotators is small. In this work, we examine a corpus of social media posts about conflict from a set of 13k annotators and 210k judgements of social norms. We provide a novel experimental setup that applies personalization methods to the modeling of annotators and compare their effectiveness for predicting the perception of social norms. We further provide an analysis of performance across subsets of social situations that vary by the closeness of the relationship between parties in conflict, and assess where personalization helps the most.]]></itunes:summary>
+<description><![CDATA[Instead of using a single ground truth for language processing tasks, several recent studies have examined how to represent and predict the labels of the set of annotators. However, often little or no information about annotators is known, or the set of annotators is small. In this work, we examine a corpus of social media posts about conflict from a set of 13k annotators and 210k judgements of social norms. We provide a novel experimental setup that applies personalization methods to the modeling of annotators and compare their effectiveness for predicting the perception of social norms. We further provide an analysis of performance across subsets of social situations that vary by the closeness of the relationship between parties in conflict, and assess where personalization helps the most.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.14531v2.Unifying_Data_Perspectivism_and_Personalization_An_Application_to_Social_Norms.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2598.89625</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.14531v2.Unifying_Data_Perspectivism_and_Personalization_An_Application_to_Social_Norms.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Non-Parametric Class Completeness Estimators for Collaborative Knowledge Graphs -- The Case of Wikidata</title>
 <itunes:title>Non-Parametric Class Completeness Estimators for Collaborative Knowledge Graphs -- The Case of Wikidata</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -761,6 +897,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1909.01109v1.Non_Parametric_Class_Completeness_Estimators_for_Collaborative_Knowledge_Graphs_The_Case_of_Wikidata.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Evaluating the Knowledge Dependency of Questions</title>
+<itunes:title>Evaluating the Knowledge Dependency of Questions</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[The automatic generation of Multiple Choice Questions (MCQ) has the potential to reduce the time educators spend on student assessment significantly. However, existing evaluation metrics for MCQ generation, such as BLEU, ROUGE, and METEOR, focus on the n-gram based similarity of the generated MCQ to the gold sample in the dataset and disregard their educational value. They fail to evaluate the MCQ's ability to assess the student's knowledge of the corresponding target fact. To tackle this issue, we propose a novel automatic evaluation metric, coined Knowledge Dependent Answerability (KDA), which measures the MCQ's answerability given knowledge of the target fact. Specifically, we first show how to measure KDA based on student responses from a human survey. Then, we propose two automatic evaluation metrics, KDA_disc and KDA_cont, that approximate KDA by leveraging pre-trained language models to imitate students' problem-solving behavior. Through our human studies, we show that KDA_disc and KDA_soft have strong correlations with both (1) KDA and (2) usability in an actual classroom setting, labeled by experts. Furthermore, when combined with n-gram based similarity metrics, KDA_disc and KDA_cont are shown to have a strong predictive power for various expert-labeled MCQ quality measures.]]></itunes:summary>
+<description><![CDATA[The automatic generation of Multiple Choice Questions (MCQ) has the potential to reduce the time educators spend on student assessment significantly. However, existing evaluation metrics for MCQ generation, such as BLEU, ROUGE, and METEOR, focus on the n-gram based similarity of the generated MCQ to the gold sample in the dataset and disregard their educational value. They fail to evaluate the MCQ's ability to assess the student's knowledge of the corresponding target fact. To tackle this issue, we propose a novel automatic evaluation metric, coined Knowledge Dependent Answerability (KDA), which measures the MCQ's answerability given knowledge of the target fact. Specifically, we first show how to measure KDA based on student responses from a human survey. Then, we propose two automatic evaluation metrics, KDA_disc and KDA_cont, that approximate KDA by leveraging pre-trained language models to imitate students' problem-solving behavior. Through our human studies, we show that KDA_disc and KDA_soft have strong correlations with both (1) KDA and (2) usability in an actual classroom setting, labeled by experts. Furthermore, when combined with n-gram based similarity metrics, KDA_disc and KDA_cont are shown to have a strong predictive power for various expert-labeled MCQ quality measures.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.11902v1.Evaluating_the_Knowledge_Dependency_of_Questions.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2450.6515</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.11902v1.Evaluating_the_Knowledge_Dependency_of_Questions.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -795,6 +948,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.03792v1.Highly_Parallel_Autoregressive_Entity_Linking_with_Discriminative_Correction.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Human Annotated Dialogues Dataset for Natural Conversational Agents</title>
+<itunes:title>Human Annotated Dialogues Dataset for Natural Conversational Agents</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Abstract: Conversational agents are gaining huge popularity in industrial applications such as digital assistants, chatbots, and particularly systems for natural language understanding (NLU). However, a major drawback is the unavailability of a common metric to evaluate the replies against human judgement for conversational agents. In this paper, we develop a benchmark dataset with human annotations and diverse replies that can be used to develop such metric for conversational agents. The paper introduces a high-quality human annotated movie dialogue dataset, HUMOD, that is developed from the Cornell movie dialogues dataset. This new dataset comprises 28,500 human responses from 9500 multi-turn dialogue history-reply pairs. Human responses include: (i) ratings of the dialogue reply in relevance to the dialogue history; and (ii) unique dialogue replies for each dialogue history from the users. Such unique dialogue replies enable researchers in evaluating their models against six unique human responses for each given history. Detailed analysis on how dialogues are structured and human perception on dialogue score in comparison with existing models are also presented.]]></itunes:summary>
+<description><![CDATA[Abstract: Conversational agents are gaining huge popularity in industrial applications such as digital assistants, chatbots, and particularly systems for natural language understanding (NLU). However, a major drawback is the unavailability of a common metric to evaluate the replies against human judgement for conversational agents. In this paper, we develop a benchmark dataset with human annotations and diverse replies that can be used to develop such metric for conversational agents. The paper introduces a high-quality human annotated movie dialogue dataset, HUMOD, that is developed from the Cornell movie dialogues dataset. This new dataset comprises 28,500 human responses from 9500 multi-turn dialogue history-reply pairs. Human responses include: (i) ratings of the dialogue reply in relevance to the dialogue history; and (ii) unique dialogue replies for each dialogue history from the users. Such unique dialogue replies enable researchers in evaluating their models against six unique human responses for each given history. Detailed analysis on how dialogues are structured and human perception on dialogue score in comparison with existing models are also presented.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/9dcdd0d887c9d2fc9e1924e8427a35f263cd.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2092.40825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/9dcdd0d887c9d2fc9e1924e8427a35f263cd.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -902,6 +1072,23 @@
 </item>
 
 <item>
+<title>Generative Language Models for Paragraph-Level Question Generation</title>
+<itunes:title>Generative Language Models for Paragraph-Level Question Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Powerful generative models have led to recent progress in question generation (QG). However, it is difficult to measure advances in QG research since there are no standardized resources that allow a uniform comparison among approaches. In this paper, we introduce QG-Bench, a multilingual and multidomain benchmark for QG that unifies existing question answering datasets by converting them to a standard QG setting. It includes general-purpose datasets such as SQuAD for English, datasets from ten domains and two styles, as well as datasets in eight different languages. Using QG-Bench as a reference, we perform an extensive analysis of the capabilities of language models for the task. First, we propose robust QG baselines based on fine-tuning generative language models. Then, we complement automatic evaluation based on standard metrics with an extensive manual evaluation, which in turn sheds light on the difficulty of evaluating QG models. Finally, we analyse both the domain adaptability of these models as well as the effectiveness of multilingual models in languages other than English. QG-Bench is released along with the fine-tuned models presented in the paper https://github.com/asahi417/lm-question-generation, which are also available as a demo https://autoqg.net/.]]></itunes:summary>
+<description><![CDATA[Powerful generative models have led to recent progress in question generation (QG). However, it is difficult to measure advances in QG research since there are no standardized resources that allow a uniform comparison among approaches. In this paper, we introduce QG-Bench, a multilingual and multidomain benchmark for QG that unifies existing question answering datasets by converting them to a standard QG setting. It includes general-purpose datasets such as SQuAD for English, datasets from ten domains and two styles, as well as datasets in eight different languages. Using QG-Bench as a reference, we perform an extensive analysis of the capabilities of language models for the task. First, we propose robust QG baselines based on fine-tuning generative language models. Then, we complement automatic evaluation based on standard metrics with an extensive manual evaluation, which in turn sheds light on the difficulty of evaluating QG models. Finally, we analyse both the domain adaptability of these models as well as the effectiveness of multilingual models in languages other than English. QG-Bench is released along with the fine-tuned models presented in the paper https://github.com/asahi417/lm-question-generation, which are also available as a demo https://autoqg.net/.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.03992v2.Generative_Language_Models_for_Paragraph_Level_Question_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2884.5715</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.03992v2.Generative_Language_Models_for_Paragraph_Level_Question_Generation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Moral foundations vignettes: a standardized stimulus database of scenarios based on moral foundations theory</title>
 <itunes:title>Moral foundations vignettes: a standardized stimulus database of scenarios based on moral foundations theory</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -967,6 +1154,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.05238v1.BERT_has_a_Moral_Compass_Improvements_of_ethical_and_moral_values_of_machines.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>On the Challenges of Evaluating Compositional Explanations in Multi-Hop Inference: Relevance, Completeness, and Expert Ratings</title>
+<itunes:title>On the Challenges of Evaluating Compositional Explanations in Multi-Hop Inference: Relevance, Completeness, and Expert Ratings</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Building compositional explanations requires models to combine two or more facts that, together, describe why the answer to a question is correct. Typically, these "multi-hop" explanations are evaluated relative to one (or a small number of) gold explanations. In this work, we show these evaluations substantially underestimate model performance, both in terms of the relevance of included facts, as well as the completeness of model-generated explanations, because models regularly discover and produce valid explanations that are different than gold explanations. To address this, we construct a large corpus of 126k domain-expert (science teacher) relevance ratings that augment a corpus of explanations to standardized science exam questions, discovering 80k additional relevant facts not rated as gold. We build three strong models based on different methodologies (generation, ranking, and schemas), and empirically show that while expert-augmented ratings provide better estimates of explanation quality, both original (gold) and expertaugmented automatic evaluations still substantially underestimate performance by up to 36% when compared with full manual expert judgements, with different models being disproportionately affected. This poses a significant methodological challenge to accurately evaluating explanations produced by compositional reasoning models.]]></itunes:summary>
+<description><![CDATA[Building compositional explanations requires models to combine two or more facts that, together, describe why the answer to a question is correct. Typically, these "multi-hop" explanations are evaluated relative to one (or a small number of) gold explanations. In this work, we show these evaluations substantially underestimate model performance, both in terms of the relevance of included facts, as well as the completeness of model-generated explanations, because models regularly discover and produce valid explanations that are different than gold explanations. To address this, we construct a large corpus of 126k domain-expert (science teacher) relevance ratings that augment a corpus of explanations to standardized science exam questions, discovering 80k additional relevant facts not rated as gold. We build three strong models based on different methodologies (generation, ranking, and schemas), and empirically show that while expert-augmented ratings provide better estimates of explanation quality, both original (gold) and expertaugmented automatic evaluations still substantially underestimate performance by up to 36% when compared with full manual expert judgements, with different models being disproportionately affected. This poses a significant methodological challenge to accurately evaluating explanations produced by compositional reasoning models.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.596.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3106.50775</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.596.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1108,6 +1312,23 @@
 </item>
 
 <item>
+<title>Plug and Play Language Models: A Simple Approach to Controlled Text Generation</title>
+<itunes:title>Plug and Play Language Models: A Simple Approach to Controlled Text Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Large transformer-based language models (LMs) trained on huge text corpora have shown unparalleled generation capabilities. However, controlling attributes of the generated language (e.g. switching topic or sentiment) is difficult without modifying the model architecture or fine-tuning on attribute-specific data and entailing the significant cost of retraining. We propose a simple alternative: the Plug and Play Language Model (PPLM) for controllable language generation, which combines a pretrained LM with one or more simple attribute classifiers that guide text generation without any further training of the LM. In the canonical scenario we present, the attribute models are simple classifiers consisting of a user-specified bag of words or a single learned layer with 100,000 times fewer parameters than the LM. Sampling entails a forward and backward pass in which gradients from the attribute model push the LM's hidden activations and thus guide the generation. Model samples demonstrate control over a range of topics and sentiment styles, and extensive automated and human annotated evaluations show attribute alignment and fluency. PPLMs are flexible in that any combination of differentiable attribute models may be used to steer text generation, which will allow for diverse and creative applications beyond the examples given in this paper.]]></itunes:summary>
+<description><![CDATA[Large transformer-based language models (LMs) trained on huge text corpora have shown unparalleled generation capabilities. However, controlling attributes of the generated language (e.g. switching topic or sentiment) is difficult without modifying the model architecture or fine-tuning on attribute-specific data and entailing the significant cost of retraining. We propose a simple alternative: the Plug and Play Language Model (PPLM) for controllable language generation, which combines a pretrained LM with one or more simple attribute classifiers that guide text generation without any further training of the LM. In the canonical scenario we present, the attribute models are simple classifiers consisting of a user-specified bag of words or a single learned layer with 100,000 times fewer parameters than the LM. Sampling entails a forward and backward pass in which gradients from the attribute model push the LM's hidden activations and thus guide the generation. Model samples demonstrate control over a range of topics and sentiment styles, and extensive automated and human annotated evaluations show attribute alignment and fluency. PPLMs are flexible in that any combination of differentiable attribute models may be used to steer text generation, which will allow for diverse and creative applications beyond the examples given in this paper.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02164v4.Plug_and_Play_Language_Models_A_Simple_Approach_to_Controlled_Text_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>5022.1715</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02164v4.Plug_and_Play_Language_Models_A_Simple_Approach_to_Controlled_Text_Generation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models</title>
 <itunes:title>Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1142,6 +1363,23 @@
 </item>
 
 <item>
+<title>AGI Safety From First Principles</title>
+<itunes:title>AGI Safety From First Principles</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[This report explores the core case for why the development of artificial general intelligence (AGI) might pose an existential threat to humanity. It stems from my dissatisfaction with existing arguments on this topic: early work is less relevant in the context of modern machine learning, while more recent work is scattered and brief. This report aims to fill that gap by providing a detailed investigation into the potential risk from AGI misbehaviour, grounded by our current knowledge of machine learning, and highlighting important uncertainties. It identifies four key premises, evaluates existing arguments about them, and outlines some novel considerations for each.]]></itunes:summary>
+<description><![CDATA[This report explores the core case for why the development of artificial general intelligence (AGI) might pose an existential threat to humanity. It stems from my dissatisfaction with existing arguments on this topic: early work is less relevant in the context of modern machine learning, while more recent work is scattered and brief. This report aims to fill that gap by providing a detailed investigation into the potential risk from AGI misbehaviour, grounded by our current knowledge of machine learning, and highlighting important uncertainties. It identifies four key premises, evaluates existing arguments about them, and outlines some novel considerations for each.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/AGI_safety_from_first_principles.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>6045.91025</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/AGI_safety_from_first_principles.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</title>
 <itunes:title>Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1154,6 +1392,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.06167v1.Ultra_fine_Entity_Typing_with_Indirect_Supervision_from_Natural_Language_Inference.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>A Survey on Stance Detection for Mis- and Disinformation Identification</title>
+<itunes:title>A Survey on Stance Detection for Mis- and Disinformation Identification</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Understanding attitudes expressed in texts, also known as stance detection, plays an important role in systems for detecting false information online, be it misinformation (unintentionally false) or disinformation (intentionally false information). Stance detection has been framed in different ways, including (a) as a component of fact-checking, rumour detection, and detecting previously fact-checked claims, or (b) as a task in its own right. While there have been prior efforts to contrast stance detection with other related tasks such as argumentation mining and sentiment analysis, there is no existing survey on examining the relationship between stance detection and mis- and disinformation detection. Here, we aim to bridge this gap by reviewing and analysing existing work in this area, with mis- and disinformation in focus, and discussing lessons learnt and future challenges.]]></itunes:summary>
+<description><![CDATA[Understanding attitudes expressed in texts, also known as stance detection, plays an important role in systems for detecting false information online, be it misinformation (unintentionally false) or disinformation (intentionally false information). Stance detection has been framed in different ways, including (a) as a component of fact-checking, rumour detection, and detecting previously fact-checked claims, or (b) as a task in its own right. While there have been prior efforts to contrast stance detection with other related tasks such as argumentation mining and sentiment analysis, there is no existing survey on examining the relationship between stance detection and mis- and disinformation detection. Here, we aim to bridge this gap by reviewing and analysing existing work in this area, with mis- and disinformation in focus, and discussing lessons learnt and future challenges.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.00242v3.A_Survey_on_Stance_Detection_for_Mis_and_Disinformation_Identification.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3648.209</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2103.00242v3.A_Survey_on_Stance_Detection_for_Mis_and_Disinformation_Identification.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1188,6 +1443,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.00861v3.A_General_Language_Assistant_as_a_Laboratory_for_Alignment.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>The Moral Foundations Reddit Corpus</title>
+<itunes:title>The Moral Foundations Reddit Corpus</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, pro-environmental action, political engagement, and even participation in violent protests. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but in order to achieve better performances in such subjective tasks, large sets of hand-annotated training data are needed. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NLP and across the social sciences, but have been limited to Twitter. To facilitate improving our understanding of the role of moral rhetoric, we present the Moral Foundations Reddit Corpus, a collection of 16,123 Reddit comments that have been curated from 12 distinct subreddits, hand-annotated by at least three trained annotators for 8 categories of moral sentiment (i.e., Care, Proportionality, Equality, Purity, Authority, Loyalty, Thin Morality, Implicit/Explicit Morality) based on the updated Moral Foundations Theory (MFT) framework. We use a range of methodologies to provide baseline moral-sentiment classification results for this new corpus, e.g., cross-domain classification and knowledge transfer.]]></itunes:summary>
+<description><![CDATA[Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, pro-environmental action, political engagement, and even participation in violent protests. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but in order to achieve better performances in such subjective tasks, large sets of hand-annotated training data are needed. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within NLP and across the social sciences, but have been limited to Twitter. To facilitate improving our understanding of the role of moral rhetoric, we present the Moral Foundations Reddit Corpus, a collection of 16,123 Reddit comments that have been curated from 12 distinct subreddits, hand-annotated by at least three trained annotators for 8 categories of moral sentiment (i.e., Care, Proportionality, Equality, Purity, Authority, Loyalty, Thin Morality, Implicit/Explicit Morality) based on the updated Moral Foundations Theory (MFT) framework. We use a range of methodologies to provide baseline moral-sentiment classification results for this new corpus, e.g., cross-domain classification and knowledge transfer.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.05545v2.The_Moral_Foundations_Reddit_Corpus.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3827.80075</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2208.05545v2.The_Moral_Foundations_Reddit_Corpus.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1239,6 +1511,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.12511v1.PolyLoss_A_Polynomial_Expansion_Perspective_of_Classification_Loss_Functions.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</title>
+<itunes:title>Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Social intelligence and Theory of Mind (ToM), i.e., the ability to reason about the different mental states, intents, and reactions of all people involved, allow humans to effectively navigate and understand everyday social interactions. As NLP systems are used in increasingly complex social situations, their ability to grasp social dynamics becomes crucial.   In this work, we examine the open question of social intelligence and Theory of Mind in modern NLP systems from an empirical and theory-based perspective. We show that one of today's largest language models (GPT-3; Brown et al., 2020) lacks this kind of social intelligence out-of-the box, using two tasks: SocialIQa (Sap et al., 2019), which measures models' ability to understand intents and reactions of participants of social interactions, and ToMi (Le et al., 2019), which measures whether models can infer mental states and realities of participants of situations.   Our results show that models struggle substantially at these Theory of Mind tasks, with well-below-human accuracies of 55% and 60% on SocialIQa and ToMi, respectively. To conclude, we draw on theories from pragmatics to contextualize this shortcoming of large language models, by examining the limitations stemming from their data, neural architecture, and training paradigms. Challenging the prevalent narrative that only scale is needed, we posit that person-centric NLP approaches might be more effective towards neural Theory of Mind.]]></itunes:summary>
+<description><![CDATA[Social intelligence and Theory of Mind (ToM), i.e., the ability to reason about the different mental states, intents, and reactions of all people involved, allow humans to effectively navigate and understand everyday social interactions. As NLP systems are used in increasingly complex social situations, their ability to grasp social dynamics becomes crucial.   In this work, we examine the open question of social intelligence and Theory of Mind in modern NLP systems from an empirical and theory-based perspective. We show that one of today's largest language models (GPT-3; Brown et al., 2020) lacks this kind of social intelligence out-of-the box, using two tasks: SocialIQa (Sap et al., 2019), which measures models' ability to understand intents and reactions of participants of social interactions, and ToMi (Le et al., 2019), which measures whether models can infer mental states and realities of participants of situations.   Our results show that models struggle substantially at these Theory of Mind tasks, with well-below-human accuracies of 55% and 60% on SocialIQa and ToMi, respectively. To conclude, we draw on theories from pragmatics to contextualize this shortcoming of large language models, by examining the limitations stemming from their data, neural architecture, and training paradigms. Challenging the prevalent narrative that only scale is needed, we posit that person-centric NLP approaches might be more effective towards neural Theory of Mind.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.13312v1.Neural_Theory_of_Mind_On_the_Limits_of_Social_Intelligence_in_Large_LMs.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3277.89725</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.13312v1.Neural_Theory_of_Mind_On_the_Limits_of_Social_Intelligence_in_Large_LMs.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1329,6 +1618,23 @@
 </item>
 
 <item>
+<title>Minimum Bayes Risk Training of RNN-Transducer for End-to-End Speech Recognition</title>
+<itunes:title>Minimum Bayes Risk Training of RNN-Transducer for End-to-End Speech Recognition</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[In this work, we propose minimum Bayes risk (MBR) training of RNN-Transducer (RNN-T) for end-to-end speech recognition. Specifically, initialized with a RNN-T trained model, MBR training is conducted via minimizing the expected edit distance between the reference label sequence and on-the-fly generated N-best hypothesis. We also introduce a heuristic to incorporate an external neural network language model (NNLM) in RNN-T beam search decoding and explore MBR training with the external NNLM. Experimental results demonstrate an MBR trained model outperforms a RNN-T trained model substantially and further improvements can be achieved if trained with an external NNLM. Our best MBR trained system achieves absolute character error rate (CER) reductions of 1.2% and 0.5% on read and spontaneous Mandarin speech respectively over a strong convolution and transformer based RNN-T baseline trained on ~21,000 hours of speech.]]></itunes:summary>
+<description><![CDATA[In this work, we propose minimum Bayes risk (MBR) training of RNN-Transducer (RNN-T) for end-to-end speech recognition. Specifically, initialized with a RNN-T trained model, MBR training is conducted via minimizing the expected edit distance between the reference label sequence and on-the-fly generated N-best hypothesis. We also introduce a heuristic to incorporate an external neural network language model (NNLM) in RNN-T beam search decoding and explore MBR training with the external NNLM. Experimental results demonstrate an MBR trained model outperforms a RNN-T trained model substantially and further improvements can be achieved if trained with an external NNLM. Our best MBR trained system achieves absolute character error rate (CER) reductions of 1.2% and 0.5% on read and spontaneous Mandarin speech respectively over a strong convolution and transformer based RNN-T baseline trained on ~21,000 hours of speech.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.12487v1.Minimum_Bayes_Risk_Training_of_RNN_Transducer_for_End_to_End_Speech_Recognition.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1558.0995</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1911.12487v1.Minimum_Bayes_Risk_Training_of_RNN_Transducer_for_End_to_End_Speech_Recognition.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Masked Autoencoders As Spatiotemporal Learners</title>
 <itunes:title>Masked Autoencoders As Spatiotemporal Learners</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1375,6 +1681,40 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.09953v1.Towards_Explaining_Subjective_Ground_of_Individuals_on_Social_Media.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Language Model Augmented Relevance Score</title>
+<itunes:title>Language Model Augmented Relevance Score</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Although automated metrics are commonly used to evaluate NLG systems, they often correlate poorly with human judgements. Newer metrics such as BERTScore have addressed many weaknesses in prior metrics such as BLEU and ROUGE, which rely on -gram matching. These newer methods, however, are still limited in that they do not consider the generation context, so they cannot properly reward generated text that is correct but deviates from the given reference. In this paper, we propose Language Model Augmented Relevance Score (MARS), a new context-aware metric for NLG evaluation. MARS leverages off-the-shelf language models, guided by reinforcement learning, to create augmented references that consider both the generation context and available human references, which are then used as additional references to score generated text. Compared with seven existing metrics in three common NLG tasks, MARS not only achieves higher correlation with human reference judgements, but also differentiates well-formed candidates from adversarial samples to a larger degree.]]></itunes:summary>
+<description><![CDATA[Although automated metrics are commonly used to evaluate NLG systems, they often correlate poorly with human judgements. Newer metrics such as BERTScore have addressed many weaknesses in prior metrics such as BLEU and ROUGE, which rely on -gram matching. These newer methods, however, are still limited in that they do not consider the generation context, so they cannot properly reward generated text that is correct but deviates from the given reference. In this paper, we propose Language Model Augmented Relevance Score (MARS), a new context-aware metric for NLG evaluation. MARS leverages off-the-shelf language models, guided by reinforcement learning, to create augmented references that consider both the generation context and available human references, which are then used as additional references to score generated text. Compared with seven existing metrics in three common NLG tasks, MARS not only achieves higher correlation with human reference judgements, but also differentiates well-formed candidates from adversarial samples to a larger degree.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.acl-long.521.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2305.20175</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.acl-long.521.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Don't Blame the Annotator: Bias Already Starts in the Annotation Instructions</title>
+<itunes:title>Don't Blame the Annotator: Bias Already Starts in the Annotation Instructions</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[In recent years, progress in NLU has been driven by benchmarks. These benchmarks are typically collected by crowdsourcing, where annotators write examples based on annotation instructions crafted by dataset creators. In this work, we hypothesize that annotators pick up on patterns in the crowdsourcing instructions, which bias them to write similar examples that are then over-represented in the collected data. We study this form of bias, termed instruction bias, in 14 recent NLU benchmarks, showing that instruction examples often exhibit concrete patterns, which are propagated by crowdworkers to the collected data. This extends previous work (Geva et al., 2019) and raises a new concern of whether we are modeling the dataset creator's instructions, rather than the task. Through a series of experiments, we show that, indeed, instruction bias can lead to overestimation of model performance, and that models struggle to generalize beyond biases originating in the crowdsourcing instructions. We further analyze the influence of instruction bias in terms of pattern frequency and model size, and derive concrete recommendations for creating future NLU benchmarks.]]></itunes:summary>
+<description><![CDATA[In recent years, progress in NLU has been driven by benchmarks. These benchmarks are typically collected by crowdsourcing, where annotators write examples based on annotation instructions crafted by dataset creators. In this work, we hypothesize that annotators pick up on patterns in the crowdsourcing instructions, which bias them to write similar examples that are then over-represented in the collected data. We study this form of bias, termed instruction bias, in 14 recent NLU benchmarks, showing that instruction examples often exhibit concrete patterns, which are propagated by crowdworkers to the collected data. This extends previous work (Geva et al., 2019) and raises a new concern of whether we are modeling the dataset creator's instructions, rather than the task. Through a series of experiments, we show that, indeed, instruction bias can lead to overestimation of model performance, and that models struggle to generalize beyond biases originating in the crowdsourcing instructions. We further analyze the influence of instruction bias in terms of pattern frequency and model size, and derive concrete recommendations for creating future NLU benchmarks.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.00415v1.Don_t_Blame_the_Annotator_Bias_Already_Starts_in_the_Annotation_Instructions.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1373.80575</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.00415v1.Don_t_Blame_the_Annotator_Bias_Already_Starts_in_the_Annotation_Instructions.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1477,6 +1817,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Transfer Learning from BERT to Support Insertion of New Concepts into SNOMED CT.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>GRUEN for Evaluating Linguistic Quality of Generated Text</title>
+<itunes:title>GRUEN for Evaluating Linguistic Quality of Generated Text</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Automatic evaluation metrics are indispensable for evaluating generated text. To date, these metrics have focused almost exclusively on the content selection aspect of the system output, ignoring the linguistic quality aspect altogether. We bridge this gap by proposing GRUEN for evaluating Grammaticality, non-Redundancy, focUs, structure and coherENce of generated text. GRUEN utilizes a BERT-based model and a class of syntactic, semantic, and contextual features to examine the system output. Unlike most existing evaluation metrics which require human references as an input, GRUEN is reference-less and requires only the system output. Besides, it has the advantage of being unsupervised, deterministic, and adaptable to various tasks. Experiments on seven datasets over four language generation tasks show that the proposed metric correlates highly with human judgments.]]></itunes:summary>
+<description><![CDATA[Automatic evaluation metrics are indispensable for evaluating generated text. To date, these metrics have focused almost exclusively on the content selection aspect of the system output, ignoring the linguistic quality aspect altogether. We bridge this gap by proposing GRUEN for evaluating Grammaticality, non-Redundancy, focUs, structure and coherENce of generated text. GRUEN utilizes a BERT-based model and a class of syntactic, semantic, and contextual features to examine the system output. Unlike most existing evaluation metrics which require human references as an input, GRUEN is reference-less and requires only the system output. Besides, it has the advantage of being unsupervised, deterministic, and adaptable to various tasks. Experiments on seven datasets over four language generation tasks show that the proposed metric correlates highly with human judgments.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.02498v1.GRUEN_for_Evaluating_Linguistic_Quality_of_Generated_Text.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2554.018</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2010.02498v1.GRUEN_for_Evaluating_Linguistic_Quality_of_Generated_Text.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1669,6 +2026,40 @@
 </item>
 
 <item>
+<title>LMTurk: Few-Shot Learners as Crowdsourcing Workers in a Language-Model-as-a-Service Framework</title>
+<itunes:title>LMTurk: Few-Shot Learners as Crowdsourcing Workers in a Language-Model-as-a-Service Framework</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Vast efforts have been devoted to creating high-performance few-shot learners, i.e., large-scale pretrained language models (PLMs) that perform well with little downstream task training data. Training PLMs has incurred significant cost, but utilizing the few-shot learners is still challenging due to their enormous size. This work focuses on a crucial question: How to make effective use of these few-shot learners? We propose LMTurk, a novel approach that treats few-shot learners as crowdsourcing workers. The rationale is that crowdsourcing workers are in fact few-shot learners: They are shown a few illustrative examples to learn about a task and then start annotating. LMTurk employs few-shot learners built upon PLMs as workers. We show that the resulting annotations can be utilized to train models that solve the task well and are small enough to be deployable in practical scenarios. Active learning is integrated into LMTurk to reduce the amount of queries made to PLMs, minimizing the computational cost of running PLM inference passes. Altogether, LMTurk is an important step towards making effective use of current PLMs.]]></itunes:summary>
+<description><![CDATA[Vast efforts have been devoted to creating high-performance few-shot learners, i.e., large-scale pretrained language models (PLMs) that perform well with little downstream task training data. Training PLMs has incurred significant cost, but utilizing the few-shot learners is still challenging due to their enormous size. This work focuses on a crucial question: How to make effective use of these few-shot learners? We propose LMTurk, a novel approach that treats few-shot learners as crowdsourcing workers. The rationale is that crowdsourcing workers are in fact few-shot learners: They are shown a few illustrative examples to learn about a task and then start annotating. LMTurk employs few-shot learners built upon PLMs as workers. We show that the resulting annotations can be utilized to train models that solve the task well and are small enough to be deployable in practical scenarios. Active learning is integrated into LMTurk to reduce the amount of queries made to PLMs, minimizing the computational cost of running PLM inference passes. Altogether, LMTurk is an important step towards making effective use of current PLMs.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.07522v2.LMTurk_Few_Shot_Learners_as_Crowdsourcing_Workers_in_a_Language_Model_as_a_Service_Framework.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2570.73625</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.07522v2.LMTurk_Few_Shot_Learners_as_Crowdsourcing_Workers_in_a_Language_Model_as_a_Service_Framework.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Identifying and Mitigating Spurious Correlations for Improving Robustness in NLP Models</title>
+<itunes:title>Identifying and Mitigating Spurious Correlations for Improving Robustness in NLP Models</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Recently, NLP models have achieved remarkable progress across a variety of tasks; however, they have also been criticized for being not robust. Many robustness problems can be attributed to models exploiting spurious correlations, or shortcuts between the training data and the task labels. Most existing work identifies a limited set of task-specific shortcuts via human priors or error analyses, which requires extensive expertise and efforts. In this paper, we aim to automatically identify such spurious correlations in NLP models at scale. We first leverage existing interpretability methods to extract tokens that significantly affect model's decision process from the input text. We then distinguish "genuine" tokens and "spurious" tokens by analyzing model predictions across multiple corpora and further verify them through knowledge-aware perturbations. We show that our proposed method can effectively and efficiently identify a scalable set of "shortcuts", and mitigating these leads to more robust models in multiple applications.]]></itunes:summary>
+<description><![CDATA[Recently, NLP models have achieved remarkable progress across a variety of tasks; however, they have also been criticized for being not robust. Many robustness problems can be attributed to models exploiting spurious correlations, or shortcuts between the training data and the task labels. Most existing work identifies a limited set of task-specific shortcuts via human priors or error analyses, which requires extensive expertise and efforts. In this paper, we aim to automatically identify such spurious correlations in NLP models at scale. We first leverage existing interpretability methods to extract tokens that significantly affect model's decision process from the input text. We then distinguish "genuine" tokens and "spurious" tokens by analyzing model predictions across multiple corpora and further verify them through knowledge-aware perturbations. We show that our proposed method can effectively and efficiently identify a scalable set of "shortcuts", and mitigating these leads to more robust models in multiple applications.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.07736v2.Identifying_and_Mitigating_Spurious_Correlations_for_Improving_Robustness_in_NLP_Models.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2040.8425</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.07736v2.Identifying_and_Mitigating_Spurious_Correlations_for_Improving_Robustness_in_NLP_Models.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Do Multilingual Language Models Capture Differing Moral Norms?</title>
 <itunes:title>Do Multilingual Language Models Capture Differing Moral Norms?</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1681,6 +2072,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.09904v1.Do_Multilingual_Language_Models_Capture_Differing_Moral_Norms.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Knowledge Graph Reasoning with Logics and Embeddings: Survey and Perspective</title>
+<itunes:title>Knowledge Graph Reasoning with Logics and Embeddings: Survey and Perspective</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Knowledge graph (KG) reasoning is becoming increasingly popular in both academia and industry. Conventional KG reasoning based on symbolic logic is deterministic, with reasoning results being explainable, while modern embedding-based reasoning can deal with uncertainty and predict plausible knowledge, often with high efficiency via vector computation. A promising direction is to integrate both logic-based and embedding-based methods, with the vision to have advantages of both. It has attracted wide research attention with more and more works published in recent years. In this paper, we comprehensively survey these works, focusing on how logics and embeddings are integrated. We first briefly introduce preliminaries, then systematically categorize and discuss works of logic and embedding-aware KG reasoning from different perspectives, and finally conclude and discuss the challenges and further directions.]]></itunes:summary>
+<description><![CDATA[Knowledge graph (KG) reasoning is becoming increasingly popular in both academia and industry. Conventional KG reasoning based on symbolic logic is deterministic, with reasoning results being explainable, while modern embedding-based reasoning can deal with uncertainty and predict plausible knowledge, often with high efficiency via vector computation. A promising direction is to integrate both logic-based and embedding-based methods, with the vision to have advantages of both. It has attracted wide research attention with more and more works published in recent years. In this paper, we comprehensively survey these works, focusing on how logics and embeddings are integrated. We first briefly introduce preliminaries, then systematically categorize and discuss works of logic and embedding-aware KG reasoning from different perspectives, and finally conclude and discuss the challenges and further directions.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.07412v1.Knowledge_Graph_Reasoning_with_Logics_and_Embeddings_Survey_and_Perspective.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2421.786</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.07412v1.Knowledge_Graph_Reasoning_with_Logics_and_Embeddings_Survey_and_Perspective.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1715,6 +2123,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.11171v1.Zero_Shot_Information_Extraction_as_a_Unified_Text_to_Triple_Translation.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Aspect-Controlled Neural Argument Generation</title>
+<itunes:title>Aspect-Controlled Neural Argument Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing in turn. However, finding and formulating arguments can be challenging. In this work, we present the Arg-CTRL-a language model for argument generation that can be controlled to generate sentence-level arguments for a given topic, stance, and aspect. We define argument aspect detection as a necessary method to allow this fine-granular control and crowdsource a dataset with 5,032 arguments annotated with aspects. Our evaluation shows that the Arg-CTRL is able to generate high-quality, aspectspecific arguments, applicable to automatic counter-argument generation. We publish the model weights and all datasets and code to train the Arg-CTRL.]]></itunes:summary>
+<description><![CDATA[We rely on arguments in our daily lives to deliver our opinions and base them on evidence, making them more convincing in turn. However, finding and formulating arguments can be challenging. In this work, we present the Arg-CTRL-a language model for argument generation that can be controlled to generate sentence-level arguments for a given topic, stance, and aspect. We define argument aspect detection as a necessary method to allow this fine-granular control and crowdsource a dataset with 5,032 arguments annotated with aspects. Our evaluation shows that the Arg-CTRL is able to generate high-quality, aspectspecific arguments, applicable to automatic counter-argument generation. We publish the model weights and all datasets and code to train the Arg-CTRL.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.naacl-main.34.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>3425.56725</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.naacl-main.34.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -1856,6 +2281,23 @@
 </item>
 
 <item>
+<title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts Maarten Sap</title>
+<itunes:title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts Maarten Sap</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.]]></itunes:summary>
+<description><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.397 (1).mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2864.7445</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.397 (1).mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Neural Machine Translation with Gumbel-Greedy Decoding</title>
 <itunes:title>Neural Machine Translation with Gumbel-Greedy Decoding</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -1902,6 +2344,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2009.13375v3.Identifying_Automatically_Generated_Headlines_using_Transformers.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Retrieving Comparative Arguments using Deep Language Models Notebook for the Touché Lab on Argument Retrieval at CLEF 2022</title>
+<itunes:title>Retrieving Comparative Arguments using Deep Language Models Notebook for the Touché Lab on Argument Retrieval at CLEF 2022</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[In this paper, we present a submission to the Touché lab's Task 2 on Argument Retrieval for Comparative Questions. Our team Katana employs approaches based on pre-trained deep language model architecture ColBERT [1]. This BERT-based architecture is adapted to the text ranking task by learning to represent both queries and documents as vectors and measuring the similarity between them. We use a model trained on a question-answering dataset MSMARCO, with the proposed weights and weights pre-trained by us. We also customize ColBERT for the comparative retrieval domain by fine-tuning the model on the data from the previous years' Touché competitions. The proposed experiments verify the usefulness of the transfer learning from a large pre-trained ranking language models to the problem of arguments extraction for comparative topics. Ours solutions rank third in both relevance, quality, and stance prediction evaluations.]]></itunes:summary>
+<description><![CDATA[In this paper, we present a submission to the Touché lab's Task 2 on Argument Retrieval for Comparative Questions. Our team Katana employs approaches based on pre-trained deep language model architecture ColBERT [1]. This BERT-based architecture is adapted to the text ranking task by learning to represent both queries and documents as vectors and measuring the similarity between them. We use a model trained on a question-answering dataset MSMARCO, with the proposed weights and weights pre-trained by us. We also customize ColBERT for the comparative retrieval domain by fine-tuning the model on the data from the previous years' Touché competitions. The proposed experiments verify the usefulness of the transfer learning from a large pre-trained ranking language models to the problem of arguments extraction for comparative topics. Ours solutions rank third in both relevance, quality, and stance prediction evaluations.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/paper-255.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1089.98525</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/paper-255.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -2249,6 +2708,23 @@
 </item>
 
 <item>
+<title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts</title>
+<itunes:title>Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create ToxiChat, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformer-based classifiers on ToxiChat that achieve 0.71 F1 for offensive labels and 0.53 Macro-F1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer. Our code and corpus are available at https://github.com/abaheti95/ToxiChat .]]></itunes:summary>
+<description><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create ToxiChat, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformer-based classifiers on ToxiChat that achieve 0.71 F1 for offensive labels and 0.53 Macro-F1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer. Our code and corpus are available at https://github.com/abaheti95/ToxiChat .]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.11830v2.Just_Say_No_Analyzing_the_Stance_of_Neural_Dialogue_Generation_in_Offensive_Contexts.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2873.574</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2108.11830v2.Just_Say_No_Analyzing_the_Stance_of_Neural_Dialogue_Generation_in_Offensive_Contexts.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Do liberals and conservatives use different moral languages? Two replications and six extensions of Graham, Haidt, and Nosek's (2009) moral text analysis</title>
 <itunes:title>Do liberals and conservatives use different moral languages? Two replications and six extensions of Graham, Haidt, and Nosek's (2009) moral text analysis</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -2300,6 +2776,23 @@
 </item>
 
 <item>
+<title>A Generative Model for Relation Extraction and Classification</title>
+<itunes:title>A Generative Model for Relation Extraction and Classification</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Relation extraction (RE) is an important information extraction task which provides essential information to many NLP applications such as knowledge base population and question answering. In this paper, we present a novel generative model for relation extraction and classification (which we call GREC), where RE is modeled as a sequence-to-sequence generation task. We explore various encoding representations for the source and target sequences, and design effective schemes that enable GREC to achieve state-of-the-art performance on three benchmark RE datasets. In addition, we introduce negative sampling and decoding scaling techniques which provide a flexible tool to tune the precision and recall performance of the model. Our approach can be extended to extract all relation triples from a sentence in one pass. Although the one-pass approach incurs certain performance loss, it is much more computationally efficient.]]></itunes:summary>
+<description><![CDATA[Relation extraction (RE) is an important information extraction task which provides essential information to many NLP applications such as knowledge base population and question answering. In this paper, we present a novel generative model for relation extraction and classification (which we call GREC), where RE is modeled as a sequence-to-sequence generation task. We explore various encoding representations for the source and target sequences, and design effective schemes that enable GREC to achieve state-of-the-art performance on three benchmark RE datasets. In addition, we introduce negative sampling and decoding scaling techniques which provide a flexible tool to tune the precision and recall performance of the model. Our approach can be extended to extract all relation triples from a sentence in one pass. Although the one-pass approach incurs certain performance loss, it is much more computationally efficient.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.13229v1.A_Generative_Model_for_Relation_Extraction_and_Classification.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2381.5575</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.13229v1.A_Generative_Model_for_Relation_Extraction_and_Classification.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
 <title>Correcting Robot Plans with Natural Language Feedback</title>
 <itunes:title>Correcting Robot Plans with Natural Language Feedback</itunes:title>
 <itunes:author>Gabriel Simmons</itunes:author>
@@ -2312,6 +2805,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.05186v1.Correcting_Robot_Plans_with_Natural_Language_Feedback.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>Improving Natural Language Inference Using External Knowledge in the Science Questions Domain</title>
+<itunes:title>Improving Natural Language Inference Using External Knowledge in the Science Questions Domain</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Natural Language Inference (NLI) is fundamental to many Natural Language Processing (NLP) applications including semantic search and question answering. The NLI problem has gained significant attention thanks to the release of large scale, challenging datasets. Present approaches to the problem largely focus on learning-based methods that use only textual information in order to classify whether a given premise entails, contradicts, or is neutral with respect to a given hypothesis. Surprisingly, the use of methods based on structured knowledge -- a central topic in artificial intelligence -- has not received much attention vis-a-vis the NLI problem. While there are many open knowledge bases that contain various types of reasoning information, their use for NLI has not been well explored. To address this, we present a combination of techniques that harness knowledge graphs to improve performance on the NLI problem in the science questions domain. We present the results of applying our techniques on text, graph, and text-to-graph based models, and discuss implications for the use of external knowledge in solving the NLI problem. Our model achieves the new state-of-the-art performance on the NLI problem over the SciTail science questions dataset.]]></itunes:summary>
+<description><![CDATA[Natural Language Inference (NLI) is fundamental to many Natural Language Processing (NLP) applications including semantic search and question answering. The NLI problem has gained significant attention thanks to the release of large scale, challenging datasets. Present approaches to the problem largely focus on learning-based methods that use only textual information in order to classify whether a given premise entails, contradicts, or is neutral with respect to a given hypothesis. Surprisingly, the use of methods based on structured knowledge -- a central topic in artificial intelligence -- has not received much attention vis-a-vis the NLI problem. While there are many open knowledge bases that contain various types of reasoning information, their use for NLI has not been well explored. To address this, we present a combination of techniques that harness knowledge graphs to improve performance on the NLI problem in the science questions domain. We present the results of applying our techniques on text, graph, and text-to-graph based models, and discuss implications for the use of external knowledge in solving the NLI problem. Our model achieves the new state-of-the-art performance on the NLI problem over the SciTail science questions dataset.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1809.05724v2.Improving_Natural_Language_Inference_Using_External_Knowledge_in_the_Science_Questions_Domain.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2329.2865</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1809.05724v2.Improving_Natural_Language_Inference_Using_External_Knowledge_in_the_Science_Questions_Domain.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -2346,6 +2856,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2110.08300v3.The_Dangers_of_Underclaiming_Reasons_for_Caution_When_Reporting_How_NLP_Systems_Fail.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>An Empirical Investigation of Pre-Trained Transformer Language Models for Open-Domain Dialogue Generation</title>
+<itunes:title>An Empirical Investigation of Pre-Trained Transformer Language Models for Open-Domain Dialogue Generation</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[We present an empirical investigation of pre-trained Transformer-based auto-regressive language models for the task of open-domain dialogue generation. Training paradigm of pre-training and fine-tuning is employed to conduct the parameter learning. Corpora of News and Wikipedia in Chinese and English are collected for the pre-training stage respectively. Dialogue context and response are concatenated into a single sequence utilized as the input of the models during the fine-tuning stage. A weighted joint prediction paradigm for both context and response is designed to evaluate the performance of models with or without the loss term for context prediction. Various of decoding strategies such as greedy search, beam search, top-k sampling, etc. are employed to conduct the response text generation. Extensive experiments are conducted on the typical single-turn and multi-turn dialogue corpora such as Weibo, Douban, Reddit, DailyDialog, and Persona-Chat. Detailed numbers of automatic evaluation metrics on relevance and diversity of the generated results for the languages models as well as the baseline approaches are reported.]]></itunes:summary>
+<description><![CDATA[We present an empirical investigation of pre-trained Transformer-based auto-regressive language models for the task of open-domain dialogue generation. Training paradigm of pre-training and fine-tuning is employed to conduct the parameter learning. Corpora of News and Wikipedia in Chinese and English are collected for the pre-training stage respectively. Dialogue context and response are concatenated into a single sequence utilized as the input of the models during the fine-tuning stage. A weighted joint prediction paradigm for both context and response is designed to evaluate the performance of models with or without the loss term for context prediction. Various of decoding strategies such as greedy search, beam search, top-k sampling, etc. are employed to conduct the response text generation. Extensive experiments are conducted on the typical single-turn and multi-turn dialogue corpora such as Weibo, Douban, Reddit, DailyDialog, and Persona-Chat. Detailed numbers of automatic evaluation metrics on relevance and diversity of the generated results for the languages models as well as the baseline approaches are reported.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2003.04195v1.An_Empirical_Investigation_of_Pre_Trained_Transformer_Language_Models_for_Open_Domain_Dialogue_Generation.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>1735.18375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2003.04195v1.An_Empirical_Investigation_of_Pre_Trained_Transformer_Language_Models_for_Open_Domain_Dialogue_Generation.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -2499,6 +3026,23 @@
 <itunes:episode></itunes:episode>
 <itunes:episodeType>full</itunes:episodeType>
 <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02292v1.Deep_Double_Descent_Where_Bigger_Models_and_More_Data_Hurt.mp3</guid>
+<pubDate></pubDate>
+<itunes:explicit>NO</itunes:explicit>
+</item>
+
+<item>
+<title>RQUGE: Reference-Free Metric for Evaluating Question Generation by Answering the Question</title>
+<itunes:title>RQUGE: Reference-Free Metric for Evaluating Question Generation by Answering the Question</itunes:title>
+<itunes:author>Gabriel Simmons</itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary><![CDATA[Existing metrics for evaluating the quality of automatically generated questions such as BLEU, ROUGE, BERTScore, and BLEURT compare the reference and predicted questions, providing a high score when there is a considerable lexical overlap or semantic similarity between the candidate and the reference questions. This approach has two major shortcomings. First, we need expensive human-provided reference questions. Second, it penalises valid questions that may not have high lexical or semantic similarity to the reference questions. In this paper, we propose a new metric, RQUGE, based on the answerability of the candidate question given the context. The metric consists of a question-answering and a span scorer module, in which we use pre-trained models from the existing literature, and therefore, our metric can be used without further training. We show that RQUGE has a higher correlation with human judgment without relying on the reference question. RQUGE is shown to be significantly more robust to several adversarial corruptions. Additionally, we illustrate that we can significantly improve the performance of QA models on out-of-domain datasets by fine-tuning on the synthetic data generated by a question generation model and re-ranked by RQUGE.]]></itunes:summary>
+<description><![CDATA[Existing metrics for evaluating the quality of automatically generated questions such as BLEU, ROUGE, BERTScore, and BLEURT compare the reference and predicted questions, providing a high score when there is a considerable lexical overlap or semantic similarity between the candidate and the reference questions. This approach has two major shortcomings. First, we need expensive human-provided reference questions. Second, it penalises valid questions that may not have high lexical or semantic similarity to the reference questions. In this paper, we propose a new metric, RQUGE, based on the answerability of the candidate question given the context. The metric consists of a question-answering and a span scorer module, in which we use pre-trained models from the existing literature, and therefore, our metric can be used without further training. We show that RQUGE has a higher correlation with human judgment without relying on the reference question. RQUGE is shown to be significantly more robust to several adversarial corruptions. Additionally, we illustrate that we can significantly improve the performance of QA models on out-of-domain datasets by fine-tuning on the synthetic data generated by a question generation model and re-ranked by RQUGE.]]></description>
+<enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.01482v2.RQUGE_Reference_Free_Metric_for_Evaluating_Question_Generation_by_Answering_the_Question.mp3" length="" type="audio/mpeg"/>
+<itunes:duration>2209.67175</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode></itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.01482v2.RQUGE_Reference_Free_Metric_for_Evaluating_Question_Generation_by_Answering_the_Question.mp3</guid>
 <pubDate></pubDate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
