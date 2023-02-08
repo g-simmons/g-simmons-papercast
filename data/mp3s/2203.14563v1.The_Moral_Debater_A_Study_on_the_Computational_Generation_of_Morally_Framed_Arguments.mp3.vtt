@@ -1,0 +1,1606 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.767
+The Moral Debater: A Study on the Computational Generation of Morally Framed Arguments
+
+00:00:05.767 --> 00:00:12.572
+An audience's prior beliefs and morals are strong indicators of how likely they will be affected by a given argument.
+
+00:00:12.572 --> 00:00:18.527
+Utilizing such knowledge can help focus on shared values to bring disagreeing parties towards agreement.
+
+00:00:18.527 --> 00:00:23.419
+In argumentation technology, however, this is barely exploited so far.
+
+00:00:23.419 --> 00:00:30.774
+This paper studies the feasibility of automatically generating morally framed arguments as well as their effect on different audiences.
+
+00:00:30.774 --> 00:00:37.879
+Following the moral foundation theory, we propose a system that effectively generates arguments focusing on different morals.
+
+00:00:37.879 --> 00:00:44.322
+In an in-depth user study, we ask liberals and conservatives to evaluate the impact of these arguments.
+
+00:00:44.322 --> 00:00:52.389
+Our results suggest that, particularly when prior beliefs are challenged, an audience becomes more affected by morally framed arguments.
+
+00:00:52.389 --> 00:00:54.044
+Introduction
+
+00:00:54.044 --> 00:00:59.774
+In the last years, more research has been dedicated to studying prior beliefs in argumentation.
+
+00:00:59.774 --> 00:01:06.229
+Understanding the role of prior beliefs helps people craft more effective arguments when targeting a particular audience.
+
+00:01:06.229 --> 00:01:26.847
+Accordingly, operationalizing knowledge about the audience as part of supporting tools for humans or realized in fully automated debating technologies (Slonim et al., 2021) could benefit the production of arguments that bridge the gap between disputed parties by focusing on the shared beliefs rather than divisive ones (Alshomary and Wachsmuth, 2021).
+
+00:01:26.847 --> 00:01:38.327
+In social psychology, a body of research employs the notion of morals to understand people's judgments on controversial topics (Haidt, 2012;Fulgoni et al., 2016).
+
+00:01:38.327 --> 00:01:45.832
+Feinberg and Willer (2015) demonstrated that arguments become more effective when they match the morals of the target audience.
+
+00:01:45.832 --> 00:02:00.812
+Multiple works in computational linguistics have analyzed the persuasive effectiveness of arguments depending on the target audience (Durmus and Cardie, 2018;El Baff et al., 2020), showing that audience-based features reliably predict effectiveness.
+
+00:02:00.812 --> 00:02:11.167
+Different proxies of beliefs have been proposed as part of this, ranging from interests and personality traits  to stances on popular issues (Alshomary et al., 2021a).
+
+00:02:11.167 --> 00:02:16.322
+The authors of the latter used the stances to control the generation of argumentative texts.
+
+00:02:16.322 --> 00:02:24.239
+However, they did not assess the effectiveness of these texts on the audience, leaving the importance of encoding beliefs ultimately unclear.
+
+00:02:24.239 --> 00:02:33.132
+Beyond that, little research has been done on generating arguments tailored towards a specific audience, let alone on the importance of morals in achieving agreement.
+
+00:02:33.132 --> 00:02:40.962
+This work studies the feasibility of generating morally framed arguments computationally and the effect of these arguments on different audiences.
+
+00:02:40.962 --> 00:02:52.454
+For this, we rely on the moral foundation theory (Haidt, 2012) that projects the moral system into five foundations: care, fairness, loyalty, authority, and purity.
+
+00:02:52.454 --> 00:02:58.684
+To produce arguments that address specific morals, we extend the capabilities of Project Debater (Slonim e
+
+00:00:00.000 --> 00:00:02.180
+t al., 2021).
+
+00:00:02.180 --> 00:00:10.385
+1 Project Debater includes a hybrid approach of multiple components designed to generate arguments of high quality that compete with human arguments.
+
+00:00:10.385 --> 00:00:19.552
+Building on this technology helps us focus on evaluating the impact of morally framed arguments, as it ensures a certain base quality level in the generation.
+
+00:00:19.552 --> 00:00:26.632
+In particular, our proposed extended system takes as input a controversial topic, a stance, and a set of morals.
+
+00:00:26.632 --> 00:00:36.937
+It retrieves a set of argumentative texts, filters the ones conveying the input morals, and finally phrases an argument holding the given stance on the given topic focusing on the given morals.
+
+00:00:36.937 --> 00:00:43.767
+To identify morals in texts, we rely on distant supervision: We use the Reddit dataset of Schiller et al.
+
+00:00:43.767 --> 00:00:51.810
+2020), which contains argumentative texts with annotated aspects, along with the moral-to-concept lexicon of Hulpus et al.
+
+00:00:51.810 --> 00:00:55.915
+2020) for the automatic mapping from aspects to morals.
+
+00:00:55.915 --> 00:01:02.082
+Then, we train a BERT-based classifier, achieving high performance on the moral dataset of Kobbe et al.
+
+00:01:02.082 --> 00:01:05.475
+2020) compared to ablation baselines.
+
+00:01:05.475 --> 00:01:13.367
+To assess the effect of morally framed arguments on a particular audience, we consider liberals and conservatives as alternative audiences.
+
+00:01:13.367 --> 00:01:18.735
+We study the question of whether morally loaded arguments are more effective on a specific audience.
+
+00:01:18.735 --> 00:01:27.315
+Additionally, we investigate whether differently-framed moral arguments (targeting different morals) vary in their effect on liberals and conservatives.
+
+00:01:27.315 --> 00:01:29.607
+In line with El Baff et al.
+
+00:01:29.607 --> 00:01:33.900
+2018), we design a user study to answer both questions.
+
+00:01:33.900 --> 00:01:45.005
+Our study separately asks three liberals and three conservatives to rank different arguments on specific controversial issues based on how effective they were in challenging or empowering the audience's stance.
+
+00:01:45.005 --> 00:01:53.810
+The results suggest that, when arguments challenge the stance, the morally framed ones are generally more effective, especially for the conservative audience.
+
+00:01:53.810 --> 00:02:01.952
+We find that liberals value arguments that focus on their own morals (care and fairness) the most, especially when their stance is challenged.
+
+00:02:01.952 --> 00:02:13.245
+Although conservatives also value respective arguments, a focus on typically conservative morals (loyalty, authority, and purity) becomes more relevant to them when their stance is challenged.
+
+00:02:13.245 --> 00:02:20.887
+Despite the limited size of our user study, these findings hint at the importance of utilizing morals to craft more effective arguments.
+
+00:02:20.887 --> 00:02:25.305
+The code, the trained model, and the data are made publicly available.
+
+00:02:25.305 --> 00:02:33.922
+2 The contributions of this work can be summarized as follows:  A state-of-the-art model for mining statements with defined morals from argumentative texts.
+
+00:02:33.922 --> 00:02:38.977
+A system, based on Project Debater, for generating morally-framed arguments.
+
+00:02:38.977 --> 00:02:46.807
+A user-study giving empirical evidence for the impact of morally-framed arguments on audiences of different political ideologies.
+
+00:02:46.807 --> 00:02:48.449
+Related Work
+
+00:02:48.449 --> 00:02:54.779
+Prior Beliefs in Argumentation Studying persuasiveness in argumentation is an active field of research.
+
+00:02:54.779 --> 00:03:01.456
+Besides planning argument content, 2 https://github.com/webis-
+
+00:00:00.000 --> 00:00:10.455
+de/ACL-22 structure, and style (Wachsmuth et al., 2018), researchers also considered audience-based features to model persuasiveness.
+
+00:00:10.455 --> 00:00:16.247
+Among these, both Durmus and Cardie (2018) (Haidt and Joseph, 2004).
+
+00:00:16.247 --> 00:00:39.577
+According to the theory, humans subconsciously adhere to five basic moral foundations when judging controversial issues: fairness (importance of justice, rights, and equality), care (being kind, and avoiding harm), loyalty (self-sacrifice, solidarity, belongingness), authority (respect to traditions and hierarchy), and purity (sacredness of religion and human).
+
+00:00:39.577 --> 00:00:46.745
+Based on this theory, the disagreement between liberals and conservatives can be explained by the moral gap between the two parties.
+
+00:00:46.745 --> 00:01:05.075
+While liberals rely mainly on care and fairness (so-called individualizing morals) in their assessment of controversial issues, conservatives consider all moral foundations more evenly, somewhat skewed towards the binding morals though, that is, loyalty, authority, and purity (Graham et al., 2009).
+
+00:01:05.075 --> 00:01:19.555
+Several studies provided evidence of the robustness of the moral foundation theory in understanding people's behaviors and decisions (Feinberg and Willer, 2015;Fulgoni et al., 2016;Johnson and Goldwasser, 2018).
+
+00:01:19.555 --> 00:01:22.710
+For computational purposes, Kobbe et al.
+
+00:01:22.710 --> 00:01:30.040
+2020) annotated moral foundations in arguments and analyzed the correlation between morals and argument quality.
+
+00:01:30.040 --> 00:01:34.607
+We use their corpus in our experiments to evaluate our moral classifier.
+
+00:01:34.607 --> 00:01:40.400
+Argument Generation Argument generation approaches have been proposed for a spectrum of different tasks.
+
+00:01:40.400 --> 00:01:41.905
+Hua et al.
+
+00:01:41.905 --> 00:01:44.922
+2019) and Alshomary et al.
+
+00:01:44.922 --> 00:01:54.815
+2021b) worked on counter-argument generation, tackling the task by rebutting an argument's conclusion or by undermining one of its weak premises, respectively.
+
+00:01:54.815 --> 00:02:51.182
+Others opposed a given claim (Bilu et al., 2015;Hidey and McKeown, 2019), generated argumentative claims on a given topic controlled for certain aspects (Schiller et al., 2020) Care  14%  31%  19%  13%  16%  32%  20%  10%  Fairness  13%  26%  28%  22%  23%  9%  13%  16%  Loyalty  9%  13%  14%  21%  34%  20%  24%  38%  Authority  54%  25%  21%  7%  8%  2%  25%  8%  Purity  10%  5%  17%  36%  19%  37%  17%  28%   Table 1: Distribution of the five moral foundations across the eight topics in the constructed Reddit dataset.
+
+00:02:51.182 --> 00:02:56.537
+The topics Cloning and School Uniforms are used for validation, all others for training.
+
+00:02:56.537 --> 00:02:59.180
+et Syed et al., 2021).
+
+00:02:59.180 --> 00:03:05.235
+However, none of these approaches considered generating augmentative texts that target a specific audience.
+
+00:03:05.235 --> 00:03:07.915
+Recently, Alshomary et al.
+
+00:03:07.915 --> 00:03:16.845
+2021a) introduced the task of belief-based claim generation, aiming to generate claims on a given topic that match a given target audience.
+
+00:03:16.845 --> 00:03:21.200
+As a model of beliefs, they considered people's stances on big issues.
+
+00:03:21.200 --> 00:03:28.805
+While they demonstrated the feasibility of encoding beliefs into claims, they did not study the effectiveness of these claims on an audience.
+
+00:03:28.805 --> 00:03:34.185
+Another driver in the field of argument generation is Project Debater by Slonim et al.
+
+00:03:34.185 --> 00:03:35.777
+2021).
+
+00:03:35.777 --> 00:03:37.816
+Project Debater is an end-to-end
+
+00:00:00.000 --> 00:00:03.817
+system for argument mining, retrieval, and generation.
+
+00:00:03.817 --> 00:00:10.672
+The system relies on a hybrid approach consisting of retrieval, mining, clustering, and rephrasing components.
+
+00:00:10.672 --> 00:00:14.027
+In their manual evaluation, Slonim et al.
+
+00:00:14.027 --> 00:00:20.395
+2021) observe a competent quality of generated arguments compared to those crafted by humans.
+
+00:00:20.395 --> 00:00:24.350
+To generate morally framed arguments, we extend their system.
+
+00:00:24.350 --> 00:00:34.079
+Relying on Project Debater helps us alleviate confounding effects of argument quality and, so, to focus on testing whether moral utilization affects the audience.
+
+00:00:34.079 --> 00:00:36.872
+Moral Foundation Classification
+
+00:00:36.872 --> 00:00:42.302
+Our proposed system relies on the ability to identify morals in arguments automatically.
+
+00:00:42.302 --> 00:00:48.069
+Existing approaches to mining morals from texts are either lexicon-based or machine learning-based.
+
+00:00:48.069 --> 00:00:54.062
+A number of datasets with morals have been constructed for domains such as social media or news articles.
+
+00:00:54.062 --> 00:00:57.317
+For argumentative texts, Kobbe et al.
+
+00:00:57.317 --> 00:01:04.834
+2020) manually annotated a small dataset of 220 arguments, which is only suitable for evaluation.
+
+00:01:04.834 --> 00:01:14.827
+We, therefore, decided to develop a moral foundation classifier based on data collected automatically using distant supervision, as explained in the following.
+
+00:01:14.827 --> 00:01:16.557
+Data Collection
+
+00:01:16.557 --> 00:01:23.162
+To circumvent the need for annotated data, we construct a training dataset following a distantsupervision approach.
+
+00:01:23.162 --> 00:01:29.792
+In particular, moral foundations are revealed as aspects of concerns in discussions of controversial topics.
+
+00:01:29.792 --> 00:01:37.284
+For example, when discussing School Uniform from the authority perspective, aspects such as respect and obedience often arise.
+
+00:01:37.284 --> 00:01:41.777
+Given this observation, we referred to the dataset of Schiller et al.
+
+00:01:41.777 --> 00:01:49.582
+2020) which contains short argumentative texts on eight topics along with aspects annotated automatically for each text.
+
+00:01:49.582 --> 00:01:55.187
+We then assigned each text a set of moral foundations based on the aspects appearing in the text.
+
+00:01:55.187 --> 00:02:00.417
+To map aspects to moral foundations, we employed the lexicon of Hulpus et al.
+
+00:02:00.417 --> 00:02:05.097
+2020) which connects moral foundations to Wikipedia concepts.
+
+00:02:05.097 --> 00:02:16.152
+After filtering out arguments without any mapping and balancing the data across the five moral foundations, this resulted in a dataset with 230k argumentative texts and the corresponding morals.
+
+00:02:16.152 --> 00:02:22.744
+We split the dataset into six topics for training and two for validation (testing will happen on other data below).
+
+00:02:22.744 --> 00:02:27.412
+Details on the distribution of the morals across topics are found in Table 1.
+
+00:02:27.412 --> 00:02:37.242
+To assess the quality of the distantly supervised dataset, two authors of the paper manually evaluated the correctness of the assigned morals on a sample of 100 examples.
+
+00:02:37.242 --> 00:02:43.534
+77% of the cases were considered correct by at least one author, 44% by both.
+
+00:02:43.534 --> 00:02:53.177
+The Cohen's  agreement was 0.32, which is not high, but in line with other subjective argumentrelated annotations (El Baff et al., 2018).
+
+00:02:53.177 --> 00:02:57.807
+Table 2 shows example sentences with assigned morals from the dataset.
+
+00:02:57.807 --> 00:02:59.224
+Approach
+
+00:02:59.224 --> 00:03:08.479
+We rely on a BERT-based classifier to identify morals in texts (Devlin et al., 2019), starting from the pre-trained bert-based-cased model.
+
+00:03:08.479 --> 00:03:11.068
+We finetuned the model on our training set for
+
+00:00:00.000 --> 00:00:02.804
+three epochs Argumentative Sentence
+
+00:00:02.804 --> 00:00:04.122
+Moral
+
+00:00:04.122 --> 00:00:09.502
+Abortion isn't murder because abortion is legal and murder is an illegal killing of another person.
+
+00:00:09.502 --> 00:00:10.744
+Care
+
+00:00:10.744 --> 00:00:16.562
+The simple fact, is if your wages are not fair, you have the right to unionize and get better wages.
+
+00:00:16.562 --> 00:00:17.954
+Fairness
+
+00:00:17.954 --> 00:00:23.884
+This intertribal coalition also pushed for a new standard for national monuments and tribal involvement.
+
+00:00:23.884 --> 00:00:25.364
+Loyalty
+
+00:00:25.364 --> 00:00:28.619
+Gun laws are only obeyed by law abiding people.
+
+00:00:28.619 --> 00:00:34.349
+Authority People that ignore the social contract and human decency aren't deterred by any punishment.
+
+00:00:34.349 --> 00:00:38.142
+with a batch size of 16 and a learning rate of 3  e 5 .
+
+00:00:38.142 --> 00:00:44.222
+In the training phase, the input was an argumentative sentence and the corresponding moral foundation.
+
+00:00:44.222 --> 00:00:55.702
+Since an argument may contain multiple sentences, each reflecting a specific moral, an argument's final set of morals consists of all sentences' morals predicted with confidence above 0.5.
+
+00:00:55.702 --> 00:01:05.519
+To assess the classifier's effectiveness more reliably, we trained six models on different random samples of size 50k and computed their average F 1 -score.
+
+00:01:05.519 --> 00:01:06.862
+Purity
+
+00:01:06.862 --> 00:01:08.954
+Experimental Setup
+
+00:01:08.954 --> 00:01:12.247
+For comparison, we consider two baselines.
+
+00:01:12.247 --> 00:01:16.464
+The first is the model performing best in the experiments of Kobbe et al.
+
+00:01:16.464 --> 00:01:22.707
+2020), which is a multi-label BERT-based model trained on the Twitter moral corpus of Hoover et al.
+
+00:01:22.707 --> 00:01:24.024
+2020).
+
+00:01:24.024 --> 00:01:28.267
+We trained our own version on the same dataset and referred to it as mBERT.
+
+00:01:28.267 --> 00:01:39.022
+The second baseline is a simple lexiconbased approach that computes the frequency of words belonging to each of the moral foundations (Araque et al., 2020), called Lexicon below.
+
+00:01:39.022 --> 00:01:42.527
+As a lexicon, we used the moralstrength library.
+
+00:01:42.527 --> 00:01:43.482
+3 .
+
+00:01:43.482 --> 00:01:46.837
+We tested all models on the dataset of Kobbe et al.
+
+00:01:46.837 --> 00:01:53.629
+2020), which consists of 220 arguments annotated for moral foundations by two annotators.
+
+00:01:53.629 --> 00:02:00.197
+Table 3 shows the F 1 -score of all evaluated models for each moral as well as the macro F 1 -score.
+
+00:02:00.197 --> 00:02:04.064
+Additionally, we show the precision and recall for each approach.
+
+00:02:04.064 --> 00:02:11.644
+In terms of F1-score, our approach outperforms both baselines across three of the five moral foundations as well as on average.
+
+00:02:11.644 --> 00:02:31.724
+We observe that effectiveness varies in terms of precision and recall between the Lexicon and the mBERT  Figure 1: High-level process of the proposed moral debater system, which extends the capabilities of Project Debater by moral tagging and filtering, in order to output a morally framed argument for a given topic, a stance on the topic, and a set of morals.
+
+00:02:31.724 --> 00:02:33.242
+Results
+
+00:02:33.242 --> 00:02:34.572
+baseline.
+
+00:02:34.572 --> 00:02:41.802
+The stable effectiveness of our approach across the five morals signals the advantage of the proposed dataset that we used in our approach.
+
+00:02:41.802 --> 00:02:47.032
+Hence, we use this model later for morally framed argument generation in our system.
+
+00:02:47.032 --> 00:02:54.887
+Table 4 shows two example arguments with the manually annotated morals along with the ones predicted by the baselines and by our approach.
+
+00:02:54.887 --> 00:03:02.817
+We see that the Lexicon baseline assigns all morals to each argument most of the time, leading to the high recall across all morals.
+
+00:03:02.817 --> 00:03:07.324
+The first row of the table shows an example argument from the test set in which our a
+
+00:00:00.000 --> 00:00:03.667
+pproach was able to detect its authority moral while mBERT failed.
+
+00:00:03.667 --> 00:00:12.859
+In the second row, our approach missed the care moral in the argument but highlighted loyalty, a moral that probably emerges from the aspect of helping each other.
+
+00:00:12.859 --> 00:00:15.102
+The Moral Debater System
+
+00:00:15.102 --> 00:00:21.207
+This section describes the system that we developed to study the effect of morally framed arguments on the audience.
+
+00:00:21.207 --> 00:00:28.999
+Our design extends the capabilities available via the Project Debater API with the moral foundation classifier from Section 3.
+
+00:00:28.999 --> 00:00:40.842
+As input, it takes a controversial topic (say, "globalization"), a stance on the topic (say, pro), and a set of morals to be targeted (say, loyalty, authority, and purity).
+
+00:00:40.842 --> 00:00:51.484
+Then, it determines a collection of claims and evidence on the given topic that focus on the   Table 4: Ground-truth moral foundations of two example arguments from the dataset of Kobbe et al.
+
+00:00:51.484 --> 00:00:59.339
+2020) in comparison to the morals assigned by the two classification baselines (Lexicon, mBERT) and by our approach. .
+
+00:00:59.339 --> 00:01:03.457
+given morals, from which it constructs an argument with the given stance.
+
+00:01:03.457 --> 00:01:04.474
+Figure ?
+
+00:01:04.474 --> 00:01:07.742
+shows the highlevel process of the proposed system.
+
+00:01:07.742 --> 00:01:13.859
+We describe the three-step process in detail in the following, highlighting our proposed integration.
+
+00:01:13.859 --> 00:01:16.914
+Query Generation & Sentence Retrieval
+
+00:01:16.914 --> 00:01:27.307
+First, the system retrieves a collection of argumentative sentences discussing the controversial topic from Project Debater's index, which contains 400 million news articles.
+
+00:01:27.307 --> 00:01:32.237
+The articles are split into sentences and indexed along with several metaannotations.
+
+00:01:32.237 --> 00:01:39.467
+We generate several queries containing only the topic keywords without any topic expansion to focus on relevant sentences.
+
+00:01:39.467 --> 00:01:45.472
+We restrict the retrieved sentences to only those annotated as having sentiment or causality markers.
+
+00:01:45.472 --> 00:01:49.464
+Section 5 gives more details on the constructed queries.
+
+00:01:49.464 --> 00:01:53.132
+Moral Tagging and Filtering & Component Extraction
+
+00:01:53.132 --> 00:02:00.037
+Second, the trained classifier is used to annotate each argumentative sentence for all likely moral foundations.
+
+00:02:00.037 --> 00:02:06.554
+It then filters out those sentences that either does not have any moral or contain at least one moral not given as input.
+
+00:02:06.554 --> 00:02:18.109
+Next, through Project Debater's API, the system generates for each of the remaining sentences a likelihood score reflecting whether it contains a claim or evidence following the approach of Ein-Dor et al.
+
+00:02:18.109 --> 00:02:19.427
+2020).
+
+00:02:19.427 --> 00:02:32.557
+We instruct the API to keep only sentences having a claim with likelihood higher than claim_threshold or evidence with likelihood higher than evidence_threshold (the exact thresholds are given in Section 5).
+
+00:02:32.557 --> 00:02:41.237
+Additionally, the API identifies claim boundaries for sentences containing claims and extracts the exact span of text containing the claim.
+
+00:02:41.237 --> 00:02:44.517
+Input Aggregation & Narrative Generation
+
+00:02:44.517 --> 00:02:51.434
+Third, our proposed extension aggregates the given list of claims and evidence sentences with the input topic and stance.
+
+00:02:51.434 --> 00:02:56.977
+It then uses Project Debater's narrative generation API to generate the final argument.
+
+00:02:56.977 --> 00:03:01.672
+The narrative generation identifies the stance of claims and evidence towards the topic a
+
+00:00:00.000 --> 00:00:02.817
+ccording to the approach of Bar-Haim et al.
+
+00:00:02.817 --> 00:00:04.397
+2017).
+
+00:00:04.397 --> 00:00:07.352
+Only those matching the input stance are kept.
+
+00:00:07.352 --> 00:00:17.145
+Redundant elements are then filtered out, and the remaining ones are grouped into thematic clusters, where a theme is a Wikipedia title (Slonim et al., 2005).
+
+00:00:17.145 --> 00:00:22.750
+The process of building these clusters also includes extracting one claim that represents the theme.
+
+00:00:22.750 --> 00:00:27.055
+Each theme will then be represented by a paragraph in the output argument.
+
+00:00:27.055 --> 00:00:42.347
+Finally, a set of algorithms is used to perform various kinds of re-phrasing on the argument level (e.g., pronoun resolution) and on the paragraph level (e.g., ensuring that different arguments are put together) (Slonim et al., 2021).
+
+00:00:42.347 --> 00:00:46.827
+Example arguments with and without controlled morals are shown in Table 5.
+
+00:00:46.827 --> 00:00:57.844
+By concept, each argument starts with an introductory paragraph listing the main themes of discussion, followed by a set of paragraphs, each combining claims and evidence on one theme.
+
+00:00:57.844 --> 00:01:00.387
+Topic: Globalization
+
+00:01:00.387 --> 00:01:04.992
+Binding argument: The crowd raised four issues, explaining its views.
+
+00:01:04.992 --> 00:01:09.809
+The first claim is that globalization is reducing the importance of nation-states.
+
+00:01:09.809 --> 00:01:14.952
+The next issue will show how Globalization and structural forces aggravate poverty.
+
+00:01:14.952 --> 00:01:18.382
+In addition, we will hear about pollution and Culture.
+
+00:01:18.382 --> 00:01:20.374
+Lastly, Culture.
+
+00:01:20.374 --> 00:01:31.017
+Globalization has destabilized previously immutable social institutions, shifting cultural value away from old traditions to new more individualistic and market friendly ideas.
+
+00:01:31.017 --> 00:01:35.197
+It is often said to have a negative effect on the world's cultural diversity.
+
+00:01:35.197 --> 00:01:48.714
+Cultural and geographical dimensions of transformational leadership become blurred as globalization renders ethnically specific collectivist and individualistic effects of organizational behavior obsolete in a more diversified workplace.
+
+00:01:48.714 --> 00:01:53.832
+Individualizing argument: The crowd raised four issues, explaining its views.
+
+00:01:53.832 --> 00:01:58.637
+The first claim is that Globalization on its own cannot end gender inequality.
+
+00:01:58.637 --> 00:02:02.842
+In addition, we will hear about harm, economy and processes.
+
+00:02:02.842 --> 00:02:05.122
+Starting with gender inequality.
+
+00:02:05.122 --> 00:02:10.927
+There are various studies available that depict globalization as a hindrance toward gender inequality.
+
+00:02:10.927 --> 00:02:14.744
+Globalization on its own cannot end gender inequality.
+
+00:02:14.744 --> 00:02:16.162
+Turning to harm.
+
+00:02:16.162 --> 00:02:24.179
+Globalization is a threat to culture and religion, and it harms indigenous people groups while multinational corporations profit from it.
+
+00:02:24.179 --> 00:02:32.484
+It has been criticized for benefiting those who are already large and in power at the risk and growing vulnerability of the countries' indigenous population.
+
+00:02:32.484 --> 00:02:37.402
+Uncontrolled argument: The crowd raised four issues, explaining its views.
+
+00:02:37.402 --> 00:02:43.444
+The first claim is that globalisation creates economic and cultural imbalances in developing nations.
+
+00:02:43.444 --> 00:02:48.649
+The next issue will show how globalization is reducing the importance of nation-states.
+
+00:02:48.649 --> 00:02:51.829
+And the third point is that globalization is a threat.
+
+00:02:51.829 --> 00:02:54.847
+In addition, we will hear about processes.
+
+00:02:54.847 --> 00:02:56.552
+Starting with economy.
+
+00:02:56.552 --> 00:03:03.472
+Globalization does not work for all the economies that it affects, and that it does not always deliver the economic growth that i
+
+00:00:00.000 --> 00:00:01.605
+s expected of it.
+
+00:00:01.605 --> 00:00:07.397
+Globalisation and neoliberalism have exacerbated already unequal economic relations.
+
+00:00:07.397 --> 00:00:19.690
+Although globalization takes similar steps in most countries, scholars such as Hodge claim that it might not be effective to certain countries and that globalization has actually moved some countries backward instead of developing them.
+
+00:00:19.690 --> 00:00:25.482
+Table 5: Example generated arguments against Globalization for different focused morals.
+
+00:00:25.482 --> 00:00:29.225
+The '  ' indicates an omitted content due to space limitation.
+
+00:00:29.225 --> 00:00:32.079
+Full arguments are shown in the appendix.
+
+00:00:32.079 --> 00:00:34.872
+Studying the Effect of Moral Framing
+
+00:00:34.872 --> 00:00:44.389
+To evaluate our hypothesis on the effect of morally framed arguments, we carried out a user study with two opposing target audiences, liberals and conservatives.
+
+00:00:44.389 --> 00:00:50.507
+Our primary goal was to investigate whether morally framed arguments are more effective than uncontrolled ones.
+
+00:00:50.507 --> 00:00:56.974
+Additionally, we sought to determine whether differently-framed arguments affect liberals and conservatives differently.
+
+00:00:56.974 --> 00:01:00.167
+In the following, we report on this study.
+
+00:01:00.167 --> 00:01:02.259
+Experimental Setup
+
+00:01:02.259 --> 00:01:08.439
+Arguments We considered ten popular topics from the website debate.org, called big issues there.
+
+00:01:08.439 --> 00:01:24.794
+For each topic, we used our system to construct three arguments: one argument focusing on care and fairness (individualizing), one focusing on loyalty, authority, and purity (binding), and one baseline argument where we did not control the morals targeted (uncontrolled).
+
+00:01:24.794 --> 00:01:32.874
+We created arguments separately for both stances (pro and con), resulting in a total of 10  3  2 = 60 arguments.
+
+00:01:32.874 --> 00:01:36.804
+To construct each argument, we used the following parameters.
+
+00:01:36.804 --> 00:01:43.597
+For each topic, we built four queries, retrieving 10k sentences with 6 to 60 tokens per query.
+
+00:01:43.597 --> 00:01:47.114
+The first query retrieved sentences containing the topic.
+
+00:01:47.114 --> 00:01:57.782
+The second and third query targeted claim-like sentences, requiring the occurrence of (a) at least one causality marker or (b) both causality and a sentiment marker.
+
+00:01:57.782 --> 00:02:01.887
+Each needed to appear together with the topic in a window of 12 tokens.
+
+00:02:01.887 --> 00:02:13.842
+The last query aimed to retrieve evidence by filtering only those sentences that contained any of the following tokens: "surveys", "analyses", "researches", "reports", "research", and "survey".
+
+00:02:13.842 --> 00:02:20.322
+A moral was assigned to a retrieved sentence if the probability of our classifier was higher than 0.5.
+
+00:02:20.322 --> 00:02:29.002
+After initial tests, we set the claim_threshold and evidence_threshold to 0.8 and 0.6 respectively.
+
+00:02:29.002 --> 00:02:33.894
+We left all other settings to the default values of Project Debater's API.
+
+00:02:33.894 --> 00:02:43.887
+Internal Study on Argument Quality Before we launched our main study, two authors of this paper manually assessed the quality of the generated arguments and the morals addressed in each.
+
+00:02:43.887 --> 00:02:52.254
+In particular, each of them read all 60 arguments and ranked their relevance, coherence, and argumentativeness on a 5-point Likert scale.
+
+00:02:52.254 --> 00:02:58.359
+While reading each argument, they also highlighted spans of text that they found to reflect a specific moral.
+
+00:02:58.359 --> 00:03:05.380
+External Study on Argument Effectiveness To answer our research questions, we conducted a twophase user study on the platfo
+
+00:00:00.000 --> 00:00:09.117
+rm Upwork: First, we determined the political ideology of each participant, and then, we let selected participants rank the different arguments.
+
+00:00:09.117 --> 00:00:22.235
+In the first phase, we asked people living in the US that are experienced in writing and content editing to perform the Political Typology Quiz, available through the Pew Research Center, in order to   identify their political ideology.
+
+00:00:22.235 --> 00:00:29.027
+4 In 17 questions, the quiz asks participants to state their views on controversial issues in the US.
+
+00:00:29.027 --> 00:00:36.870
+The test results place the participants on a spectrum of ideologies from solid liberal (left) to core conservative (right).
+
+00:00:36.870 --> 00:00:49.287
+In the second phase, we chose only six participants from the first phase due to budget constraints, three solid liberals (one male, two female) and three core conservatives (two males, one female).
+
+00:00:49.287 --> 00:00:57.742
+We showed each of them three arguments (one individualizing, one binding, one uncontrolled) for all 20 topic-stance pairs.
+
+00:00:57.742 --> 00:01:03.472
+For each pair, the participants read the three arguments and ranked them by perceived effectiveness.
+
+00:01:03.472 --> 00:01:05.677
+We followed El Baff et al.
+
+00:01:05.677 --> 00:01:15.970
+2018), defining the effectiveness of an argument either by how empowering it is (if the participant has the same stance on the topic) or by how challenging it is (otherwise).
+
+00:01:15.970 --> 00:01:27.712
+For this purpose, the participants self-assessed their stances on each topic on a 5-point Likert scale, from 1 (strongly disagree) to 5 (strongly support) before reading the arguments.
+
+00:01:27.712 --> 00:01:28.967
+5
+
+00:01:28.967 --> 00:01:30.484
+Results
+
+00:01:30.484 --> 00:01:36.502
+In the following, we present the results of both studies, attempting to answer our research questions.
+
+00:01:36.502 --> 00:01:43.269
+Table 6 presents the quality scores for each argument type and Table 7 the distribution of moral foundations.
+
+00:01:43.269 --> 00:01:52.974
+Comparing the scores of binding and individualizing arguments to the uncontrolled ones, we see that our method did not notably worsen the quality of the generated arguments.
+
+00:01:52.974 --> 00:02:04.792
+The moral foundation distribution   indicates that binding arguments have a relatively higher focus on loyalty, authority, and purity than the individualizing arguments and a lower focus on fairness and care.
+
+00:02:04.792 --> 00:02:09.284
+This supports the impact of our method on controlling morals in arguments.
+
+00:02:09.284 --> 00:02:11.139
+Argument Quality
+
+00:02:11.139 --> 00:02:13.632
+Empowering vs. Challenging Figure ?
+
+00:02:13.632 --> 00:02:17.362
+shows the distribution of challenging and empowering arguments.
+
+00:02:17.362 --> 00:02:29.904
+Liberals were more decisive with their stance on the given topics, with 73% being on the pro side, whereas only 30% of the conservatives were on that side (50% con side, 20% no stance).
+
+00:02:29.904 --> 00:02:37.947
+Since we presented arguments for both sides for each topic, we had an equal distribution of empowering and challenging arguments for the liberals.
+
+00:02:37.947 --> 00:02:46.114
+However, for conservatives, we had 40% empowering and 40% challenging arguments due to the 20% undecided cases.
+
+00:02:46.114 --> 00:02:56.444
+Since arguments supporting one side of a debate are rather challenging for the undecided audience, in our analysis below, we consider the 20% undecided cases to be challenging.
+
+00:02:56.444 --> 00:03:05.308
+Table 8 shows the rank distribution for morally-framed arguments (binding and individualizing) compared to the uncontrolled ones for liberals, conservative
+
+00:00:00.000 --> 00:00:01.755
+s, and all together.
+
+00:00:01.755 --> 00:00:14.772
+In general, the participants ranked the arguments framed in terms of fairness and care (individualizing) significantly better than the uncontrolled ones, with an average rank of 1.72 compared to 2.08.
+
+00:00:14.772 --> 00:00:20.815
+6 This difference is significant at p < 0.05 using student t-test.
+
+00:00:20.815 --> 00:00:27.682
+This signals a positive answer to our first research question: a focus on morals can make arguments more effective.
+
+00:00:27.682 --> 00:00:40.162
+A closer look at the distribution of arguments at Rank 1 shows that conservatives were more susceptible to moral arguments (75% binding and individualizing) compared to liberals (63%).
+
+00:00:40.162 --> 00:00:49.829
+Next, we examine whether arguments with different morals affect liberals and conservatives differently by looking at the achieved ranks of both empowering and challenging arguments.
+
+00:00:49.829 --> 00:00:52.459
+Effectiveness of Moral Arguments
+
+00:00:52.459 --> 00:01:04.752
+Effectiveness depending on Ideology Looking at the mean ranks assigned by liberals in Table 9, we observe that challenging arguments that focus on individualizing morals (care and fairness) are most effective.
+
+00:01:04.752 --> 00:01:10.607
+We validate that the difference is significant for p < 0.1 using student t-test.
+
+00:01:10.607 --> 00:01:18.724
+This is in line with Feinberg and Willer (2015) who found that arguments framed in terms of liberal morals were more convincing to liberals.
+
+00:01:18.724 --> 00:01:23.404
+Notably, this effectiveness slightly decreases when arguments are empowering.
+
+00:01:23.404 --> 00:01:33.822
+A reasonable hypothesis is that, in the 6 The difference in mean ranks is 0.36, 95% CI [0.17, 0.57].
+
+00:01:33.822 --> 00:01:41.677
+case of empowering arguments, the audience may be more interested in the opposing views, which might be covered by uncontrolled arguments.
+
+00:01:41.677 --> 00:01:46.319
+We investigate this hypothesis further via a follow-up questionnaire below.
+
+00:01:46.319 --> 00:01:48.749
+Now, we look at the conservatives.
+
+00:01:48.749 --> 00:02:02.804
+Although they also valued the individual arguments the most, we observe that, when arguments challenged their views, a focus on binding morals (loyalty, authority, and purity) became slightly more effective than the uncontrolled arguments.
+
+00:02:02.804 --> 00:02:13.347
+Generally, morally framed arguments that challenged the views of conservatives were significantly more effective than uncontrolled ones at p < 0.1 using the student t-test.
+
+00:02:13.347 --> 00:02:16.014
+Agreement across Ideologies
+
+00:02:16.014 --> 00:02:23.482
+We measured inter-annotator agreement between the participants using Kendall's W ( Kendall and Smith, 1939).
+
+00:02:23.482 --> 00:02:27.499
+The agreement of all six participants was 0.29.
+
+00:02:27.499 --> 00:02:36.954
+In contrast, when considering liberals and conservatives separately, it increased to 0.35 for liberals and 0.51 for conservatives.
+
+00:02:36.954 --> 00:02:46.809
+This indicates higher agreement between participants having similar political ideology and matches the common notion that conservatives are more unified in their views than liberals.
+
+00:02:46.809 --> 00:02:49.727
+Reasons behind Effectiveness Judgments
+
+00:02:49.727 --> 00:02:54.332
+In a follow-up questionnaire, we investigated our participants' judgments.
+
+00:02:54.332 --> 00:03:10.744
+We asked them to self-assess whether they prefer (1) arguments with knowledge they have or are not familiar with, (2) arguments that matched or challenged their own views, (3) arguments that convince others who share or oppose their views, and (4) what affected the judgments of argument effectiveness
+
+00:00:00.000 --> 00:00:04.492
+more: knowledge or views, each in empowering and challenging cases.
+
+00:00:04.492 --> 00:00:09.985
+Table 10 shows that the participants ranked knowledge as the most relevant effectiveness aspect.
+
+00:00:09.985 --> 00:00:19.602
+In terms of others' views, the majority valued arguments that focus on the opposing views, whereas preferences differ for empowering and challenging arguments on own views.
+
+00:00:19.602 --> 00:00:28.620
+Due to the reliability issues of self-assessment of one's moral judgments (Pizarro, 2000), we acknowledge the limitation of this study, though.
+
+00:00:28.620 --> 00:00:33.037
+We present details on the questionnaire and its results in the appendix.
+
+00:00:33.037 --> 00:00:35.479
+Discussion and Limitations
+
+00:00:35.479 --> 00:00:44.534
+We explicitly acknowledge the limited number of liberals and conservatives that we recruited in our final user study, who might not represent the whole  population.
+
+00:00:44.534 --> 00:00:53.264
+Since the low sample size affects the reliability of our results, we performed significance tests to report our main results with a certain confidence level.
+
+00:00:53.264 --> 00:01:00.619
+As far as budget permits, further studies should be run with a more significant sample to reassess the reliability of the results.
+
+00:01:00.619 --> 00:01:11.474
+Despite the limitation above, the results of our evaluation indicate that arguments targeting the moral foundations of care and fairness are more effective than others, at least in the tested sample.
+
+00:01:11.474 --> 00:01:17.517
+Also, we observed that focusing on the audience's views in challenging arguments makes them more effective.
+
+00:01:17.517 --> 00:01:32.534
+Regarding political ideologies, while our results match the literature in that liberals were affected more by arguments focusing on their views (care and fairness), especially when challenged, conservatives did not rank binding arguments higher than individualizing ones.
+
+00:01:32.534 --> 00:01:39.014
+However, the conservatives still showed a higher tendency to be affected by morally framed arguments than liberals.
+
+00:01:39.014 --> 00:01:46.157
+Our approach is limited by its capability to retrieve argumentative texts that discuss the topic from different moral perspectives.
+
+00:01:46.157 --> 00:01:52.274
+In the retrieval component, we have focused on obtaining sentences containing precisely the addressed topic.
+
+00:01:52.274 --> 00:01:57.479
+A more elaborated approach could broaden the search to relevant topics through topic expansion.
+
+00:01:57.479 --> 00:02:05.584
+Further, we could use Project Debater only through the predefined API, restricting the way we integrate the moral tagging of sentences.
+
+00:02:05.584 --> 00:02:12.814
+Ideally, it would be performed during indexing; then, choosing the morals to focus on could be defined as part of the queries.
+
+00:02:12.814 --> 00:02:20.519
+Also, it is noteworthy that our moral classifier is trained on an automatically annotated dataset which may have limited its performance.
+
+00:02:20.519 --> 00:02:28.874
+Still, we demonstrated that it is feasible to tune arguments automatically to target certain morals and that such arguments tend to be more effective.
+
+00:02:28.874 --> 00:02:34.979
+Moreover, our results indicate that differently framed arguments have a different effect on different audiences.
+
+00:02:34.979 --> 00:02:44.834
+This opens opportunities for generating more effective arguments when targeting a specific audience, bridging the gap between disagreeing parties by focusing on the shared beliefs.
+
+00:02:44.834 --> 00:02:46.439
+Conclusion
+
+00:02:46.439 --> 00:02:50.332
+In this work, we have proposed an extension of Project Debater that ge
+
+00:00:00.000 --> 00:00:02.442
+nerates morally framed arguments.
+
+00:00:02.442 --> 00:00:12.822
+Due to the lack of training data for classifying morals, we have used distant supervision to collect a large set of argumentative sentences automatically annotated for moral foundations.
+
+00:00:12.822 --> 00:00:17.440
+Training a BERT-based classifier on the data yielded stateof-the-art results.
+
+00:00:17.440 --> 00:00:24.482
+We have integrated the classifier with functionalities of Project Debater to tune arguments tuned towards specific morals.
+
+00:00:24.482 --> 00:00:31.962
+According to our user study, arguments with morals relevant to liberals are more effective than arguments without any control of morals.
+
+00:00:31.962 --> 00:00:35.730
+Also, conservatives were more affected by moral arguments.
+
+00:00:35.730 --> 00:00:40.485
+Our results demonstrate the feasibility of generating morally framed arguments.
+
+00:00:40.485 --> 00:00:48.214
+By focusing on shared morals, we believe that a respective system helps bridge disagreement of opposing audiences in practice.
+
+00:00:48.214 --> 00:00:49.944
+Acknowledgments
+
+00:00:49.944 --> 00:01:03.337
+This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation): TRR 318/1 2021 -438445824.
+
+00:01:03.337 --> 00:01:09.217
+We would also like to thank the reviewers and the participants who took part anonymously in our user study.
+
+00:01:09.217 --> 00:01:11.034
+Ethical Statement
+
+00:01:11.034 --> 00:01:16.577
+The responsible administrative board of Paderborn University formally approved our external study.
+
+00:01:16.577 --> 00:01:23.069
+We did not gather any personal information about the participants that could connect their ideologies to their identity.
+
+00:01:23.069 --> 00:01:28.274
+Accordingly, no sensitive information was sent via the Project Debater API.
+
+00:01:28.274 --> 00:01:36.817
+Also, we ensured that they get paid more than the minimum wage in the U.S., namely 75$ for a workload of 3 to 3.5 hours.
+
+00:01:36.817 --> 00:01:44.834
+Once more, we would like to indicate here that the results of this paper should be considered preliminary due to the limited number of surveyed users.
+
+00:01:44.834 --> 00:01:48.327
+Budget constraints did not allow to increase this number.
+
+00:01:48.327 --> 00:01:53.307
+Working on technologies that aim to persuade an audience raises ethical concerns.
+
+00:01:53.307 --> 00:02:00.099
+Using knowledge about a user's morals is a critical act, and if done, it should be clearly communicated to the users.
+
+00:02:00.099 --> 00:02:06.242
+Similarly, generating arguments aiming to convince the audience could be thought of as a manipulation attempt.
+
+00:02:06.242 --> 00:02:15.672
+To avoid manipulation, any technology aiming at convincing the audience should be transparent about it by keeping the user informed of how their information is being used.
+
+00:02:15.672 --> 00:02:28.152
+Since we rely on the arguments provided by the Project Debater API, we ultimately cannot control their content, but our internal quality assessment study did not raise any notable concerns on the information contained.
+
+00:02:28.152 --> 00:02:35.607
+As mentioned, the long-term goal of our envisioned system is not to use the audience's morals to generate arguments that convince them.
+
+00:02:35.607 --> 00:02:43.712
+Rather, given two disagreeing parties, the goal is to generate a wider spectrum of arguments covering relevant morals for both parties.
+
+00:02:43.712 --> 00:02:50.892
+We have argued in this paper that such morally rich arguments are more effective and could better achieve agreement between the disagreeing parties.
+
+00:02:50.892 --> 00:02:55.622
+Similarly, we ask the same questions in the case of empowering arguments.
+
+00:02:55.622 --> 00:03:00.700
+Table 9 summarizes the results of the four asked questions in both empowering and ch
+
+00:00:00.000 --> 00:00:01.680
+allenging arguments.
+
+00:00:01.680 --> 00:00:09.535
+In general, among the three aspects, the knowledge aspect was the most relevant one to the majority of the annotators (last row).
+
+00:00:09.535 --> 00:00:21.077
+When the annotators were asked about the their own views (first row), conservatives favored mostly arguments that challenged their own views, while liberals favored mostly empowering arguments that matched their views.
+
+00:00:21.077 --> 00:00:29.195
+Regarding others' views, most conservatives and liberals valued empowering arguments that were particularly convincing to people that oppose their views.
+
+00:00:29.195 --> 00:00:40.124
+Nevertheless, we acknowledge the limited reliability of such self-assessment of one's moral judgments due to the complicated cognitive mechanisms behind it (Pizarro, 2000).
+
+00:00:40.124 --> 00:00:42.804
+B Example Generated Arguments
+
+00:00:42.804 --> 00:00:52.034
+We present in Table 7-9 a sample of generated arguments on three topics focusing on both individualizing and binding morals, as well as uncontrolled.
+
+00:00:52.034 --> 00:01:03.089
+Table 11: Distribution of preferences (options) selected by the liberal and conservative annotators for each of the four asked questions for both the empowering and challenging cases.
+
+00:01:03.089 --> 00:01:05.632
+Topic: Globalization
+
+00:01:05.632 --> 00:01:10.237
+Binding argument: The crowd raised four issues, explaining its views.
+
+00:01:10.237 --> 00:01:15.054
+The first claim is that globalization is reducing the importance of nation-states.
+
+00:01:15.054 --> 00:01:20.197
+The next issue will show how Globalization and structural forces aggravate poverty.
+
+00:01:20.197 --> 00:01:23.627
+In addition, we will hear about pollution and Culture.
+
+00:01:23.627 --> 00:01:25.669
+Starting with nation states.
+
+00:01:25.669 --> 00:01:29.537
+Globalization is reducing the importance of nation-states.
+
+00:01:29.537 --> 00:01:37.017
+It has fueled the rise of transnational corporations, and their power has vaulted to the point where they can now rival many nation states.
+
+00:01:37.017 --> 00:01:44.322
+This trend may threaten national identity because globalization undermines the importance of being a citizen of a particular country.
+
+00:01:44.322 --> 00:01:50.677
+According to Ramonet, globalization and ultra-liberalism threaten the sovereignty of national states.
+
+00:01:50.677 --> 00:02:03.319
+Some scholars have argued that increasing globalization has actually led to a contemporary form of imperialism, in which economic and cultural norms and discourses are imposed by dominant nations on weaker nations.
+
+00:02:03.319 --> 00:02:04.887
+Turning to poverty.
+
+00:02:04.887 --> 00:02:09.254
+Critics of globalization say that it disadvantages poorer countries.
+
+00:02:09.254 --> 00:02:16.047
+Globalization and structural forces aggravate poverty and continue to push individuals to the margins of society.
+
+00:02:16.047 --> 00:02:35.539
+Academic contributors to The Routledge Handbook of Poverty in the United States postulate that new and extreme forms of poverty have emerged in the U.S. as a result of neoliberal structural adjustment policies and globalization, which have rendered economically marginalized communities as destitute "surplus populations" in need of control and punishment.
+
+00:02:35.539 --> 00:02:37.682
+Pollution was also mentioned.
+
+00:02:37.682 --> 00:02:46.387
+Globalization creates risks that concern people from all different classes; for example, radioactivity, pollution, and even unemployment.
+
+00:02:46.387 --> 00:02:53.504
+As International commerce develops new trade routes, markets and products it facilitates the spread of invasive species.
+
+00:02:53.504 --> 00:02:55.497
+Lastly, Culture.
+
+00:02:55.497 --> 00:03:00.448
+Globalization has destabilized previously immutable social institutions, shi
+
+00:00:00.000 --> 00:00:06.080
+fting cultural value away from old traditions to new more individualistic and market friendly ideas.
+
+00:00:06.080 --> 00:00:10.260
+It is often said to have a negative effect on the world's cultural diversity.
+
+00:00:10.260 --> 00:00:23.777
+Cultural and geographical dimensions of transformational leadership become blurred as globalization renders ethnically specific collectivist and individualistic effects of organizational behavior obsolete in a more diversified workplace.
+
+00:00:23.777 --> 00:00:28.895
+Individualizing argument: The crowd raised four issues, explaining its views.
+
+00:00:28.895 --> 00:00:33.700
+The first claim is that Globalization on its own cannot end gender inequality.
+
+00:00:33.700 --> 00:00:37.905
+In addition, we will hear about harm, economy and processes.
+
+00:00:37.905 --> 00:00:40.185
+Starting with gender inequality.
+
+00:00:40.185 --> 00:00:45.990
+There are various studies available that depict globalization as a hindrance toward gender inequality.
+
+00:00:45.990 --> 00:00:49.807
+Globalization on its own cannot end gender inequality.
+
+00:00:49.807 --> 00:00:51.225
+Turning to harm.
+
+00:00:51.225 --> 00:00:55.830
+Some critics of globalization argue that it harms the diversity of cultures.
+
+00:00:55.830 --> 00:01:03.847
+Globalization is a threat to culture and religion, and it harms indigenous people groups while multinational corporations profit from it.
+
+00:01:03.847 --> 00:01:12.152
+It has been criticized for benefiting those who are already large and in power at the risk and growing vulnerability of the countries' indigenous population.
+
+00:01:12.152 --> 00:01:20.945
+As of recently, it has been argued that globalization poses a threat to the CHS way of thinking because it often leads to the dissolution of distinct states.
+
+00:01:20.945 --> 00:01:23.062
+Economy was also mentioned.
+
+00:01:23.062 --> 00:01:36.342
+According to many left-wing greens, economic globalization is considered a threat to wellbeing, which will replace natural environments and local cultures with a single trade economy, termed the global economic monoculture.
+
+00:01:36.342 --> 00:01:42.110
+Globalisation is the cause of slow growth, unemployment and excessive debt in Western economies.
+
+00:01:42.110 --> 00:01:46.565
+It makes people poor by taking away money from people who formerly had it.
+
+00:01:46.565 --> 00:01:54.507
+Globalization does not work for all the economies that it affects, and that it does not always deliver the economic growth that is expected of it.
+
+00:01:54.507 --> 00:02:02.925
+It is pretty much making all poor countries richer with the exception of various african countries because of their continious state of war between the local tribes.
+
+00:02:02.925 --> 00:02:04.905
+Lastly, processes.
+
+00:02:04.905 --> 00:02:14.760
+Processes of globalization present humankind with many issues that are considered problematic in at least one culture or society, and often multiple societies.
+
+00:02:14.760 --> 00:02:26.052
+The books suggest that contemporary processes of globalization and mediatization have contributed to materially abstracting relations between people, with major consequences for how we live our lives.
+
+00:02:26.052 --> 00:02:31.532
+On the other side, the process of globalization has generated universal disenchantment.
+
+00:02:31.532 --> 00:02:36.450
+Uncontrolled argument: The crowd raised four issues, explaining its views.
+
+00:02:36.450 --> 00:02:42.492
+The first claim is that globalisation creates economic and cultural imbalances in developing nations.
+
+00:02:42.492 --> 00:02:47.697
+The next issue will show how globalization is reducing the importance of nation-states.
+
+00:02:47.697 --> 00:02:50.877
+And the third point is that globalization is a threat.
+
+00:02:50.877 --> 00:02:53.895
+In addition, we will hear about processes.
+
+00:02:53.895 --> 00:02:55.600
+Starting with economy.
+
+00:02:55.600 --> 00:02:57.676
+Globalization does not work for all
+
+00:00:00.000 --> 00:00:06.005
+the economies that it affects, and that it does not always deliver the economic growth that is expected of it.
+
+00:00:06.005 --> 00:00:11.797
+Globalisation and neoliberalism have exacerbated already unequal economic relations.
+
+00:00:11.797 --> 00:00:24.090
+Although globalization takes similar steps in most countries, scholars such as Hodge claim that it might not be effective to certain countries and that globalization has actually moved some countries backward instead of developing them.
+
+00:00:24.090 --> 00:00:26.020
+Turning to nation states.
+
+00:00:26.020 --> 00:00:29.887
+Globalization is reducing the importance of nation-states.
+
+00:00:29.887 --> 00:00:35.617
+It engenders conflicts within and between nations over domestic norms and social institutions.
+
+00:00:35.617 --> 00:00:42.922
+This trend may threaten national identity because globalization undermines the importance of being a citizen of a particular country.
+
+00:00:42.922 --> 00:00:49.277
+According to Ramonet, globalization and ultra-liberalism threaten the sovereignty of national states.
+
+00:00:49.277 --> 00:00:51.170
+Threats was also mentioned.
+
+00:00:51.170 --> 00:01:03.125
+Case studies of Thailand and the Arab nations' view of globalization show that globalization is a threat to culture and religion, and it harms indigenous people groups while multinational corporations profit from it.
+
+00:01:03.125 --> 00:01:11.917
+As of recently, it has been argued that globalization poses a threat to the CHS way of thinking because it often leads to the dissolution of distinct states.
+
+00:01:11.917 --> 00:01:13.897
+Lastly, processes.
+
+00:01:13.897 --> 00:01:26.815
+The combined processes of industrialization and globalization have disrupted longstanding livelihoods and systems of production, forcing many families to focus more on income-generating activities than on subsistence practices.
+
+00:01:26.815 --> 00:01:46.307
+Academic contributors to The Routledge Handbook of Poverty in the United States postulate that new and extreme forms of poverty have emerged in the U.S. as a result of neoliberal structural adjustment policies and globalization, which have rendered economically marginalized communities as destitute "surplus populations" in need of control and punishment.
+
+00:01:46.307 --> 00:01:53.350
+It was in essence an affirmative action scheme to assist geographically disadvantaged students to gain tertiary education.
+
+00:01:53.350 --> 00:02:02.517
+The obvious solution to all the Affirmative Action controversy is to offer full financial assistance to all university students with need, regardless of race.
+
+00:02:02.517 --> 00:02:04.310
+Moving on to policy.
+
+00:02:04.310 --> 00:02:14.365
+This executive order created a National Women's Business Enterprise Policy and required government agencies to take affirmative action in support of women's business enterprises.
+
+00:02:14.365 --> 00:02:23.907
+Following the riots, the Malaysian Government introduced affirmative action policies to help the Bumiputera to achieve a higher economic quality of life than the Chinese.
+
+00:02:23.907 --> 00:02:30.312
+Ethiopian government policy has supported affirmative action for women since its inception in 1994.
+
+00:02:30.312 --> 00:02:40.430
+The ACLU's official position statements, as of January 2012, included the following policies: Affirmative action -The ACLU supports affirmative action.
+
+00:02:40.430 --> 00:02:42.685
+The last issue mentioned was women.
+
+00:02:42.685 --> 00:02:45.827
+Hunter is a supporter of affirmative action for women.
+
+00:02:45.827 --> 00:02:51.682
+He is highly in favor of affirmative action and supports setting aside funds for women and minorities.
+
+00:02:51.682 --> 00:02:54.580
+According to a poll taken by USA Today in 20
+
+00:00:00.000 --> 00:00:07.005
+05, the majority of Americans support affirmative action for women, while views on minority groups were more split.
+
+00:00:07.005 --> 00:00:09.522
+It support affirmative action for women.
+
+00:00:09.522 --> 00:00:22.377
+Affirmative Action and Impact Sourcing Tata BSS is an avid supporter of Affirmative Action and hence employs huge number of SC/ST community people in their operations thereby making a huge impact on the society.
+
+00:00:22.377 --> 00:00:30.107
+Individualizing argument: Employment, discrimination, universities and policy are the four issues the crowd elaborated on.
+
+00:00:30.107 --> 00:00:32.625
+Let's explore the issue of employment.
+
+00:00:32.625 --> 00:00:38.705
+Affirmative action legislation has led to substantial improvements in the employment of minorities and women.
+
+00:00:38.705 --> 00:00:47.310
+They also require Federal contractors and subcontractors to take affirmative action to ensure equal employment opportunity in their employment processes.
+
+00:00:47.310 --> 00:01:02.340
+Historically and internationally, support for affirmative action has sought to achieve goals such as bridging inequalities in employment and pay, increasing access to education, promoting diversity, and redressing apparent past wrongs, harms, or hindrance.
+
+00:01:02.340 --> 00:01:04.732
+The next issue is discrimination.
+
+00:01:04.732 --> 00:01:09.775
+The affirmative action program is designed to remedy the effects of past discrimination.
+
+00:01:09.775 --> 00:01:25.817
+In 2004, he reiterated his support, "I support affirmative action programs, including in appropriate instances consideration of race and gender in government contracting decisions, when the affirmative action program is designed to remedy the effects of past discrimination.". 
+
+00:01:25.817 --> 00:01:32.760
+Alongside the prohibition against unfair discrimination, affirmative action is the second cornerstone of the EEA.
+
+00:01:32.760 --> 00:01:36.790
+A common approach to remedying discrimination is affirmative action.
+
+00:01:36.790 --> 00:01:38.832
+Moving on to universities.
+
+00:01:38.832 --> 00:01:42.720
+The National Conference of State Legislatures held in Washington D.C.
+
+00:01:42.720 --> 00:01:55.387
+stated in a 2014 overview that many supporters for affirmative action argue that policies stemming from affirmative action help to open doors for historically excluded groups in workplace settings and higher education.
+
+00:01:55.387 --> 00:02:01.130
+Race-based affirmative action was necessary to achieve diversity and its educational benefits.
+
+00:02:01.130 --> 00:02:07.285
+Affirmative action provides some disadvantaged youth with increased chances of attending top-tier university.
+
+00:02:07.285 --> 00:02:10.577
+Action is thus more important than abstract knowledge.
+
+00:02:10.577 --> 00:02:13.120
+The last issue mentioned was policy.
+
+00:02:13.120 --> 00:02:25.550
+According to its website, the NCP is committed to ideals of social justice, expressing support for affirmative action policies for the downtrodden members of society and for ensuring equal opportunities for all.
+
+00:02:25.550 --> 00:02:31.780
+Such legislation and affirmative action policies have been critical to bringing changes in societal attitudes.
+
+00:02:31.780 --> 00:02:39.035
+The school applies an affirmative action policy to ensure marginalized students from hardship semi-arid areas are given a chance.
+
+00:02:39.035 --> 00:02:45.015
+Affirmative Action Policy is to ensure the peace and stability in the pluralist society of Malaysia.
+
+00:02:45.015 --> 00:02:47.732
+It was found to address Malay grievances.
+
+00:02:47.732 --> 00:02:55.262
+Uncontrolled argument: Discrimination, effectiveness, the supreme court and women are the four issues the crowd elaborated on.
+
+00:02:55.262 --> 00:02:56.920
+Let's explore the issue of di
+
+00:00:00.000 --> 00:00:01.480
+scrimination.
+
+00:00:01.480 --> 00:00:12.210
+1961: Executive Order 10925: Required government contractors to "take affirmative action" to ensure non-discriminatory employment practices.
+
+00:00:12.210 --> 00:00:19.627
+It supports affirmative action as necessary in the fight for equality and it opposes all forms of racism and religious bigotry.
+
+00:00:19.627 --> 00:00:28.907
+Right to affirmative action All federal employers or federal contractors are required to take affirmative action to help counteract the effects of historical discrimination.
+
+00:00:28.907 --> 00:00:42.987
+CAMERA argues the Law of Return is justified under the Convention on the Elimination of All Forms of Racial Discrimination Article I, which CAMERA argues allows for affirmative action, because of the discrimination Jews faced during the Holocaust.
+
+00:00:42.987 --> 00:00:45.155
+The next issue is effectiveness.
+
+00:00:45.155 --> 00:00:48.197
+In philosophy, Action is effective will.
+
+00:00:48.197 --> 00:00:54.865
+Collective action is the most effective means of preventing potential state and non-state aggressors from threatening other states.
+
+00:00:54.865 --> 00:00:57.882
+Such action is effective in spreading our message.
+
+00:00:57.882 --> 00:01:00.025
+Moving on to the supreme court.
+
+00:01:00.025 --> 00:01:01.167
+Utter v.
+
+00:01:01.167 --> 00:01:07.272
+Bollinger: The Supreme Court of the United States upholds affirmative action in university admissions.
+
+00:01:07.272 --> 00:01:14.565
+The court found that the University of Michigan's Law School's affirmative action admission policies were promoting diversity within its school.
+
+00:01:14.565 --> 00:01:25.257
+Importantly, though, it ruled that a university was entitled to "no deference" on its judgment that race-based affirmative action was necessary to achieve diversity and its educational benefits.
+
+00:01:25.257 --> 00:01:30.162
+Another controversial decision of the Rehnquist court in 2003 was Grutter v.
+
+00:01:30.162 --> 00:01:32.830
+Bollinger which upheld affirmative action.
+
+00:01:32.830 --> 00:01:47.760
+A prominent advocate of affirmative action, he played a leading role in the twin Supreme Court cases-Grutter v Bollinger and Gratz v Bollinger-that upheld and clarified the importance of diversity as a compelling justification for affirmative action in higher education.
+
+00:01:47.760 --> 00:01:50.015
+The last issue mentioned was women.
+
+00:01:50.015 --> 00:01:54.895
+Affirmative action programs to women in an effort to end gender discrimination.
+
+00:01:54.895 --> 00:02:01.662
+Genderaffirmative practices recognize and support an individual's unique gender self-identification and expression.
+
+00:02:01.662 --> 00:02:11.905
+Wesolowski supported affirmative action programs for Saskatoon Catholic teachers in 2001, arguing that past policies had discriminated against women and aboriginals.
+
+00:02:11.905 --> 00:02:21.497
+For women business owners, affirmative action programs are considered legislation that encourage government agencies and contractors to do business with women-owned businesses.
+
+00:02:21.497 --> 00:02:23.090
+Turning to government.
+
+00:02:23.090 --> 00:02:30.545
+Prostitution should be decriminalized, and as a libertarian insists the sex trade should not be regulated by the government.
+
+00:02:30.545 --> 00:02:38.637
+According to data from the Office for National Statistics, it contributed 5.3 billion to the UK economy in 2009.
+
+00:02:38.637 --> 00:02:50.092
+This, the sex work perspective asserts, will allow prostitution to be regulated by governments and business codes, protect sex trade workers, and improve the ability to prosecute people who hurt them.
+
+00:02:50.092 --> 00:02:57.322
+In 2005 the government also drafted the Sex Regulation Act which sought to further legalise and regulate prostitution.
+
+00:02:57.322 --> 00:02:57.928
+Accordi
+
+00:00:00.000 --> 00:00:06.267
+ng to a Portuguese Government spokesperson, "The Government's opinion was that prostitution was not a crime.
+
+00:00:06.267 --> 00:00:08.647
+The last issue mentioned was drugs.
+
+00:00:08.647 --> 00:00:12.977
+Mick Jagger has called for all drugs to be legalised on the Isle of Man.
+
+00:00:12.977 --> 00:00:18.457
+The Act legalised prostitution and put the women involved under police and medical control.
+
+00:00:18.457 --> 00:00:27.400
+In 2012, newly elected Guatemalan president Otto Perez Molina argued that all drugs should be legalized while attending the United Nations.
+
+00:00:27.400 --> 00:00:35.692
+Because of this, the Austrian Federal Ministry of the Interior wants to transform illegal prostitution into legal regulated prostitution.
+
+00:00:35.692 --> 00:00:42.560
+Individualizing argument: These are the four issues the crowd addressed: regulation, gambling, rape and crime.
+
+00:00:42.560 --> 00:00:44.490
+Starting with regulation.
+
+00:00:44.490 --> 00:00:55.407
+According to proponents of regulation, prostitution should be considered a legitimate activity, which must be recognized and regulated, in order to protect the workers' rights and to prevent abuse.
+
+00:00:55.407 --> 00:00:58.612
+It should be legalised so it could be controlled safety.
+
+00:00:58.612 --> 00:01:08.417
+Maxine is a strong supporter of legalised brothels, more regulations around employment in the sex industry and increased sentences for perpetrators of violent crime.
+
+00:01:08.417 --> 00:01:18.585
+Barbara Brents and Kathryn Hausbeck state in their study that the legalization of prostitution in Nevada's brothels allows for improved regulation and protection for both businesses and workers.
+
+00:01:18.585 --> 00:01:20.690
+Gambling was also mentioned.
+
+00:01:20.690 --> 00:01:27.895
+D'Amato believed that legalized gambling would be good for both the city and for those with businesses related to the entertainment industry.
+
+00:01:27.895 --> 00:01:36.500
+Maher favors ending corporate welfare and federal funding of non-profits as well as the legalization of gambling, prostitution, and cannabis.
+
+00:01:36.500 --> 00:01:37.917
+Turning to rape.
+
+00:01:37.917 --> 00:01:53.772
+Kimberly Kay Hoang, assistant professor of sociology at the University of Chicago, who conducted a 2011 study of prostitutes in Ho Chi Minh City is quoted as saying "Legalising prostitution would also reduce violence and sex crimes such as rape and sexual violence.
+
+00:01:53.772 --> 00:01:59.915
+Legalising prostitution would also reduce violence and sex crimes such as rape and sexual violence.
+
+00:01:59.915 --> 00:02:10.520
+In 2006, the National Assembly legalized abortion care in cases of rape, as women regularly faced sexual violence, rape, and gang rape in the war-ravaged country.
+
+00:02:10.520 --> 00:02:17.075
+Legalizing brothels would make prostitution safer for women because it would allow prostitution to take place indoors.
+
+00:02:17.075 --> 00:02:19.392
+The last issue mentioned was crime.
+
+00:02:19.392 --> 00:02:30.497
+Proposition K would decriminalize prostitution, enforce laws against crimes on sex workers, and disclose all investigations and prosecutions of violent crimes against sex workers.
+
+00:02:30.497 --> 00:02:40.665
+A May 1990 Australian Institute of Criminology report recommended that prostitution not be a criminal offence, since the laws were ineffective and endangered sex workers.
+
+00:02:40.665 --> 00:02:47.332
+In 1908, the king passed laws to legalize prostitution and help sex workers get medical care.
+
+00:02:47.332 --> 00:02:49.474
+Uncontrolled argument:
+
+00:02:49.474 --> 00:02:55.017
+These are the four issues the crowd addressed: offices, sex workers, drugs and rural.
+
+00:02:55.017 --> 00:02:56.772
+Starting with offices.
+
+00:02:56.772 --> 00:03:01.240
+Citizens' Assembly's Vanadzor Office president, Artur Sakunts, cal
+
+00:00:00.000 --> 00:00:03.455
+led for prostitution to be legalised and regulated.
+
+00:00:03.455 --> 00:00:09.235
+Prostitution in Hungary has been legalized and regulated by the government since 1999.
+
+00:00:09.235 --> 00:00:13.715
+In several countries, lotteries are legalized by the governments themselves.
+
+00:00:13.715 --> 00:00:29.770
+In response to the 1995 Federal-Provincial-Territorial Working Group on Prostitution report "Dealing with Prostitution in Canada," Toronto's Board of Health advocated decriminalisation in 1995, with the City taking the responsibility of regulating the industry.
+
+00:00:29.770 --> 00:00:32.162
+Sex workers was also mentioned.
+
+00:00:32.162 --> 00:00:41.392
+The sex workers organisation "Guyana Sex Worker Coalition" and several NGOs called for prostitution to be legalised and regularization of sex work.
+
+00:00:41.392 --> 00:00:50.660
+Some sex-positive feminists believe that women and men can have positive experiences as sex workers and that where it is illegal, prostitution should be decriminalized.
+
+00:00:50.660 --> 00:01:05.890
+Since the mid-1970s, sex workers across the world have organised, demanding the decriminalisation of prostitution, equal protection under the law, improved working conditions, the right to pay taxes, travel and receive social benefits such as pensions.
+
+00:01:05.890 --> 00:01:17.932
+The sex work perspective maintains that prostitution is a legitimate form of work for women faced with the option of other bad jobs, therefore women ought to have the right to work in the sex trade free of prosecution or the fear of it.
+
+00:01:17.932 --> 00:01:19.450
+Turning to drugs.
+
+00:01:19.450 --> 00:01:22.942
+If they did, prostitution and drugs would be legal.
+
+00:01:22.942 --> 00:01:28.422
+The Act legalised prostitution and put the women involved under police and medical control.
+
+00:01:28.422 --> 00:01:37.365
+In 2012, newly elected Guatemalan president Otto Perez Molina argued that all drugs should be legalized while attending the United Nations.
+
+00:01:37.365 --> 00:01:44.007
+He has studied the effects of drug criminalization for 15 years, and argues that all drugs should be legalized.
+
+00:01:44.007 --> 00:01:46.275
+The last issue mentioned was rural.
+
+00:01:46.275 --> 00:01:50.630
+Prostitution of adults is legal in 11 rural counties in Nevada.
+
+00:01:50.630 --> 00:02:03.059
+Mayor Goodman supports legalizing prostitution in the city's downtown area as a revenue generator and tool for revitalization, although a majority of Nevadans polled in 2003 opposed the mayor's position.
+
+00:02:03.059 --> 00:02:05.289
+A The follow-up questionnaire
+
+00:02:05.289 --> 00:02:13.457
+This section details the follow-up questionnaire we carried to investigate users' judgments of effectiveness in both challenging and empowering arguments.
+
+00:02:13.457 --> 00:02:27.124
+In the questionnaire, we asked our six annotators the following four questions regarding the challenging arguments:  Your views: When arguments contested your stance on the topic, which of the following arguments did you see as more effective: 1.
+
+00:02:27.124 --> 00:02:29.604
+Arguments that matched your views 2.
+
+00:02:29.604 --> 00:02:32.197
+Arguments that challenged your views 3.
+
+00:02:32.197 --> 00:02:41.052
+Neither of those was important  Your knowledge: When arguments contested your stance on the topic, which of the following arguments did you see as more effective: 1.
+
+00:02:41.052 --> 00:02:44.344
+Arguments based on views you already knew about 2.
+
+00:02:44.344 --> 00:02:47.987
+Arguments that introduce views you were not familiar with 3.
+
+00:02:47.987 --> 00:02:57.042
+Neither of those was important  Others' views: When arguments contested your stance on the topic, which of the following arguments did you see as more effective: 1.
+
+00:02:57.042 --> 00:02:57.784
+Arguments
+
+00:00:00.000 --> 00:00:04.105
+you saw as particularly convincing to people that share your views 2.
+
+00:00:04.105 --> 00:00:09.135
+Arguments you saw as particularly convincing to people that rather oppose your views 3.
+
+00:00:09.135 --> 00:00:18.740
+Neither of those was important  Effectiveness: When arguments contested your stance on the topic, which of the above three was most important for you to judge about effectiveness: 1.
+
+00:00:18.740 --> 00:00:20.257
+Your views 2.
+
+00:00:20.257 --> 00:00:21.862
+Your knowledge 3.
+
+00:00:21.862 --> 00:00:22.804
+Others' views
