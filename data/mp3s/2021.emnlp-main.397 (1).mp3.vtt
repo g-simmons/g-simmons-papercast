@@ -1,0 +1,990 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.429
+Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts Maarten Sap
+
+00:00:06.429 --> 00:00:12.447
+Dialogue models trained on human conversations inadvertently learn to generate toxic responses.
+
+00:00:12.447 --> 00:00:22.102
+In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement.
+
+00:00:22.102 --> 00:00:31.169
+To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations.
+
+00:00:31.169 --> 00:00:40.587
+Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance.
+
+00:00:40.587 --> 00:00:49.129
+Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments.
+
+00:00:49.129 --> 00:00:58.822
+This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments.
+
+00:00:58.822 --> 00:01:12.289
+To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels.
+
+00:01:12.289 --> 00:01:22.832
+Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments.
+
+00:01:22.832 --> 00:01:32.874
+Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies.
+
+00:01:32.874 --> 00:01:41.817
+Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.
+
+00:01:41.817 --> 00:01:47.834
+Dialogue models trained on human conversations inadvertently learn to generate toxic responses.
+
+00:01:47.834 --> 00:01:57.489
+In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement.
+
+00:01:57.489 --> 00:02:06.557
+To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations.
+
+00:02:06.557 --> 00:02:15.974
+Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance.
+
+00:02:15.974 --> 00:02:24.517
+Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments.
+
+00:02:24.517 --> 00:02:34.209
+This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments.
+
+00:02:34.209 --> 00:02:47.677
+To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels.
+
+00:02:47.677 --> 00:02:58.219
+Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments.
+
+00:02:58.219 --> 00:03:08.262
+Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies.
+
+00:03:08.262 --> 00:03:09.772
+Our work highlights the need
+
+00:03:09.772 --> 00:03:17.389
+for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.
+
+00:03:17.389 --> 00:03:19.044
+Introduction
+
+00:03:19.044 --> 00:03:31.899
+Despite significant progress toward data-driven conversational agents (Ritter et al., 2011;Li et al., 2016), dialogue models still suffer from issues surrounding safety and offensive language.
+
+00:03:31.899 --> 00:03:47.266
+Previous 1 Our code and corpus are available at https:// github.com/abaheti95/ToxiChat Because religious people who think they have license from God to do whatever they want are f***ing psychotics Thank you for saying what I was thinking!
+
+00:03:47.266 --> 00:03:54.034
+Figure 1: Example of an offensive comment by a Reddit user followed by three Dialogue model's responses.
+
+00:03:54.034 --> 00:03:59.389
+We also show the stance labels for the responses with respect to the preceding offensive comment.
+
+00:03:59.389 --> 00:04:10.894
+research has shown that dialogue models can produce utterances that are gender and racially biased (Wolf et al., 2017;Sheng et al., 2020;Dinan et al., 2020a).
+
+00:04:10.894 --> 00:04:25.036
+For example, OpenAI's GPT-3 (Brown et al., 2020), a 175 billion parameter neural network, has been shown to generate dangerous advice, such as recommending a hypothetical patient to kill themselves.
+
+00:04:25.036 --> 00:04:34.991
+2 Presenting users with content generated by a neural network presents new risks, as it is difficult to predict when the model might say something toxic, or otherwise harmful.
+
+00:04:34.991 --> 00:04:51.134
+A key challenge for conversational AI is that toxic language is often context-dependent (Dinan et al., 2019a), making it notoriously difficult to detect; text that seems innocuous in isolation may be offensive when considered in the broader context of a conversation.
+
+00:04:51.134 --> 00:04:58.676
+For example, neural chatbots will often agree with offensive statements, which is undesirable (see examples in Figure 1).
+
+00:04:58.676 --> 00:05:11.906
+The solution employed by current systems, such as GPT-3 or Facebook's Blender chatbot (Roller et al., 2021), is to stop producing output when offensive inputs are detected (Xu et al., 2020).
+
+00:05:11.906 --> 00:05:20.011
+This is problematic, because today's toxic language classifiers are far from perfect, often generating false positive predictions.
+
+00:05:20.011 --> 00:05:27.241
+Rather than completely shutting down, for some applications, it may be preferable to simply avoid agreeing with offensive statements.
+
+00:05:27.241 --> 00:05:38.659
+However, we are most excited about the future potential for models that can gracefully respond with non-toxic counter-speech (Wright et al., 2017), helping to diffuse toxic situations.
+
+00:05:38.659 --> 00:05:57.276
+To better understand stance usage in offensive contexts, we recruited crowd-workers on Amazon Mechanical Turk to annotate TOXICHAT, a corpus of Reddit conversations that include automatically generated responses from DialoGPT (Zhang et al., 2020) and GPT-3 (Brown et al., 2020).
+
+00:05:57.276 --> 00:06:04.331
+Posts and comments are annotated for targeted-offensiveness toward a particular person or group (Sap et al., 2020).
+
+00:06:04.331 --> 00:06:08.574
+We also annotate stance toward each of the previous comments in the thread.
+
+00:06:08.574 --> 00:06:19.179
+Using our annotated corpus, we show that 42% of human responses in offensive contexts exhibit agreement stance, whereas only 13% agree with safe comments.
+
+00:06:19.179 --> 00:06:21.344
+Analysis of 5 million Reddit com
+
+00:06:21.344 --> 00:06:28.161
+ment threads across six months, similarly finds users are three times more likely to agree with offensive comments.
+
+00:06:28.161 --> 00:06:39.041
+Furthermore, we find that neural chatbots learn to mimic this behavior -DialoGPT, GPT-3, and Facebook's Blender chatbot are all more likely to agree with offensive comments.
+
+00:06:39.041 --> 00:06:49.159
+Finally, we present initial experiments with two controllable text generation (CTG) methods that aim to control the stance of automatically generated replies.
+
+00:06:49.159 --> 00:07:05.664
+Our experiments suggest that domain adaptive pretraining (Gururangan et al., 2020) reduces the number of contextually offensive responses, although this does not completely eliminate the problem, suggesting the need for further research on controllable stance in neural text generation.
+
+00:07:05.664 --> 00:07:20.269
+Our main contributions include: (1) We release TOXICHAT, a corpus of 2,000 Reddit conversations that are augmented with automatic responses from DialoGPT and GPT-3, and annotated with targeted offensive language and stance.
+
+00:07:20.269 --> 00:07:31.274
+2) We present an analysis of stance in offensive and safe contexts using TOXICHAT, demonstrating that neural dialogue models are significantly more likely to agree with offensive comments.
+
+00:07:31.274 --> 00:07:38.416
+3) We show TOXICHAT supports training and evaluating machine learning classifiers for stance in toxic conversations.
+
+00:07:38.416 --> 00:07:46.896
+4) We conduct preliminary experiments on controlling the stance of neural responses to prevent models from agreeing with offensive statements.
+
+00:07:46.896 --> 00:07:49.438
+Creating the TOXICHAT Corpus
+
+00:07:49.438 --> 00:07:58.893
+Addressing problematic responses in neural conversation requires both understanding whether a response is offensive and whether it agrees with previous offensive utterances.
+
+00:07:58.893 --> 00:08:05.798
+We develop an interface to annotate these two concepts in conversations that are enriched with dialogue model responses.
+
+00:08:05.798 --> 00:08:16.216
+Formally, a thread consists of k utterances = {u 1 , u 2 , ..., u k }, where the last comment, u k , is generated by a dialogue model.
+
+00:08:16.216 --> 00:08:29.021
+For each u i , we collect annotations of: 1) Offensiveness -We consider u i offensive if it is intentionally or unintentionally toxic, rude or disrespectful towards a group or individual following Sap et al.
+
+00:08:29.021 --> 00:08:30.338
+2020).
+
+00:08:30.338 --> 00:08:34.506
+This is a binary choice, where u i is either Offensive or Safe.
+
+00:08:34.506 --> 00:09:02.573
+3 For offensive comments, we further annotate target groups from a predefined list comprising identity-based groups of people (e.g., people of various sexuality/sexualorientation/gender, people with disabilities, people from a specific race, political ideologies, etc.) and specific individuals e.g., (public figures, Reddit users, etc.) We present the list of selected target groups in Figure 7 in the Appendix.
+
+00:09:02.573 --> 00:09:09.222
+2) Stance -We annotate the stance of u i towards each previous comment, u j , j < i.
+
+00:09:09.222 --> 00:09:21.465
+Stance is viewed as a linguistically articulated form of social action, in the context of the entire thread and sociocultural setting (Du Bois, 2007;Kiesling et al., 2018).
+
+00:09:21.465 --> 00:09:27.232
+Stance alignment between a pair of utterances is annotated as Agree, Disagree or Neutral.
+
+00:09:27.232 --> 00:09:32.112
+Our primary interest is in analyzing the stance taken towards offensive statements.
+
+00:09:32.112 --> 00:09:32.556
+We
+
+00:09:32.556 --> 00:09:40.348
+assume that a user or a chatbot can become offensive by aligning themselves with an offensive statement made by another user (see Figure 1).
+
+00:09:40.348 --> 00:09:49.078
+4 Additionally, for dialogue model responses u k , we also annotate their grammatical and contextual plausibility given the context.
+
+00:09:49.078 --> 00:09:54.158
+A screenshot of our annotation interface is shown in Figure 8 in the Appendix.
+
+00:09:54.158 --> 00:09:55.888
+Data Collection
+
+00:09:55.888 --> 00:10:03.130
+Our annotated dataset contains labeled Reddit conversations extended with dialogue model responses ( 3.1).
+
+00:10:03.130 --> 00:10:11.185
+We gather Reddit posts and comments (Baumgartner et al., 2020) 5 that were written between May and October, 2019.
+
+00:10:11.185 --> 00:10:17.665
+From this, we construct threads, each of which comprise a title, post and subsequent comment sequence.
+
+00:10:17.665 --> 00:10:33.083
+We extract threads from two sources: (1) Any SubReddits: threads from all SubReddits, (2) Offensive SubReddits: threads from toxic SubReddits identified in previous studies (Breitfeller et al., 2019) and Reddit community-reports.
+
+00:10:33.083 --> 00:10:34.888
+6 (Appendix B).
+
+00:10:34.888 --> 00:10:40.430
+We are most interested in responses generated by dialogue models in offensive contexts.
+
+00:10:40.430 --> 00:10:48.573
+However, offensive language is rare in a random sample (Davidson et al., 2017;Founta et al., 2018).
+
+00:10:48.573 --> 00:10:58.465
+Hence, we implement a two-stage sampling strategy: (1) Random sample -From both sources, randomly sample 500 threads (total 1000).
+
+00:10:58.465 --> 00:11:09.358
+2) Offensive sample -From remaining threads in both sources, sample additional 500 threads (total 1000), whose last comment is predicted as offensive by a classifier.
+
+00:11:09.358 --> 00:11:24.325
+Specifically, we used high-precision predictions (probability  0.7) from a BERT-based offensive comment classifier (Devlin et al., 2019) that was fine-tuned on the Social Bias Inference Corpus (Sap et al., 2020).
+
+00:11:24.325 --> 00:11:29.868
+This classifier achieves  85.4 Offend label F1 on the SBIC dev set.
+
+00:11:29.868 --> 00:11:32.935
+Generating Dialogue Model Responses
+
+00:11:32.935 --> 00:11:41.140
+To study the behavior of neural chatbots in offensive contexts, we extend the sampled 2,000 Reddit threads with model-generated responses.
+
+00:11:41.140 --> 00:11:52.170
+We consider the following pretrained models in this study: DGPT -A GPT-2 architecture trained on 147M Reddit comment threads (Zhang et al., 2020).
+
+00:11:52.170 --> 00:11:59.375
+To reduce the risk of offensive behavior, the authors filtered out comment threads containing offensive phrases during training.
+
+00:11:59.375 --> 00:12:08.293
+We use DialoGPT-medium model (345M parameters) implementation by huggingface (Wolf et al., 2020).
+
+00:12:08.293 --> 00:12:21.648
+GPT-3 -Recently, OpenAI released API access to GPT-3 language model, a model equipped to solve many tasks using text-based interaction without additional training (Brown et al., 2020).
+
+00:12:21.648 --> 00:12:26.740
+We follow the API guidelines to use GPT-3 as a dialogue agent.
+
+00:12:26.740 --> 00:12:35.783
+To generate a response for a comment thread, we provide GPT-3 with the prompt -"The following is a conversation thread between multiple people on Reddit.
+
+00:12:35.783 --> 00:12:41.488
+U1:u 1 U2:u 2 ... ", where u 1 , u 2 , ... are the user comments.
+
+00:12:41.488 --> 00:12:44.843
+The model then predicts the next turn in the conversation.
+
+00:12:44.843 --> 00:12:51.948
+We select the largest GPT-3 model, 'davinci' with 175B parameters, in our data construction.
+
+00:12:51.948 --> 00:13:00.528
+Blender -More recently, Facebook released Blender Bot; a 2.7B parameter dialogue model (Roller et al., 2021).
+
+00:13:00.528 --> 00:13:01.300
+Blender b
+
+00:13:01.300 --> 00:13:11.530
+ot is first pretrained on 1.5B Reddit comment threads (Baumgartner et al., 2020) and later finetuned on Blended Skill Talk (BST) dataset .
+
+00:13:11.530 --> 00:13:33.947
+The BST dataset contains 5K polite conversations between crowdworkers which aims to blend 3 conversational skills into one dataset 1) engaging personality (Zhang et al., 2018b;Dinan et al., 2020b), 2) empathetic dialogue (Rashkin et al., 2019) and 3) knowledge incorporation (Dinan et al., 2019b).
+
+00:13:33.947 --> 00:13:42.652
+We only include the first two models during annotation but compare our controlled text generation models against all three dialogue models in 6.1.
+
+00:13:42.652 --> 00:13:54.145
+Responses for DGPT and GPT-3 are generated on the comments part of the threads 7 using nucleus sampling (p = 0.9) (Holtzman et al., 2019).
+
+00:13:54.145 --> 00:13:58.287
+Blender bot uses beam search with beam size = 10 and min.
+
+00:13:58.287 --> 00:14:02.329
+beam sequence length = 20 to generate responses.
+
+00:14:02.329 --> 00:14:04.909
+TOXICHAT Corpus Statistics
+
+00:14:04.909 --> 00:14:14.239
+We recruited crowd-workers from the Amazon Mechanical Turk platform to annotate the 2000 threads from our corpus, with five workers annotating each thread.
+
+00:14:14.239 --> 00:14:18.844
+Overall statistics for TOXICHAT are presented in Table 5 in the Appendix.
+
+00:14:18.844 --> 00:14:36.462
+The inter-rater agreement was measured using Krippendorff's alpha (Krippendorff, 2011) and pairwise agreement, which was found to be  = 0.42 and 82.8% respectively for offensive labels 8 and  = 0.22 and 85.1% for stance labels.
+
+00:14:36.462 --> 00:14:53.054
+9 We found Krippendorff's alpha on the human-only responses is somewhat higher ( = 0.45 for offensive and  = 0.26 for stance) than the chatbot-only responses ( = 0.32 for offensive and  = 0.18 for stance).
+
+00:14:53.054 --> 00:14:59.209
+Lower agreement for chatbot responses is likely due to their higher proportion of incoherent responses.
+
+00:14:59.209 --> 00:15:08.064
+Approximately 25% of DGPT responses and 12.5% of GPT-3 responses were identified as not plausible.
+
+00:15:08.064 --> 00:15:19.232
+Due to the inherent complexity of our MTurk annotation task (see the screenshot of the crowd annotation interface in Figure 8 in the appendix), we observe relatively low agreement levels.
+
+00:15:19.232 --> 00:15:32.474
+How-ever, we find that aggregating worker annotations produces gold labels of sufficiently high quality for training and evaluating models (we consider the gold label as offensive or agreeing if at least 2 of the five workers agree).
+
+00:15:32.474 --> 00:15:40.079
+We manually verified the quality of the aggregate labels by comparing them with an in-house annotator's carefully labeled 40 threads.
+
+00:15:40.079 --> 00:15:53.309
+The F1 score of the aggregate annotations was 0.91 and 0.94 for offensive language and stance, respectively, providing a human upperbound estimate for identifying stance and offensive comments.
+
+00:15:53.309 --> 00:15:55.914
+Stance Dynamics in TOXICHAT
+
+00:15:55.914 --> 00:15:59.194
+Directly vs Contextually Offensive Replies.
+
+00:15:59.194 --> 00:16:08.149
+Our key finding is that most offensive responses are directly offensive, but the occurrence of contextually offensive dialogue responses is also nontrivial.
+
+00:16:08.149 --> 00:16:19.542
+To elucidate, dialogue model can spew offensive language either 1) directly -by disrespecting a target-group or 2) contextually -by agreeing with previous offensive utterances (Figure 1).
+
+00:16:19.542 --> 00:16:25.436
+The distribution of these offensive responses from both dialogue models and human reply comments is prese
+
+00:16:25.436 --> 00:16:27.103
+nted in Figure 2.
+
+00:16:27.103 --> 00:16:40.570
+Compared to humans, dialogue model responses are overall less offensive, where GPT-3 (389 out of 2,000) is more offensive than DGPT (179 out of 2,000).
+
+00:16:40.570 --> 00:16:43.813
+Agreement with Offensive vs Safe comments.
+
+00:16:43.813 --> 00:16:50.905
+We also plot the percentage of responses with the "Agree" stance towards previous offensive vs. safe comments in Figure 3.
+
+00:16:50.905 --> 00:17:01.823
+Surprisingly, we find that humans are more likely to agree with preceding offensive comments (41.62%) compared to safe comments (12.89%).
+
+00:17:01.823 --> 00:17:10.528
+Further analysis in Appendix E shows this is a consistent phenomenon based on an automated analysis of 5 million threads written over six months.
+
+00:17:10.528 --> 00:17:21.258
+We hypothesize that the higher proportion of agreement observed in response to offensive comments may be explained by the hesitancy of Reddit users to engage with offensive comments unless they agree.
+
+00:17:21.258 --> 00:17:33.013
+This may bias the set of respondents towards those who align with the offensive statement, essentially creating an echochamber (Cinelli et al., 2021;Soliman et al., 2019).
+
+00:17:33.013 --> 00:17:39.630
+Regardless of the cause, this behavior is also reflected in dialogue models trained on public Reddit threads.
+
+00:17:39.630 --> 00:17:49.998
+In our human-annotated dataset, both DGPT and GPT-3 are almost two times more likely to agree with a previous offensive comment, as compared to a safe comment.
+
+00:17:49.998 --> 00:17:55.165
+ing our automatic toxicity and stance classifiers is presented in Table 3.
+
+00:17:55.165 --> 00:17:57.283
+Target-Group Distribution.
+
+00:17:57.283 --> 00:18:02.200
+In Figure 4, we visualize the distribution of target group frequencies.
+
+00:18:02.200 --> 00:18:16.968
+We see that Reddit user responses in threads (i.e. comments) are offensive towards both demographic groups (women, feminists, religious folks, LGBTQ folks etc.) and specific individuals (celebrity, Reddit user).
+
+00:18:16.968 --> 00:18:23.473
+This mirrors the discrimination that people report facing in real life (RWJF, 2017).
+
+00:18:23.473 --> 00:18:29.015
+On the contrary, dialogue models responses are more offensive towards individuals and women.
+
+00:18:29.015 --> 00:18:36.120
+On an average, they respond more with personal attacks directed towards individuals as opposed to offending a certain demographic.
+
+00:18:36.120 --> 00:18:40.338
+We show some qualitative examples from our dataset in Figure 5.
+
+00:18:40.338 --> 00:18:42.818
+Profanity in Model Responses.
+
+00:18:42.818 --> 00:18:48.860
+Dialogue models occasionally generate profane responses characterized by explicit offensive terms.
+
+00:18:48.860 --> 00:19:01.428
+We check the model's offensive responses for profanity using Toxicity Triggers (Zhou et al., 2021) which is a lexicon of 378 "bad" words, phrases, and regular expressions.
+
+00:19:01.428 --> 00:19:15.258
+10 We find that only 3.35% of DGPT offensive responses contain profanity compared to 39.59% of GPT-3 and 66.47% of Reddit user's offensive responses.
+
+00:19:15.258 --> 00:19:23.625
+Thus, filtering training instances containing offensive phrases reduce profanity in DGPT responses (Zhang et al., 2020).
+
+00:19:23.625 --> 00:19:28.118
+However, this filtering doesn't eradicate the model's offensive behavior.
+
+00:19:28.118 --> 00:19:31.598
+Offensive Language and Stance Classification
+
+00:19:31.598 --> 00:19:40.240
+We now investigate the predictability of Offensive Language (Offensive) and Stance (Stance) in conversations that include generated responses.
+
+00:19:40.240 --> 00:19:51.624
+Given a thread, T = (u 1 , u 2 , ..., u k ), we predict Offensive labels o i  {0, 1} for each utterance, u i , i  k and Stance labels s ij
+
+00:19:51.624 --> 00:19:58.801
+Neutral, Agree, Disagree} for every pair of utterances (u i , u j ), i < j  k.
+
+00:19:58.801 --> 00:20:00.993
+Model Architectures
+
+00:20:00.993 --> 00:20:16.023
+In both classification tasks, we experiment with the following three model architectures: 
+NBOW -Neural-Bag-Of-
+= Softmax(h i  h j  h i  h j  h i h j )
+, where  is concatenation operator, is element-wise multiplication.
+
+00:20:16.023 --> 00:20:17.816
+Loss Functions
+
+00:20:17.816 --> 00:20:38.058
+The standard cross-entropy loss function is used for the Offensive task, however, because Stance has an imbalanced class distribution (about 1:10 for Agree and 1:40 for Disagree), we use weighted cross-entropy (wCE) with weights (1, 100, 100) for {Neutral, Agree, Disagree} respectively.
+
+00:20:38.058 --> 00:20:44.488
+We also experiment with Class-Balanced Focal Loss, CB foc (Cui et al., 2019).
+
+00:20:44.488 --> 00:20:56.356
+Formally, let C = {Neutral, Agree, Disagree} and = (z 0 , z 1 , z 2 ) represent the unnormalized scores assigned by the model for each stance label.
+
+00:20:56.356 --> 00:20:57.661
+Then,
+
+00:20:57.661 --> 00:21:05.103
+CB foc (, y) =  1   1   ny reweighting mC (1  p m )  log(p m ) focal loss
+
+00:21:05.103 --> 00:21:19.596
+where y is the correct stance label, n y is the number of instances with label y and p m = sigmoid(z m ),  Table 2: Test set Offensive F 1 scores for all utterances, first utterances and reply utterances in all threads.
+
+00:21:19.596 --> 00:21:28.076
+DGPT+ indicates DGPT model trained on our dataset augmented with instances from SBIC (Sap et al., 2020).
+
+00:21:28.076 --> 00:21:32.393
+with z m = z m m = y z m otherwise .
+
+00:21:32.393 --> 00:21:36.911
+I thought "Anti-Feminism" meant you wanted to see Feminist BURN to the ground.
+
+00:21:36.911 --> 00:21:38.328
+USER:
+
+00:21:38.328 --> 00:21:40.595
+Offensive to other Disagree
+
+00:21:40.595 --> 00:21:44.288
+Well, the thing is that we don't want to burn anything to the ground.
+
+00:21:44.288 --> 00:21:47.418
+The only thing we want to burn is your bullshit.
+
+00:21:47.418 --> 00:21:48.735
+BOT:
+
+00:21:48.735 --> 00:21:51.028
+Offensive to comment author
+
+00:21:51.028 --> 00:21:54.545
+Examples of personal attack by dialog model
+
+00:21:54.545 --> 00:21:58.813
+Dems mess up major cities, republicans mess up other countries.
+
+00:21:58.813 --> 00:22:00.305
+Both suck
+
+00:22:00.305 --> 00:22:01.723
+USER:
+
+00:22:01.723 --> 00:22:04.790
+Neither but hillary and Trump are both trash...
+
+00:22:04.790 --> 00:22:08.283
+voting for Jill Stein, much better choice BOT:
+
+00:22:08.283 --> 00:22:10.388
+Offensive to celebrity
+
+00:22:10.388 --> 00:22:18.943
+Offensive to democrats and republicans Figure 5: Examples of dialogue model generated offensive personal attacks without explicit bad words.
+
+00:22:18.943 --> 00:22:21.823
+ative loss for well classified instances.
+
+00:22:21.823 --> 00:22:29.128
+In our experiments, the hyperparameters  and  are set to 0.9999 and 1.0, respectively.
+
+00:22:29.128 --> 00:22:30.920
+Evaluation
+
+00:22:30.920 --> 00:22:36.888
+We divide TOXICHAT into train, dev, and test sets using a 70-15-15 ratio.
+
+00:22:36.888 --> 00:22:45.359
+Identifying offensive reply utterances (u i , i  2) is challenging since it may require understanding the entire thread context.
+
+00:22:45.359 --> 00:22:56.439
+Hence, we evaluate Offensive task using offensive label F 1 score for (1) all utterances, (2) first utterance, and (3) reply utterances in the thread.
+
+00:22:56.439 --> 00:23:03.194
+For the Stance task, we present per class F 1 as well as macro-F 1 scores for all utterance pairs.
+
+00:23:03.194 --> 00:23:11.463
+We also report these metrics for adjacent pairs of utterances i.e. for pairs (u i , u i+1 ), which are easier to predict.
+
+00:23:11.463 --> 00:23:16.005
+Hyperparameters and implementation details are present in Appendix D.
+
+00:23:16.005 --> 00:23:18.260
+Results and Analysis
+
+00:23:18.260 --> 00:23:24.677
+We present the test set evaluation results of Stance and Offensive tasks in Table 1 and 2, respectively.
+
+00:23:24.677 --> 00:23:31.632
+We observe similar trends as test in the dev set evaluation metrics presented in Table  6 and 7 in the Appendix.
+
+00:23:31.632 --> 00:23:33.040
+The DGPT model
+
+00:23:33.040 --> 00:23:38.282
+with full thread context outperforms BERT and NBOW models which lack the global context.
+
+00:23:38.282 --> 00:23:47.662
+For the Offensive task, DGPT classifier achieves higher accuracy for detecting offensiveness in the first utterance (first u F 1 ) compared to BERT.
+
+00:23:47.662 --> 00:23:52.392
+This suggests that pretraining on in-domain Reddit comments improves the performance.
+
+00:23:52.392 --> 00:23:57.410
+Augmenting our training set with SBIC data shows further improvement in all the metrics.
+
+00:23:57.410 --> 00:24:05.140
+However, even the best model achieves 0.714 F 1 on all utterances, showing that the task is challenging.
+
+00:24:05.140 --> 00:24:14.682
+Classification models perform worse on dialogue model responses within our dataset, as they can be incoherent but distributionally similar to natural language.
+
+00:24:14.682 --> 00:24:26.600
+To corroborate, the best model, DGPT+, gets 0.673 F 1 on GPT-3 responses and 0.489 F 1 on DGPT responses.
+
+00:24:26.600 --> 00:24:34.205
+Stance classification models struggle to perform well as evidenced by low F1 scores on detecting 'Agree' and 'Disagree' stance.
+
+00:24:34.205 --> 00:24:47.685
+As found in prior work on stance detection (Yu et al., 2020), stance alignment is challenging because it is contextual, nuanced, and doesn't need high word-overlap to convey implicit agreement/disagreement.
+
+00:24:47.685 --> 00:24:51.890
+For instance, a sarcastically worded question, like "Oh really?
+
+00:24:51.890 --> 00:24:54.482
+can also show indirect disagreement.
+
+00:24:54.482 --> 00:25:02.737
+Training with weighted cross-entropy loss (wCE) boosts the performance of the DGPT classifier by getting the highest 'Agree' label F 1 .
+
+00:25:02.737 --> 00:25:07.042
+However, its performance on Disagree classification is still poor.
+
+00:25:07.042 --> 00:25:16.972
+This issue is mitigated by training DGPT classifier with class balanced focal loss (CB foc ), which achieves the highest overall Macro-F 1 .
+
+00:25:16.972 --> 00:25:19.477
+Mitigating Offensive Behavior
+
+00:25:19.477 --> 00:25:25.394
+Our data analysis confirms that dialogue models can generate some contextually offensive language.
+
+00:25:25.394 --> 00:25:33.962
+To steer the generation away from offensive content, we experiment with some preliminary strategies using controlled text generation (CTG).
+
+00:25:33.962 --> 00:25:53.379
+We consider the following three control attributes: (1) Offensive -to control safe or offensive response generation, (2) Stance -to control agreeing or neutral response generation towards its immediately preceding comment, 11 and (3) Both Offensive and Stance -to control response generation with both control types.
+
+00:25:53.379 --> 00:25:59.822
+To train CTG models, we need conversations with their last response labeled with control attributes.
+
+00:25:59.822 --> 00:26:12.539
+Therefore, we extract 5 million comment threads, similar to 3, and retrieve offensiveness and stance predictions using our best DGPT modelbased Offensive and Stance classifiers ( 5.4).
+
+00:26:12.539 --> 00:26:21.019
+To minimize classification errors, we use high precision predictions by selecting appropriate thresholds for different classification probabilities.
+
+00:26:21.019 --> 00:26:28.249
+12 For each thread, we retain Offensive prediction of the last utterance and Stance prediction between the last two utterances.
+
+00:26:28.249 --> 00:26:37.975
+For all 3 proposed control experiments, we first create samples of L  250, 000 highprecision classifier labeled threads in the format
+
+00:26:37.975 --> 00:26:43.568
+x i , ct i , y i )} L i=1 (label-controlled data)
+.
+
+00:26:43.568 --> 00:26:49.292
+Here x i is the thread without the last utterance, ct i is the classifier labeled control toke
+
+00:26:49.292 --> 00:26:53.059
+n and y i is the last utterance or response to x i .
+
+00:26:53.059 --> 00:27:00.414
+We discard 'Disagree' stance responses, as we only found about 10, 000 high-precision disagreeing responses.
+
+00:27:00.414 --> 00:27:08.119
+Our final sample contains about 100, 000 offensive responses and 75, 000 agreeing responses.
+
+00:27:08.119 --> 00:27:15.199
+We further divide into each control dataset of size L into a 95-5 ratio to get train and dev split.
+
+00:27:15.199 --> 00:27:18.491
+Modeling, Training and Testing Details
+
+00:27:18.491 --> 00:27:25.034
+We use CTG techniques that were found effective in reducing toxicity in language models by Gehman et al.
+
+00:27:25.034 --> 00:27:26.351
+2020).
+
+00:27:26.351 --> 00:27:40.894
+This includes (1) Domain-Adaptive PreTraining (DAPT) -fine-tuning a pretrained dialogue model on threads with fixed control tokens (Gururangan et al., 2020 See et al., 2019;Xu et al., 2020).
+
+00:27:40.894 --> 00:27:49.886
+For each CTG experiment, we fine-tune DialoGPTmedium on the train split for 3 epochs and tune hyperparameters using dev set perplexity.
+
+00:27:49.886 --> 00:28:02.179
+Our goal is to test the conversation models in offensive contexts, where they have a propensity to agree with offensive comments, hence, we sample a test set of 500 threads where the last utterance is offensive.
+
+00:28:02.179 --> 00:28:12.171
+Using this test set, our CTG models are compared against DGPT-medium, GPT-3, and Blender in both automatic and human evaluations.
+
+00:28:12.171 --> 00:28:14.401
+Automatic Evaluation
+
+00:28:14.401 --> 00:28:19.094
+An ideal dialogue model should have diverse, engaging and safe responses.
+
+00:28:19.094 --> 00:28:31.199
+Thus, we evaluate the responses generated by all the candidate conversation models using the following automatic metrics, Distinct-1,2 is the ratio of unique unigrams and bigrams to the total.
+
+00:28:31.199 --> 00:28:41.454
+% Bad is percentage of generated responses containing profane word/phrases identified by Toxicity Triggers (Zhou et al., 2021, similar to 4).
+
+00:28:41.454 --> 00:28:47.696
+% Off is percentage of responses predicted offensive by the DGPT+ Offensive classifier.
+
+00:28:47.696 --> 00:28:58.214
+% Agree, % Neutral are percentages of generated responses predicted agree or neutral respectively by the DGPT (CB foc ) Stance classifier.
+
+00:28:58.214 --> 00:29:04.631
+13 Table 3 contains the results from our automatic evaluations on 500 offensive test threads.
+
+00:29:04.631 --> 00:29:14.174
+Pretrained dialogue models DGPT and GPT-3 generate  30% and  41% offensive responses when tested in offensive contexts.
+
+00:29:14.174 --> 00:29:23.816
+On the other hand, fine-tuning dialogue models on safe conversations reduce their offensive behavior, as seen with Blender bot and DAPT safe control responses.
+
+00:29:23.816 --> 00:29:29.446
+However, additional safe conversations fine-tuning alone doesn't eliminate offensive behavior.
+
+00:29:29.446 --> 00:29:37.326
+Surprisingly, Bender and DAPT safe control models both show higher agreement in offensive contexts than the DGPT baseline.
+
+00:29:37.326 --> 00:29:56.819
+Fine-tuning on both 'neutral' and 'safe' responses, as in the case of the DAPT -neutral stance control model, simultaneously reduces the agreement while generat- 13 We predict the most likely class in automatic evaluation instead of high-precision threshold prediction, which was used to generate fine-tuning data for controllable text generation.
+
+00:29:56.819 --> 00:29:58.174
+Model
+
+00:29:58.174 --> 00:30:00.879
+Control ing less offensive responses.
+
+00:30:00.879 --> 00:30:11.109
+ATCON both control model also outperforms the DGPT baseline in %Off, and %Agree metrics but with smaller margins that DAPT neutral stance control model.
+
+00:30:11.109 --> 00:30:13.032
+Finally, our evaluation
+
+00:30:13.032 --> 00:30:20.699
+of Reddit user responses (last row in Table 3) also finds them to be highly offensive and agreeing in offensive contexts.
+
+00:30:20.699 --> 00:30:22.104
+14
+Len.
+
+00:30:22.104 --> 00:30:27.334
+Dist-1  Dist-2  %Bad  %Off  %Agree  %Neutral  DGPT
+
+00:30:27.334 --> 00:30:29.364
+Human evaluation
+
+00:30:29.364 --> 00:30:42.606
+To validate the findings of our automatic evaluation presented above, we conduct in-house human evaluation of 4 models: DGPT baseline, Blender bot, DAPT neutral stance control and ATCON both control.
+
+00:30:42.606 --> 00:30:50.499
+We exclude GPT-3 from this evaluation as we don't have access to its model parameters and can't fine-tune it for CTG.
+
+00:30:50.499 --> 00:31:02.766
+For every model response, we investigate its plausibility {Yes, No}, stance towards the last comment in the thread {Agree, Disagree, Neutral}, and offensiveness {Yes, No}.
+
+00:31:02.766 --> 00:31:09.696
+We recruit two annotators to evaluate model responses for a sample of 250 offensive test threads.
+
+00:31:09.696 --> 00:31:27.301
+The Cohen's Kappa and pairwise-agreement for the two annotators are  = 0.40 and 77.9% for plausibility,  = 0.74 and 87.1% for stance and  = 0.76 and 92.3% for offensiveness.
+
+00:31:27.301 --> 00:31:32.144
+We resolve disagreements between annotators using a 3rd inhouse adjudicator.
+
+00:31:32.144 --> 00:31:35.586
+The results of the evaluation are present in Table 4.
+
+00:31:35.586 --> 00:31:45.066
+According to human evals, the DAPT model achieves the lowest 'agree' responses and highest 'neutral' responses but is slightly more offensive than Facebook's Blender chatbot.
+
+00:31:45.066 --> 00:31:49.746
+Blender is the least offensive but most agreeing among all evaluated models.
+
+00:31:49.746 --> 00:31:57.339
+This implies that our offensive 14 The test threads used to evaluate dialogue models didn't have a follow-up Reddit user response.
+
+00:31:57.339 --> 00:32:02.819
+Hence, we collect a different set of 500 offensive threads with a final user response.
+
+00:32:02.819 --> 00:32:11.736
+and stance classifiers don't generalize well to unseen dialogue model responses (Blender bot responses weren't present in the classifier training data).
+
+00:32:11.736 --> 00:32:21.091
+Other discrepancies between the human and automatic evaluations suggest that our stance classifier overestimates the 'neutral' stance and underestimates the 'agree' stance.
+
+00:32:21.091 --> 00:32:32.084
+After some manual investigation, we observe that Blender chatbot mostly generates benign empathetic responses but agrees a lot in offensive context by using sentence starters like "I know right?
+
+00:32:32.084 --> 00:32:34.064
+examples in Figure 9).
+
+00:32:34.064 --> 00:32:41.544
+Blender chatbot also outperforms the CTG models in terms of plausibility, likely due to its larger model size.
+
+00:32:41.544 --> 00:32:44.274
+Similar to the finding of Gehman et al.
+
+00:32:44.274 --> 00:32:52.066
+2020), ATCON model is only slightly less offensive than the DGPT baseline and doesn't reduce the agreement rate.
+
+00:32:52.066 --> 00:33:03.134
+Therefore, we find finetuning on safe and neutral conversations i.e. DAPT to be the most effective technique in reducing offensive behavior in chatbots, but it is still far from perfect.
+
+00:33:03.134 --> 00:33:04.776
+Related Work
+
+00:33:04.776 --> 00:33:37.581
+Identifying Toxicity -Most works on identifying toxic language looked at isolated social media posts or comments while ignoring the context (Davidson et al., 2017;Xu et al., 2012;Zampieri et al., 2019;Rosenthal et al., 2020;Kumar et al., 2018;Garibo i Orts, 2019;Ousidhoum et al., 2019;Breitfeller et al., 2019;Sap et al., 2020;Hada et al., 2021;Barikeri et al., 2021 Xu et al.
+
+00:33:37.581 --> 00:33:40.696
+2020) train chatbots to avoid sensitive
+
+00:33:40.696 --> 00:33:44.051
+discussions by changing the topic of the conversation.
+
+00:33:44.051 --> 00:33:52.718
+In contrast, we tackle contextual offensive language by fine-tuning models to generate neutral and safe responses in offensive contexts.
+
+00:33:52.718 --> 00:33:54.323
+Conclusion
+
+00:33:54.323 --> 00:34:02.465
+To better understand the contextual nature of offensive language, we study the stance of human and model responses in offensive conversations.
+
+00:34:02.465 --> 00:34:13.958
+We create TOXICHAT, a corpus of 2,000 Reddit conversations augmented with responses generated by two dialogue models and crowd-annotated with targeted-offensive language and stance attributes.
+
+00:34:13.958 --> 00:34:21.300
+Classifiers trained on our corpus are capable of automatically evaluating conversations with contextually offensive language.
+
+00:34:21.300 --> 00:34:26.705
+Our analyses consistently find that Reddit users agree much more with offensive contexts.
+
+00:34:26.705 --> 00:34:36.810
+This trend could be explained by the tendency of socialmedia users to form echo-chambers (Cinelli et al., 2021;Soliman et al., 2019).
+
+00:34:36.810 --> 00:34:43.353
+Consequently, dialogue models learn to mimic this behavior and agree more frequently in offensive contexts.
+
+00:34:43.353 --> 00:34:53.995
+However, fine-tuning dialogue models on cleaner training data with desirable conversational properties (safe and neutral responses with DAPT) can mitigate this issue to some extent.
+
+00:34:53.995 --> 00:35:09.538
+To further strengthen dialogue safety, future research on detection of offensive context (Dinan et al., 2019a;Zhang et al., 2018a) and subsequent generation of nonprovocative counter-speech (Chung et al., 2019) is crucial.
+
+00:35:09.538 --> 00:35:12.455
+Societal and Ethical Considerations
+
+00:35:12.455 --> 00:35:27.110
+This paper tackles issues of safety of neural models, and specifically it attempts to understand how dialogue systems can help combat social biases and help make conversations more civil (Dinan et al., 2019a;Xu et al., 2020).
+
+00:35:27.110 --> 00:35:36.440
+For this purpose, we crowdannotate a dataset of offensive conversations from publicly available Reddit conversations enriched with automatically generated responses.
+
+00:35:36.440 --> 00:35:43.795
+This study was conducted under the approval of the Institutional Review Board (IRB) of Georgia Institute of Technology.
+
+00:35:43.795 --> 00:35:52.713
+We paid crowd workers on Amazon's Mechanical Turk platform $0.8 per HIT and gave extra bonuses to annotators with high annotation quality.
+
+00:35:52.713 --> 00:35:57.893
+We estimate that the hourly pay of crowd workers was $12.26.
+
+00:35:57.893 --> 00:36:01.623
+The in-house annotators were paid $13 per hour.
+
+00:36:01.623 --> 00:36:12.553
+Finally, we note that classifiers trained on our dataset are fallible and should be used with careful consideration (Sap et al., 2019;Dixon et al., 2018
+
+00:36:12.553 --> 00:36:14.708
+A Data Preprocessing
+
+00:36:14.708 --> 00:36:19.950
+As a data cleaning step, we replaced all urls in the threads with a special token.
+
+00:36:19.950 --> 00:36:24.130
+We also limited the posts to  70 words and comments to  50 words.
+
+00:36:24.130 --> 00:36:27.610
+Only the posts containing textual data were allowed.
+
+00:36:27.610 --> 00:36:30.590
+B Offensive SubReddit Data Collection
+
+00:36:30.590 --> 00:36:43.020
+Existing datasets of offensive language (Breitfeller et al., 2019;Sap et al., 2020) annotated comments from potentially offensive SubReddits to increase proportion of offensive language.
+
+00:36:43.020 --> 00:36:50.438
+To annotate our conversation corpus, we similarly consider these previously used 28 SubReddits in Breitfeller et al.
+
+00:36:50.438 --> 00:36:55.508
+2019) and some additional community-reported hateful SubReddits in r/Again
+
+00:36:55.508 --> 00:36:57.425
+stHateSubReddits.
+
+00:36:57.425 --> 00:37:10.430
+6 We sample threads with last offensive comment using a BERT offensive comment classifier (Devlin et al., 2019) trained on SBIC (Sap et al., 2020), P (offensive)  0.7.
+
+00:37:10.430 --> 00:37:17.485
+Finally, we select top 10 most offensive SubReddits based on their proportion and availability of the offensive threads.
+
+00:37:17.485 --> 00:37:35.402
+The selected SubReddits are r/AskThe_Donald, r/Braincels, r/MensRights, r/MGTOW, r/TwoXChromosomes, r/Libertarian, r/atheism, r/islam, r/lgbt and r/unpopularopinion.
+
+00:37:35.402 --> 00:37:37.077
+C Comparison with SemEval-2017
+
+00:37:37.077 --> 00:37:39.757
+SemEval-2017
+
+00:37:39.757 --> 00:37:47.550
+We compare TOXICHAT with SemEval-2017 Challenge Task 8, a corpus of stance in twitter threads discussing rumors.
+
+00:37:47.550 --> 00:37:54.342
+Specifically, we chart the word, sentence and label distribution of threads in both datasets in Table 5.
+
+00:37:54.342 --> 00:37:58.160
+Our corpus is bigger with more and longer sentences on average.
+
+00:37:58.160 --> 00:38:01.677
+The threads in our corpus are longer with more stance labels.
+
+00:38:01.677 --> 00:38:11.257
+Unlike SemEval-2017, who only annotate the stance with respect to the first comment in the thread, we annotate stance of all pair of utterances.
+
+00:38:11.257 --> 00:38:14.087
+D Model Implementation Details
+
+00:38:14.087 --> 00:38:21.755
+We conduct our experiments of 5 using huggingface transformers (Wolf et al., 2020) and pytorch libraries.
+
+00:38:21.755 --> 00:38:30.072
+All models are finetuned/trained using Adam optimizer (Kingma and Ba, 2015) and with learning rate 2  10 5 .
+
+00:38:30.072 --> 00:38:43.752
+We use 300d GloVe embeddings (Pennington et al., 2014)   .680 Table 6: Dev set, Offensive F 1 scores for all utterances, first utterances and reply utterances in all threads.
+
+00:38:43.752 --> 00:38:52.232
+DGPT+ indicates DGPT model trained on our dataset augmented with instances from SBIC (Sap et al., 2020).
+
+00:38:52.232 --> 00:38:54.250
+and trained for 30 epochs.
+
+00:38:54.250 --> 00:38:58.305
+BERT and DGPT models are fine-tuned for 12 epochs.
+
+00:38:58.305 --> 00:39:08.135
+The DGPT model fine-tuned with class-balanced focal loss (CB foc ) for the Stance task performed better with learning rate 5  10 5 and 16 epochs.
+
+00:39:08.135 --> 00:39:13.940
+The checkpoint with best all utterance F 1 on Dev set is selected for models of the Offensive task.
+
+00:39:13.940 --> 00:39:19.607
+While, the checkpoint with best all stance-pairs macro-F 1 is selected for the Stance task.
+
+00:39:19.607 --> 00:39:24.937
+All experiments are done on a single Nvidia RTX 2080 Ti GPU.
+
+00:39:24.937 --> 00:39:27.805
+E Classifier Analysis on Reddit
+
+00:39:27.805 --> 00:39:37.847
+We make predictions using our best Offensive and Stance classifiers on 5M Reddit threads downloaded for controlled text generation (CTG) experiments 6.
+
+00:39:37.847 --> 00:39:47.827
+Using the Offensive predictions, we identify the Offensive (and Safe) comments in the threads using P(Offensive)  0.7 (and P(Safe)  0.7).
+
+00:39:47.827 --> 00:39:54.470
+For each offensive and safe comment, we plot the distribution of its reply comment stance labels in Figure 6.
+
+00:39:54.470 --> 00:40:03.150
+Across the 6 month data that we analyzed, our classifiers consistently found that Reddit users agree 3 more with offensive contexts than safe.
+
+00:40:03.150 --> 00:40:14.017
+Moreover, our classifiers find more high-precision stance labels in safe context (only  9% ambiguous) compared to offensive context ( 27% ambiguous).
+
+00:40:14.017 --> 00:40:19.622
+Figure 7: List of all the target groups segmented into categories for better readability.
+
+00:40:19.622 --> 00:40:21.865
+None" is also an option.
+
+00:40:21.865 --> 00:40:23.595
+Acknowledgments
+
+00:40:23.595 --> 00:40:29.587
+We would like to thank the anonymous reviewers for providing valuable feedback on an earlier draft of this paper.
+
+00:40:29.587 --> 00:40:31.020
+This material is based
+
+00:40:31.020 --> 00:40:42.937
+in part on research sponsored by the NSF (IIS-1845670) and DARPA via the ARO (W911NF-17-C-0095).
+
+00:40:42.937 --> 00:40:55.979
+The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of NSF, ARO, DARPA or the U.S. Government.
+
+00:40:55.979 --> 00:41:01.272
+Thread 4: Title:For only $7 a day this delicious breakfast can be yours.
+
+00:41:01.272 --> 00:41:02.489
+It Works!
+
+00:41:02.489 --> 00:41:05.332
+HunDude pushes unappealing shake on FB.
+
+00:41:05.332 --> 00:41:12.624
+This delicious meal costs $6.90 plus tax and shipping after the 40% "loyal customer" discount.
+
+00:41:12.624 --> 00:41:19.454
+Following his advice would cost you over $2,500 a year per person if you purchased no other products from him.
+
+00:41:19.454 --> 00:41:24.009
+I guess that is why they aren't worried about selling the products, just the "opportunity".
+
+00:41:24.009 --> 00:41:28.902
+Hahahaha...you can literally make the exact same thing for less than a $1.
+
+00:41:28.902 --> 00:41:30.032
+And better.
+
+00:41:30.032 --> 00:41:31.084
+What a fucking turd.
