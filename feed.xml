@@ -370,9 +370,9 @@
         <description><![CDATA[The ability to use symbols is the pinnacle of human intelligence, but has yet to be fully replicated in machines. Here we argue that the path towards symbolically fluent artificial intelligence (AI) begins with a reinterpretation of what symbols are, how they come to exist, and how a system behaves when it uses them. We begin by offering an interpretation of symbols as entities whose meaning is established by convention. But crucially, something is a symbol only for those who demonstrably and actively participate in this convention. We then outline how this interpretation thematically unifies the behavioural traits humans exhibit when they use symbols. This motivates our proposal that the field place a greater emphasis on symbolic behaviour rather than particular computational mechanisms inspired by more restrictive interpretations of symbols. Finally, we suggest that AI research explore social and cultural engagement as a tool to develop the cognitive machinery necessary for symbolic behaviour to emerge. This approach will allow for AI to interpret something as symbolic on its own rather than simply manipulate things that are only symbols to human onlookers, and thus will ultimately lead to AI with more human-like symbolic fluency.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2102.03406v2.Symbolic_Behaviour_in_Artificial_Intelligence.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2102.03406v2.Symbolic_Behaviour_in_Artificial_Intelligence.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>2589.28325</itunes:duration>
+        <itunes:duration>2281.212</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -397,6 +397,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.05779v3.Structured_Prediction_as_Translation_between_Augmented_Natural_Languages.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Reason, emotion, and the problem of world poverty: moral sentiment theory and international ethics</title>
+        <itunes:title>Reason, emotion, and the problem of world poverty: moral sentiment theory and international ethics</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[This article defends a sentimentalist cosmopolitan approach to international ethics against the rationalist cosmopolitan claim that emotions ought to be subjugated by their master, reason, and in processes of ethical deliberation. It argues that emotions play an indispensable role in making moral judgements and help to motivate ethical actions. Drawing on elements of 18th century moral sentiment theory and recent advances in neuroscience and psychology, the article demonstrates that reason and emotion are intimately linked forms of reflective thought, that emotion is central to reason and, far from disrupting processes of ethical deliberation, may actually enhance our ability to make moral judgements. Focusing on the problem of global poverty, the article shows that a sentimentalist cosmopolitan ethic provides a holistic approach to moral dilemmas in world politics that is capable of identifying injustices, prescribing how we ought to respond to them, and motivating ethical action in response to the injustices we observe.]]></itunes:summary>
+        <description><![CDATA[This article defends a sentimentalist cosmopolitan approach to international ethics against the rationalist cosmopolitan claim that emotions ought to be subjugated by their master, reason, and in processes of ethical deliberation. It argues that emotions play an indispensable role in making moral judgements and help to motivate ethical actions. Drawing on elements of 18th century moral sentiment theory and recent advances in neuroscience and psychology, the article demonstrates that reason and emotion are intimately linked forms of reflective thought, that emotion is central to reason and, far from disrupting processes of ethical deliberation, may actually enhance our ability to make moral judgements. Focusing on the problem of global poverty, the article shows that a sentimentalist cosmopolitan ethic provides a holistic approach to moral dilemmas in world politics that is capable of identifying injustices, prescribing how we ought to respond to them, and motivating ethical action in response to the injustices we observe.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/reason-emotion-and-the-problem-of-world-poverty-moral-sentiment-theory-and-international-ethics.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>6181.747</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/reason-emotion-and-the-problem-of-world-poverty-moral-sentiment-theory-and-international-ethics.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -950,9 +970,9 @@
         <description><![CDATA[Expressing natural language descriptions of structured facts or relations -- data-to-text generation (D2T) -- increases the accessibility of structured knowledge repositories. Previous work shows that pre-trained language models(PLMs) perform remarkably well on this task after fine-tuning on a significant amount of task-specific training data. On the other hand, while auto-regressive PLMs can generalize from a few task examples, their efficacy at D2T is largely unexplored. Furthermore, we have an incomplete understanding of the limits of PLMs on D2T.   In this work, we conduct an empirical study of both fine-tuned and auto-regressive PLMs on the DART multi-domain D2T dataset. We consider their performance as a function of the amount of task-specific data and how these data are incorporated into the models: zero and few-shot learning, and fine-tuning of model weights. In addition, we probe the limits of PLMs by measuring performance on subsets of the evaluation data: novel predicates and abstractive test examples. To improve the performance on these subsets, we investigate two techniques: providing predicate descriptions in the context and re-ranking generated candidates by information reflected in the source. Finally, we conduct a human evaluation of model errors and show that D2T generation tasks would benefit from datasets with more careful manual curation.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.11505v1.What_Makes_Data_to_Text_Generation_Hard_for_Pretrained_Language_Models.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2205.11505v1.What_Makes_Data_to_Text_Generation_Hard_for_Pretrained_Language_Models.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>2669.871</itunes:duration>
+        <itunes:duration>2351.376</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -1077,6 +1097,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/frai-03-00034.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>When Life Gives You Lemons , Make Cherryade : Converting Feedback from Bad Responses into Good Labels</title>
+        <itunes:title>When Life Gives You Lemons , Make Cherryade : Converting Feedback from Bad Responses into Good Labels</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Deployed dialogue agents have the potential to integrate human feedback to continuously improve themselves. However, humans may not always provide explicit signals when the chatbot makes mistakes during interactions. In this work, we propose JUICER, a framework to make use of both binary and free-form textual human feedback. It works by: (i) extending sparse binary feedback by training a satisfaction classifier to label the unlabeled data; and (ii) training a reply corrector to map the bad replies to good ones. We find that augmenting training with model-corrected replies improves the final dialogue model, and we can further improve performance by using both positive and negative replies through the recently proposed DIRECTOR model.]]></itunes:summary>
+        <description><![CDATA[Deployed dialogue agents have the potential to integrate human feedback to continuously improve themselves. However, humans may not always provide explicit signals when the chatbot makes mistakes during interactions. In this work, we propose JUICER, a framework to make use of both binary and free-form textual human feedback. It works by: (i) extending sparse binary feedback by training a satisfaction classifier to label the unlabeled data; and (ii) training a reply corrector to map the bad replies to good ones. We find that augmenting training with model-corrected replies improves the final dialogue model, and we can further improve performance by using both positive and negative replies through the recently proposed DIRECTOR model.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.15893v1.When_Life_Gives_You_Lemons_Make_Cherryade_Converting_Feedback_from_Bad_Responses_into_Good_Labels.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>3176.17625</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.15893v1.When_Life_Gives_You_Lemons_Make_Cherryade_Converting_Feedback_from_Bad_Responses_into_Good_Labels.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -1310,9 +1350,9 @@
         <description><![CDATA[Pretraining on noisy, internet-scale datasets has been heavily studied as a technique for training models with broad, general capabilities for text, images, and other modalities. However, for many sequential decision domains such as robotics, video games, and computer use, publicly available data does not contain the labels required to train behavioral priors in the same way. We extend the internet-scale pretraining paradigm to sequential decision domains through semi-supervised imitation learning wherein agents learn to act by watching online unlabeled videos. Specifically, we show that with a small amount of labeled data we can train an inverse dynamics model accurate enough to label a huge unlabeled source of online data -- here, online videos of people playing Minecraft -- from which we can then train a general behavioral prior. Despite using the native human interface (mouse and keyboard at 20Hz), we show that this behavioral prior has nontrivial zero-shot capabilities and that it can be fine-tuned, with both imitation learning and reinforcement learning, to hard-exploration tasks that are impossible to learn from scratch via reinforcement learning. For many tasks our models exhibit human-level performance, and we are the first to report computer agents that can craft diamond tools, which can take proficient humans upwards of 20 minutes (24,000 environment actions) of gameplay to accomplish.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2206.11795v1.Video_PreTraining_VPT_Learning_to_Act_by_Watching_Unlabeled_Online_Videos.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2206.11795v1.Video_PreTraining_VPT_Learning_to_Act_by_Watching_Unlabeled_Online_Videos.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>6392.79025</itunes:duration>
+        <itunes:duration>5748.948</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -1390,9 +1430,9 @@
         <description><![CDATA[Current neurobiological research in the field of criminology focuses on the neurobiological characteristics associated with antisocial behavior, the prediction of antisocial behavior later in life based on neurobiological risk factors, and the ways in which neurobiological factors interact with psychological and environmental risk factors. Although the use of neurobiological knowledge has the potential to make several criminal justice practices more objective and humane, it may involve practices that are challenging with respect to stigma, neuro-determinism, autonomy and mental liberty. Four main areas of interest can be identified where neurobiology plays or could play a role: (1) criminological research focused on understanding criminal behavior, (2) the (early) detection/prediction of and intervention in deviant behavior, (3) criminal proceedings: to assess responsibility and inform sentencing, and (4) forensic rehabilitation and treatment settings. In this paper, I discuss the main ethical dilemmas that arise when considering the use of recent neurobiological advances in these areas.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1-s2.0-S0047235217305299-main.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/1-s2.0-S0047235217305299-main.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>4013.218</itunes:duration>
+        <itunes:duration>3500.496</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -1452,9 +1492,9 @@
         <description><![CDATA[Many machine learning tasks -- particularly those in affective computing -- are inherently subjective. When asked to classify facial expressions or to rate an individual's attractiveness, humans may disagree with one another, and no single answer may be objectively correct. However, machine learning datasets commonly have just one "ground truth" label for each sample, so models trained on these labels may not perform well on tasks that are subjective in nature. Though allowing models to learn from the individual annotators' ratings may help, most datasets do not provide annotator-specific labels for each sample. To address this issue, we propose SeedBERT, a method for recovering annotator rating distributions from a single label by inducing pre-trained models to attend to different portions of the input. Our human evaluations indicate that SeedBERT's attention mechanism is consistent with human sources of annotator disagreement. Moreover, in our empirical evaluations using large language models, SeedBERT demonstrates substantial gains in performance on downstream subjective tasks compared both to standard deep learning models and to other current models that account explicitly for annotator disagreement.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2211.13196v1.SeedBERT_Recovering_Annotator_Rating_Distributions_from_an_Aggregated_Label.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2211.13196v1.SeedBERT_Recovering_Annotator_Rating_Distributions_from_an_Aggregated_Label.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>1423.17725</itunes:duration>
+        <itunes:duration>1254.312</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -1559,6 +1599,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.00010v2.UnNatural_Language_Inference.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Conditioning Predictive Models: Risks and Strategies</title>
+        <itunes:title>Conditioning Predictive Models: Risks and Strategies</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Our intention is to provide a definitive reference on what it would take to safely make use of generative/predictive models in the absence of a solution to the Eliciting Latent Knowledge problem. Furthermore, we believe that large language models can be understood as such predictive models of the world, and that such a conceptualization raises significant opportunities for their safe yet powerful use via carefully conditioning them to predict desirable outputs. Unfortunately, such approaches also raise a variety of potentially fatal safety problems, particularly surrounding situations where predictive models predict the output of other AI systems, potentially unbeknownst to us. There are numerous potential solutions to such problems, however, primarily via carefully conditioning models to predict the things we want (e.g. humans) rather than the things we don't (e.g. malign AIs). Furthermore, due to the simplicity of the prediction objective, we believe that predictive models present the easiest inner alignment problem that we are aware of. As a result, we think that conditioning approaches for predictive models represent the safest known way of eliciting human-level and slightly superhuman capabilities from large language models and other similar future models.]]></itunes:summary>
+        <description><![CDATA[Our intention is to provide a definitive reference on what it would take to safely make use of generative/predictive models in the absence of a solution to the Eliciting Latent Knowledge problem. Furthermore, we believe that large language models can be understood as such predictive models of the world, and that such a conceptualization raises significant opportunities for their safe yet powerful use via carefully conditioning them to predict desirable outputs. Unfortunately, such approaches also raise a variety of potentially fatal safety problems, particularly surrounding situations where predictive models predict the output of other AI systems, potentially unbeknownst to us. There are numerous potential solutions to such problems, however, primarily via carefully conditioning models to predict the things we want (e.g. humans) rather than the things we don't (e.g. malign AIs). Furthermore, due to the simplicity of the prediction objective, we believe that predictive models present the easiest inner alignment problem that we are aware of. As a result, we think that conditioning approaches for predictive models represent the safest known way of eliciting human-level and slightly superhuman capabilities from large language models and other similar future models.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2302.00805v2.Conditioning_Predictive_Models_Risks_and_Strategies.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>14797.453</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2302.00805v2.Conditioning_Predictive_Models_Risks_and_Strategies.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -1692,9 +1752,9 @@
         <description><![CDATA[Large transformer-based language models (LMs) trained on huge text corpora have shown unparalleled generation capabilities. However, controlling attributes of the generated language (e.g. switching topic or sentiment) is difficult without modifying the model architecture or fine-tuning on attribute-specific data and entailing the significant cost of retraining. We propose a simple alternative: the Plug and Play Language Model (PPLM) for controllable language generation, which combines a pretrained LM with one or more simple attribute classifiers that guide text generation without any further training of the LM. In the canonical scenario we present, the attribute models are simple classifiers consisting of a user-specified bag of words or a single learned layer with 100,000 times fewer parameters than the LM. Sampling entails a forward and backward pass in which gradients from the attribute model push the LM's hidden activations and thus guide the generation. Model samples demonstrate control over a range of topics and sentiment styles, and extensive automated and human annotated evaluations show attribute alignment and fluency. PPLMs are flexible in that any combination of differentiable attribute models may be used to steer text generation, which will allow for diverse and creative applications beyond the examples given in this paper.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02164v4.Plug_and_Play_Language_Models_A_Simple_Approach_to_Controlled_Text_Generation.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/1912.02164v4.Plug_and_Play_Language_Models_A_Simple_Approach_to_Controlled_Text_Generation.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>5022.1715</itunes:duration>
+        <itunes:duration>4467.42</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -1732,7 +1792,7 @@
         <description><![CDATA[Moral sentiment has been hypothesized to reflect evolved adaptations to social living. If so, individual differences in moral values may relate to regional variation in brain structure. We tested this hypothesis in a sample of 70 young, healthy adults examining whether differences on two major dimensions of moral values were significantly associated with regional gray matter volume. The two clusters of moral values assessed were "individualizing" (values of harm/care and fairness), and "binding" (deference to authority, in-group loyalty, and purity/sanctity). Individualizing was positively associated with left dorsomedial prefrontal cortex volume, and negatively associated with bilateral precuneus volume. For binding, a significant positive association was found for bilateral subcallosal gyrus and a trend to significance for the left anterior insula volume. These findings demonstrate that variation in moral sentiment reflects individual differences in brain structure and suggest a biological basis for moral sentiment, distributed across multiple brain regions.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/ukmss-48246.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/ukmss-48246.mp3.vtt" length="" type="text/vtt"/>
         
         <itunes:duration>1568.412</itunes:duration>
         <itunes:season>1</itunes:season>
@@ -1792,7 +1852,7 @@
         <description><![CDATA[The moral foundations theory supports that people, across cultures, tend to consider a small number of dimensions when classifying issues on a moral basis. The data also show that the statistics of weights attributed to each moral dimension is related to self-declared political affiliation, which in turn has been connected to cognitive learning styles by recent literature in neuroscience and psychology. Inspired by these data, we propose a simple statistical mechanics model with interacting neural networks classifying vectors and learning from members of their social neighborhood about their average opinion on a large set of issues. The purpose of learning is to reduce dissension among agents even when disagreeing. We consider a family of learning algorithms parametrized by δ, that represents the importance given to corroborating (same sign) opinions. We define an order parameter that quantifies the diversity of opinions in a group with homogeneous learning style. Using Monte Carlo simulations and a mean field approximation we find the relation between the order parameter and the learning parameter δ at a temperature we associate with the importance of social influence in a given group. In concordance with data, groups that rely more strongly on corroborating evidence sustains less opinion diversity. We discuss predictions of the model and propose possible experimental tests.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1307.3203v1.Moral_foundations_in_an_interacting_neural_networks_society.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/1307.3203v1.Moral_foundations_in_an_interacting_neural_networks_society.mp3.vtt" length="" type="text/vtt"/>
+            <enclosure vtt_url="" length="" type="text/vtt"/>
         
         <itunes:duration>2728.368</itunes:duration>
         <itunes:season>1</itunes:season>
@@ -1819,6 +1879,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.06167v1.Ultra_fine_Entity_Typing_with_Indirect_Supervision_from_Natural_Language_Inference.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures</title>
+        <itunes:title>Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Abstract-We investigate a new threat to neural sequenceto-sequence (seq2seq) models: training-time attacks that cause models to "spin" their outputs so as to support an adversarychosen sentiment or point of view-but only when the input contains adversary-chosen trigger words. For example, a spinned 1 summarization model outputs positive summaries of any text that mentions the name of some individual or organization. Model spinning introduces a "meta-backdoor" into a model. Whereas conventional backdoors cause models to produce incorrect outputs on inputs with the trigger, outputs of spinned models preserve context and maintain standard accuracy metrics, yet also satisfy a meta-task chosen by the adversary. Model spinning enables propaganda-as-a-service, where propaganda is defined as biased speech. An adversary can create customized language models that produce desired spins for chosen triggers, then deploy these models to generate disinformation (a platform attack), or else inject them into ML training pipelines (a supply-chain attack), transferring malicious functionality to downstream models trained by victims. To demonstrate the feasibility of model spinning, we develop a new backdooring technique. It stacks an adversarial meta-task (e.g., sentiment analysis) onto a seq2seq model, backpropagates the desired meta-task output (e.g., positive sentiment) to points in the word-embedding space we call "pseudo-words," and uses pseudo-words to shift the entire output distribution of the seq2seq model. We evaluate this attack on language generation, summarization, and translation models with different triggers and metatasks such as sentiment, toxicity, and entailment. Spinned models largely maintain their accuracy metrics (ROUGE and BLEU) while shifting their outputs to satisfy the adversary's meta-task. We also show that, in the case of a supply-chain attack, the spin functionality transfers to downstream models. Finally, we propose a black-box, meta-task-independent defense that, given a list of candidate triggers, can detect models that selectively apply spin to inputs with any of these triggers.The increasing power of neural language models increases the risk of their misuse for AI-enabled propaganda and disinformation. Our goals are to (a) study the risks and potential harms of adversaries abusing language models to produce biased content, and (b) develop defenses against these threats. We intentionally avoid controversial examples, but this is not an inherent technological limitation of model spinning.]]></itunes:summary>
+        <description><![CDATA[Abstract-We investigate a new threat to neural sequenceto-sequence (seq2seq) models: training-time attacks that cause models to "spin" their outputs so as to support an adversarychosen sentiment or point of view-but only when the input contains adversary-chosen trigger words. For example, a spinned 1 summarization model outputs positive summaries of any text that mentions the name of some individual or organization. Model spinning introduces a "meta-backdoor" into a model. Whereas conventional backdoors cause models to produce incorrect outputs on inputs with the trigger, outputs of spinned models preserve context and maintain standard accuracy metrics, yet also satisfy a meta-task chosen by the adversary. Model spinning enables propaganda-as-a-service, where propaganda is defined as biased speech. An adversary can create customized language models that produce desired spins for chosen triggers, then deploy these models to generate disinformation (a platform attack), or else inject them into ML training pipelines (a supply-chain attack), transferring malicious functionality to downstream models trained by victims. To demonstrate the feasibility of model spinning, we develop a new backdooring technique. It stacks an adversarial meta-task (e.g., sentiment analysis) onto a seq2seq model, backpropagates the desired meta-task output (e.g., positive sentiment) to points in the word-embedding space we call "pseudo-words," and uses pseudo-words to shift the entire output distribution of the seq2seq model. We evaluate this attack on language generation, summarization, and translation models with different triggers and metatasks such as sentiment, toxicity, and entailment. Spinned models largely maintain their accuracy metrics (ROUGE and BLEU) while shifting their outputs to satisfy the adversary's meta-task. We also show that, in the case of a supply-chain attack, the spin functionality transfers to downstream models. Finally, we propose a black-box, meta-task-independent defense that, given a list of candidate triggers, can detect models that selectively apply spin to inputs with any of these triggers.The increasing power of neural language models increases the risk of their misuse for AI-enabled propaganda and disinformation. Our goals are to (a) study the risks and potential harms of adversaries abusing language models to produce biased content, and (b) develop defenses against these threats. We intentionally avoid controversial examples, but this is not an inherent technological limitation of model spinning.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.05224v2.Spinning_Language_Models_Risks_of_Propaganda_As_A_Service_and_Countermeasures.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>4472.738</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2112.05224v2.Spinning_Language_Models_Risks_of_Propaganda_As_A_Service_and_Countermeasures.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -1972,9 +2052,9 @@
         <description><![CDATA[Many recent studies have shown that representations drawn from neural network language models are extremely effective at predicting brain responses to natural language. But why do these models work so well? One proposed explanation is that language models and brains are similar because they have the same objective: to predict upcoming words before they are perceived. This explanation is attractive because it lends support to the popular theory of predictive coding. We provide several analyses that cast doubt on this claim. First, we show that the ability to predict future words does not uniquely (or even best) explain why some representations are a better match to the brain than others. Second, we show that within a language model, representations that are best at predicting future words are strictly worse brain models than other representations. Finally, we argue in favor of an alternative explanation for the success of language models in neuroscience: These models are effective at predicting brain responses because they generally capture a wide variety of linguistic phenomena.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nol_a_00087.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/nol_a_00087.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>3164.578</itunes:duration>
+        <itunes:duration>2745.468</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -2019,6 +2099,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1711.09784v1.Distilling_a_Neural_Network_Into_a_Soft_Decision_Tree.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Noise Audits Improve Moral Foundation Classification</title>
+        <itunes:title>Noise Audits Improve Moral Foundation Classification</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Abstract-Morality plays an important role in culture, identity, and emotion. Recent advances in natural language processing have shown that it is possible to classify moral values expressed in text at scale. Morality classification relies on human annotators to label the moral expressions in text, which provides training data to achieve state-of-the-art performance. However, these annotations are inherently subjective and some of the instances are hard to classify, resulting in noisy annotations due to error or lack of agreement. The presence of noise in training data harms the classifier's ability to accurately recognize moral foundations from text. We propose two metrics to audit the noise of annotations. The first metric is entropy of instance labels, which is a proxy measure of annotator disagreement about how the instance should be labeled. The second metric is the silhouette coefficient of a label assigned by an annotator to an instance. This metric leverages the idea that instances with the same label should have similar latent representations, and deviations from collective judgments are indicative of errors. Our experiments on three widely used moral foundations datasets show that removing noisy annotations based on the proposed metrics improves classification performance. ]]></itunes:summary>
+        <description><![CDATA[Abstract-Morality plays an important role in culture, identity, and emotion. Recent advances in natural language processing have shown that it is possible to classify moral values expressed in text at scale. Morality classification relies on human annotators to label the moral expressions in text, which provides training data to achieve state-of-the-art performance. However, these annotations are inherently subjective and some of the instances are hard to classify, resulting in noisy annotations due to error or lack of agreement. The presence of noise in training data harms the classifier's ability to accurately recognize moral foundations from text. We propose two metrics to audit the noise of annotations. The first metric is entropy of instance labels, which is a proxy measure of annotator disagreement about how the instance should be labeled. The second metric is the silhouette coefficient of a label assigned by an annotator to an instance. This metric leverages the idea that instances with the same label should have similar latent representations, and deviations from collective judgments are indicative of errors. Our experiments on three widely used moral foundations datasets show that removing noisy annotations based on the proposed metrics improves classification performance. ]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.07415v1.Noise_Audits_Improve_Moral_Foundation_Classification.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>1979.87275</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2210.07415v1.Noise_Audits_Improve_Moral_Foundation_Classification.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -2184,6 +2284,46 @@
         </item>
         
         <item>
+        <title>Chaos</title>
+        <itunes:title>Chaos</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[The great power of science lies in the ability to relate cause and effect. On the basis of the laws of gravitation, for example, eclipses can be predicted thousands of years in advance. There are other natural phenomena that are not as predictable. Although the movements of the atmosphere obey the laws of physics just as much as the movements of the planets do, weather forecasts are still stated in terms of probabilities. The weather, the flow of a mountain stream, the roll of the dice all have unpredictable aspects. Since there is no clear relation between cause and effect, such phenomena are said to have random elements. Yet until recently there was little reason to doubt that precise predictability could in principle be achieved. It was assumed that it was only necessary to gather and process a sufficient amount of information. Such a viewpoint has been altered by a striking discovery: simple deterministic systems with only a few elements can generate random behavior. The randomness is fundamental; gathering more information does not make it go away. Randomness generated in this way has come to be called chaos. A seeming paradox is that chaos is deterministic, generated by fixed rules that do not themselves involve any elements of chance. In principle the future is completely determined by the past, but in practice small uncertainties are amplified, so that even though the behavior is predictable in the short term, it is unpredictable in the long term. There is order in chaos: underlying chaotic behavior there are elegant geometric forms that create randomness in the same way as a card dealer shuffles a deck of cards or a blender mixes cake batter. The discovery of chaos has created a new paradigm in scientific modeling. On one hand, it implies new fundamental limits on the ability to make predictions. On the other hand, the determinism inherent in chaos implies that many random phenomena are more predictable than had been thought. Random-looking information gathered in the past-and shelved because it was assumed to be too complicated-can now be explained in terms of simple laws. Chaos allows order to be found in such diverse systems as the atmosphere, dripping faucets, and the heart. The result is a revolution that is affecting many different branches of science. What are the origins of random behavior? Brownian motion provides a classic example of randomness. A speck of dust observed through a microscope is seen to move in a continuous and erratic jiggle. This is owing to the bombardment of the dust particle by the surrounding water molecules in thermal motion. Because the water molecules are unseen and exist in great number, the detailed motion of the dust particle is thoroughly unpredictable. Here the web of causal influences among the subunits can become so tangled that the resulting pattern of behavior becomes quite random. The chaos to be discussed here requires no large number of subunits or unseen influences. The existence of random behavior in very simple systems motivates a reexamination of the sources of randomness even in large systems such as weather. What makes the motion of the atmosphere so much harder to anticipate than the motion of the solar system? Both are made up of many parts, and both are governed by Newton's second law, F = m a, which can be viewed as a simple prescription for predicting the future. If the forces F acting on a given mass m are known, then so is the acceleration a. It then follows from Chaos, Scientific American 54:12 (1986) 46-57   ]]></itunes:summary>
+        <description><![CDATA[The great power of science lies in the ability to relate cause and effect. On the basis of the laws of gravitation, for example, eclipses can be predicted thousands of years in advance. There are other natural phenomena that are not as predictable. Although the movements of the atmosphere obey the laws of physics just as much as the movements of the planets do, weather forecasts are still stated in terms of probabilities. The weather, the flow of a mountain stream, the roll of the dice all have unpredictable aspects. Since there is no clear relation between cause and effect, such phenomena are said to have random elements. Yet until recently there was little reason to doubt that precise predictability could in principle be achieved. It was assumed that it was only necessary to gather and process a sufficient amount of information. Such a viewpoint has been altered by a striking discovery: simple deterministic systems with only a few elements can generate random behavior. The randomness is fundamental; gathering more information does not make it go away. Randomness generated in this way has come to be called chaos. A seeming paradox is that chaos is deterministic, generated by fixed rules that do not themselves involve any elements of chance. In principle the future is completely determined by the past, but in practice small uncertainties are amplified, so that even though the behavior is predictable in the short term, it is unpredictable in the long term. There is order in chaos: underlying chaotic behavior there are elegant geometric forms that create randomness in the same way as a card dealer shuffles a deck of cards or a blender mixes cake batter. The discovery of chaos has created a new paradigm in scientific modeling. On one hand, it implies new fundamental limits on the ability to make predictions. On the other hand, the determinism inherent in chaos implies that many random phenomena are more predictable than had been thought. Random-looking information gathered in the past-and shelved because it was assumed to be too complicated-can now be explained in terms of simple laws. Chaos allows order to be found in such diverse systems as the atmosphere, dripping faucets, and the heart. The result is a revolution that is affecting many different branches of science. What are the origins of random behavior? Brownian motion provides a classic example of randomness. A speck of dust observed through a microscope is seen to move in a continuous and erratic jiggle. This is owing to the bombardment of the dust particle by the surrounding water molecules in thermal motion. Because the water molecules are unseen and exist in great number, the detailed motion of the dust particle is thoroughly unpredictable. Here the web of causal influences among the subunits can become so tangled that the resulting pattern of behavior becomes quite random. The chaos to be discussed here requires no large number of subunits or unseen influences. The existence of random behavior in very simple systems motivates a reexamination of the sources of randomness even in large systems such as weather. What makes the motion of the atmosphere so much harder to anticipate than the motion of the solar system? Both are made up of many parts, and both are governed by Newton's second law, F = m a, which can be viewed as a simple prescription for predicting the future. If the forces F acting on a given mass m are known, then so is the acceleration a. It then follows from Chaos, Scientific American 54:12 (1986) 46-57   ]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Farmer_Chaos_SciAm_1986.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>3001.182</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/Farmer_Chaos_SciAm_1986.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Optimally interacting minds Europe PMC Funders Group Europe PMC Funders Author Manuscripts Europe PMC Funders Author Manuscripts</title>
+        <itunes:title>Optimally interacting minds Europe PMC Funders Group Europe PMC Funders Author Manuscripts Europe PMC Funders Author Manuscripts</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[In everyday life, many believe that 'two heads are better than one'. Indeed, our ability to solve problems together appears to be fundamental to the current dominance, and future survival, of the human species. But are two heads really better than one? We addressed this question in the context of a collective low-level perceptual decision-making task. For two observers of nearly equal sensitivity, two heads were definitely better than one, provided that they were given the opportunity to communicate freely, even in the absence of any feedback about decision outcomes. But for observers with very different sensitivities, two heads were worse than the better one. These seemingly discrepant patterns of group behaviour can be explained by a model in which two heads are Bayes optimal under the assumption that individuals accurately communicate their level of confidence on every trial.To come to an optimal joint decision, individuals must share information with each other, and, importantly, weigh that information by its reliability (1, 2). It is well established that isolated individuals can accurately weigh information when combining different sources of sensory information (3-5). Little is known, however, about how -or even whether -two individuals can accurately combine information that they communicate with each other. To investigate this issue, we examined the behaviour of pairs of individuals in a simple perceptual decision task, and we asked how signals from the same sensory modality (vision) in the brains of two different individuals could be combined through social interaction. Work on perceptual decision-making has shown that when combining information from different senses, individuals have access not just to magnitudes of sensory signals, but also to their probability distributions, or at least to their means and variances (3-8). This may not, however, be true for interpersonal communication. While probability distributions arising from different sensory modalities are available within an individual's brain, it is not clear whether such distributions can be passed directly to another person or indeed what types of information can be communicated. To answer this, we considered four models (16), each of]]></itunes:summary>
+        <description><![CDATA[In everyday life, many believe that 'two heads are better than one'. Indeed, our ability to solve problems together appears to be fundamental to the current dominance, and future survival, of the human species. But are two heads really better than one? We addressed this question in the context of a collective low-level perceptual decision-making task. For two observers of nearly equal sensitivity, two heads were definitely better than one, provided that they were given the opportunity to communicate freely, even in the absence of any feedback about decision outcomes. But for observers with very different sensitivities, two heads were worse than the better one. These seemingly discrepant patterns of group behaviour can be explained by a model in which two heads are Bayes optimal under the assumption that individuals accurately communicate their level of confidence on every trial.To come to an optimal joint decision, individuals must share information with each other, and, importantly, weigh that information by its reliability (1, 2). It is well established that isolated individuals can accurately weigh information when combining different sources of sensory information (3-5). Little is known, however, about how -or even whether -two individuals can accurately combine information that they communicate with each other. To investigate this issue, we examined the behaviour of pairs of individuals in a simple perceptual decision task, and we asked how signals from the same sensory modality (vision) in the brains of two different individuals could be combined through social interaction. Work on perceptual decision-making has shown that when combining information from different senses, individuals have access not just to magnitudes of sensory signals, but also to their probability distributions, or at least to their means and variances (3-8). This may not, however, be true for interpersonal communication. While probability distributions arising from different sensory modalities are available within an individual's brain, it is not clear whether such distributions can be passed directly to another person or indeed what types of information can be communicated. To answer this, we considered four models (16), each of]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/ukmss-48049.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>1430.7265</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/ukmss-48049.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
         <title>Moral reframing: A technique for effective and persuasive communication across political divides</title>
         <itunes:title>Moral reframing: A technique for effective and persuasive communication across political divides</itunes:title>
         <itunes:author>Gabriel Simmons</itunes:author>
@@ -2232,9 +2372,9 @@
         <description><![CDATA[Although automated metrics are commonly used to evaluate NLG systems, they often correlate poorly with human judgements. Newer metrics such as BERTScore have addressed many weaknesses in prior metrics such as BLEU and ROUGE, which rely on -gram matching. These newer methods, however, are still limited in that they do not consider the generation context, so they cannot properly reward generated text that is correct but deviates from the given reference. In this paper, we propose Language Model Augmented Relevance Score (MARS), a new context-aware metric for NLG evaluation. MARS leverages off-the-shelf language models, guided by reinforcement learning, to create augmented references that consider both the generation context and available human references, which are then used as additional references to score generated text. Compared with seven existing metrics in three common NLG tasks, MARS not only achieves higher correlation with human reference judgements, but also differentiates well-formed candidates from adversarial samples to a larger degree.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.acl-long.521.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2021.acl-long.521.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>2305.20175</itunes:duration>
+        <itunes:duration>2002.068</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -2259,6 +2399,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2205.00415v1.Don_t_Blame_the_Annotator_Bias_Already_Starts_in_the_Annotation_Instructions.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>The Theory of Dyadic Morality: Reinventing Moral Judgment by Redefining Harm</title>
+        <itunes:title>The Theory of Dyadic Morality: Reinventing Moral Judgment by Redefining Harm</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[]]></itunes:summary>
+        <description><![CDATA[]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1088868317698288-1.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>10969.626</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1088868317698288-1.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -2452,7 +2612,7 @@
         <description><![CDATA[While dense retrieval has been shown effec-]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2212.10496v1.Precise_Zero_Shot_Dense_Retrieval_without_Relevance_Labels.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2212.10496v1.Precise_Zero_Shot_Dense_Retrieval_without_Relevance_Labels.mp3.vtt" length="" type="text/vtt"/>
+            <enclosure vtt_url="" length="" type="text/vtt"/>
         
         <itunes:duration>1375.38</itunes:duration>
         <itunes:season>1</itunes:season>
@@ -2484,6 +2644,26 @@
         </item>
         
         <item>
+        <title>Rationalization for Explainable NLP: A Survey</title>
+        <itunes:title>Rationalization for Explainable NLP: A Survey</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Recent advances in deep learning have improved the performance of many Natural Language Processing (NLP) tasks such as translation, question-answering, and text classification. However, this improvement comes at the expense of model explainability. Black-box models make it difficult to understand the internals of a system and the process it takes to arrive at an output. Numerical (LIME, Shapley) and visualization (saliency heatmap) explainability techniques are helpful; however, they are insufficient because they require specialized knowledge. These factors led rationalization to emerge as a more accessible explainable technique in NLP. Rationalization justifies a model's output by providing a natural language explanation (rationale). Recent improvements in natural language generation have made rationalization an attractive technique because it is intuitive, human-comprehensible, and accessible to non-technical users. Since rationalization is a relatively new field, it is disorganized. As the first survey, rationalization literature in NLP from 2007-2022 is analyzed. This survey presents available methods, explainable evaluations, code, and datasets used across various NLP tasks that use rationalization. Further, a new subfield in Explainable AI (XAI), namely, Rational AI (RAI), is introduced to advance the current state of rationalization. A discussion on observed insights, challenges, and future directions is provided to point to promising research opportunities.]]></itunes:summary>
+        <description><![CDATA[Recent advances in deep learning have improved the performance of many Natural Language Processing (NLP) tasks such as translation, question-answering, and text classification. However, this improvement comes at the expense of model explainability. Black-box models make it difficult to understand the internals of a system and the process it takes to arrive at an output. Numerical (LIME, Shapley) and visualization (saliency heatmap) explainability techniques are helpful; however, they are insufficient because they require specialized knowledge. These factors led rationalization to emerge as a more accessible explainable technique in NLP. Rationalization justifies a model's output by providing a natural language explanation (rationale). Recent improvements in natural language generation have made rationalization an attractive technique because it is intuitive, human-comprehensible, and accessible to non-technical users. Since rationalization is a relatively new field, it is disorganized. As the first survey, rationalization literature in NLP from 2007-2022 is analyzed. This survey presents available methods, explainable evaluations, code, and datasets used across various NLP tasks that use rationalization. Further, a new subfield in Explainable AI (XAI), namely, Rational AI (RAI), is introduced to advance the current state of rationalization. A discussion on observed insights, challenges, and future directions is provided to point to promising research opportunities.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2301.08912v1.Rationalization_for_Explainable_NLP_A_Survey.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>4176.222</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2301.08912v1.Rationalization_for_Explainable_NLP_A_Survey.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
         <title>TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation</title>
         <itunes:title>TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation</itunes:title>
         <itunes:author>Gabriel Simmons</itunes:author>
@@ -2499,6 +2679,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2109.13296v1.TURINGBENCH_A_Benchmark_Environment_for_Turing_Test_in_the_Age_of_Neural_Text_Generation.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>Acceleration AI Ethics, the Debate between Innovation and Safety, and Stability AI's Diffusion versus OpenAI's Dall-E</title>
+        <itunes:title>Acceleration AI Ethics, the Debate between Innovation and Safety, and Stability AI's Diffusion versus OpenAI's Dall-E</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[One objection to conventional AI ethics is that it slows innovation. This presentation responds by reconfiguring ethics as an innovation accelerator. The critical elements develop from a contrast between Stability AI's Diffusion and OpenAI's Dall-E. By analyzing the divergent values underlying their opposed strategies for development and deployment, five conceptions are identified as common to acceleration ethics. Uncertainty is understood as positive and encouraging, rather than discouraging. Innovation is conceived as intrinsically valuable, instead of worthwhile only as mediated by social effects. AI problems are solved by more AI, not less. Permissions and restrictions governing AI emerge from a decentralized process, instead of a unified authority. The work of ethics is embedded in AI development and application, instead of functioning from outside. Together, these attitudes and practices remake ethics as provoking rather than restraining artificial intelligence.]]></itunes:summary>
+        <description><![CDATA[One objection to conventional AI ethics is that it slows innovation. This presentation responds by reconfiguring ethics as an innovation accelerator. The critical elements develop from a contrast between Stability AI's Diffusion and OpenAI's Dall-E. By analyzing the divergent values underlying their opposed strategies for development and deployment, five conceptions are identified as common to acceleration ethics. Uncertainty is understood as positive and encouraging, rather than discouraging. Innovation is conceived as intrinsically valuable, instead of worthwhile only as mediated by social effects. AI problems are solved by more AI, not less. Permissions and restrictions governing AI emerge from a decentralized process, instead of a unified authority. The work of ethics is embedded in AI development and application, instead of functioning from outside. Together, these attitudes and practices remake ethics as provoking rather than restraining artificial intelligence.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2212.01834v1.Acceleration_AI_Ethics_the_Debate_between_Innovation_and_Safety_and_Stability_AI_s_Diffusion_versus_OpenAI_s_Dall_E.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>1349.538</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2212.01834v1.Acceleration_AI_Ethics_the_Debate_between_Innovation_and_Safety_and_Stability_AI_s_Diffusion_versus_OpenAI_s_Dall_E.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -2652,9 +2852,9 @@
         <description><![CDATA[Permissionless blockchains such as Bitcoin have excelled at financial services. Yet, opportunistic traders extract monetary value from the mesh of decentralized finance (DeFi) smart contracts through so-called blockchain extractable value (BEV). The recent emergence of centralized BEV relayer portrays BEV as a positive additional revenue source. Because BEV was quantitatively shown to deteriorate the blockchain's consensus security, BEV relayers endanger the ledger security by incentivizing rational miners to fork the chain. For example, a rational miner with a 10% hashrate will fork Ethereum if a BEV opportunity exceeds 4x the block reward.   However, related work is currently missing quantitative insights on past BEV extraction to assess the practical risks of BEV objectively. In this work, we allow to quantify the BEV danger by deriving the USD extracted from sandwich attacks, liquidations, and decentralized exchange arbitrage. We estimate that over 32 months, BEV yielded 540.54M USD in profit, divided among 11,289 addresses when capturing 49,691 cryptocurrencies and 60,830 on-chain markets. The highest BEV instance we find amounts to 4.1M USD, 616.6x the Ethereum block reward.   Moreover, while the practitioner's community has discussed the existence of generalized trading bots, we are, to our knowledge, the first to provide a concrete algorithm. Our algorithm can replace unconfirmed transactions without the need to understand the victim transactions' underlying logic, which we estimate to have yielded a profit of 57,037.32 ETH (35.37M USD) over 32 months of past blockchain data.   Finally, we formalize and analyze emerging BEV relay systems, where miners accept BEV transactions from a centralized relay server instead of the peer-to-peer (P2P) network. We find that such relay systems aggravate the consensus layer attacks and therefore further endanger blockchain security.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2101.05511v5.Quantifying_Blockchain_Extractable_Value_How_dark_is_the_forest.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2101.05511v5.Quantifying_Blockchain_Extractable_Value_How_dark_is_the_forest.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>5625.2605</itunes:duration>
+        <itunes:duration>5024.484</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -2752,9 +2952,9 @@
         <description><![CDATA[Scarcity of parallel data causes formality style transfer models to have scarce success in preserving content. We show that fine-tuning pre-trained language (GPT-2) and sequence-to-sequence (BART) models boosts content preservation, and that this is possible even with limited amounts of parallel data. Augmenting these models with rewards that target style and content -- the two core aspects of the task -- we achieve a new state-of-the-art.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2105.06947v2.Thank_you_BART_Rewarding_Pre_Trained_Models_Improves_Formality_Style_Transfer.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2105.06947v2.Thank_you_BART_Rewarding_Pre_Trained_Models_Improves_Formality_Style_Transfer.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>1281.515</itunes:duration>
+        <itunes:duration>1114.704</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -2792,7 +2992,7 @@
         <description><![CDATA[An audience's prior beliefs and morals are strong indicators of how likely they will be affected by a given argument. Utilizing such knowledge can help focus on shared values to bring disagreeing parties towards agreement. In argumentation technology, however, this is barely exploited so far. This paper studies the feasibility of automatically generating morally framed arguments as well as their effect on different audiences. Following the moral foundation theory, we propose a system that effectively generates arguments focusing on different morals. In an in-depth user study, we ask liberals and conservatives to evaluate the impact of these arguments. Our results suggest that, particularly when prior beliefs are challenged, an audience becomes more affected by morally framed arguments.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2203.14563v1.The_Moral_Debater_A_Study_on_the_Computational_Generation_of_Morally_Framed_Arguments.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2203.14563v1.The_Moral_Debater_A_Study_on_the_Computational_Generation_of_Morally_Framed_Arguments.mp3.vtt" length="" type="text/vtt"/>
+            <enclosure vtt_url="" length="" type="text/vtt"/>
         
         <itunes:duration>3507.408</itunes:duration>
         <itunes:season>1</itunes:season>
@@ -2892,9 +3092,9 @@
         <description><![CDATA[ABSTRACT. This article details the personal involvement of the author in the early stages of the infamous Pinto fire case. The paper first presents an insider account of the context and decision environment within which he failed to initiate an early recall of defective vehicles. A cognitive script analysis of the personal experience is then offered as an explanation of factors that led to a decision that now is commonly seen as a definitive study in uuethicaI corporate behavior. The main analytical thesis is that script schemas that were guiding cognition and action at the time precluded consideration of issues in ethical terms because the scripts did not include ethical dimensions.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/BF00870550.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/BF00870550.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>3002.61875</itunes:duration>
+        <itunes:duration>2612.592</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -3012,9 +3212,9 @@
         <description><![CDATA[Dialogue models trained on human conversations inadvertently learn to generate toxic responses. In addition to producing explicitly offensive utterances, these models can also implicitly insult a group or individual by aligning themselves with an offensive statement. To better understand the dynamics of contextually offensive language, we investigate the stance of dialogue model responses in offensive Reddit conversations. Specifically, we create TOXICHAT, a crowd-annotated dataset of 2,000 Reddit threads and model responses labeled with offensive language and stance. Our analysis reveals that 42% of human responses agree with toxic comments, whereas only 13% agree with safe comments. This undesirable behavior is learned by neural dialogue models, such as DialoGPT, which we show are two times more likely to agree with offensive comments. To enable automatic detection of offensive language, we fine-tuned transformerbased classifiers on TOXICHAT that achieve 0.71 F 1 for offensive labels and 0.53 Macro-F 1 for stance labels. Finally, we quantify the effectiveness of controllable text generation (CTG) methods to mitigate the tendency of neural dialogue models to agree with offensive comments. Compared to the baseline, our best CTG model achieves a 19% reduction in agreement with offensive comments and produces 29% fewer offensive replies. Our work highlights the need for further efforts to characterize and analyze inappropriate behavior in dialogue models, in order to help make them safer.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2021.emnlp-main.397 (1).mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2021.emnlp-main.397 (1).mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>2864.7445</itunes:duration>
+        <itunes:duration>2493.756</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -3059,6 +3259,26 @@
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
         <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2204.03021v1.The_Moral_Integrity_Corpus_A_Benchmark_for_Ethical_Dialogue_Systems.mp3</guid>
+        <pubDate></pubDate>
+        <itunes:explicit>NO</itunes:explicit>
+        </item>
+        
+        <item>
+        <title>On the dominant set selection problem and its application to value alignment</title>
+        <itunes:title>On the dominant set selection problem and its application to value alignment</itunes:title>
+        <itunes:author>Gabriel Simmons</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary><![CDATA[Decision makers can often be confronted with the need to select a subset of objects from a set of candidate objects by just counting on preferences regarding the objects' features. Here we formalise this problem as the dominant set selection problem. Solving this problem amounts to finding the preferences over all possible sets of objects. We accomplish so by: (i) grounding the preferences over features to preferences over the objects themselves; and (ii) lifting these preferences to preferences over all possible sets of objects. This is achieved by combining lex-cel -a method from the literature-with our novel anti-lex-cel method, which we formally (and thoroughly) study. Furthermore, we provide a binary integer program encoding to solve the problem. Finally, we illustrate our overall approach by applying it to the selection of value-aligned norm systems.]]></itunes:summary>
+        <description><![CDATA[Decision makers can often be confronted with the need to select a subset of objects from a set of candidate objects by just counting on preferences regarding the objects' features. Here we formalise this problem as the dominant set selection problem. Solving this problem amounts to finding the preferences over all possible sets of objects. We accomplish so by: (i) grounding the preferences over features to preferences over the objects themselves; and (ii) lifting these preferences to preferences over all possible sets of objects. This is achieved by combining lex-cel -a method from the literature-with our novel anti-lex-cel method, which we formally (and thoroughly) study. Furthermore, we provide a binary integer program encoding to solve the problem. Finally, we illustrate our overall approach by applying it to the selection of value-aligned norm systems.]]></description>
+        <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s10458-021-09519-5.mp3" length="" type="audio/mpeg"/>
+        
+            <enclosure vtt_url="" length="" type="text/vtt"/>
+        
+        <itunes:duration>7405.244</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode></itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <guid isPermaLink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/s10458-021-09519-5.mp3</guid>
         <pubDate></pubDate>
         <itunes:explicit>NO</itunes:explicit>
         </item>
@@ -3294,9 +3514,9 @@
         <description><![CDATA[Knowledge graph completion aims to address the problem of extending a KG with missing triples. In this paper, we provide an approach GenKGC, which converts knowledge graph completion to sequence-to-sequence generation task with the pre-trained language model. We further introduce relation-guided demonstration and entity-aware hierarchical decoding for better representation learning and fast inference. Experimental results on three datasets show that our approach can obtain better or comparable performance than baselines and achieve faster inference speed compared with previous methods with pre-trained language models. We also release a new large-scale Chinese knowledge graph dataset AliopenKG500 for research purpose. Code and datasets are available in https://github.com/zjunlp/PromptKGC/tree/main/GenKGC.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2202.02113v4.From_Discrimination_to_Generation_Knowledge_Graph_Completion_with_Generative_Transformer.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2202.02113v4.From_Discrimination_to_Generation_Knowledge_Graph_Completion_with_Generative_Transformer.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>912.7705</itunes:duration>
+        <itunes:duration>822.852</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
@@ -3774,7 +3994,7 @@
         <description><![CDATA[Getting the most out of limited resources allows advances in natural language processing (NLP) research and practice while being conservative with resources. Those resources may be data, time, storage, or energy. Recent work in NLP has yielded interesting results from scaling; however, using only scale to improve results means that resource consumption also scales. That relationship motivates research into efficient methods that require less resources to achieve similar results. This survey relates and synthesises methods and findings in those efficiencies in NLP, aiming to guide new researchers in the field and inspire the development of new methods.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/2209.00099v1.Efficient_Methods_for_Natural_Language_Processing_A_Survey.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/2209.00099v1.Efficient_Methods_for_Natural_Language_Processing_A_Survey.mp3.vtt" length="" type="text/vtt"/>
+            <enclosure vtt_url="" length="" type="text/vtt"/>
         
         <itunes:duration>2905.848</itunes:duration>
         <itunes:season>1</itunes:season>
@@ -3894,9 +4114,9 @@
         <description><![CDATA[We show that a variety of modern deep learning tasks exhibit a "double-descent" phenomenon where, as we increase model size, performance first gets worse and then gets better. Moreover, we show that double descent occurs not just as a function of model size, but also as a function of the number of training epochs. We unify the above phenomena by defining a new complexity measure we call the effective model complexity and conjecture a generalized double descent with respect to this measure. Furthermore, our notion of model complexity allows us to identify certain regimes where increasing (even quadrupling) the number of train samples actually hurts test performance.]]></description>
         <enclosure url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/1912.02292v1.Deep_Double_Descent_Where_Bigger_Models_and_More_Data_Hurt.mp3" length="" type="audio/mpeg"/>
         
-            <enclosure vtt_url="" length="" type="text/vtt"/>
+            <enclosure vtt_url="https://g-simmons.github.io/g-simmons-papercast/data/vtt/1912.02292v1.Deep_Double_Descent_Where_Bigger_Models_and_More_Data_Hurt.mp3.vtt" length="" type="text/vtt"/>
         
-        <itunes:duration>2631.654</itunes:duration>
+        <itunes:duration>2337.3</itunes:duration>
         <itunes:season>1</itunes:season>
         <itunes:episode></itunes:episode>
         <itunes:episodeType>full</itunes:episodeType>
