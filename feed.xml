@@ -8136,21 +8136,36 @@
 <itunes:explicit>
     NO
    </itunes:explicit>
-</item>
-<item>
-<title>Rationalization for Explainable NLP: A Survey</title>
-<title>Rationalization for Explainable NLP: A Survey</title>
-<author/>
-<subtitle/>
-<summary>Recent advances in deep learning have improved the performance of many Natural Language Processing (NLP) tasks such as translation, question-answering, and text classification. However, this improvement comes at the expense of model explainability. Black-box models make it difficult to understand the internals of a system and the process it takes to arrive at an output. Numerical (LIME, Shapley) and visualization (saliency heatmap) explainability techniques are helpful; however, they are insufficient because they require specialized knowledge. These factors led rationalization to emerge as a more accessible explainable technique in NLP. Rationalization justifies a model's output by providing a natural language explanation (rationale). Recent improvements in natural language generation have made rationalization an attractive technique because it is intuitive, human-comprehensible, and accessible to non-technical users. Since rationalization is a relatively new field, it is disorganized. As the first survey, rationalization literature in NLP from 2007-2022 is analyzed. This survey presents available methods, explainable evaluations, code, and datasets used across various NLP tasks that use rationalization. Further, a new subfield in Explainable AI (XAI), namely, Rational AI (RAI), is introduced to advance the current state of rationalization. A discussion on observed insights, challenges, and future directions is provided to point to promising research opportunities.</summary>
-<description>Recent advances in deep learning have improved the performance of many Natural Language Processing (NLP) tasks such as translation, question-answering, and text classification. However, this improvement comes at the expense of model explainability. Black-box models make it difficult to understand the internals of a system and the process it takes to arrive at an output. Numerical (LIME, Shapley) and visualization (saliency heatmap) explainability techniques are helpful; however, they are insufficient because they require specialized knowledge. These factors led rationalization to emerge as a more accessible explainable technique in NLP. Rationalization justifies a model's output by providing a natural language explanation (rationale). Recent improvements in natural language generation have made rationalization an attractive technique because it is intuitive, human-comprehensible, and accessible to non-technical users. Since rationalization is a relatively new field, it is disorganized. As the first survey, rationalization literature in NLP from 2007-2022 is analyzed. This survey presents available methods, explainable evaluations, code, and datasets used across various NLP tasks that use rationalization. Further, a new subfield in Explainable AI (XAI), namely, Rational AI (RAI), is introduced to advance the current state of rationalization. A discussion on observed insights, challenges, and future directions is provided to point to promising research opportunities.</description>
-<enclosure length="4176.14375" type="audio/mpeg" url="data/mp3s/rationalization-for-explainable-nlp-a-survey.mp3"/>
-<duration>4176.14375</duration>
-<season>1</season>
-<episode>209</episode>
-<episodeType>full</episodeType>
-<guid isPermaLink="false">data/mp3s/rationalization-for-explainable-nlp-a-survey.mp3</guid>
-<pubDate/>
-<explicit>NO</explicit>
-</item></channel>
+</item><html><body><item>
+<title>CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos</title>
+<itunes:title>CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos</itunes:title>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary>&lt;![CDATA[Visual information is central to conversation: body gestures and facial expressions, for example, contribute to meaning that transcends words alone. To date, however, most neural conversational models are limited to just text. We introduce CHAMPAGNE, a generative model of conversations that can account for visual contexts. To train CHAMPAGNE, we collect and release YTD-18M, a large-scale corpus of 18M video-based dialogues. YTD-18M is constructed from web videos: crucial to our data collection pipeline is a pretrained language model that converts error-prone automatic transcripts to a cleaner dialogue format while maintaining meaning. Human evaluation reveals that YTD-18M is more sensible and specific than prior resources (MMDialog, 1M dialogues), while maintaining visual-groundedness. Experiments demonstrate that 1) CHAMPAGNE learns to conduct conversation from YTD-18M; and 2) when fine-tuned, it achieves state-of-the-art results on four vision-language tasks focused on real-world conversations. We release data, models, and code at https://seungjuhan.me/champagne.]]&gt;</itunes:summary>
+<description>&lt;![CDATA[Visual information is central to conversation: body gestures and facial expressions, for example, contribute to meaning that transcends words alone. To date, however, most neural conversational models are limited to just text. We introduce CHAMPAGNE, a generative model of conversations that can account for visual contexts. To train CHAMPAGNE, we collect and release YTD-18M, a large-scale corpus of 18M video-based dialogues. YTD-18M is constructed from web videos: crucial to our data collection pipeline is a pretrained language model that converts error-prone automatic transcripts to a cleaner dialogue format while maintaining meaning. Human evaluation reveals that YTD-18M is more sensible and specific than prior resources (MMDialog, 1M dialogues), while maintaining visual-groundedness. Experiments demonstrate that 1) CHAMPAGNE learns to conduct conversation from YTD-18M; and 2) when fine-tuned, it achieves state-of-the-art results on four vision-language tasks focused on real-world conversations. We release data, models, and code at https://seungjuhan.me/champagne.]]&gt;</description>
+<enclosure length="2552.346" type="audio/mpeg" url="data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3"/>
+<itunes:duration>2552.346</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>209</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item></body></html><html><body><item>
+<title>Supervising strong learners by amplifying weak experts</title>
+<itunes:title>Supervising strong learners by amplifying weak experts</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</itunes:summary>
+<description>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</description>
+<enclosure length="2835.7225" type="audio/mpeg" url="data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3"></enclosure>
+<itunes:duration>2835.7225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>210</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3</guid>
+<pubdate></pubdate>
+<itunes:explicit>NO</itunes:explicit>
+</item></body></html>
+</channel>
 </rss>
