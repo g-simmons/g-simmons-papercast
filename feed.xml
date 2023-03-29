@@ -8154,16 +8154,46 @@
 </item></body></html><html><body><item>
 <title>Supervising strong learners by amplifying weak experts</title>
 <itunes:title>Supervising strong learners by amplifying weak experts</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
+<itunes:author/>
+<itunes:subtitle/>
 <itunes:summary>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</itunes:summary>
 <description>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</description>
-<enclosure length="2835.7225" type="audio/mpeg" url="data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3"></enclosure>
+<enclosure length="2835.7225" type="audio/mpeg" url="data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3"/>
 <itunes:duration>2835.7225</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>210</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item></body></html><html><body><item>
+<title>Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor</title>
+<itunes:title>Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor</itunes:title>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="2788.885" type="audio/mpeg" url="data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3"/>
+<itunes:duration>2788.885</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>211</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item></body></html><html><body><item>
+<title>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</title>
+<itunes:title>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1850.38375" type="audio/mpeg" url="data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3"></enclosure>
+<itunes:duration>1850.38375</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>212</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item></body></html>
