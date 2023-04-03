@@ -8229,16 +8229,31 @@
 </item></body></html><html><body><item>
 <title>Self-Refine: Iterative Refinement with Self-Feedback</title>
 <itunes:title>Self-Refine: Iterative Refinement with Self-Feedback</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="4393.22125" type="audio/mpeg" url="data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="4393.22125" type="audio/mpeg" url="data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3"/>
 <itunes:duration>4393.22125</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>215</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item></body></html><html><body><item>
+<title>Whose Opinions Do Language Models Reflect?</title>
+<itunes:title>Whose Opinions Do Language Models Reflect?</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="3684.258" type="audio/mpeg" url="data/mp3s/whose-opinions-do-language-models-reflect.mp3"></enclosure>
+<itunes:duration>3684.258</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>216</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/whose-opinions-do-language-models-reflect.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item></body></html>
