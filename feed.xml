@@ -8144,12 +8144,12 @@
 <itunes:subtitle/>
 <itunes:summary>&lt;![CDATA[Visual information is central to conversation: body gestures and facial expressions, for example, contribute to meaning that transcends words alone. To date, however, most neural conversational models are limited to just text. We introduce CHAMPAGNE, a generative model of conversations that can account for visual contexts. To train CHAMPAGNE, we collect and release YTD-18M, a large-scale corpus of 18M video-based dialogues. YTD-18M is constructed from web videos: crucial to our data collection pipeline is a pretrained language model that converts error-prone automatic transcripts to a cleaner dialogue format while maintaining meaning. Human evaluation reveals that YTD-18M is more sensible and specific than prior resources (MMDialog, 1M dialogues), while maintaining visual-groundedness. Experiments demonstrate that 1) CHAMPAGNE learns to conduct conversation from YTD-18M; and 2) when fine-tuned, it achieves state-of-the-art results on four vision-language tasks focused on real-world conversations. We release data, models, and code at https://seungjuhan.me/champagne.]]&gt;</itunes:summary>
 <description>&lt;![CDATA[Visual information is central to conversation: body gestures and facial expressions, for example, contribute to meaning that transcends words alone. To date, however, most neural conversational models are limited to just text. We introduce CHAMPAGNE, a generative model of conversations that can account for visual contexts. To train CHAMPAGNE, we collect and release YTD-18M, a large-scale corpus of 18M video-based dialogues. YTD-18M is constructed from web videos: crucial to our data collection pipeline is a pretrained language model that converts error-prone automatic transcripts to a cleaner dialogue format while maintaining meaning. Human evaluation reveals that YTD-18M is more sensible and specific than prior resources (MMDialog, 1M dialogues), while maintaining visual-groundedness. Experiments demonstrate that 1) CHAMPAGNE learns to conduct conversation from YTD-18M; and 2) when fine-tuned, it achieves state-of-the-art results on four vision-language tasks focused on real-world conversations. We release data, models, and code at https://seungjuhan.me/champagne.]]&gt;</description>
-<enclosure length="2552.346" type="audio/mpeg" url="data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3"/>
+<enclosure length="2552.346" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3"/>
 <itunes:duration>2552.346</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>209</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item>
@@ -8160,12 +8160,12 @@
 <itunes:subtitle/>
 <itunes:summary>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</itunes:summary>
 <description>&lt;![CDATA[Many real world learning tasks involve complex or hard-to-specify objectives, and using an easier-to-specify proxy can lead to poor performance or misaligned behavior. One solution is to have humans provide a training signal by demonstrating or judging performance, but this approach fails if the task is too complicated for a human to directly evaluate. We propose Iterated Amplification, an alternative training strategy which progressively builds up a training signal for difficult problems by combining solutions to easier subproblems. Iterated Amplification is closely related to Expert Iteration (Anthony et al., 2017; Silver et al., 2017), except that it uses no external reward function. We present results in algorithmic environments, showing that Iterated Amplification can efficiently learn complex behaviors.]]&gt;</description>
-<enclosure length="2835.7225" type="audio/mpeg" url="data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3"/>
+<enclosure length="2835.7225" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3"/>
 <itunes:duration>2835.7225</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>210</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8175,12 +8175,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="2788.885" type="audio/mpeg" url="data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3"/>
+<enclosure length="2788.885" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3"/>
 <itunes:duration>2788.885</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>211</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8190,12 +8190,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="1850.38375" type="audio/mpeg" url="data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3"/>
+<enclosure length="1850.38375" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3"/>
 <itunes:duration>1850.38375</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>212</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8205,12 +8205,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="2678.96175" type="audio/mpeg" url="data/mp3s/learning-to-influence-human-behavior-with-offline-reinforcement-learning.mp3"/>
+<enclosure length="2678.96175" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-influence-human-behavior-with-offline-reinforcement-learning.mp3"/>
 <itunes:duration>2678.96175</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>213</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/learning-to-influence-human-behavior-with-offline-reinforcement-learning.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-influence-human-behavior-with-offline-reinforcement-learning.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8220,12 +8220,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="7530.39675" type="audio/mpeg" url="data/mp3s/adversarial-attacks-on-deep-learning-models-in-natural-language-processing-a-survey.mp3"/>
+<enclosure length="7530.39675" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/adversarial-attacks-on-deep-learning-models-in-natural-language-processing-a-survey.mp3"/>
 <itunes:duration>7530.39675</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>214</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/adversarial-attacks-on-deep-learning-models-in-natural-language-processing-a-survey.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/adversarial-attacks-on-deep-learning-models-in-natural-language-processing-a-survey.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8235,12 +8235,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="4393.22125" type="audio/mpeg" url="data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3"/>
+<enclosure length="4393.22125" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3"/>
 <itunes:duration>4393.22125</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>215</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8250,12 +8250,12 @@
 <itunes:subtitle/>
 <itunes:summary/>
 <description/>
-<enclosure length="3684.258" type="audio/mpeg" url="data/mp3s/whose-opinions-do-language-models-reflect.mp3"/>
+<enclosure length="3684.258" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/whose-opinions-do-language-models-reflect.mp3"/>
 <itunes:duration>3684.258</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>216</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/whose-opinions-do-language-models-reflect.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/whose-opinions-do-language-models-reflect.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
 </item><item>
@@ -8265,12 +8265,12 @@
 <itunes:subtitle></itunes:subtitle>
 <itunes:summary></itunes:summary>
 <description></description>
-<enclosure length="5067.311" type="audio/mpeg" url="data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3"></enclosure>
+<enclosure length="5067.311" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3"></enclosure>
 <itunes:duration>5067.311</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>217</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
-<guid ispermalink="false">data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3</guid>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
