@@ -8136,7 +8136,8 @@
 <itunes:explicit>
     NO
    </itunes:explicit>
-</item><html><body><item>
+</item>
+<item>
 <title>CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos</title>
 <itunes:title>CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos</itunes:title>
 <itunes:author/>
@@ -8151,7 +8152,8 @@
 <guid ispermalink="false">data/mp3s/champagne-learning-real-world-conversation-from-large-scale-web-videos.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item>
+<item>
 <title>Supervising strong learners by amplifying weak experts</title>
 <itunes:title>Supervising strong learners by amplifying weak experts</itunes:title>
 <itunes:author/>
@@ -8166,7 +8168,7 @@
 <guid ispermalink="false">data/mp3s/supervising-strong-learners-by-amplifying-weak-experts.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor</title>
 <itunes:title>Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor</itunes:title>
 <itunes:author/>
@@ -8181,7 +8183,7 @@
 <guid ispermalink="false">data/mp3s/unnatural-instructions-tuning-language-models-with-almost-no-human-labor.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</title>
 <itunes:title>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</itunes:title>
 <itunes:author/>
@@ -8196,7 +8198,7 @@
 <guid ispermalink="false">data/mp3s/mrkl-systems-a-modular-neuro-symbolic-architecture-that-combines-large-language-models-external-knowledge-sources-and-discrete-reasoning.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>Learning to Influence Human Behavior with Offline Reinforcement Learning</title>
 <itunes:title>Learning to Influence Human Behavior with Offline Reinforcement Learning</itunes:title>
 <itunes:author/>
@@ -8211,7 +8213,7 @@
 <guid ispermalink="false">data/mp3s/learning-to-influence-human-behavior-with-offline-reinforcement-learning.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey</title>
 <itunes:title>Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey</itunes:title>
 <itunes:author/>
@@ -8226,7 +8228,7 @@
 <guid ispermalink="false">data/mp3s/adversarial-attacks-on-deep-learning-models-in-natural-language-processing-a-survey.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>Self-Refine: Iterative Refinement with Self-Feedback</title>
 <itunes:title>Self-Refine: Iterative Refinement with Self-Feedback</itunes:title>
 <itunes:author/>
@@ -8241,21 +8243,36 @@
 <guid ispermalink="false">data/mp3s/self-refine-iterative-refinement-with-self-feedback.mp3</guid>
 <pubdate/>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html><html><body><item>
+</item><item>
 <title>Whose Opinions Do Language Models Reflect?</title>
 <itunes:title>Whose Opinions Do Language Models Reflect?</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="3684.258" type="audio/mpeg" url="data/mp3s/whose-opinions-do-language-models-reflect.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="3684.258" type="audio/mpeg" url="data/mp3s/whose-opinions-do-language-models-reflect.mp3"/>
 <itunes:duration>3684.258</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>216</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">data/mp3s/whose-opinions-do-language-models-reflect.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>SoK: On the Impossible Security of Very Large Foundation Models</title>
+<itunes:title>SoK: On the Impossible Security of Very Large Foundation Models</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="5067.311" type="audio/mpeg" url="data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3"></enclosure>
+<itunes:duration>5067.311</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>217</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
-</item></body></html>
+</item>
 </channel>
 </rss>
