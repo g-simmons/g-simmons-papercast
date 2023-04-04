@@ -1,0 +1,408 @@
+{
+    "title": "Noise Audits Improve Moral Foundation Classification",
+    "abstract": "Abstract-Morality plays an important role in culture, identity, and emotion. Recent advances in natural language processing have shown that it is possible to classify moral values expressed in text at scale. Morality classification relies on human annotators to label the moral expressions in text, which provides training data to achieve state-of-the-art performance. However, these annotations are inherently subjective and some of the instances are hard to classify, resulting in noisy annotations due to error or lack of agreement. The presence of noise in training data harms the classifier's ability to accurately recognize moral foundations from text. We propose two metrics to audit the noise of annotations. The first metric is entropy of instance labels, which is a proxy measure of annotator disagreement about how the instance should be labeled. The second metric is the silhouette coefficient of a label assigned by an annotator to an instance. This metric leverages the idea that instances with the same label should have similar latent representations, and deviations from collective judgments are indicative of errors. Our experiments on three widely used moral foundations datasets show that removing noisy annotations based on the proposed metrics improves classification performance. ",
+    "sections": [
+        {
+            "heading": "",
+            "text": "Abstract-Morality plays an important role in culture, identity, and emotion. Recent advances in natural language processing have shown that it is possible to classify moral values expressed in text at scale. Morality classification relies on human annotators to label the moral expressions in text, which provides training data to achieve state-of-the-art performance. However, these annotations are inherently subjective and some of the instances are hard to classify, resulting in noisy annotations due to error or lack of agreement. The presence of noise in training data harms the classifier's ability to accurately recognize moral foundations from text. We propose two metrics to audit the noise of annotations. The first metric is entropy of instance labels, which is a proxy measure of annotator disagreement about how the instance should be labeled. The second metric is the silhouette coefficient of a label assigned by an annotator to an instance. This metric leverages the idea that instances with the same label should have similar latent representations, and deviations from collective judgments are indicative of errors. Our experiments on three widely used moral foundations datasets show that removing noisy annotations based on the proposed metrics improves classification performance.",
+            "n_publication_ref": 0,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "I. INTRODUCTION",
+            "text": "Moral foundations theory (MFT) [1], [2] suggests that the moral values expressed in opinions, thoughts, and cultures can be explained by five universal, but contextually variable moral foundations. These foundations are typically described along bipolar dimensions: care vs. harm, fairness vs. cheating, authority vs. subversion, loyalty vs. betrayal, and purity vs. degradation. MFT was first introduced in social psychology and has found many applications in political science and the social sciences. For example, moral foundations motivate behaviors such as charitable donations [3], violent protests [4] and social homophily [5]. The broad adoption of MFT was driven, in part, by advances in natural language processing (NLP), which enabled researchers to quantify moral values expressed in text, including news [6]- [8], political speech [9], and social media discussions [10], at scale. Early works relied on lexicons that defined words associated with moral virtues and vices to classify moral foundations from text [1]. However, by neglecting semantic context in sentences, lexicon-based approaches fail to capture the nuances of moral expression [11]. To address this challenge, more recent approaches use large language models to capture the moral context of text [12], [13]. These approaches leverage a text corpus manually annotated for moral values to train language models to recognize examples of moral language. Several such ground truth data sets exist [7], [8], [10], [14], [15]. A major challenge when constructing ground truth data for training moral foundation classifiers is the subjectivity of individual moral judgments, which are prone to bias and noise [16]. Figure 1 illustrates this challenge using real examples from the Moral Foundation Twitter Corpus (MFTC) [10]. The first tweet, \"#freddiegray required spinal surgery after the police beat him. freddie was unarmed. freddie died today,\" expresses a range of moral concerns (Fig. 1a). It was labeled as harm, cheating, betrayal and non-moral by two annotators each, and authority and subversion by one annotator each. Text can also be mislabeled due to errors or ambiguity. This is illustrated by the second example \"no justice, no peace.\" (Fig. 1b). This instance was annotated with degradation, and non-moral, but these labels are not related to the tweet. The third example illustrates the subjectivity of moral judgments ( Fig. 1c): \"#freddiegray I couldn't be happier with arrests of those 6 officers. how scared was freddie gray it makes me sick! who r the thugs now?!\" The moral labels assigned to this instance are subjective and depend on whether the annotators support police actions or not. As a result of these factors, individual moral labels will be noisy. To partly control for the variability of judgments, researchers use the label chosen by the majority of annotators as the correct ground truth label for each instance [10], [17]. However, the question of how annotation noise affects the performance of models learned from data has been underexplored [18], [19]. In this paper we present and compare two approaches for auditing and removing noise from annotations used to train moral foundations classifiers. The first approach identifies difficult instances in the ground truth data. We propose entropy as a measure of annotator disagreement in \u00a7III-A and use it to identify instances with little agreement that will degrade classifier training. For each instance, we calculate entropy based on how many annotators have selected each of the labels c a r e h a r m f a i r n e s s c h e a t i n g l o y a l t y b e t r a y a l a u t h o r i t y s u b v e r s i o n p u r i t y d e g r a d a t i o n n o n -m o r a l 0 1 2 #freddiegray required spinal surgery after the police beat him. freddie was unarmed. freddie died today.  (examples of such distributions are shown in Fig. 1 for three instances). By removing instances on which the annotators disagree, we hope to create better data for training classifiers. Our second method identifies annotations that deviate from collective judgments of all annotators. We propose the silhouette coefficient in latent space as a measure of label quality, which leverages the idea that similarly-labeled instances should have similar latent representations. By removing annotations that deviate substantially from collective judgments, we hope to improve the quality of ground truth data. We evaluate both approaches on three large datasets with moral annotations [7], [10], [14] (more information of the datasets in \u00a7IV-A). We show that training models on ground truth data from which noisiest annotations have been removed improves morality classification. This does not stem simply from having less data: compared to a model trained on data from which the same number of instances were removed at random, removing the noisiest instances from data significantly improves classification performance. Our work primarily focuses on noise audit of subjective annotations to identify mislabeled or difficult instances in moral foundations classification. This could be applied in any subjective labeling setting. Identifying moral foundations in text is a representative example of a subjective task that we have selected for this paper. An important enabler for our noise audit is access to the individual judgments of annotators. Hence, we encourage the crowd-sourced annotation builders to include fine-grained details of individual annotator judgments on instances instead of the common practice [20] of reporting an aggregated judgment (e.g., majority label). Including the individual judgments gives the opportunity to refine the dataset, enhancing its utility on learning tasks.",
+            "n_publication_ref": 28,
+            "n_figure_ref": 5
+        },
+        {
+            "heading": "II. RELATED WORK",
+            "text": "Researchers have tried to incorporate individual annotator's perspectives of the subjective tasks [18]. Using multi-annotator models, they have shown that training a separate model for each annotator and then aggregating to a majority vote performs better than aggregating labels in the data prior to training. However, their methodology is not practical in the cases where the data have been crowd-sourced and there are many annotators because 1) there are not usually enough data points per annotator to train separate modules, and 2) it is not cost-efficient to train many separate modules. Other earlier works have studied the difficulty of data points through information theory [21] and disagreements in annotations [22]. A leading way to understand the difficulty of data instances is to leverage training dynamics [23], [24]. In other words, by observing how a classifier performs on an specific instance through epochs. Perhaps the best exemplar of this approach is seen in [19], which assesses each point based on the model's confidence (average probability assigned to the correct label during training epochs) and variance (variance in probability assigned to the correct label during training epochs). While training dynamics offer a way to measure training difficulty on an instance, their main drawback is dependency on the design of the model and on training. However, we try to address this issue by proposing metrics that are only depended on the annotated dataset and training is not a requirement for their calculation. We apply our proposed metrics to refine moral foundations datasets before training. To the best of our knowledge no prior work has analysed how difficult instances of moral foundations affect classification.",
+            "n_publication_ref": 6,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "III. METHODOLOGY",
+            "text": "In this section we propose two metrics entropy and silhouette for identifying noise in instance-level and judgmentlevel respectively. We use entropy (see \u00a7III-A) to find out annotator disagreements on a given instance. An instance is a piece of text that has been shown to annotators to collect their judgments. The disagreement on an instance is high when disparate judgments have been collected from annotators; on A B \"homosexuality is a sin #hispanictwitter #iuic #blackjesus #blacktwitter #BlackLivesMatter #africanamerican #bible\", annotator_id: annotator02 Harm Degradation \"RT @ajplus: #FreddieGray protester to police: \"Everyone's doing this for free. Opposing your tyranny and brutality, for free!\"\", annotator_id: annotator14 C \"homosexuality is a sin #hispanictwitter #iuic #blackjesus #blacktwitter #BlackLivesMatter #africanamerican #bible\", annotator_id: annotator04 Assigned Label: (a) MFTC dataset A B \"his party, which controls both houses, is unwilling or unable to fulfill its constitutional and institutional obligations\", annotator_id: 693 Care Authority \"Every hour, about 40 children die on roads around the world, many on foot\", annotator_id: 1267 C \"his party, which controls both houses, is unwilling or unable to fulfill its constitutional and institutional obligations\", annotator_id: 694 Assigned Label: In judgment A the annotator has assigned it a label that does not match the labels of similar texts. (b) MFNC dataset Because it is far from other texts with the same label, but close to texts that have been assigned different labels, judgment A will get a low silhouette coefficient. Judgment B is close to the other judgments of the same label so it will get high silhouette coefficient. Our methodology suggests removing judgment A from the training data but to keep judgment B on the same text. In judgment C the annotator has also selected a label that is different from the label of the other similar texts, so we suggest to remove judgment C. the other hand, the disagreement is low when all annotators agree on the same label. We refine the datasets by removing the high-entropy instances (instances with high disagreement on their assigned labels) as a pre-processing step before training a classifier. In addition, we propose using the silhouette coefficient (see \u00a7III-B) as a fine-grained metric to quantify how a single judgment differs from other instances of the same-label judgments. Note that unlike entropy, this metric takes into account the text of the instance. Removing judgments we deem noisy with this metric increases the inter-annotator agreement on a given instance. Unlike prior work in machine learning [19], [23], [25], [26], our measures are calculated before the model training starts and do not depend on the training dynamics. We provide the details of one the training dynamics metrics in \u00a7III-C and in the experiments ( \u00a7IV-D) will monitor their improvement as we filter data based on our metrics.",
+            "n_publication_ref": 4,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "A. Entropy at the Instance Level",
+            "text": "We use entropy of annotations to quantify diversity of labels gathered for a text. For a text t i and its multi-label annotations < l 1 : c i1 , ..., l N : c iN > in which l j is a member of all the labels L = {l 1 , l 2 , ..., l N } and c ij is the count of annotators who have assigned l j to t i , we calculate the entropy as: entropy(t i ) = \u2212 N j=1 P (l j , t i )logP (l j , t i ) in which P (l j , t i ) = c ij N j=1 c ij . If all annotators agree on the same label, the entropy is zero. At the other extreme, if every annotator gave the instance a different label, entropy has its maximum value.",
+            "n_publication_ref": 0,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "B. Silhouette Coefficient at the Judgment Level",
+            "text": "For a given judgment x = (t i , l j , a k ) in which instance t i has been assigned a label l j by annotator a k , the silhouette coefficient [27] is defined as a combination of its distance from the same-label (intra-cluster) judgments and from otherlabel (inter-cluster) judgments. Let l j be a member of the set of all labels L = {l 1 , l 2 , ..., l N }. We consider all the instances assigned to the same label to be a cluster. The intra-cluster measure a(x) is defined as the average dissimilarity of text i to all other texts labeled with l j . The inter-cluster metric is defined as: b(x) = min y\u2208L,y =ljd (t i , T y ), whered(t i , T y ) is the average dissimilarity of t i to all texts in the dataset labeled with y. Finally, a(x) and b(x) are aggregated as: silhouette(x) = b(x) \u2212 a(x) max{a(x), b(x)} To calculate the dissimilarities (d), we represent the text instances in a latent space using a language model and calculate the distance of vectors corresponding to texts. The silhouette coefficient thus captures the consistency of an annotator's label of a specific text with other same-label texts. If the instance is too different from the content of other examples with the same label, it will have a low silhouette coefficient, and we consider it to be noise. Training the model on this judgment may confuse it and reduce classification performance. Hence, we suggest removing this judgment from the ground truth corpus before training. However, other highsilhouette judgements for t i may be preserved and t i can be part of the filtered dataset using other judgements of it.",
+            "n_publication_ref": 1,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "C. Model's Training Dynamics",
+            "text": "Recent work by [19] uses signals from epochs during training (training dynamics) as a proxy for exploratory data quality estimation. They define confidence of the model on instance i as the average of model's probability of its true label (y * i ) across epochs: \u00b5 i = 1 E E e=1 p \u03b8 (e) (y * i |t i ) where p \u03b8 (e) indicates to the model's probability with parameters \u03b8 (e) at the end of the epoch e. Their experiments show that the examples with low confidence are likely to be mislabeled.",
+            "n_publication_ref": 1,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "IV. EXPERIMENTS",
+            "text": "",
+            "n_publication_ref": 0,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "A. Data",
+            "text": "In this paper we focus on three large moral foundations annotated textual datasets. In these datasets the annotations of many texts are very diverse. This diversity can appear because of the difficulty of the labeling task, subjectivity of moral judgments, the bias based on personal beliefs, ambiguity of texts, and errors made by annotators. 1) The Moral Foundations Twitter Corpus (MFTC) [10]: The Moral Foundations Twitter Corpus (MFTC) is a textual multi-label dataset containing tens of thousands of tweets related to various social movements, with each tweet annotated with categories of moral foundations. For annotating MFTC, several human annotators were trained to manually annotate 35k tweets. The tweets are drawn from 7 socially relevant topics: All Lives Matter (ALM), Black Lives Matter (BLM), the Baltimore protests, the 2016 Presidential election, hate speech and offensive language, Hurricane Sandy, and #MeToo. For each tweet several annotators selected as many moral foundations as they saw relevant, which resulted in a multi-label dataset. Note that for each tweet, the number of annotators that selected each class is known. There are in total eleven labels (ten moral foundations and one \"non-moral\" class indicating the text does not have moral relevance). 2) The Moral Foundations News Corpus (MFNC) [8]: In the MFNC [8], a crowd of 854 annotators was drawn from the general United States population using the crowdsourcing platform Prolific Academic (PA 2 ). Sampling was designed to match annotator characteristics to the US general population in terms of political affiliation and gender, thereby lowering the likelihood of obtaining annotations that reflect the moral intuitions of only a small, homogeneous group (see supplemental materials in [7] for detailed information on annotators) . Fifteen randomly selected news documents (from among 2,995 articles total) were assigned to each annotator. The selected corpus consisted of online newspaper articles 2 https://www.prolific.ac/ discussing a wide range of sociopolitical topics from 11 prominent, U.S. news outlets. 557 annotators completed all assigned tasks. Each annotator underwent an online training explaining the purpose of the study, the basic tenets of MFT, and the annotation procedure. Annotators were instructed that they would be annotating news articles, and that for each article they would be (randomly) assigned one of the five moral foundations. Next, using a digital highlighting tool, annotators were instructed to highlight all portions of a news article that they understood to reflect their assigned moral foundation. In total, 63,958 annotations (i.e., textual highlights) were produced by the 557 annotators. Note that the coding task of the MFNC differed from the MFTC task in important ways: First, annotators were assigned to focus on the presence of one (randomly assigned) moral foundation per article, rather than assigning portions of the article to any moral foundation. Second, annotators labeled the holistic presence of a moral foundation rather than differentiating whether a foundation was upheld (e.g. care) or violated (e.g. harm). Third, annotators were free to highlight portions of a news article, in contrast to labeling the entire coding unit with a moral foundation. 3) The Moral Foundations Reddit Corpus (MFRC) [14]: The MFRC consists of 16,123 Reddit comments drawn from 12 different subreddits. Every instance has been labeled by at least three annotators from a set of five trained annotators. Figure 3 shows the distributions of entropy and silhouette metrics for the three datasets. The distribution varies for each category and each dataset. For example, in MFTC, \"nonmoral\" has the higher concentration of posts with zero entropy, meaning that in many instances all the annotators agreed on the non-moral category. On the other hand the classes purity and degradation have few samples with zero entropy of annotations. Also, in MFNC, all the categories have high concentration of posts with zero entropy which is because there are many instances with single highlights in MFNC that have no overlap with other highlights. Figure 3 also shows the distribution of silhouette coefficient of annotator judgements for each of the moral foundation categories. This metric has a consistently broad distribution for all datasets, unlike entropy.",
+            "n_publication_ref": 5,
+            "n_figure_ref": 2
+        },
+        {
+            "heading": "B. Metrics of Disagreement",
+            "text": "",
+            "n_publication_ref": 0,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "C. Experimental Settings 1) Classifier Model:",
+            "text": "Getting a text as input, our model's task is to classify it to a moral foundation label. The classification task aims to predict majority-vote for each textual instance. Which is the label with highest number of annotators selecting it for the instance (we select randomly if there is a tie). In MFTC there are eleven labels (the labels from vices and virtues of the five moral foundations plus one label denoting non-moral category). In MFNC there are only five labels related to the main foundations regardless of the polarity. For MFRC we convert the labels \"proportionality\" and \"equality\" to fairness and only keep the labels from the main foundations to keep consistency with MFNC. We use pretrained language model RoBERTa [28] and finetune it on our datasets. This is done by adding a multiclass classification layer on top of the language model and with a cross-entropy loss updating all the parameters end-toend for five epochs. We minimize cross-entropy with the Adam optimizer [29] with learning rate 2 \u00d7 10 \u22125 . Our experiments use a batch size of 50. We run each experiment with five random seeds and split data into 70% train and 30% test sets. Each experiment is performed on a single GTX 1080Ti GPU. In our implementation we use the Huggingface Transformers library [30]. 2) Silhouette Coefficient Calculation: To calculate the silhouette coefficient of the judgments we need to use a language model to represent the text of instances in a latent space. We use sentenceBERT framework [31], which has been shown to be helpful for capturing semantic textual similarity. We use the pretrained model \"all-mpnet-base-v2\" 3 . We use the default parameters of sklearn implementation of the silhouette coefficient 4 which uses euclidean distance as a metric to capture semantic distance of texts.",
+            "n_publication_ref": 6,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "D. Results",
+            "text": "We study the effect of removing noisy annotations on the performance of the trained language model, discarding from each dataset either 1) highest-entropy instances (and all the labels assigned to them), or 2) lowest-silhouette coefficient labels. After filtering the data with a specific ratio, we split the dataset to train and test set. We compare performance to models trained on data from which the same ratio of instances have been removed at random. Figure 4 shows performance on the three datasets in terms of the F1 Macro (left subplot), and accuracy (middle) as a function of the fraction of data removed. These measures are aggregated over five runs with different random seeds and calculated on held-out test data. Discarding data at random shows a non-increasing trend in the performance of the model. On the other hand, discarding portions of judgments with lowest silhouette coefficients improves the performance of moral classification on all three datasets. These results suggest that our proposed method identifies better-quality ground truth data that helps model performance. Although removing highest-entropy instances improves performance of the classifier on MFTC, it does not help improve classification performance on the MFNC dataset and offers only a small improvement on MFRC. This result can be explained by the way each dataset has been collected. In MFTC, each tweet was shown to several annotators and their judgments about all the labels were collected. However, in MFNC, annotators were shown a news document and asked to identify segments of text relevant to a specific moral foundation. For example, annotator a1 was asked to highlight any part of document d related to the care foundation, but annotator a2, a3 were asked to highlight portions of d relevant to authority and loyalty. Their highlighted texts might overlap at sentence s, and s at the end will have annotations < care : 1, f airness : 0, authority : 1, loyalty : 1, purity : 0 >. At first glance, it seems there is no agreement on s and its entropy is very high. However, if the annotators were given the opportunity to choose any label, we could have seen more agreement in the distribution of labels. In crowd-sourcing moral annotations, it helps to simplify the task to finding only one moral foundation in a document to reduce confusion [7]. However, this results in a proliferation of instances labeled by only one annotator. The low entropy score will deceptively indicate low disagreement, even though the single annotation could have been made in error. It is important to understand how the dataset was constructed when choosing between using instance-level entropy and judgment-level silhouette coefficient when preprocessing the data with filtering. The rightmost panels in Figure 4 show model confidence as a function of the fraction of data discarded by the entropy or silhouette methods. The figures show that the distribution of the model's confidence on instances shifts toward higher values when we discard labels with lowest silhouette values. As a reminder, higher confidence means that the model is more likely to correctly classify the instances. The same improvement occurs when we discard high-entropy instances in MFTC. Similar to previous results, removing high-entropy instances in MFNC or MFRC does not improve confidence. Moreover, the distribution of confidence shifts toward lower values or stays the same when we remove instances at random from all datasets. Prior work [19] has shown that if a trained model has low confidence on an instance, it means that the instance was likely mislabelled. The observed positive shift in the distribution of confidence values suggests that the subset of the data we kept has fewer mislabelled instances.",
+            "n_publication_ref": 2,
+            "n_figure_ref": 2
+        },
+        {
+            "heading": "V. CONCLUSIONS",
+            "text": "In this work we show that auditing annotated data for noise can improve morality classification. We propose two metrics-entropy and silhouette coefficient-for refining annotated datasets in a pre-processing step, i.e. before training a classifier. The metrics leverage annotator judgments in order to identify instances that are difficult to label or have been mislabeled. We show that removing these instances reduces the noise in the ground truth data, improving classification performance of models trained on the remaining data. We also show that refining annotations improves the training dynamics of the model. As a result, the average of confidence increases when the model is trained on the instances that are recognized as less noisy with our proposed metrics. We validated our approach on three datasets where multiple annotators were asked to label the moral values expressed in text. Classifying morality is inherently a subjective and difficult task, and the resulting ground truth data from human annotation will naturally contain a large amount of disagreement and noise, which can degrade the performance of single-task models trained on the data. We showed that a classifier trained on refined data, from which the potentially noisy samples have been removed, can learn better models that more accurately recognize new instances of moral foundations. Our approach is not specific to moral annotations and can be applied to other datasets constructed from subjective judgments of multiple annotators.",
+            "n_publication_ref": 0,
+            "n_figure_ref": 0
+        },
+        {
+            "heading": "VI. LIMITATIONS AND ETHICAL CONSIDERATIONS",
+            "text": "Other works [17], [32]- [34] have shown annotator demographic features and annotators' life experiences can impact their judgments. In this work we focus on single-task classifier models that need an aggregated label (e.g. to majority vote or averaging) for training. However, we encourage future work to design models beyond single-task classifiers in order to overcome the need for aggregating the labels and move to subjective models that can give predictions based on different beliefs, demographics, and backgrounds. Also, considering the use-case of a gathered dataset, the removal criteria described in section III can be enhanced to make sure we are not removing the samples from specific demographics or groups of people. A possible remedy is to discard weighted portions of data from each demographic group in a way to keep a more balanced subset of data or to prioritize keeping the data gathered by minorities.",
+            "n_publication_ref": 3,
+            "n_figure_ref": 0
+        }
+    ],
+    "references": [
+        {
+            "title": "Liberals and conservatives rely on different sets of moral foundations",
+            "journal": "Journal of personality and social psychology",
+            "year": "2009",
+            "authors": "J Graham; J Haidt; B A Nosek"
+        },
+        {
+            "title": "Moral foundations theory: The pragmatic validity of moral pluralism",
+            "journal": "Elsevier",
+            "year": "2013",
+            "authors": "J Graham; J Haidt; S Koleva; M Motyl; R Iyer; S P Wojcik; P H Ditto"
+        },
+        {
+            "title": "Moral framing and charitable donation: Integrating exploratory social media analyses and confirmatory experimentation",
+            "journal": "Collabra: Psychology",
+            "year": "2018",
+            "authors": "J Hoover; K Johnson; R Boghrati; J Graham; M Dehghani"
+        },
+        {
+            "title": "Moralization in social networks and the emergence of violence during protests",
+            "journal": "Nature human behaviour",
+            "year": "2018",
+            "authors": "M Mooijman; J Hoover; Y Lin; H Ji; M Dehghani"
+        },
+        {
+            "title": "Purity homophily in social networks -invited talk",
+            "journal": "Association for Computational Linguistics",
+            "year": "2016-06",
+            "authors": "M Dehghani"
+        },
+        {
+            "title": "Moral framing and ideological bias of news",
+            "journal": "Springer",
+            "year": "2020",
+            "authors": "N Mokhberian; A Abeliuk; P Cummings; K Lerman"
+        },
+        {
+            "title": "The extended moral foundations dictionary (emfd): Development and applications of a crowd-sourced approach to extracting moral intuitions from text",
+            "journal": "Behavior research methods",
+            "year": "2021",
+            "authors": "F R Hopp; J T Fisher; D Cornell; R Huskey; R Weber"
+        },
+        {
+            "title": "Extracting latent moral information from text narratives: Relevance, challenges, and solutions",
+            "journal": "Communication Methods and Measures",
+            "year": "2018",
+            "authors": "R Weber; J M Mangus; R Huskey; F R Hopp; O Amir; R Swanson; A Gordon; P Khooshabeh; L Hahn; R Tamborini"
+        },
+        {
+            "title": "Moral-language use by u.s. political elites",
+            "journal": "Psychological Science",
+            "year": "2021",
+            "authors": "S.-Y N Wang; Y Inbar"
+        },
+        {
+            "title": "Moral foundations twitter corpus: A collection of 35k tweets annotated for moral sentiment",
+            "journal": "Social Psychological and Personality Science",
+            "year": "2020",
+            "authors": "J Hoover; G Portillo-Wightman; L Yeh; S Havaldar; A M Davani; Y Lin; B Kennedy; M Atari; Z Kamel; M Mendlen"
+        },
+        {
+            "title": "Reflections on extracting moral foundations from media content",
+            "journal": "Communication Monographs",
+            "year": "2021",
+            "authors": "F R Hopp; R Weber"
+        },
+        {
+            "title": "Moral concerns are differentially observable in language",
+            "journal": "Cognition",
+            "year": "2021",
+            "authors": "B Kennedy; M Atari; A M Davani; J Hoover; A Omrani; J Graham; M Dehghani"
+        },
+        {
+            "title": "Contextualized moral inference",
+            "journal": "",
+            "year": "2020",
+            "authors": "J Y Xie; G Hirst; Y Xu"
+        },
+        {
+            "title": "The moral foundations reddit corpus",
+            "journal": "",
+            "year": "",
+            "authors": "J Trager; A S Ziabari; A M Davani; P Golazazian; F Karimimalekabadi; A Omrani; Z Li; B Kennedy; N K Reimer; M Reyes"
+        },
+        {
+            "title": "Modeling of political discourse framing on twitter",
+            "journal": "",
+            "year": "2017",
+            "authors": "K Johnson; D Jin; D Goldwasser"
+        },
+        {
+            "title": "Noise: A flaw in human judgment",
+            "journal": "",
+            "year": "",
+            "authors": "D Kahneman; O Sibony; C R Sunstein"
+        },
+        {
+            "title": "On releasing annotator-level labels and information in datasets",
+            "journal": "Association for Computational Linguistics",
+            "year": "2021-11",
+            "authors": "V Prabhakaran; A Mostafazadeh Davani; M Diaz"
+        },
+        {
+            "title": "Dealing with disagreements: Looking beyond the majority vote in subjective annotations",
+            "journal": "Transactions of the Association for Computational Linguistics",
+            "year": "2022",
+            "authors": "A M Davani; M D\u00edaz; V Prabhakaran"
+        },
+        {
+            "title": "Dataset cartography: Mapping and diagnosing datasets with training dynamics",
+            "journal": "",
+            "year": "",
+            "authors": "S Swayamdipta; R Schwartz; N Lourie; Y Wang; H Hajishirzi; N A Smith; Y Choi"
+        },
+        {
+            "title": "Online: Association for Computational Linguistics",
+            "journal": "",
+            "year": "2020-11",
+            "authors": ""
+        },
+        {
+            "title": "Corpus annotation through crowdsourcing: Towards best practice guidelines",
+            "journal": "",
+            "year": "2014",
+            "authors": "M Sabou; K Bontcheva; L Derczynski; A Scharl"
+        },
+        {
+            "title": "Information-theoretic measures of dataset difficulty",
+            "journal": "",
+            "year": "2021",
+            "authors": "K Ethayarajh; Y Choi; S Swayamdipta"
+        },
+        {
+            "title": "Inherent disagreements in human textual inferences",
+            "journal": "Transactions of the Association for Computational Linguistics",
+            "year": "2019",
+            "authors": "E Pavlick; T Kwiatkowski"
+        },
+        {
+            "title": "Identifying mislabeled data using the area under the margin ranking",
+            "journal": "Advances in Neural Information Processing Systems",
+            "year": "2020",
+            "authors": "G Pleiss; T Zhang; E Elenberg; K Q Weinberger"
+        },
+        {
+            "title": "Assessing the quality of the datasets by identifying mislabeled samples",
+            "journal": "",
+            "year": "2021",
+            "authors": "V Pulastya; G Nuti; Y K Atri; T Chakraborty"
+        },
+        {
+            "title": "An empirical study of example forgetting during deep neural network learning",
+            "journal": "",
+            "year": "2019",
+            "authors": "M Toneva; A Sordoni; R T Des Combes; A Trischler; Y Bengio; G J Gordon"
+        },
+        {
+            "title": "Evaluation examples are not equally informative: How should that change NLP leaderboards",
+            "journal": "Association for Computational Linguistics",
+            "year": "2021-08",
+            "authors": "P Rodriguez; J Barrow; A M Hoyle; J P Lalor; R Jia; J Boyd-Graber"
+        },
+        {
+            "title": "Silhouettes: a graphical aid to the interpretation and validation of cluster analysis",
+            "journal": "Journal of computational and applied mathematics",
+            "year": "1987",
+            "authors": "P J Rousseeuw"
+        },
+        {
+            "title": "Roberta: A robustly optimized bert pretraining approach",
+            "journal": "",
+            "year": "2019",
+            "authors": "Y Liu; M Ott; N Goyal; J Du; M Joshi; D Chen; O Levy; M Lewis; L Zettlemoyer; V Stoyanov"
+        },
+        {
+            "title": "Adam: A method for stochastic optimization",
+            "journal": "",
+            "year": "2014",
+            "authors": "D P Kingma; J Ba"
+        },
+        {
+            "title": "Huggingface's transformers: State-of-the-art natural language processing",
+            "journal": "",
+            "year": "2019",
+            "authors": "T Wolf; L Debut; V Sanh; J Chaumond; C Delangue; A Moi; P Cistac; T Rault; R Louf; M Funtowicz"
+        },
+        {
+            "title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+            "journal": "",
+            "year": "2019",
+            "authors": "N Reimers; I Gurevych"
+        },
+        {
+            "title": "Whose ground truth? accounting for individual and collective identities underlying dataset annotation",
+            "journal": "",
+            "year": "2021",
+            "authors": "E Denton; M D\u00edaz; I Kivlichan; V Prabhakaran; R Rosen"
+        },
+        {
+            "title": "Annotators with attitudes: How annotator beliefs and identities bias toxic language detection",
+            "journal": "",
+            "year": "2021",
+            "authors": "M Sap; S Swayamdipta; L Vianna; X Zhou; Y Choi; N A Smith"
+        },
+        {
+            "title": "Are you a racist or am I seeing things? annotator influence on hate speech detection on Twitter",
+            "journal": "Association for Computational Linguistics",
+            "year": "2016-11",
+            "authors": "Z Waseem"
+        }
+    ],
+    "figures": [
+        {
+            "figure_label": "",
+            "figure_type": "",
+            "figure_id": "fig_0",
+            "figure_caption": "This tweet organically contains different dimensions of morality. It contains elements of injury and police action at the same time.justice, no peace. (b) This instance has been annotated with \"degradation\", and \"non-moral\" but these labels are not related to it.couldn't be happier with arrests of those 6 officers. how scared was freddie gray it makes me sick! who r the thugs now?! (c) This instance's moral labels are subjective, depending on whether the annotators support the police actions or are against it.",
+            "figure_data": ""
+        },
+        {
+            "figure_label": "1",
+            "figure_type": "",
+            "figure_id": "fig_1",
+            "figure_caption": "Fig. 1 :1Fig. 1: Examples of high-entropy instances in MFTC dataset. The text of the tweet and the number of annotators selecting each moral foundation as the label are shown.",
+            "figure_data": ""
+        },
+        {
+            "figure_label": "2",
+            "figure_type": "",
+            "figure_id": "fig_2",
+            "figure_caption": "Fig. 2 :2Fig. 2: Examples of moral judgments with low silhouette coefficients. Judgments A, B are on the same text but from different annotators. In the language model latent space this text is very close to other judgments of Degradation in the left figure and to Authority in the right figure. In judgment A the annotator has assigned it a label that does not match the labels of similar texts. Because it is far from other texts with the same label, but close to texts that have been assigned different labels, judgment A will get a low silhouette coefficient. Judgment B is close to the other judgments of the same label so it will get high silhouette coefficient. Our methodology suggests removing judgment A from the training data but to keep judgment B on the same text. In judgment C the annotator has also selected a label that is different from the label of the other similar texts, so we suggest to remove judgment C.",
+            "figure_data": ""
+        },
+        {
+            "figure_label": "3",
+            "figure_type": "",
+            "figure_id": "fig_3",
+            "figure_caption": "Fig. 3 :3Fig. 3: Measures of disagreement. The left column shows the distributions of the silhouette metric for the three datasets. The silhouette coefficient is calculated on annotations. The right column show the distributions of entropy metric for instances, colored by the majority-vote of moral foundation assigned to the instance.",
+            "figure_data": ""
+        },
+        {
+            "figure_label": "4",
+            "figure_type": "",
+            "figure_id": "fig_4",
+            "figure_caption": "Fig. 4 :4Fig. 4: Morality classification after de-noising annotations. Comparison of F1 (left sub-figures), accuracy (middle sub-figures), and distributions of model confidence on instances (right sub-figures) when removing high-entropy instances, low-silhouette judgments, or removing randomly. Removing low-silhouette judgments helps with model's performance on all MFTC, MFNC, and MFRC datasets. However, removing high-entropy instances is only effective on MFTC and doesn't help with learning on MFNC or MFRC due to the high ratio of instances with zero entropy.",
+            "figure_data": ""
+        }
+    ],
+    "formulas": [
+        {
+            "formula_id": "formula_0",
+            "formula_text": "(a) MFTC dataset A B",
+            "formula_coordinates": [
+                3.0,
+                139.57,
+                105.55,
+                227.32,
+                100.85
+            ]
+        },
+        {
+            "formula_id": "formula_1",
+            "formula_text": "(b) MFNC dataset",
+            "formula_coordinates": [
+                3.0,
+                389.06,
+                199.75,
+                67.04,
+                7.77
+            ]
+        },
+        {
+            "formula_id": "formula_2",
+            "formula_text": "entropy(t i ) = \u2212 N j=1 P (l j , t i )logP (l j , t i ) in which P (l j , t i ) = c ij N j=1 c ij .",
+            "formula_coordinates": [
+                3.0,
+                48.96,
+                645.61,
+                209.86,
+                76.81
+            ]
+        },
+        {
+            "formula_id": "formula_3",
+            "formula_text": "b(x) = min y\u2208L,y =ljd (t i , T y ),",
+            "formula_coordinates": [
+                3.0,
+                376.78,
+                510.01,
+                121.45,
+                9.65
+            ]
+        },
+        {
+            "formula_id": "formula_4",
+            "formula_text": "silhouette(x) = b(x) \u2212 a(x) max{a(x), b(x)}",
+            "formula_coordinates": [
+                3.0,
+                365.68,
+                571.05,
+                142.46,
+                22.31
+            ]
+        },
+        {
+            "formula_id": "formula_5",
+            "formula_text": "\u00b5 i = 1 E E e=1 p \u03b8 (e) (y * i |t i )",
+            "formula_coordinates": [
+                4.0,
+                126.16,
+                180.38,
+                96.67,
+                30.2
+            ]
+        }
+    ],
+    "doi": ""
+}

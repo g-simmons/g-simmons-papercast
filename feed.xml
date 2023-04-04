@@ -8261,16 +8261,31 @@
 </item><item>
 <title>SoK: On the Impossible Security of Very Large Foundation Models</title>
 <itunes:title>SoK: On the Impossible Security of Very Large Foundation Models</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="5067.311" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="5067.311" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3"/>
 <itunes:duration>5067.311</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>217</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sok-on-the-impossible-security-of-very-large-foundation-models.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Training Language Models with Language Feedback at Scale</title>
+<itunes:title>Training Language Models with Language Feedback at Scale</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="7058.6775" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/training-language-models-with-language-feedback-at-scale.mp3"></enclosure>
+<itunes:duration>7058.6775</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>218</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/training-language-models-with-language-feedback-at-scale.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
