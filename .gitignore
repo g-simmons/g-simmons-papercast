@@ -10,3 +10,4 @@ data/json
 semanticscholar.cookie
 __pycache__
 data/vtts
+data/article_dicts
