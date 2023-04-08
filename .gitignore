@@ -11,3 +11,6 @@ semanticscholar.cookie
 __pycache__
 data/vtts
 data/article_dicts
+.env
+.papercast
+fix_feed.ipynb
