@@ -1,1 +1,8 @@
-git+https://github.com/papercast-dev/papercast@v0.1.0
+git+https://github.com/papercast-dev/papercast@main
+git+https://github.com/papercast-dev/papercast-arxiv@v0.1.0
+git+https://github.com/papercast-dev/papercast-semanticscholar@v0.1.0
+git+https://github.com/papercast-dev/papercast-grobid@v0.1.0
+git+https://github.com/papercast-dev/papercast-say@v0.1.0
+git+https://github.com/papercast-dev/papercast-pdf@v0.1.0
+git+https://github.com/papercast-dev/papercast-github-pages-podcast@v0.1.0
+python-dotenv

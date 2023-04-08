@@ -1,11 +1,10 @@
 from papercast.pipelines import Pipeline
-from papercast.processors import SemanticScholarProcessor
-from papercast.processors import ArxivProcessor
-from papercast.processors import PDFProcessor
+from papercast.collectors import SemanticScholarCollector
+from papercast.collectors import ArxivCollector
+from papercast.collectors import PDFCollector
 from papercast.processors import SayProcessor
 from papercast.processors import GROBIDProcessor
 from papercast.publishers import GithubPagesPodcastPublisher
-from papercast.subscribers.zotero_subscriber import ZoteroSubscriber
 from papercast.server import Server
 from dotenv import load_dotenv
 import os
@@ -24,14 +23,14 @@ pipeline = Pipeline(name="default")
 
 pipeline.add_processor(
     "semantic_scholar",
-    SemanticScholarProcessor(pdf_dir="data/pdfs", json_dir="data/json"),
+    SemanticScholarCollector(pdf_dir="data/pdfs", json_dir="data/json"),
 )
 
 pipeline.add_processor(
-    "arxiv", ArxivProcessor(pdf_dir="data/pdfs", json_dir="data/json")
+    "arxiv", ArxivCollector(pdf_dir="data/pdfs", json_dir="data/json")
 )
 
-pipeline.add_processor("pdf", PDFProcessor(pdf_dir="data/pdfs"))
+pipeline.add_processor("pdf", PDFCollector(pdf_dir="data/pdfs"))
 
 pipeline.add_processor(
     "grobid",
