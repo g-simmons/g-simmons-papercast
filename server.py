@@ -1,10 +1,12 @@
 from papercast.pipelines import Pipeline
-from papercast.collectors import SemanticScholarCollector
-from papercast.collectors import ArxivCollector
-from papercast.collectors import PDFCollector
+from papercast.processors import SemanticScholarProcessor
+from papercast.processors import ArxivProcessor
+
+# from papercast.processors import PDFProcessor
 from papercast.processors import SayProcessor
 from papercast.processors import GROBIDProcessor
 from papercast.publishers import GithubPagesPodcastPublisher
+from papercast.subscribers import ZoteroSubscriber
 from papercast.server import Server
 from dotenv import load_dotenv
 import os
@@ -19,18 +21,17 @@ if api_key is None or user_id is None:
 
 pipeline = Pipeline(name="default")
 
-# pipeline.add_processor("zotero", ZoteroSubscriber(api_key, user_id))
 
 pipeline.add_processor(
     "semantic_scholar",
-    SemanticScholarCollector(pdf_dir="data/pdfs", json_dir="data/json"),
+    SemanticScholarProcessor(pdf_dir="data/pdfs", json_dir="data/json"),
 )
 
 pipeline.add_processor(
-    "arxiv", ArxivCollector(pdf_dir="data/pdfs", json_dir="data/json")
+    "arxiv", ArxivProcessor(pdf_dir="data/pdfs", json_dir="data/json")
 )
 
-pipeline.add_processor("pdf", PDFCollector(pdf_dir="data/pdfs"))
+# pipeline.add_processor("pdf", PDFProcessor(pdf_dir="data/pdfs"))
 
 pipeline.add_processor(
     "grobid",
@@ -65,11 +66,31 @@ pipeline.add_processor(
 
 pipeline.connect("semantic_scholar", "pdf", "grobid", "pdf")
 pipeline.connect("arxiv", "pdf", "grobid", "pdf")
-pipeline.connect("pdf", "pdf", "grobid", "pdf")
+# pipeline.connect("pdf", "pdf", "grobid", "pdf")
 pipeline.connect("grobid", "text", "say", "text")
 pipeline.connect("say", "mp3_path", "github_pages", "mp3_path")
 pipeline.connect("grobid", "abstract", "github_pages", "description")
 pipeline.connect("grobid", "title", "github_pages", "title")
+
+
+# class DummyProcessor(BaseProcessor):
+#     input_types = {"zotero_output": ZoteroOutput}
+#     output_types = {"title": str}
+
+#     def __init__(self, output_dir: str):
+#         self.output_dir = output_dir
+
+#     def process(self, production, *args, **kwargs):
+#         print("DUMMY PROCESSOR")
+#         print("===============")
+#         print(production)
+#         print(production.zotero_output.title)
+
+
+# dummy_pipeline = Pipeline(name="dummy")
+pipeline.add_processor("zotero", ZoteroSubscriber(api_key, user_id, "user", pdf_dir="data/pdfs"))
+pipeline.connect("zotero", "pdf", "grobid", "pdf")
+
 
 server = Server(pipelines={"default": pipeline})
 
