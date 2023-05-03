@@ -1,15 +1,19 @@
-from papercast.pipelines import Pipeline
-from papercast.processors import SemanticScholarProcessor
-from papercast.processors import ArxivProcessor
-
-# from papercast.processors import PDFProcessor
-from papercast.processors import SayProcessor
-from papercast.processors import GROBIDProcessor
-from papercast.publishers import GithubPagesPodcastPublisher
-from papercast.subscribers import ZoteroSubscriber
-from papercast.server import Server
-from dotenv import load_dotenv
 import os
+
+from dotenv import load_dotenv
+from papercast.pipelines import Pipeline
+from papercast.processors import (
+    ArxivProcessor,  # type: ignore
+    GROBIDProcessor,  # type: ignore
+    SayProcessor,  # type: ignore
+    SemanticScholarProcessor,  # type: ignore
+    CoquiTTSProcessor,  # type: ignore
+    SoundfileProcessor,  # type: ignore
+)  # type: ignore
+from papercast.publishers import GithubPagesPodcastPublisher  # type: ignore
+from papercast.server import Server
+from papercast.subscribers import ZoteroSubscriber
+from papercast.types import ZoteroOutput
 
 load_dotenv()
 
@@ -19,6 +23,7 @@ user_id = os.getenv("PAPERCAST_ZOTERO_USER_ID", None)
 if api_key is None or user_id is None:
     raise ValueError("Zotero API key or user ID not found")
 
+## Default Pipeline
 pipeline = Pipeline(name="default")
 
 
@@ -31,6 +36,13 @@ pipeline.add_processor(
     "arxiv", ArxivProcessor(pdf_dir="data/pdfs", json_dir="data/json")
 )
 
+pipeline.add_processor(
+    "zotero",
+    ZoteroSubscriber(
+        api_key=api_key, library_id=user_id, library_type="user", pdf_dir="data/pdfs"
+    ),
+)
+
 # pipeline.add_processor("pdf", PDFProcessor(pdf_dir="data/pdfs"))
 
 pipeline.add_processor(
@@ -41,6 +53,9 @@ pipeline.add_processor(
 )
 
 pipeline.add_processor("say", SayProcessor(mp3_dir="data/mp3s", txt_dir="data/txts"))
+pipeline.add_processor("coqui", CoquiTTSProcessor(wav_dir="data/wavs"))
+
+pipeline.add_processor("soundfile", SoundfileProcessor(output_format="mp3"))
 
 pipeline.add_processor(
     "github_pages",
@@ -66,30 +81,20 @@ pipeline.add_processor(
 
 pipeline.connect("semantic_scholar", "pdf", "grobid", "pdf")
 pipeline.connect("arxiv", "pdf", "grobid", "pdf")
+pipeline.connect("zotero", "pdf", "grobid", "pdf")
 # pipeline.connect("pdf", "pdf", "grobid", "pdf")
-pipeline.connect("grobid", "text", "say", "text")
-pipeline.connect("say", "mp3_path", "github_pages", "mp3_path")
+# pipeline.connect("grobid", "text", "say", "text")
+# pipeline.connect("say", "mp3_path", "github_pages", "mp3_path")
+pipeline.connect("grobid", "text", "coqui", "text")
+pipeline.connect(
+    "coqui",
+    "wav_path",
+    "soundfile",
+    "audio_path",
+)
+pipeline.connect("soundfile", "output_path", "github_pages", "mp3_path")
 pipeline.connect("grobid", "abstract", "github_pages", "description")
 pipeline.connect("grobid", "title", "github_pages", "title")
-
-
-# class DummyProcessor(BaseProcessor):
-#     input_types = {"zotero_output": ZoteroOutput}
-#     output_types = {"title": str}
-
-#     def __init__(self, output_dir: str):
-#         self.output_dir = output_dir
-
-#     def process(self, production, *args, **kwargs):
-#         print("DUMMY PROCESSOR")
-#         print("===============")
-#         print(production)
-#         print(production.zotero_output.title)
-
-
-# dummy_pipeline = Pipeline(name="dummy")
-pipeline.add_processor("zotero", ZoteroSubscriber(api_key, user_id, "user", pdf_dir="data/pdfs"))
-pipeline.connect("zotero", "pdf", "grobid", "pdf")
 
 
 server = Server(pipelines={"default": pipeline})
