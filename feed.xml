@@ -8666,16 +8666,31 @@
 </item><item>
 <title>Measuring Public Opinion with Surveys</title>
 <itunes:title>Measuring Public Opinion with Surveys</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="4211.644" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/measuring-public-opinion-with-surveys.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="4211.644" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/measuring-public-opinion-with-surveys.mp3"/>
 <itunes:duration>4211.644</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>244</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/measuring-public-opinion-with-surveys.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Discovering Language Model Behaviors with Model-Written Evaluations</title>
+<itunes:title>Discovering Language Model Behaviors with Model-Written Evaluations</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="8947.9575" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/discovering-language-model-behaviors-with-model-written-evaluations.mp3"></enclosure>
+<itunes:duration>8947.9575</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>245</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/discovering-language-model-behaviors-with-model-written-evaluations.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
