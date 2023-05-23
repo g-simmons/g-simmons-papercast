@@ -9131,16 +9131,31 @@
 </item><item>
 <title>NUCLEAR ARMS CONTROL VERIFICATION AND LESSONS FOR AI TREATIES</title>
 <itunes:title>NUCLEAR ARMS CONTROL VERIFICATION AND LESSONS FOR AI TREATIES</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="9897.11675" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nuclear-arms-control-verification-and-lessons-for-ai-treaties.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="9897.11675" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nuclear-arms-control-verification-and-lessons-for-ai-treaties.mp3"/>
 <itunes:duration>9897.11675</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>275</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nuclear-arms-control-verification-and-lessons-for-ai-treaties.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers</title>
+<itunes:title>MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="2530.142" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/megabyte-predicting-million-byte-sequences-with-multiscale-transformers.mp3"></enclosure>
+<itunes:duration>2530.142</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>276</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/megabyte-predicting-million-byte-sequences-with-multiscale-transformers.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
