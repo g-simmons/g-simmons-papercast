@@ -9206,16 +9206,31 @@
 </item><item>
 <title>C-STS: Conditional Semantic Textual Similarity</title>
 <itunes:title>C-STS: Conditional Semantic Textual Similarity</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="3117.871" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/c-sts-conditional-semantic-textual-similarity.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="3117.871" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/c-sts-conditional-semantic-textual-similarity.mp3"/>
 <itunes:duration>3117.871</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>280</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/c-sts-conditional-semantic-textual-similarity.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Aligning Language Models to User Opinions</title>
+<itunes:title>Aligning Language Models to User Opinions</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1848.50275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/aligning-language-models-to-user-opinions.mp3"></enclosure>
+<itunes:duration>1848.50275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>281</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/aligning-language-models-to-user-opinions.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
