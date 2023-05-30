@@ -9221,16 +9221,31 @@
 </item><item>
 <title>Aligning Language Models to User Opinions</title>
 <itunes:title>Aligning Language Models to User Opinions</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="1848.50275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/aligning-language-models-to-user-opinions.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="1848.50275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/aligning-language-models-to-user-opinions.mp3"/>
 <itunes:duration>1848.50275</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>281</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/aligning-language-models-to-user-opinions.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>The Dangers of Extreme Counterfactuals</title>
+<itunes:title>The Dangers of Extreme Counterfactuals</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="6350.707" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/the-dangers-of-extreme-counterfactuals.mp3"></enclosure>
+<itunes:duration>6350.707</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>282</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/the-dangers-of-extreme-counterfactuals.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
