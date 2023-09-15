@@ -10136,16 +10136,31 @@
 </item><item>
 <title>Learning to Predict Concept Ordering for Common Sense Generation</title>
 <itunes:title>Learning to Predict Concept Ordering for Common Sense Generation</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="0.05225" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-predict-concept-ordering-for-common-sense-generation.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="0.05225" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-predict-concept-ordering-for-common-sense-generation.mp3"/>
 <itunes:duration>0.05225</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>342</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-predict-concept-ordering-for-common-sense-generation.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>LARGE LANGUAGE MODEL AS A USER SIMULATOR</title>
+<itunes:title>LARGE LANGUAGE MODEL AS A USER SIMULATOR</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1968.875" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-model-as-a-user-simulator.mp3"></enclosure>
+<itunes:duration>1968.875</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>343</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-model-as-a-user-simulator.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
