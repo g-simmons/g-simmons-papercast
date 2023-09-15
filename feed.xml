@@ -10166,16 +10166,31 @@
 </item><item>
 <title>Nougat: Neural Optical Understanding for Academic Documents</title>
 <itunes:title>Nougat: Neural Optical Understanding for Academic Documents</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="2733.427" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nougat-neural-optical-understanding-for-academic-documents.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="2733.427" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nougat-neural-optical-understanding-for-academic-documents.mp3"/>
 <itunes:duration>2733.427</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>344</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/nougat-neural-optical-understanding-for-academic-documents.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Explaining Machine Learning Models with Interactive Natural Language Conversations Using TalkToModel</title>
+<itunes:title>Explaining Machine Learning Models with Interactive Natural Language Conversations Using TalkToModel</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="4863.92175" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explaining-machine-learning-models-with-interactive-natural-language-conversations-using-talktomodel.mp3"></enclosure>
+<itunes:duration>4863.92175</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>345</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explaining-machine-learning-models-with-interactive-natural-language-conversations-using-talktomodel.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
