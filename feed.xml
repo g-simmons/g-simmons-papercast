@@ -10106,16 +10106,31 @@
 </item><item>
 <title>CharacterChat: Learning towards Conversational AI with Personalized Social Support</title>
 <itunes:title>CharacterChat: Learning towards Conversational AI with Personalized Social Support</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="2394.69725" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/characterchat-learning-towards-conversational-ai-with-personalized-social-support.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="2394.69725" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/characterchat-learning-towards-conversational-ai-with-personalized-social-support.mp3"/>
 <itunes:duration>2394.69725</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>340</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/characterchat-learning-towards-conversational-ai-with-personalized-social-support.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>LARGE LANGUAGE MODEL AS A USER SIMULATOR</title>
+<itunes:title>LARGE LANGUAGE MODEL AS A USER SIMULATOR</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="0.05225" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-model-as-a-user-simulator.mp3"></enclosure>
+<itunes:duration>0.05225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>341</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-model-as-a-user-simulator.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
