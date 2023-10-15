@@ -10346,16 +10346,31 @@
 </item><item>
 <title>Large language models converge toward human-like concept organization</title>
 <itunes:title>Large language models converge toward human-like concept organization</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="1743.6995" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-models-converge-toward-human-like-concept-organization.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="1743.6995" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-models-converge-toward-human-like-concept-organization.mp3"/>
 <itunes:duration>1743.6995</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>356</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/large-language-models-converge-toward-human-like-concept-organization.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Auto-Regressive Next-Token Predictors are Universal Learners</title>
+<itunes:title>Auto-Regressive Next-Token Predictors are Universal Learners</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="2739.04325" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/auto-regressive-next-token-predictors-are-universal-learners.mp3"></enclosure>
+<itunes:duration>2739.04325</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>357</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/auto-regressive-next-token-predictors-are-universal-learners.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
