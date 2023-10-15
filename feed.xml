@@ -10871,16 +10871,31 @@
 </item><item>
 <title>Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models</title>
 <itunes:title>Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="1983.94775" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/latent-jailbreak-a-benchmark-for-evaluating-text-safety-and-output-robustness-of-large-language-models.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="1983.94775" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/latent-jailbreak-a-benchmark-for-evaluating-text-safety-and-output-robustness-of-large-language-models.mp3"/>
 <itunes:duration>1983.94775</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>391</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/latent-jailbreak-a-benchmark-for-evaluating-text-safety-and-output-robustness-of-large-language-models.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY</title>
+<itunes:title>UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="5133.845" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/understanding-the-effects-of-rlhf-on-llm-generalisation-and-diversity.mp3"></enclosure>
+<itunes:duration>5133.845</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>392</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/understanding-the-effects-of-rlhf-on-llm-generalisation-and-diversity.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
