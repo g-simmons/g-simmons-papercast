@@ -7,8 +7,8 @@ from papercast.processors import (
     GROBIDProcessor,
     SayProcessor,
     SemanticScholarProcessor,
-    CoquiTTSProcessor,
-    SoundfileProcessor,
+    # CoquiTTSProcessor,
+    # SoundfileProcessor,
     PDFProcessor,
 )
 from papercast.publishers import GithubPagesPodcastPublisher  # type: ignore
@@ -49,43 +49,43 @@ zotero_kwargs = dict(
 )
 
 grobid_kwargs = dict(
-    remove_non_printable_chars=True, grobid_url="http://localhost:8070/"
+    remove_non_printable_chars=True, grobid_url="http://localhost:8070/", serve_grobid_script="~/forks/scipdf_parser/serve_grobid.sh"
 )
 
 
-def make_coqui_pipeline():
-    pipeline = Pipeline(name="default")
-    pipeline.add_processors(
-        {
-            "semantic_scholar": SemanticScholarProcessor(
-                pdf_dir="data/pdfs", json_dir="data/json"
-            ),
-            "arxiv": ArxivProcessor(pdf_dir="data/pdfs", json_dir="data/json"),
-            "pdf": PDFProcessor(pdf_dir="data/pdfs"),
-            "zotero": ZoteroSubscriber(**zotero_kwargs),
-            "grobid": GROBIDProcessor(**grobid_kwargs),
-            "coqui": CoquiTTSProcessor(wav_dir="data/wavs"),
-            "soundfile": SoundfileProcessor(output_format="mp3"),
-            "github_pages": GithubPagesPodcastPublisher(**github_pages_kwargs),
-        },
-    )
+# def make_coqui_pipeline():
+#     pipeline = Pipeline(name="default")
+#     pipeline.add_processors(
+#         {
+#             "semantic_scholar": SemanticScholarProcessor(
+#                 pdf_dir="data/pdfs", json_dir="data/json"
+#             ),
+#             "arxiv": ArxivProcessor(pdf_dir="data/pdfs", json_dir="data/json"),
+#             "pdf": PDFProcessor(pdf_dir="data/pdfs"),
+#             "zotero": ZoteroSubscriber(**zotero_kwargs),
+#             "grobid": GROBIDProcessor(**grobid_kwargs),
+#             "coqui": CoquiTTSProcessor(wav_dir="data/wavs"),
+#             "soundfile": SoundfileProcessor(output_format="mp3"),
+#             "github_pages": GithubPagesPodcastPublisher(**github_pages_kwargs),
+#         },
+#     )
 
-    pipeline.connect("semantic_scholar", "pdf", "grobid", "pdf")
-    pipeline.connect("arxiv", "pdf", "grobid", "pdf")
-    pipeline.connect("pdf", "pdf", "grobid", "pdf")
-    pipeline.connect("zotero", "pdf", "grobid", "pdf")
-    pipeline.connect("grobid", "text", "coqui", "text")
-    pipeline.connect(
-        "coqui",
-        "wav_path",
-        "soundfile",
-        "audio_path",
-    )
-    pipeline.connect("soundfile", "output_path", "github_pages", "mp3_path")
-    pipeline.connect("grobid", "abstract", "github_pages", "description")
-    pipeline.connect("grobid", "title", "github_pages", "title")
+#     pipeline.connect("semantic_scholar", "pdf", "grobid", "pdf")
+#     pipeline.connect("arxiv", "pdf", "grobid", "pdf")
+#     pipeline.connect("pdf", "pdf", "grobid", "pdf")
+#     pipeline.connect("zotero", "pdf", "grobid", "pdf")
+#     pipeline.connect("grobid", "text", "coqui", "text")
+#     pipeline.connect(
+#         "coqui",
+#         "wav_path",
+#         "soundfile",
+#         "audio_path",
+#     )
+#     pipeline.connect("soundfile", "output_path", "github_pages", "mp3_path")
+#     pipeline.connect("grobid", "abstract", "github_pages", "description")
+#     pipeline.connect("grobid", "title", "github_pages", "title")
 
-    return pipeline
+#     return pipeline
 
 
 def make_default_pipeline():
@@ -117,9 +117,10 @@ def make_default_pipeline():
 
 
 default_pipeline = make_default_pipeline()
-coqui_pipeline = make_coqui_pipeline()
+# coqui_pipeline = make_coqui_pipeline()
 
-server = Server(pipelines={"default": default_pipeline, "coqui": coqui_pipeline})
+# server = Server(pipelines={"default": default_pipeline, "coqui": coqui_pipeline})
+server = Server(pipelines={"default": default_pipeline})
 
 if __name__ == "__main__":
     server.run()
