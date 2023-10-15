@@ -10271,16 +10271,31 @@
 </item><item>
 <title>Explaining NLP Models via Minimal Contrastive Editing (MICE)</title>
 <itunes:title>Explaining NLP Models via Minimal Contrastive Editing (MICE)</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="3570.91275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explaining-nlp-models-via-minimal-contrastive-editing-mice.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="3570.91275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explaining-nlp-models-via-minimal-contrastive-editing-mice.mp3"/>
 <itunes:duration>3570.91275</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>351</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explaining-nlp-models-via-minimal-contrastive-editing-mice.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Response: Emergent analogical reasoning in large language models</title>
+<itunes:title>Response: Emergent analogical reasoning in large language models</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="883.90525" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/response-emergent-analogical-reasoning-in-large-language-models.mp3"></enclosure>
+<itunes:duration>883.90525</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>352</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/response-emergent-analogical-reasoning-in-large-language-models.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
