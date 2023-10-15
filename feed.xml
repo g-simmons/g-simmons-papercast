@@ -10796,16 +10796,31 @@
 </item><item>
 <title>Personality Traits in Large Language Models</title>
 <itunes:title>Personality Traits in Large Language Models</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="8563.98375" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/personality-traits-in-large-language-models.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="8563.98375" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/personality-traits-in-large-language-models.mp3"/>
 <itunes:duration>8563.98375</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>386</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/personality-traits-in-large-language-models.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>AutoConv: Automatically Generating Information-seeking Conversations with Large Language Models</title>
+<itunes:title>AutoConv: Automatically Generating Information-seeking Conversations with Large Language Models</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1692.00325" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/autoconv-automatically-generating-information-seeking-conversations-with-large-language-models.mp3"></enclosure>
+<itunes:duration>1692.00325</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>387</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/autoconv-automatically-generating-information-seeking-conversations-with-large-language-models.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
