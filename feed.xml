@@ -10691,16 +10691,46 @@
 </item><item>
 <title>Learning to Model the World with Language</title>
 <itunes:title>Learning to Model the World with Language</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="3476.1405" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-model-the-world-with-language.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="3476.1405" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-model-the-world-with-language.mp3"/>
 <itunes:duration>3476.1405</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>379</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/learning-to-model-the-world-with-language.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Let the Models Respond: Interpreting Language Model Detoxification Through the Lens of Prompt Dependence Warning: This paper contains toxic generations used for demonstrative purposes</title>
+<itunes:title>Let the Models Respond: Interpreting Language Model Detoxification Through the Lens of Prompt Dependence Warning: This paper contains toxic generations used for demonstrative purposes</itunes:title>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="578.586" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/let-the-models-respond-interpreting-language-model-detoxification-through-the-lens-of-prompt-dependence-warning-this-paper-contains-toxic-generations-used-for-demonstrative-purposes.mp3"/>
+<itunes:duration>578.586</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>380</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/let-the-models-respond-interpreting-language-model-detoxification-through-the-lens-of-prompt-dependence-warning-this-paper-contains-toxic-generations-used-for-demonstrative-purposes.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Natural Example-Based Explainability: a Survey</title>
+<itunes:title>Natural Example-Based Explainability: a Survey</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="3692.87825" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/natural-example-based-explainability-a-survey.mp3"></enclosure>
+<itunes:duration>3692.87825</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>381</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/natural-example-based-explainability-a-survey.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
