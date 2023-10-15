@@ -10586,16 +10586,31 @@
 </item><item>
 <title>PDFTriage: Question Answering over Long, Structured Documents</title>
 <itunes:title>PDFTriage: Question Answering over Long, Structured Documents</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="1933.3485" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/pdftriage-question-answering-over-long-structured-documents.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="1933.3485" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/pdftriage-question-answering-over-long-structured-documents.mp3"/>
 <itunes:duration>1933.3485</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>372</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/pdftriage-question-answering-over-long-structured-documents.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Automated Interviewer or Augmented Survey? Collecting Social Data with Large Language Models</title>
+<itunes:title>Automated Interviewer or Augmented Survey? Collecting Social Data with Large Language Models</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="4523.25875" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/automated-interviewer-or-augmented-survey-collecting-social-data-with-large-language-models.mp3"></enclosure>
+<itunes:duration>4523.25875</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>373</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/automated-interviewer-or-augmented-survey-collecting-social-data-with-large-language-models.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
