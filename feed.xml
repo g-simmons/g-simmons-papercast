@@ -10406,16 +10406,31 @@
 </item><item>
 <title>Causal Parrots: Large Language Models May Talk Causality But Are Not Causal</title>
 <itunes:title>Causal Parrots: Large Language Models May Talk Causality But Are Not Causal</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="5494.54375" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/causal-parrots-large-language-models-may-talk-causality-but-are-not-causal.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="5494.54375" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/causal-parrots-large-language-models-may-talk-causality-but-are-not-causal.mp3"/>
 <itunes:duration>5494.54375</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>360</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/causal-parrots-large-language-models-may-talk-causality-but-are-not-causal.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Sci-CoT: Leveraging Large Language Models for Enhanced Knowledge Distillation in Small Models for Scientific QA</title>
+<itunes:title>Sci-CoT: Leveraging Large Language Models for Enhanced Knowledge Distillation in Small Models for Scientific QA</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1404.0555" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sci-cot-leveraging-large-language-models-for-enhanced-knowledge-distillation-in-small-models-for-scientific-qa.mp3"></enclosure>
+<itunes:duration>1404.0555</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>361</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/sci-cot-leveraging-large-language-models-for-enhanced-knowledge-distillation-in-small-models-for-scientific-qa.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
