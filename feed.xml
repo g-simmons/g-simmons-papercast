@@ -10436,16 +10436,31 @@
 </item><item>
 <title>CHAIN-OF-THOUGHT REASONING IS A POLICY IM-PROVEMENT OPERATOR</title>
 <itunes:title>CHAIN-OF-THOUGHT REASONING IS A POLICY IM-PROVEMENT OPERATOR</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="2663.9935" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/chain-of-thought-reasoning-is-a-policy-im-provement-operator.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="2663.9935" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/chain-of-thought-reasoning-is-a-policy-im-provement-operator.mp3"/>
 <itunes:duration>2663.9935</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>362</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/chain-of-thought-reasoning-is-a-policy-im-provement-operator.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Privacy Side Channels in Machine Learning Systems</title>
+<itunes:title>Privacy Side Channels in Machine Learning Systems</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="4380.21225" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/privacy-side-channels-in-machine-learning-systems.mp3"></enclosure>
+<itunes:duration>4380.21225</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>363</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/privacy-side-channels-in-machine-learning-systems.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
