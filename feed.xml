@@ -10646,16 +10646,31 @@
 </item><item>
 <title>Better Zero-Shot Reasoning with Role-Play Prompting</title>
 <itunes:title>Better Zero-Shot Reasoning with Role-Play Prompting</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="2494.4065" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/better-zero-shot-reasoning-with-role-play-prompting.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="2494.4065" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/better-zero-shot-reasoning-with-role-play-prompting.mp3"/>
 <itunes:duration>2494.4065</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>376</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/better-zero-shot-reasoning-with-role-play-prompting.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Explainability for Large Language Models: A Survey</title>
+<itunes:title>Explainability for Large Language Models: A Survey</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="5571.004" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explainability-for-large-language-models-a-survey.mp3"></enclosure>
+<itunes:duration>5571.004</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>377</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/explainability-for-large-language-models-a-survey.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
