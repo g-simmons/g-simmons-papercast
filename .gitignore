@@ -15,3 +15,4 @@ data/article_dicts
 .papercast
 fix_feed.ipynb
 data/wavs
+sync_to_audiobookshelf.log
