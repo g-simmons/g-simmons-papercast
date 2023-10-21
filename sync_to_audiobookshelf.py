@@ -8,6 +8,7 @@ import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
 import concurrent.futures
+from pdf2image import convert_from_path
 from concurrent.futures import ThreadPoolExecutor
 
 logger = logging.getLogger(__name__)
@@ -26,6 +27,7 @@ DATA_DIR = "./data/mp3s/"
 PDF_DIR = "./data/pdfs/"
 OVERWRITE = False
 OVERWRITE_METADATA = False
+OVERWRITE_COVER = True
 
 # Parse the XML file to find the associated mp3 files and metadata
 with open(FEED_XML_PATH, 'r') as file:
@@ -63,6 +65,7 @@ def get_item_metadata(item):
         "track_file": track_file,
         "track_name": track_name,
         "pdf_name": track_name.replace(".mp3", ".pdf"),
+        "pdf_path": Path(PDF_DIR) / track_file.replace(".mp3", ".pdf")
     }
     return metadata
 
@@ -83,6 +86,7 @@ def copy_mp3(item_metadata):
         destination_file_path.parent.mkdir(parents=True, exist_ok=True)
     
     existed = False
+
     if OVERWRITE or not destination_file_path.exists():
         existed = True
         shutil.copy2(source_file_path, destination_file_path)
@@ -130,24 +134,43 @@ def copy_mp3(item_metadata):
 
         with open(new_directory_path / 'metadata.opf', 'w') as metafile:
             metafile.write(opf_template.format(id=item_metadata["track_file"], title=item_metadata['title'], volume_number=item_metadata['volumeNumber'].strip(), description=item_metadata['description']))
-        
 
+    # Convert the first page of the pdf to a jpg image, crop it to be square, and save as Cover.jpg in the upload directory
+    pdf_path = item_metadata['pdf_path']
+    logger.debug(f'Looking for {pdf_path}')
+    IMG_OUT_PATH = new_directory_path / 'Cover.jpg'
+
+    if not IMG_OUT_PATH.exists() or OVERWRITE_COVER:
+        logger.debug(f'Converting {pdf_path} to jpg')
+        try:
+            images = convert_from_path(pdf_path, first_page=1, last_page=1)
+            logger.debug(f'Converted {pdf_path} to jpg')
+
+            image = images[0]
+            width, height = image.size
+
+            left, top, right, bottom = 0, 0, width, width
+
+            logger.debug(f'Cropping image')
+            image_cropped = image.crop((left, top, right, bottom))
+        
+            logger.debug(f'Saving image to {new_directory_path}')
+            image_cropped.save(IMG_OUT_PATH, 'jpeg')
+        except:
+            logger.debug(f'Could not convert {pdf_path} to jpg')
 
     return item_metadata
 
-
-# import time
-
-# def copy_mp3(x):
-#     time.sleep(1.0)  # to visualize the progress
-#     return x
-
 if __name__ == '__main__':
     with tqdm(total=len(items)) as pbar:
-        with ThreadPoolExecutor(10) as executor:
-            futures = {executor.submit(copy_mp3, get_item_metadata(arg)): arg for arg in items}
-            results = {}
-            for future in concurrent.futures.as_completed(futures):
-                arg = futures[future]
-                results[arg] = future.result()
-                pbar.update(1)
+        # with ThreadPoolExecutor(10) as executor:
+        #     futures = {executor.submit(copy_mp3, get_item_metadata(arg)): arg for arg in items}
+        #     results = {}
+        #     for future in concurrent.futures.as_completed(futures):
+        #         arg = futures[future]
+        #         results[arg] = future.result()
+        #         pbar.update(1)
+        results = {}
+        for arg in items:
+            results[arg] = copy_mp3(get_item_metadata(arg))
+            pbar.update(1)
