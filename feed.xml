@@ -11096,16 +11096,31 @@
 </item><item>
 <title>A Witness complex for density landscapes</title>
 <itunes:title>A Witness complex for density landscapes</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
+<itunes:author/>
+<itunes:subtitle/>
 <itunes:summary> 0. Regarding f as a kernel density estimator of a data set D ⊂ R m , we obtain a method for filtering persistent homology by density in low or high dimensions. On the other hand, we also see that our construction can be highly visually descriptive.]]&gt;</itunes:summary>
 <description> 0. Regarding f as a kernel density estimator of a data set D ⊂ R m , we obtain a method for filtering persistent homology by density in low or high dimensions. On the other hand, we also see that our construction can be highly visually descriptive.]]&gt;</description>
-<enclosure length="3571.7485" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/a-witness-complex-for-density-landscapes.mp3"></enclosure>
+<enclosure length="3571.7485" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/a-witness-complex-for-density-landscapes.mp3"/>
 <itunes:duration>3571.7485</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>406</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/a-witness-complex-for-density-landscapes.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Transfer learning enables the molecular transformer to predict regio-and stereoselective reactions on carbohydrates</title>
+<itunes:title>Transfer learning enables the molecular transformer to predict regio-and stereoselective reactions on carbohydrates</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="1902.26275" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/transfer-learning-enables-the-molecular-transformer-to-predict-regio-and-stereoselective-reactions-on-carbohydrates.mp3"></enclosure>
+<itunes:duration>1902.26275</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>407</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/transfer-learning-enables-the-molecular-transformer-to-predict-regio-and-stereoselective-reactions-on-carbohydrates.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
