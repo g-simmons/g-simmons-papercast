@@ -11201,16 +11201,31 @@
 </item><item>
 <title>Faithfulness in Natural Language Generation: A Systematic Survey of Analysis, Evaluation and Optimization Methods</title>
 <itunes:title>Faithfulness in Natural Language Generation: A Systematic Survey of Analysis, Evaluation and Optimization Methods</itunes:title>
-<itunes:author></itunes:author>
-<itunes:subtitle></itunes:subtitle>
-<itunes:summary></itunes:summary>
-<description></description>
-<enclosure length="7365.355" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/faithfulness-in-natural-language-generation-a-systematic-survey-of-analysis-evaluation-and-optimization-methods.mp3"></enclosure>
+<itunes:author/>
+<itunes:subtitle/>
+<itunes:summary/>
+<description/>
+<enclosure length="7365.355" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/faithfulness-in-natural-language-generation-a-systematic-survey-of-analysis-evaluation-and-optimization-methods.mp3"/>
 <itunes:duration>7365.355</itunes:duration>
 <itunes:season>1</itunes:season>
 <itunes:episode>413</itunes:episode>
 <itunes:episodetype>full</itunes:episodetype>
 <guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/faithfulness-in-natural-language-generation-a-systematic-survey-of-analysis-evaluation-and-optimization-methods.mp3</guid>
+<pubdate/>
+<itunes:explicit>NO</itunes:explicit>
+</item><item>
+<title>Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting</title>
+<itunes:title>Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting</itunes:title>
+<itunes:author></itunes:author>
+<itunes:subtitle></itunes:subtitle>
+<itunes:summary></itunes:summary>
+<description></description>
+<enclosure length="8802.8735" type="audio/mpeg" url="https://g-simmons.github.io/g-simmons-papercast/data/mp3s/language-models-don-t-always-say-what-they-think-unfaithful-explanations-in-chain-of-thought-prompting.mp3"></enclosure>
+<itunes:duration>8802.8735</itunes:duration>
+<itunes:season>1</itunes:season>
+<itunes:episode>414</itunes:episode>
+<itunes:episodetype>full</itunes:episodetype>
+<guid ispermalink="false">https://g-simmons.github.io/g-simmons-papercast/data/mp3s/language-models-don-t-always-say-what-they-think-unfaithful-explanations-in-chain-of-thought-prompting.mp3</guid>
 <pubdate></pubdate>
 <itunes:explicit>NO</itunes:explicit>
 </item>
